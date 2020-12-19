@@ -22,6 +22,6 @@
 
     "python.linting.banditEnabled": true,
 
-    "python.linting.mypyEnabled": true,
+    "python.linting.mypyEnabled": false,
     "python.envFile": "${workspaceFolder}/.env_vars"
 }

@@ -1,0 +1,88 @@
+[
+    {
+        "id": "1",
+        "channel": "Channel 1",
+        "link": "Link.1",
+        "country": "germany",
+        "liveliness": "80",
+        "status": "online",
+        "lastChecked": "2020-12-17T00:00:00Z",
+        "format": "sd",
+        "mbps": "5991",
+        "URI": [
+            "asia",
+            "europe",
+            "india_-",
+            "germany"
+        ]
+    },
+    {
+        "id": "2",
+        "channel": "Channel 2",
+        "link": "Link.2",
+        "country": "germany",
+        "liveliness": "100",
+        "status": "online",
+        "lastChecked": "2020-12-17T00:00:00Z",
+        "format": "hd",
+        "mbps": "5991",
+        "URI": [
+            "asia",
+            "europe",
+            "india_-",
+            "germany"
+        ]
+    },
+    {
+        "id": "3",
+        "channel": "Channel 3",
+        "link": "Link.3",
+        "country": "germany",
+        "liveliness": "99",
+        "status": "online",
+        "lastChecked": "2020-12-17T00:00:00Z",
+        "format": "fhd 2k",
+        "mbps": "5991",
+        "URI": [
+            "asia",
+            "europe",
+            "india_-",
+            "germany"
+        ]
+    },
+    {
+        "id": "4",
+        "channel": "Channel 4",
+        "link": "Link.4",
+        "country": "germany",
+        "liveliness": "99",
+        "status": "offline",
+        "lastChecked": "2020-12-17T00:00:00Z",
+        "format": "sd",
+        "mbps": "5991",
+        "URI": [
+            "asia",
+            "europe",
+            "india_-",
+            "germany"
+        ]
+    },
+    {
+        "id": "55",
+        "channel": "Channel 55",
+        "link": "Link.55",
+        "country": "germany",
+        "liveliness": "100",
+        "status": "online",
+        "lastChecked": "2020-12-17T00:00:00Z",
+        "format": "hd",
+        "mbps": "5991",
+        "URI": [
+            "asia",
+            "europe",
+            "india_-",
+            "germany"
+        ]
+    }
+
+]
