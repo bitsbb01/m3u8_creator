@@ -1,0 +1,120 @@
+name: CI
+
+on:
+  push:
+    tags:
+    - '[0-9]+.[0-9]+.[0-9]+'
+  pull_request:
+    branches:
+    - master
+    - main
+
+jobs:
+
+  test_matrix:
+    strategy:
+      matrix:
+        os: ["ubuntu-latest"]
+        python-version: [3.9]
+        include:
+            - os: ubuntu-latest
+              script_name: ./dev/run_tests.sh
+              env_print_script_name: printenv
+
+    name: Py ${{ matrix.python-version }}, ${{ matrix.os }}
+    runs-on: "${{ matrix.os }}"
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Setup Env
+        run: |
+          pip --version
+          python --version --version
+          python -m pip install --upgrade pip pipenv
+          pip list
+          ${{ matrix.env_print_script_name }}
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip list
+
+      - name: Run Tests
+        run: |
+          coverage erase
+          ${{ matrix.script_name }}
+
+      - name: "Convert coverage"
+        run: "python -m coverage xml"
+      - name: "Upload coverage to Codecov"
+        # Using version https://github.com/codecov/codecov-action/releases/tag/v1.0.15
+        uses: "codecov/codecov-action@239febf655bba88b16ff5dea1d3135ea8663a1f9"
+        with:
+          fail_ci_if_error: true
+
+  # Linting job
+  linting:
+    strategy:
+      matrix:
+        os: ["ubuntu-latest"]
+        include:
+            - os: ubuntu-latest
+              script_name: ./dev/run_linters.sh
+    name: Latest Dev Linting
+    runs-on: "${{ matrix.os }}"
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Setup Env
+        run: |
+          pip --version
+          python --version --version
+          pip list
+          python -m pip install --upgrade pip pipenv
+          pip list
+      - name: Install Dependencies
+        run: |
+          # don't use the '--upgrade' to not upgrade pinned requirements with generic ones
+          pip install -r requirements.txt
+          pip list
+      - name: Run Linters
+        run: ${{ matrix.script_name }}
+
+  # Package safety job
+  package_safety_checks:
+    strategy:
+      matrix:
+        os: ["ubuntu-latest"]
+        include:
+            - os: ubuntu-latest
+              script_name: ./dev/check_package_safety.sh
+    name: Pkg Safety (Failure Allowed)
+    runs-on: "${{ matrix.os }}"
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Setup Env
+        run: |
+          pip --version
+          python --version --version
+          python -c "import sqlite3; print('sqlite3 Version on Python:', sqlite3.sqlite_version)"
+          pip list
+          python -m pip install --upgrade pip pipenv
+          pip list
+      - name: Install Dependencies
+        run: |
+          # don't use the '--upgrade' to not upgrade pinned requirements with generic ones
+          pip install -r requirements.txt
+          pip list
+      - name: Run Package Safety
+        run: ${{ matrix.script_name }}

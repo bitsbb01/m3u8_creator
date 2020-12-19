@@ -1,0 +1,8 @@
+[pydocstyle]
+inherit=false
+
+; Ignore Dirs starting with "." or containing "migrations" or "tests"
+match-dir=^(?!(\.))(?!.*(migrations|tests)).*$
+
+add-ignore=D105
+; D105 - Missing docstring in magic method

@@ -1,0 +1,27 @@
+{
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}\\ez_m3u8_creator"
+    ],
+
+    "editor.tabSize": 4,
+
+    "[python]": {
+        "editor.rulers": [79, 120]
+    },
+    "editor.renderWhitespace": "all",
+
+    "python.linting.enabled": true,
+
+    "python.linting.pylintEnabled": true,
+
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestylePath": "pycodestyle",
+
+    "python.linting.pydocstyleEnabled": true,
+
+    "python.linting.banditEnabled": true,
+
+    "python.linting.mypyEnabled": true,
+    "python.envFile": "${workspaceFolder}/.env_vars"
+}
