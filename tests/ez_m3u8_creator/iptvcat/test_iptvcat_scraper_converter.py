@@ -2,7 +2,7 @@
 import os
 import pytest
 
-from ez_m3u8_creator import iptvcat_scraper_converter
+from ez_m3u8_creator.iptvcat import iptvcat_scraper_converter
 
 
 TEST_FILE_INTEGRATION_PATH = R'tests/ez_m3u8_creator/TestFiles/test_file_integration.json'

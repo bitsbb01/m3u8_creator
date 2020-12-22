@@ -1,0 +1,72 @@
+name: M3U8_ACTION
+
+on:
+  # Run 2 Hours after https://github.com/eliashussary/iptvcat-scraper
+  # This should be just after midnight in Australia
+  schedule:
+    - cron: "0 14 * * *"
+
+jobs:
+
+  m3u8_action:
+    name: m3u8_action
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Setup Environment
+        # e.g. create work dirst, store in env variables ... https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions
+        run: |
+          echo "IPTVCAT_DATE=$(date -d "yesterday 13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DOWNLOAD_DIR=${{ github.workspace }}/temp/iptvcat" >> $GITHUB_ENV
+          echo "M3U8_DIR=${{ github.workspace }}/temp/m3u8" >> $GITHUB_ENV
+
+          # Update pythonpath used for our scripts
+          echo "PYTHONPATH=$PYTHONPATH:${{ github.workspace }}" >> $GITHUB_ENV
+
+      - name: Setup Dirs
+        run: |
+          echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
+          echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
+          echo "M3U8_DIR: '${M3U8_DIR}'"
+
+          echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
+          mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
+          echo "Command: 'mkdir -p ${M3U8_DIR}'"
+          mkdir -p ${M3U8_DIR}
+
+          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+
+      - name: Get IPTVCat Release
+        run: |
+          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DATE}" "${IPTVCAT_DOWNLOAD_DIR}"'"
+          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DATE}" "${IPTVCAT_DOWNLOAD_DIR}"
+
+      - name: Convert IPTVCat (JSON to m3u8)
+        run: |
+          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+
+          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"'"
+          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"
+
+          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+
+      - name: Upload m3u8 files
+        run: |
+          echo "Command: 'python ./scripts/ftp_upload.py --ftp_server "${{ secrets.FTP_UPLOAD_ADDRESS }}" --ftp_user "${{ secrets.FTP_UPLOAD_USERNAME }}" --ftp_pass "********" --ftp_dir "${{ secrets.FTP_UPLOAD_REMOTE_DIR }}" --upload_dir "${M3U8_DIR}"'"
+          python ./scripts/ftp_upload.py --ftp_server "${{ secrets.FTP_UPLOAD_ADDRESS }}" --ftp_user "${{ secrets.FTP_UPLOAD_USERNAME }}" --ftp_pass "${{ secrets.FTP_UPLOAD_PASSWORD }}" --ftp_dir "${{ secrets.FTP_UPLOAD_REMOTE_DIR }}" --upload_dir "${M3U8_DIR}"

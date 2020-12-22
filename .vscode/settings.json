@@ -23,5 +23,8 @@
     "python.linting.banditEnabled": true,
 
     "python.linting.mypyEnabled": false,
-    "python.envFile": "${workspaceFolder}/.env_vars"
+    "python.envFile": "${workspaceFolder}/.env_vars",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}\\ez_m3u8_creator"
+    ]
 }
