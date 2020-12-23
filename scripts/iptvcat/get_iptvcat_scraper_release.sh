@@ -20,7 +20,7 @@ then
     exit 1
 fi
 
-if [ ! -d ${dest_dir} ] 
+if [[ ! -d ${dest_dir} ]];
 then
     echo "Directory '${dest_dir}' DOES NOT exist." 
     exit 1
