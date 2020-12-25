@@ -4,7 +4,7 @@ import argparse
 import os
 import sys
 
-sys.path.append(R'D:\# Eric Projects\ez-m3u8-creator')
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 from ez_m3u8_creator.iptvcat import iptvcat_scraper_converter
 from ez_m3u8_creator import project_logger

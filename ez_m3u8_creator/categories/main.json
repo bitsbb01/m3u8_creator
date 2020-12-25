@@ -1,0 +1,187 @@
+[
+    {
+        "(DE) 1te/2te/3te": {
+            "icontains": [
+                "3Sat",
+                "ARD",
+                "Arte",
+                "BR ",
+                "BR-",
+                "Das Erste",
+                "HR ",
+                "HR-",
+                "MDR",
+                "NDR",
+                "ORF",
+                "Phoenix",
+                "rbb",
+                "SRF",
+                "SWR",
+                "WDR",
+                "ZDF"
+            ],
+            "iexact": [
+                "BR",
+                "HR"
+            ]
+        }
+    },
+    {
+        "(DE) RTL/Sat/...": {
+            "icontains": [
+                "Kabel 1",
+                "kabel eins",
+                "Pro7",
+                "ProSieben",
+                "RTL",
+                "Sat 1",
+                "Sat.1",
+                "Tele 5",
+                "VOX"
+            ]
+        }
+    },
+    {
+        "(UK) Main": {
+            "icontains": [
+                "BBC",
+                "Channel 4",
+                "Channel 5",
+                "ITV "
+            ],
+            "iexact": [
+                "ITV"
+            ]
+        }
+    },
+    {
+        "Comedy": {
+            "icontains": [
+                "Adult Swim",
+                "Comedy"
+            ]
+        }
+    },
+    {
+        "Kids": {
+            "icontains": [
+                "Anime",
+                "ANIXE",
+                "Cartoon",
+                "CBeebies",
+                "Disney",
+                "Fix & Foxi",
+                "Junior",
+                "Kids",
+                "KiKA",
+                "Nick",
+                "Southpark"
+            ]
+        }
+    },
+    {
+        "Movies": {
+            "icontains": [
+                "Cinema",
+                "Film",
+                "Kino",
+                "Movie"
+            ]
+        }
+    },
+    {
+        "Music": {
+            "icontains": [
+                "Box Hits",
+                "iConcerts",
+                "jukebox",
+                "Kerrang",
+                "KISS ",
+                "MTV",
+                "Music",
+                "Musik",
+                "Pop ",
+                "Spotlight TV",
+                "Stingray",
+                "Summer Hits",
+                "The Box",
+                "VIVA",
+                "VH1"
+            ],
+            "iexact": [
+                "KISS"
+            ]
+        }
+    },
+    {
+        "News": {
+            "icontains": [
+                "Al Jazeera",
+                "BBC",
+                "Bloomberg",
+                "Business",
+                "CNBC",
+                "CNN",
+                "C-SPAN",
+                "Deutsche Welle",
+                "Deutsche-Welle",
+                "DW ",
+                "Focus TV",
+                "Fox News",
+                "France 24",
+                "n-tv",
+                "N24",
+                "news",
+                "NHK",
+                "NTV",
+                "Reuters",
+                "Tagesschau"
+            ],
+            "iexact": [
+                "DW"
+            ]
+        }
+    },
+    {
+        "Sport": {
+            "icontains": [
+                "Basketball",
+                "Bein",
+                "Box Nation",
+                "Boxing",
+                "bundesliga",
+                "Eishockey",
+                "ESPN",
+                "F1",
+                "Fishing",
+                "Formel 1",
+                "Formula 1",
+                "Fußball",
+                "Fussball",
+                "Golf",
+                "Hunting",
+                "LFC",
+                "Manchester United",
+                "ManUtd",
+                "MLB",
+                "MLS",
+                "MMA",
+                "Motorcyclist",
+                "MotorTrend",
+                "MSG",
+                "NBA",
+                "NFL",
+                "NHL",
+                "Olympic",
+                "Pick Ireland",
+                "PGA",
+                "Poker",
+                "Racing",
+                "Soccer",
+                "Sport",
+                "UFC",
+                "WWE"
+            ]
+        }
+    }
+]
