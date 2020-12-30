@@ -7,7 +7,7 @@ from ez_m3u8_creator import m3u8
 
 
 INCLUDE_STATUS_LIST = ['online']
-LIVELINESS_MIN = 100
+LIVELINESS_MIN = 70
 
 
 class IptvCatFile():
