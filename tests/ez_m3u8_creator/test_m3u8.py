@@ -17,7 +17,7 @@ def test_write_m3u8_file(tmpdir):
 
     with open(out_file, 'r') as file_ptr:
         line_list = list(file_ptr)
-        assert line_list[0].rstrip() == '#EXTM3U url-tvg=""'
+        assert line_list[0].rstrip() == '#EXTM3U tvg-url="" url-tvg="" x-tvg-url=""'
         assert line_list[1].rstrip() == '#EXTINF:0 tvg-id="" group-title="Sport",Channel 1'
         assert line_list[2].rstrip() == 'channel_url'
         assert line_list[3].rstrip() == '#EXTINF:0 tvg-id="MyD.com" group-title="",Channel 2'

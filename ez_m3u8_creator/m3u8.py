@@ -12,7 +12,9 @@ class M3U8File():
     def __init__(self, file_path=None):
         """Initialize the M3U8 file."""
         self.channel_list = []
-        self.egp_url = ""
+        self.epg_tvg_url = ""
+        self.epg_url_tvg = ""
+        self.epg_x_tvg_url = ""
 
         if file_path is not None:
             self._load_file(file_path)
@@ -40,9 +42,12 @@ class M3U8File():
                 line = line.rstrip()
                 if line.startswith(M3U8_OPENING_TAG):
                     # Get the EPG Url
-                    epg_url_pattern = 'url-tvg="(?P<epg_url>.*?)"'
-                    result = re.search(epg_url_pattern, line)
-                    self.egp_url = result.group('epg_url') if bool(result) else ''
+                    result = re.search('tvg-url="(?P<epg_tvg_url>.*?)"', line)
+                    self.epg_tvg_url = result.group('epg_tvg_url') if bool(result) else ''
+                    result = re.search('url-tvg="(?P<epg_url_tvg>.*?)"', line)
+                    self.epg_url_tvg = result.group('epg_url_tvg') if bool(result) else ''
+                    result = re.search('x-tvg-url="(?P<epg_x_tvg_url>.*?)"', line)
+                    self.epg_x_tvg_url = result.group('epg_x_tvg_url') if bool(result) else ''
                 elif line.startswith(M3U8_CHANNEL_INFO_PREFIX):
                     # Get the Channel Name
                     # Assume for now we MUST always have a ',' so not adding any checking for now
@@ -64,7 +69,9 @@ class M3U8File():
     def write_file(self, file_path):
         """Write the m3u8 file."""
         with open(file_path, 'w', encoding='utf-8') as file_ptr:
-            file_ptr.write(F'{M3U8_OPENING_TAG} url-tvg="{self.egp_url}"\n')
+            file_ptr.write(
+                F'{M3U8_OPENING_TAG} '
+                F'tvg-url="{self.epg_tvg_url}" url-tvg="{self.epg_url_tvg}" x-tvg-url="{self.epg_x_tvg_url}"\n')
             for channel in self.channel_list:
                 file_ptr.write(
                     F'''{M3U8_CHANNEL_INFO_PREFIX}0 tvg-id="{channel['id']}" group-title="{channel['group']}"'''
