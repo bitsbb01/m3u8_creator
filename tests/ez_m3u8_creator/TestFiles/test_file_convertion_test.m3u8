@@ -1,7 +1,7 @@
-#EXTM3U
-#EXTINF:0 group-title="Sport",Channel 2
+#EXTM3U url-tvg="www.test-epg.com"
+#EXTINF:0 tvg-id="Channel2.it" group-title="Sport",Channel 2
 Link.2
-#EXTINF:0 group-title="News",Channel 5
+#EXTINF:0 tvg-id="" group-title="News",Channel 5
 Link.5
-#EXTINF:0 group-title="",Channel 5
+#EXTINF:0 tvg-id="tvland" group-title="",Channel 5
 Link.5

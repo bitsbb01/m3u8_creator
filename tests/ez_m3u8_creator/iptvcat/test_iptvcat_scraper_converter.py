@@ -73,7 +73,8 @@ def test_convert_dir_to_m3u8(tmpdir):
             converted_file_path = os.path.join(tmpdir, converted_file_name)
             test_file_path = os.path.join(convert_dir, converted_file_name)
 
-            print(test_file_path)
+            print('test_file_path', test_file_path)
+            print('converted_file_path', converted_file_path)
 
             assert os.path.exists(test_file_path)
             assert os.path.exists(converted_file_path)
@@ -83,7 +84,9 @@ def test_convert_dir_to_m3u8(tmpdir):
                     convert_file_list = list(convert_file_ptr)
                     test_file_list = list(test_file_ptr)
 
+                    print('Converted Lines', convert_file_list)
+                    print('Test File Lines', test_file_list)
                     assert len(convert_file_list) == len(test_file_list)
 
-                for idx, line in enumerate(convert_file_list):
-                    assert line == test_file_list[idx]
+                    for idx, line in enumerate(convert_file_list):
+                        assert line == test_file_list[idx]
