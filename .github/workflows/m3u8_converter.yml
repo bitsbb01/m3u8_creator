@@ -28,7 +28,8 @@ jobs:
       - name: Setup Environment
         # e.g. create work dirst, store in env variables ... https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions
         run: |
-          echo "IPTVCAT_DATE=$(date -d "yesterday 13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DATE=$(date -d "13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
+          #echo "IPTVCAT_DATE=$(date -d "yesterday 13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
           echo "IPTVCAT_DOWNLOAD_DIR=${{ github.workspace }}/temp/iptvcat" >> $GITHUB_ENV
           echo "M3U8_DIR=${{ github.workspace }}/temp/m3u8" >> $GITHUB_ENV
           echo "EPG_TEMP_DIR=${{ github.workspace }}/temp/epg" >> $GITHUB_ENV
