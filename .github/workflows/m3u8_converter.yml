@@ -29,7 +29,7 @@ jobs:
         # e.g. create work dirst, store in env variables ... https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions
         run: |
           echo "IPTVCAT_DATE=$(date -d "13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
-          #echo "IPTVCAT_DATE=$(date -d "yesterday 13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DATE_YESTERDAY=$(date -d "yesterday 13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
           echo "IPTVCAT_DOWNLOAD_DIR=${{ github.workspace }}/temp/iptvcat" >> $GITHUB_ENV
           echo "M3U8_DIR=${{ github.workspace }}/temp/m3u8" >> $GITHUB_ENV
           echo "EPG_TEMP_DIR=${{ github.workspace }}/temp/epg" >> $GITHUB_ENV
@@ -40,6 +40,7 @@ jobs:
       - name: Setup Dirs
         run: |
           echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
+          echo "IPTVCAT_DATE_YESTERDAY: '${IPTVCAT_DATE_YESTERDAY}'"
           echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
           echo "M3U8_DIR: '${M3U8_DIR}'"
           echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
@@ -61,8 +62,8 @@ jobs:
       ### DOWNLOAD REQUIRED DATA ###
       - name: Get IPTVCat Release
         run: |
-          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DATE}" "${IPTVCAT_DOWNLOAD_DIR}"'"
-          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DATE}" "${IPTVCAT_DOWNLOAD_DIR}"
+          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE_YESTERDAY}"'"
+          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE_YESTERDAY}"
 
       - name: Get EPG from M3U4U
         run: |

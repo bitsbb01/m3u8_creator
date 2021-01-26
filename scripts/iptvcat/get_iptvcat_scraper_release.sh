@@ -5,18 +5,13 @@ echo '##### Calling: '`basename "$0"` '('$0')'
 ### Verify the parsed variables
 echo Verifying passed arguments
 
-release_name=$1
-dest_dir=$2
-
-if [[ -z ${release_name} ]];
-then
-    echo "arg1 - Release name is not set"
-    exit 1
-fi
+dest_dir=$1
+release_name_1=$2
+release_name_2=$3
 
 if [[ -z ${dest_dir} ]];
 then
-    echo "arg2 - Destination directory is not set"
+    echo "arg1 - Destination directory is not set"
     exit 1
 fi
 
@@ -26,24 +21,51 @@ then
     exit 1
 fi
 
-echo "Release Name '${release_name}'"
+if [[ -z ${release_name_1} ]];
+then
+    echo "arg2 - Release name 1 is not set"
+    exit 1
+fi
+
+if [[ -z ${release_name_2} ]];
+then
+    echo "arg3 - Release name 2 is not set"
+    exit 1
+fi
+
 echo "Target Dir '${dest_dir}'"
+echo "Release Name 1'${release_name_1}'"
+echo "Release Name 2'${release_name_2}'"
 
 ### Download the Release
+release_name_list=()
+release_name_list+=(${release_name_1})
+release_name_list+=(${release_name_2})
 
-echo "Command: 'ls -alt ${dest_dir}'"
-ls -alt ${dest_dir}
+for param in ${release_name_list[@]}; do
 
-dest_file_path=${dest_dir}/streams.zip
+    echo "Command: 'ls -alt ${dest_dir}'"
+    ls -alt ${dest_dir}
 
-url=https://github.com/eliashussary/iptvcat-scraper/releases/download/$release_name/streams.zip
+    dest_file_path=${dest_dir}/streams.zip
 
-echo Trying to get release from "$url"
-echo "Command: 'curl --fail -L -o ${dest_file_path} $url'"
-curl --fail -L -o ${dest_file_path} $url
-return_code=$?
-if [[ $return_code -ne  0 ]];
+    url=https://github.com/eliashussary/iptvcat-scraper/releases/download/${param}/streams.zip
+
+    echo Trying to get release from "$url"
+    echo "Command: 'curl --fail -L -o ${dest_file_path} $url'"
+    curl --fail -L -o ${dest_file_path} $url
+    return_code=$?
+
+    if [[ -f ${dest_file_path} ]];
+    then
+        echo "File Found for release ${param}"
+        break
+    fi
+done
+
+if [[ ! -f ${dest_file_path} ]];
 then
+    echo "No File Found for any release"
     echo "*** Some Issues Found downloading the file"
     exit 1
 fi
