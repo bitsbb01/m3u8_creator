@@ -11,7 +11,7 @@ class M3U8File():
 
     def __init__(self, file_path=None):
         """Initialize the M3U8 file."""
-        self.channel_list = []
+        self.channel_url_dict = {}
         self.epg_tvg_url = ""
         self.epg_url_tvg = ""
         self.epg_x_tvg_url = ""
@@ -21,7 +21,9 @@ class M3U8File():
 
     def add_channel(self, *, name, url, group='', channel_id=''):
         """Add a channel to the file."""
-        self.channel_list.append({
+        if url not in self.channel_url_dict:
+            self.channel_url_dict[url] = []
+        self.channel_url_dict[url].append({
             'name': name,
             'url': url,
             'group': group,
@@ -30,10 +32,17 @@ class M3U8File():
 
     def add_groups_from_category_dic(self, category_dic, *, overwrite=True):
         """Calculate the groups based on the given json file."""
-        for channel in self.channel_list:
-            categories = get_categories_from_json(channel_name=channel['name'], json_data=category_dic)
-            if categories and overwrite:
-                channel['group'] = ';'.join(categories)
+        for _, channel_list in self.channel_url_dict.items():
+            for channel in channel_list:
+                categories = get_categories_from_json(channel_name=channel['name'], json_data=category_dic)
+                if categories and overwrite:
+                    channel['group'] = ';'.join(categories)
+
+    def remove_duplicate_urls(self):
+        """Remove duplicate URLs from the list."""
+        for url, _ in self.channel_url_dict.items():
+            if len(self.channel_url_dict[url]) > 1:
+                self.channel_url_dict[url] = self.channel_url_dict[url][:1]
 
     def _load_file(self, file_path):
         with open(file_path, 'r', encoding='utf-8') as file_ptr:
@@ -68,15 +77,19 @@ class M3U8File():
 
     def write_file(self, file_path):
         """Write the m3u8 file."""
+        self.remove_duplicate_urls()
+
         with open(file_path, 'w', encoding='utf-8') as file_ptr:
             file_ptr.write(
                 F'{M3U8_OPENING_TAG} '
                 F'tvg-url="{self.epg_tvg_url}" url-tvg="{self.epg_url_tvg}" x-tvg-url="{self.epg_x_tvg_url}"\n')
-            for channel in self.channel_list:
-                file_ptr.write(
-                    F'''{M3U8_CHANNEL_INFO_PREFIX}0 tvg-id="{channel['id']}" group-title="{channel['group']}"'''
-                    F''',{channel["name"]}\n''')
-                file_ptr.write(F'{channel["url"]}\n')
+
+            for _, channel_list in self.channel_url_dict.items():
+                for channel in channel_list:
+                    file_ptr.write(
+                        F'''{M3U8_CHANNEL_INFO_PREFIX}0 tvg-id="{channel['id']}" group-title="{channel['group']}"'''
+                        F''',{channel["name"]}\n''')
+                    file_ptr.write(F'{channel["url"]}\n')
 
 
 def get_categories_from_json(*, channel_name, json_data):

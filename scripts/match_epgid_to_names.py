@@ -30,16 +30,17 @@ def main():
         json_data = json.load(file_ptr)
 
     count = 0
-    for channel in m3u8_file.channel_list:
-    #     if channel['name'].lower().startswith('Sky Sport Bundesliga'):
-    #         print('### Channel:', channel['name'])
+    for _, channel_list in m3u8_file.channel_url_dict.items():
+        for channel in channel_list:
+        #     if channel['name'].lower().startswith('Sky Sport Bundesliga'):
+        #         print('### Channel:', channel['name'])
 
-        channel_name = channel['name'].strip().upper().removesuffix('  FHD').removesuffix('UHD').removesuffix(' HD').strip()
-        for info in json_data:
-            if info['name'].upper().strip() == channel_name:
-                channel['id'] = info['tvgid']
-                count += 1
-                break
+            channel_name = channel['name'].strip().upper().removesuffix('  FHD').removesuffix('UHD').removesuffix(' HD').strip()
+            for info in json_data:
+                if info['name'].upper().strip() == channel_name:
+                    channel['id'] = info['tvgid']
+                    count += 1
+                    break
 
     print('FOUND:', count)
 

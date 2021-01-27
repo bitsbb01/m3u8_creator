@@ -34,9 +34,6 @@ def test_load_m3u8_file(tmpdir):
         in_file_line_list = [x.rstrip() for x in list(file_ptr)]
         out_file_line_list = out_file.read_text(encoding='utf-8').split('\n')
 
-        for channel in m3u8_file.channel_list:
-            print('Channel:', channel)
-
         print('Test File ', in_file_line_list)
         print('Check File', out_file_line_list)
 
@@ -92,11 +89,28 @@ def test_add_categories_from_json_to_m3u():
 
     m3u8_file.add_channel(name='CNN Sport', url='channel_url')
 
-    assert m3u8_file.channel_list[0]['name'] == 'CNN Sport'
-    assert m3u8_file.channel_list[0]['group'] == ''
+    assert m3u8_file.channel_url_dict['channel_url'][0]['name'] == 'CNN Sport'
+    assert m3u8_file.channel_url_dict['channel_url'][0]['group'] == ''
 
     m3u8_file.add_groups_from_category_dic(category_dic, overwrite=False)
-    assert m3u8_file.channel_list[0]['group'] == ''
+    assert m3u8_file.channel_url_dict['channel_url'][0]['group'] == ''
 
     m3u8_file.add_groups_from_category_dic(category_dic)
-    assert m3u8_file.channel_list[0]['group'] == 'News;Sport'
+    assert m3u8_file.channel_url_dict['channel_url'][0]['group'] == 'News;Sport'
+
+
+def test_remove_duplicate_urls():
+    m3u8_file = m3u8.M3U8File()
+
+    m3u8_file.add_channel(name='Channel 1', url='channel_url_1')
+    m3u8_file.add_channel(name='Channel 2', url='channel_url_2')
+    m3u8_file.add_channel(name='Channel 1', url='channel_url_1')
+
+    assert len(m3u8_file.channel_url_dict) == 2
+    assert len(m3u8_file.channel_url_dict['channel_url_1']) == 2
+    assert len(m3u8_file.channel_url_dict['channel_url_2']) == 1
+
+    m3u8_file.remove_duplicate_urls()
+    assert len(m3u8_file.channel_url_dict) == 2
+    assert len(m3u8_file.channel_url_dict['channel_url_1']) == 1
+    assert len(m3u8_file.channel_url_dict['channel_url_2']) == 1
