@@ -1,7 +1,6 @@
 """Script to convert m3u4u channel files to a fake m3u playlist."""
 
 import argparse
-import json
 import os
 import sys
 
@@ -25,23 +24,7 @@ def main():
 
     m3u8_file = m3u8.M3U8File(args.input_file)
 
-    json_data = None
-    with open(args.json_file, 'r') as file_ptr:
-        json_data = json.load(file_ptr)
-
-    count = 0
-    for _, channel_list in m3u8_file.channel_url_dict.items():
-        for channel in channel_list:
-        #     if channel['name'].lower().startswith('Sky Sport Bundesliga'):
-        #         print('### Channel:', channel['name'])
-
-            channel_name = channel['name'].strip().upper().removesuffix('  FHD').removesuffix('UHD').removesuffix(' HD').strip()
-            for info in json_data:
-                if info['name'].upper().strip() == channel_name:
-                    channel['id'] = info['tvgid']
-                    count += 1
-                    break
-
+    count = m3u8.match_epg_channels(m3u8_file, args.json_file)
     print('FOUND:', count)
 
     m3u8_file.write_file(args.out_file)

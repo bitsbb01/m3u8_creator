@@ -1,5 +1,6 @@
 """Code to handle m3u8 file type."""
 
+import json
 import re
 
 M3U8_OPENING_TAG = '#EXTM3U'
@@ -94,33 +95,86 @@ class M3U8File():
 
 def get_categories_from_json(*, channel_name, json_data):
     """Get the categories for a channel name."""
-    # if "hr" not in channel_name.lower():
-    #     return []
-
-    # print(F'\n\n##### {channel_name} #####')
-
     categories = []
     for category in json_data:  # pylint: disable=too-many-nested-blocks
-        # print('category', category)
         for name, criterias in category.items():
-            # print('  name', name)
-
             for criteria in criterias:
-                # print('     criteria', criteria)
                 if criteria == 'icontains':
                     for keyword in criterias[criteria]:
                         if keyword.lower() in channel_name.lower():
                             categories.append(name)
-                            # print('             => FOUND')
                             break
                 elif criteria == 'iexact':
-                    # print('CRITERIA', criteria)
                     for keyword in criterias[criteria]:
                         if keyword.lower() == channel_name.lower():
                             categories.append(name)
-                            # print('             => FOUND')
                             break
 
-    # print("categories", categories)
-
     return categories
+
+
+def remove_meta_data_from_channel_name(name):
+    """Remove metadata from channel name e.g. Resolution information etc."""
+    channel_name = name
+
+    # Remove anything in brackets
+    pattern = re.compile(R'\(.*?\)', re.IGNORECASE)
+    channel_name = re.sub(pattern, ' ', channel_name)
+
+    # Replace Non-Alphanumeric - !!! Must be after any rule using special characters
+    channel_name = re.sub('[^0-9a-zA-Z]+', ' ', channel_name)
+
+    # Number Convertion
+    sub_pattern_list = [
+        ('Eins', '1'), ('Zwei', '2'), ('Drei', '3'), ('Vier', '4'),
+        ('I', '1'), ('II', '2'), ('III', '3'), ('IV', '4')
+    ]
+    search_pattern = ''
+    for sub_pattern, replacement in sub_pattern_list:
+        search_pattern = F' ({sub_pattern}) |(^{sub_pattern}) | ({sub_pattern}$)'
+        pattern = re.compile(search_pattern, re.IGNORECASE)
+        channel_name = re.sub(pattern, replacement, channel_name).strip()
+
+    # Remove Misc characters
+    sub_pattern_list = ['HD', 'SD', 'FHD', '[2|4]k[+]*', '576|720|1080[p|i]*', 'und',
+                        'FS', 'Fernsehen', 'Pluto TV[+]*', 'TV']
+    search_pattern = ''
+    for sub_pattern in sub_pattern_list:
+        search_pattern = F' ({sub_pattern}) |(^{sub_pattern}) | ({sub_pattern}$)'
+        pattern = re.compile(search_pattern, re.IGNORECASE)
+        channel_name = re.sub(pattern, ' ', channel_name).strip()
+
+    # remove special suffix
+    pattern = re.compile('^(.*)tv$', re.IGNORECASE)
+    channel_name = re.sub(pattern, R'\1', channel_name.strip())
+
+    # Remove multi spaces inside the string
+    pattern = re.compile(R'\s+', re.IGNORECASE)
+    channel_name = re.sub(pattern, '', channel_name)
+
+    return channel_name.strip()
+
+
+def match_epg_channels(m3u8_file, epg_json_path):
+    """Match the channels inside the give m3u file object to the channels in the given json file."""
+    json_data = {}
+    raw_json_data = None
+    with open(epg_json_path, 'r') as file_ptr:
+        raw_json_data = json.load(file_ptr)
+
+    # Clean up json data
+    for info in raw_json_data:
+        json_data[remove_meta_data_from_channel_name(info['name']).upper()] = info['tvgid']
+
+    # Find matching channels
+    count = 0
+    for _, channel_list in m3u8_file.channel_url_dict.items():
+        for channel in channel_list:
+            channel_name = remove_meta_data_from_channel_name(channel['name'])
+
+            channel_key = channel_name.upper()
+            if channel_key in json_data:
+                channel['id'] = json_data[channel_key]
+                count += 1
+
+    return count

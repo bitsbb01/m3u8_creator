@@ -5,6 +5,8 @@ from ez_m3u8_creator import m3u8
 
 TEST_FILE_CONVERTION_TEST = R'tests/ez_m3u8_creator/TestFiles/test_file_convertion_test.m3u8'
 
+EPG_GERMAN_JSON_PATH = R'ez_m3u8_creator/m3u4u.com/egp-channel-ids/germany.json'
+
 
 def test_write_m3u8_file(tmpdir):
     m3u8_file = m3u8.M3U8File()
@@ -114,3 +116,57 @@ def test_remove_duplicate_urls():
     assert len(m3u8_file.channel_url_dict) == 2
     assert len(m3u8_file.channel_url_dict['channel_url_1']) == 1
     assert len(m3u8_file.channel_url_dict['channel_url_2']) == 1
+
+
+GERMAN_CHANNEL_EPG_MAPPING = [
+    ('ZDF', 'ZDF.de'),
+    ('ZDF ', 'ZDF.de'),
+    ('  ZDF  ', 'ZDF.de'),
+    (' ZDF', 'ZDF.de'),
+    ('ZDF HD', 'ZDF.de'),
+    ('ZDF hD', 'ZDF.de'),
+    ('ZDF SD', 'ZDF.de'),
+    ('ZDF FHD', 'ZDF.de'),
+    ('ZDF 4K', 'ZDF.de'),
+    ('ZDF 4k', 'ZDF.de'),
+    ('ZDF 4K+', 'ZDF.de'),
+    ('ZDF (HD)', 'ZDF.de'),
+    ('ZDF (720)', 'ZDF.de'),
+    ('ZDF(HD)', 'ZDF.de'),
+    ('(HD)ZDF', 'ZDF.de'),
+    ('(HD)ZDF(720)', 'ZDF.de'),
+    ('ZDF.tv', 'ZDF.de'),
+    ('3-SAT', '3sat.de'),
+
+    ('SKY SPORT NEWS', 'SkySportNews.de'),
+    ('SKY SPORT HD NEWS', 'SkySportNews.de'),
+    ('Dresden Fernsehen', 'DresdenFernsehen.de'),
+    ('Auto Motor Sport', 'AutoMotorSport.de'),
+    ('Auto Motor und Sport', 'AutoMotorSport.de'),
+    ('Auto Motor & Sport', 'AutoMotorSport.de'),
+    ('E! ENTERTAINMENT FHD', 'EEntertainment.de'),
+    ('NDR Fernsehen', 'NDR(src02).de'),
+    ('NDR FS', 'NDR(src02).de'),
+    ('Pluto TV Fight', 'PlutoTVFight(English).de'),
+    ('Pluto TV+ Fight', 'PlutoTVFight(English).de'),
+    ('1-2-3 TV HD', '123tv.de'),
+
+    ('Bremen Eins', 'BremenEins.de'),
+    ('Bremen zwei', 'BremenZwei.de'),
+    #('Bremen DREI', ''),  # No Channel for Test
+    ('Bremen Vier', 'BremenVier.de'),
+    ('Bremen I', 'BremenEins.de'),
+    ('Bremen II', 'BremenZwei.de'),
+    #('Bremen III', ''),  # No Channel for Test
+    ('Bremen IV', 'BremenVier.de'),
+]
+@pytest.mark.parametrize('name, epg', GERMAN_CHANNEL_EPG_MAPPING)
+def test_match_german_channels_to_epg(name, epg):
+    url = F'http://{name}'
+
+    m3u8_file = m3u8.M3U8File()
+    m3u8_file.add_channel(name=name, url=url)
+
+    m3u8.match_epg_channels(m3u8_file, EPG_GERMAN_JSON_PATH)
+
+    assert m3u8_file.channel_url_dict[url][0]['id'] == epg
