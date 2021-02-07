@@ -137,6 +137,9 @@ GERMAN_CHANNEL_EPG_MAPPING = [
     ('(HD)ZDF(720)', 'ZDF.de'),
     ('ZDF.tv', 'ZDF.de'),
     ('3-SAT', '3sat.de'),
+    ('3-SAT [Offline]', '3sat.de'),
+    ('3-SAT [Offline][65]', '3sat.de'),
+    ('3-SAT {test}', '3sat.de'),
 
     ('SKY SPORT NEWS', 'SkySportNews.de'),
     ('SKY SPORT HD NEWS', 'SkySportNews.de'),

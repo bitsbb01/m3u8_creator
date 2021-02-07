@@ -118,7 +118,7 @@ def remove_meta_data_from_channel_name(name):
     channel_name = name
 
     # Remove anything in brackets
-    pattern = re.compile(R'\(.*?\)', re.IGNORECASE)
+    pattern = re.compile(R'\(.*?\)|\[.*?\]|\{.*?\}', re.IGNORECASE)
     channel_name = re.sub(pattern, ' ', channel_name)
 
     # Replace Non-Alphanumeric - !!! Must be after any rule using special characters

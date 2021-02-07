@@ -6,7 +6,8 @@ import os
 from ez_m3u8_creator import m3u8
 
 
-INCLUDE_STATUS_LIST = ['online']
+INCLUDE_STATUS_LIST = ['online', 'offline']
+TAG_STATUS_LIST = ['offline']
 LIVELINESS_MIN = 70
 
 
@@ -34,12 +35,16 @@ class IptvCatFile():
 
         self.data = new_data
 
-    def write_playlist(self, *, out_path):
+    def write_playlist(self, *, out_path, tag_status_list=None):
         """Write the playlist to the given file."""
         m3u8_file = m3u8.M3U8File()
 
         for channel in self:
-            m3u8_file.add_channel(name=channel['channel'], url=channel['link'])
+            name = F'''{channel['channel']} [{channel['liveliness']}]'''
+            if tag_status_list and channel['status'] in tag_status_list:
+                name += F'''[{channel['status']}]'''
+
+            m3u8_file.add_channel(name=name, url=channel['link'])
 
         m3u8_file.write_file(out_path)
 
@@ -68,4 +73,4 @@ def convert_json_dir_to_m3u8(*, in_dir, out_dir):
 
             iptvcat_file = IptvCatFile(from_file_path)
             iptvcat_file.filter_channels(status_list=INCLUDE_STATUS_LIST, liveliness_min=LIVELINESS_MIN)
-            iptvcat_file.write_playlist(out_path=out_file_path)
+            iptvcat_file.write_playlist(out_path=out_file_path, tag_status_list=TAG_STATUS_LIST)

@@ -67,8 +67,8 @@ jobs:
 
       - name: Get EPG from M3U4U
         run: |
-          echo "Command: './scripts/download_file.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"'"
-          ./scripts/download_file.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"
+          echo "Command: './scripts/download_file_allow_failiure.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"'"
+          ./scripts/download_file_allow_failiure.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"
 
       ### PROCESS THE DATA ###
       - name: Convert IPTVCat (JSON to m3u8)
