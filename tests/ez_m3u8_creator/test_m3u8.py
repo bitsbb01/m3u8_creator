@@ -173,3 +173,80 @@ def test_match_german_channels_to_epg(name, epg):
     m3u8.match_epg_channels(m3u8_file, EPG_GERMAN_JSON_PATH)
 
     assert m3u8_file.channel_url_dict[url][0]['id'] == epg
+
+
+def test_merge_m3u_objects():
+    m3u8_file = m3u8.M3U8File()
+    m3u8_file.add_channel(name='name1', url='url1', group='g1', channel_id='id1')
+
+    other_m3u8_file = m3u8.M3U8File()
+    other_m3u8_file.add_channel(name='name2', url='url2', group='g2', channel_id='id2')
+    other_m3u8_file.add_channel(name='name3', url='url1', group='g3', channel_id='id4')
+
+    # Base Assertions
+    assert len(m3u8_file.channel_url_dict) == 1
+    assert 'url1' in m3u8_file.channel_url_dict
+    assert len(m3u8_file.channel_url_dict['url1']) == 1
+
+    assert len(other_m3u8_file.channel_url_dict) == 2
+
+    # Merge
+    m3u8_file.merge(other_m3u8_file)
+
+    # Result assertions
+    assert len(m3u8_file.channel_url_dict) == 2
+    assert 'url1' in m3u8_file.channel_url_dict
+    assert len(m3u8_file.channel_url_dict['url1']) == 2
+    assert 'url2' in m3u8_file.channel_url_dict
+    assert len(m3u8_file.channel_url_dict['url2']) == 1
+
+    assert m3u8_file.channel_url_dict['url2'][0]['name'] == 'name2'
+    assert m3u8_file.channel_url_dict['url2'][0]['url'] == 'url2'
+    assert m3u8_file.channel_url_dict['url2'][0]['group'] == 'g2'
+    assert m3u8_file.channel_url_dict['url2'][0]['id'] == 'id2'
+
+    # Test dictionaries are the same, in case new fields are added in the future
+    assert m3u8_file.channel_url_dict['url2'][0] == other_m3u8_file.channel_url_dict['url2'][0]
+
+@pytest.mark.debug
+def test_merge_m3u8_files(tmpdir):
+
+    # Write the Files
+    m3u8_file = m3u8.M3U8File()
+    m3u8_file.add_channel(name='name1', url='url1', group='g1', channel_id='id1')
+    m3u8_file_path = tmpdir.join('m3u8_file.m3u8')
+    m3u8_file.write_file(m3u8_file_path)
+
+    other_m3u8_file = m3u8.M3U8File()
+    other_m3u8_file.add_channel(name='name2', url='url2', group='g2', channel_id='id2')
+    other_m3u8_file_path = tmpdir.join('other_m3u8_file.m3u8')
+    other_m3u8_file.write_file(other_m3u8_file_path)
+
+    # Assert Original File
+    with open(m3u8_file_path, 'r') as file_ptr:
+        line_list = list(file_ptr)
+        assert len(line_list) == 3
+
+    with open(other_m3u8_file_path, 'r') as file_ptr:
+        line_list = list(file_ptr)
+        assert len(line_list) == 3
+
+    # Merge the Files
+    m3u8.merge_m3u8_files(merge_into_path=m3u8_file_path, merge_from_path=other_m3u8_file_path)
+
+    # Check the Result File
+    with open(m3u8_file_path, 'r') as file_ptr:
+        line_list = list(file_ptr)
+        assert len(line_list) == 5
+
+        assert line_list[0].rstrip() == '#EXTM3U tvg-url="" url-tvg="" x-tvg-url=""'
+        assert line_list[1].rstrip() == '#EXTINF:0 tvg-id="id1" group-title="g1",name1'
+        assert line_list[2].rstrip() == 'url1'
+        assert line_list[3].rstrip() == '#EXTINF:0 tvg-id="id2" group-title="g2",name2'
+        assert line_list[4].rstrip() == 'url2'
+
+
+
+
+
+

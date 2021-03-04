@@ -33,6 +33,7 @@ jobs:
           echo "IPTVCAT_DOWNLOAD_DIR=${{ github.workspace }}/temp/iptvcat" >> $GITHUB_ENV
           echo "M3U8_DIR=${{ github.workspace }}/temp/m3u8" >> $GITHUB_ENV
           echo "EPG_TEMP_DIR=${{ github.workspace }}/temp/epg" >> $GITHUB_ENV
+          echo "M3U8_STATIC_DIR=${{ github.workspace }}/temp/m3u8_static" >> $GITHUB_ENV
 
           # Update pythonpath used for our scripts
           echo "PYTHONPATH=$PYTHONPATH:${{ github.workspace }}" >> $GITHUB_ENV
@@ -44,6 +45,7 @@ jobs:
           echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
           echo "M3U8_DIR: '${M3U8_DIR}'"
           echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
+          echo "M3U8_STATIC_DIR: '${M3U8_STATIC_DIR}'"
 
           echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
           mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
@@ -51,6 +53,8 @@ jobs:
           mkdir -p ${M3U8_DIR}
           echo "Command: 'mkdir -p ${EPG_TEMP_DIR}'"
           mkdir -p ${EPG_TEMP_DIR}
+          echo "Command: 'mkdir -p ${M3U8_STATIC_DIR}'"
+          mkdir -p ${M3U8_STATIC_DIR}
 
           echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
           ls -alt ${IPTVCAT_DOWNLOAD_DIR}
@@ -58,6 +62,8 @@ jobs:
           ls -alt ${M3U8_DIR}
           echo "Command: 'ls -alt ${EPG_TEMP_DIR}'"
           ls -alt ${EPG_TEMP_DIR}
+          echo "Command: 'ls -alt ${M3U8_STATIC_DIR}'"
+          ls -alt ${M3U8_STATIC_DIR}
 
       ### DOWNLOAD REQUIRED DATA ###
       - name: Get IPTVCat Release
@@ -69,6 +75,13 @@ jobs:
         run: |
           echo "Command: './scripts/download_file_allow_failiure.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"'"
           ./scripts/download_file_allow_failiure.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"
+
+      - name: Get Static Files from Dropbox
+        run: |
+          echo "Command: './scripts/download_file_allow_failiure.sh "${{ secrets.DROPBOX_STATIC_M3U8_INDONESIA }}" "${M3U8_STATIC_DIR}" "indonesia.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "${{ secrets.DROPBOX_STATIC_M3U8_INDONESIA }}" "${M3U8_STATIC_DIR}" "indonesia.m3u8"
+
+          ls -alt "${M3U8_STATIC_DIR}"
 
       ### PROCESS THE DATA ###
       - name: Convert IPTVCat (JSON to m3u8)
@@ -85,6 +98,17 @@ jobs:
           ls -alt ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
+
+      - name: Merge with Static Files
+        run: |
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR}
+
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
+
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR}
 
       - name: Add Channel Categories
         run: |
@@ -111,12 +135,3 @@ jobs:
         run: |
           echo "Command: './scripts/upload_to_dropbox.sh "${M3U8_DIR}" "IPTV" "********"'"
           ./scripts/upload_to_dropbox.sh "${M3U8_DIR}" "IPTV" "${{ secrets.DROPBOX_UPLOAD_TOKEN }}"
-
-
-
-      ### DISABLED FOR NOW - SEEMS LIKE LOGIN CREDENTIAL ISSUES, MAYBE IF TOO OFTEN
-      ### BUT WE DON"T NEED THE FTP ANYMORE
-      # - name: Upload m3u8 files to FTP
-      #   run: |
-      #     echo "Command: 'python ./scripts/ftp_upload.py --ftp_server "${{ secrets.FTP_UPLOAD_ADDRESS }}" --ftp_user "${{ secrets.FTP_UPLOAD_USERNAME }}" --ftp_pass "********" --ftp_dir "${{ secrets.FTP_UPLOAD_REMOTE_DIR }}" --upload_dir "${M3U8_DIR}"'"
-      #     python ./scripts/ftp_upload.py --ftp_server "${{ secrets.FTP_UPLOAD_ADDRESS }}" --ftp_user "${{ secrets.FTP_UPLOAD_USERNAME }}" --ftp_pass "${{ secrets.FTP_UPLOAD_PASSWORD }}" --ftp_dir "${{ secrets.FTP_UPLOAD_REMOTE_DIR }}" --upload_dir "${M3U8_DIR}"

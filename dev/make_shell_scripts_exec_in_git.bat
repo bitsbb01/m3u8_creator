@@ -28,6 +28,24 @@ for /R %%I in ("*.sh") do (
     echo[
 )
 popd
+
+
+pushd %SCRIPT_DIR%..\scripts
+for /R %%I in ("*.sh") do (
+    echo TEST: %%I
+    set REL_PATH=%%I
+    echo # Current Permissions for "%%I"
+    git ls-files --stage "%%I"
+    git update-index --chmod=+x "%%I%"
+    echo # New Permissions for "%%I"
+    git ls-files --stage "%%I"
+    echo ########################################################################
+    echo[
+)
+popd
+
+
+
 goto end
 
 :set_one_file
