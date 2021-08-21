@@ -33,7 +33,7 @@ jobs:
           git status
           git commit -m "cron: setting last attempt time stamp" -a
           git status
-          git push
+          git push --force
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
