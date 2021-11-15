@@ -34,29 +34,29 @@ jobs:
           git status
           git push
 
-#      - name: Delete Old Files
-#        run: |
-#          git config --local user.email "action@github.com"
-#          git config --local user.name "GitHub Action"
-#          git rm ./tests/m3u8/*.m3u8
-#          git rm ./m3u8/*.m3u8
-#          git rm ./*.m3u8
-#          git rm ./json/iptvcat/*.json
-#          git rm ./temp/iptvcat/*.json
-#          git rm ./json/iptvcat/*.zip
-#          git rm ./epg/*.gz
-#                       
-#      - name: commit deleted old files
-#        uses: zwaldowski/git-commit-action@v1
-#        with:
-#             commit_message:  "deleted old files by bot"
-#             working_directory: .
-#           
-#      - name: Push changes for old files
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.scrapper_token }}
-#          branch: ${{ github.ref }}
+      - name: Delete Old Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git rm ./tests/m3u8/*.m3u8
+          git rm ./m3u8/*.m3u8
+          git rm ./*.m3u8
+          git rm ./json/iptvcat/*.json
+          git rm ./temp/iptvcat/*.json
+          git rm ./json/iptvcat/*.zip
+          git rm ./epg/*.gz
+                       
+      - name: commit deleted old files
+        uses: zwaldowski/git-commit-action@v1
+        with:
+             commit_message:  "deleted old files by bot"
+             working_directory: .
+           
+      - name: Push changes for old files
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.scrapper_token }}
+          branch: ${{ github.ref }}
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -337,7 +337,7 @@ jobs:
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
         
-      - name: create main artifact
+      - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
         with:
          name: workflow_${{ steps.date.outputs.date }}
