@@ -49,8 +49,8 @@ for param in ${release_name_list[@]}; do
 
     dest_file_path=${dest_dir}/streams.zip
 
-     url=https://github.com/bitsbb01/cat-scrapper/releases/download/${param}/streams.zip
- #   url=https://github.com/bitsbb01/ez-iptvcat-scraper/releases/download/${param}/streams.zip
+ #   url=https://github.com/bitsbb01/cat-scrapper/releases/download/${param}/streams.zip
+    url=https://github.com/bitsbb01/ez-iptvcat-scraper/releases/download/${param}/streams.zip
 
  #   url=https://github.com/bitsbb01/iptvcat-scrapper/releases/download/${param}/streams.zip
 #url=https://github.com/ericziethen/ez-iptvcat-scraper/releases/download/${param}/streams.zip
