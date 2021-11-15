@@ -2,10 +2,10 @@ name: M3U8_ACTION
 
 on:
   workflow_dispatch:
-  # Run 4 Hours after https://https://github.com/ericziethen/ez-iptvcat-scraper
-  # This should be just after midnight in Australia
+  # Run 6 Hours after https://github.com/bitsbb01/iptvcat-scrapper
+  # 12.10 UTC Time, 06.10 Central Time
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "10 12 * * *"
   push:
     branches:
     - master
@@ -25,7 +25,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           echo $(date) >> last_attempt.txt
-
           cat last_attempt.txt
           ls -ltr
           git status
@@ -34,6 +33,30 @@ jobs:
           git commit -m "cron: setting last attempt time stamp" -a
           git status
           git push
+
+#      - name: Delete Old Files
+#        run: |
+#          git config --local user.email "action@github.com"
+#          git config --local user.name "GitHub Action"
+#          git rm ./tests/m3u8/*.m3u8
+#          git rm ./m3u8/*.m3u8
+#          git rm ./*.m3u8
+#          git rm ./json/iptvcat/*.json
+#          git rm ./temp/iptvcat/*.json
+#          git rm ./json/iptvcat/*.zip
+#          git rm ./epg/*.gz
+#                       
+#      - name: commit deleted old files
+#        uses: zwaldowski/git-commit-action@v1
+#        with:
+#             commit_message:  "deleted old files by bot"
+#             working_directory: .
+#           
+#      - name: Push changes for old files
+#        uses: ad-m/github-push-action@master
+#        with:
+#          github_token: ${{ secrets.scrapper_token }}
+#          branch: ${{ github.ref }}
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -44,16 +67,14 @@ jobs:
       - name: Setup Environment
         # e.g. create work dirst, store in env variables ... https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions
         run: |
-          echo "IPTVCAT_DATE=$(date -d "13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
-          echo "IPTVCAT_DATE_YESTERDAY=$(date -d "yesterday 13:00" '+%Y-%m-%d')" >> $GITHUB_ENV
-          echo "IPTVCAT_DOWNLOAD_DIR=${{ github.workspace }}/temp/iptvcat" >> $GITHUB_ENV
-          echo "M3U8_DIR=${{ github.workspace }}/temp/m3u8" >> $GITHUB_ENV
-          echo "EPG_TEMP_DIR=${{ github.workspace }}/temp/epg" >> $GITHUB_ENV
-          echo "M3U8_STATIC_DIR=${{ github.workspace }}/temp/m3u8_static" >> $GITHUB_ENV
-
+          echo "IPTVCAT_DATE=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DATE_YESTERDAY=$(date -d "yesterday 7:00" '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DOWNLOAD_DIR=./temp/iptvcat" >> $GITHUB_ENV
+          echo "M3U8_DIR=./tests/m3u8/" >> $GITHUB_ENV
+          echo "EPG_TEMP_DIR=./tests/epg/" >> $GITHUB_ENV
+          echo "M3U8_STATIC_DIR=./temp/m3u8_static/" >> $GITHUB_ENV
           # Update pythonpath used for our scripts
           echo "PYTHONPATH=$PYTHONPATH:${{ github.workspace }}" >> $GITHUB_ENV
-
       - name: Setup Dirs
         run: |
           echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
@@ -62,7 +83,6 @@ jobs:
           echo "M3U8_DIR: '${M3U8_DIR}'"
           echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
           echo "M3U8_STATIC_DIR: '${M3U8_STATIC_DIR}'"
-
           echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
           mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'mkdir -p ${M3U8_DIR}'"
@@ -71,7 +91,6 @@ jobs:
           mkdir -p ${EPG_TEMP_DIR}
           echo "Command: 'mkdir -p ${M3U8_STATIC_DIR}'"
           mkdir -p ${M3U8_STATIC_DIR}
-
           echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
           ls -alt ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'ls -alt ${M3U8_DIR}'"
@@ -80,25 +99,151 @@ jobs:
           ls -alt ${EPG_TEMP_DIR}
           echo "Command: 'ls -alt ${M3U8_STATIC_DIR}'"
           ls -alt ${M3U8_STATIC_DIR}
-
+      - name: Get other m3u8s to add
+        run: |
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://od.lk/s/MzJfMTcwOTQ4Mjhf/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2view.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://od.lk/s/MzJfMTcwOTQ4Mjhf/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2view.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/PBS/all.m3u8" "${M3U8_STATIC_DIR}" "pbs.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/PBS/all.m3u8" "${M3U8_STATIC_DIR}" "pbs.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/Plex/all.m3u8" "${M3U8_STATIC_DIR}" "plex.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/Plex/all.m3u8" "${M3U8_STATIC_DIR}" "plex.m3u8"          
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/PlutoTV/all.m3u8" "${M3U8_STATIC_DIR}" "pluto.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/PlutoTV/all.m3u8" "${M3U8_STATIC_DIR}" "pluto.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/SamsungTVPlus/all.m3u8" "${M3U8_STATIC_DIR}" "SamsungTVPlus.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/SamsungTVPlus/all.m3u8" "${M3U8_STATIC_DIR}" "SamsungTVPlus.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/Stirr/all.m3u8" "${M3U8_STATIC_DIR}" "Stirr.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/i.mjh.nz/master/Stirr/all.m3u8" "${M3U8_STATIC_DIR}" "Stirr.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "AVO.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "AVO.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "AdultSwim.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "AdultSwim.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "AnthymTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "AnthymTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Catcast/Catcast.m3u" "${M3U8_STATIC_DIR}" "Catcast.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Catcast/Catcast.m3u" "${M3U8_STATIC_DIR}" "Catcast.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/DistroTV/DistroTV.m3u" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/DistroTV/DistroTV.m3u" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "Freeli.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "Freeli.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Gemonline/Gemonline.m3u" "${M3U8_STATIC_DIR}" "Gemonline.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Gemonline/Gemonline.m3u" "${M3U8_STATIC_DIR}" "Gemonline.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/GinikoUSA/Giniko.USA.m3u" "${M3U8_STATIC_DIR}" "Giniko.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/GinikoUSA/Giniko.USA.m3u" "${M3U8_STATIC_DIR}" "Giniko.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Good%20TV/GoodTV.m3u" "${M3U8_STATIC_DIR}" "GoodTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Good%20TV/GoodTV.m3u" "${M3U8_STATIC_DIR}" "GoodTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/HerogoTV/HerogoTV.m3u" "${M3U8_STATIC_DIR}" "HerogoTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/HerogoTV/HerogoTV.m3u" "${M3U8_STATIC_DIR}" "HerogoTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Jungo%2BTV/Jungo%2BTV.m3u" "${M3U8_STATIC_DIR}" "Jungo.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Jungo%2BTV/Jungo%2BTV.m3u" "${M3U8_STATIC_DIR}" "Jungo.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/LocalNow/LocalNow.m3u" "${M3U8_STATIC_DIR}" "LocalNow.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/LocalNow/LocalNow.m3u" "${M3U8_STATIC_DIR}" "LocalNow.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/MalimarTV/Malimar.tv.m3u" "${M3U8_STATIC_DIR}" "Malimar.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/MalimarTV/Malimar.tv.m3u" "${M3U8_STATIC_DIR}" "Malimar.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/MyTvToGo/MyTvToGo.m3u" "${M3U8_STATIC_DIR}" "MyTvToGo.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/MyTvToGo/MyTvToGo.m3u" "${M3U8_STATIC_DIR}" "MyTvToGo.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Rad.TV/Rad.TV.m3u" "${M3U8_STATIC_DIR}" "Rad.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Rad.TV/Rad.TV.m3u" "${M3U8_STATIC_DIR}" "Rad.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/RakutenTV/RakutenTV.m3u" "${M3U8_STATIC_DIR}" "RakutenTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/RakutenTV/RakutenTV.m3u" "${M3U8_STATIC_DIR}" "RakutenTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/RedBoxTV/RedBoxTV.m3u" "${M3U8_STATIC_DIR}" "RedBoxTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/RedBoxTV/RedBoxTV.m3u" "${M3U8_STATIC_DIR}" "RedBoxTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Roku/Roku.m3u" "${M3U8_STATIC_DIR}" "Roku.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Roku/Roku.m3u" "${M3U8_STATIC_DIR}" "Roku.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Sluhay.by/Sluhay.by.m3u" "${M3U8_STATIC_DIR}" "Sluhay.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Sluhay.by/Sluhay.by.m3u" "${M3U8_STATIC_DIR}" "Sluhay.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Smash/smash_plus.m3u" "${M3U8_STATIC_DIR}" "smash_plus.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Smash/smash_plus.m3u" "${M3U8_STATIC_DIR}" "smash_plus.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/TV25/TV25.m3u" "${M3U8_STATIC_DIR}" "TV25.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/TV25/TV25.m3u" "${M3U8_STATIC_DIR}" "TV25.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "tubi.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "tubi.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/VisionTV/VisionTV.m3u" "${M3U8_STATIC_DIR}" "VisionTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/VisionTV/VisionTV.m3u" "${M3U8_STATIC_DIR}" "VisionTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/VizioTV/VizioTV.m3u" "${M3U8_STATIC_DIR}" "VizioTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/VizioTV/VizioTV.m3u" "${M3U8_STATIC_DIR}" "VizioTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/WatchYourTV/WatchYourTV.m3u" "${M3U8_STATIC_DIR}" "WatchYourTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/WatchYourTV/WatchYourTV.m3u" "${M3U8_STATIC_DIR}" "WatchYourTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/bumblebee.tv/bumblebee.tv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/bumblebee.tv/bumblebee.tv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughn.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughn.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/veely.tv/veely.tv.m3u" "${M3U8_STATIC_DIR}" "veely.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/veely.tv/veely.tv.m3u" "${M3U8_STATIC_DIR}" "veely.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/WJS1978/IPTV/main/iptv.m3u" "${M3U8_STATIC_DIR}" "iptvlist1.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/WJS1978/IPTV/main/iptv.m3u" "${M3U8_STATIC_DIR}" "iptvlist1.m3u8"
+          
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/nimadez/playlists/main/index.m3u" "${M3U8_STATIC_DIR}" "iptvlist2.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/nimadez/playlists/main/index.m3u" "${M3U8_STATIC_DIR}" "iptvlist2.m3u8"
+          
+          
+          
+          
+      - name: Match EPG IDs to Static Files
+        run: |
+          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR}" "${M3U8_STATIC_DIR}"'"
+          ./scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR}" "${M3U8_STATIC_DIR}"          
+          
+          ls -alt "${M3U8_STATIC_DIR}"        
+   
+          
+      - name: Get epg
+        run: |
+         
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/epg_ripper_ALL_SOURCES1.xml.gz" "./tests/epg/" "epg_ripper_ALL_SOURCES1.xml.gz"'"
+          ./scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/epg_ripper_ALL_SOURCES1.xml.gz" "./tests/epg/" "epg_ripper_ALL_SOURCES1.xml.gz"
+   
+   
       ### DOWNLOAD REQUIRED DATA ###
       - name: Get IPTVCat Release
         run: |
-          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE_YESTERDAY}"'"
-          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE_YESTERDAY}"
-
+          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"'"
+          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"
       - name: Get EPG from M3U4U
         run: |
-          echo "Command: './scripts/download_file_allow_failiure.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"'"
-          ./scripts/download_file_allow_failiure.sh "${{ secrets.M3U4U_EPG_URL_XML_GZ }}" "${EPG_TEMP_DIR}" "${{ secrets.M3U4U_EPG_FILE_NAME_XML_GZ }}"
-
-      - name: Get Static Files from Dropbox
-        run: |
-          echo "Command: './scripts/download_file_allow_failiure.sh "${{ secrets.DROPBOX_STATIC_M3U8_INDONESIA }}" "${M3U8_STATIC_DIR}" "indonesia.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "${{ secrets.DROPBOX_STATIC_M3U8_INDONESIA }}" "${M3U8_STATIC_DIR}" "indonesia.m3u8"
-
-          ls -alt "${M3U8_STATIC_DIR}"
-
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/" "${EPG_TEMP_DIR}" "epg_ripper_ALL_SOURCES1.xml.gz"'"
+          ./scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/" "${EPG_TEMP_DIR}" "epg_ripper_ALL_SOURCES1.xml.gz"
+          
+          ls -alt "${EPG_TEMP_DIR}" 
+          
+          
       ### PROCESS THE DATA ###
       - name: Convert IPTVCat (JSON to m3u8)
         run: |
@@ -106,48 +251,107 @@ jobs:
           ls -alt ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
-
           echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"'"
           python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"
-
           echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
           ls -alt ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
-
+          
       - name: Merge with Static Files
         run: |
           ls -alt ${M3U8_DIR}
           ls -alt ${M3U8_STATIC_DIR}
-
           echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
           ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
-
           ls -alt ${M3U8_DIR}
           ls -alt ${M3U8_STATIC_DIR}
-
-      - name: Add Channel Categories
+          
+          
+      - name: Add Channel To Main Categories
         run: |
           echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
-
+ 
       - name: Match EPG IDs
         run: |
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
-
+          
       - name: Add EPG URL to files
         run: |
-          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "${{ secrets.DROPBOX_EPG_URL_XML_GZ }}" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
-          python ./scripts/add_epg_url_into_m3u8.py --epg_url "${{ secrets.DROPBOX_EPG_URL_XML_GZ }}" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
+          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
+          python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
+                 
+                             
+    
+    
 
-      ### FILE UPLOADS ###
-      - name: Upload EPG to dropbox
-        run: |
-          echo "Command: './scripts/upload_to_dropbox.sh "${EPG_TEMP_DIR}" "EPG" "********"'"
-          ./scripts/upload_to_dropbox.sh "${EPG_TEMP_DIR}" "EPG" "${{ secrets.DROPBOX_UPLOAD_TOKEN }}"
+      - name: Push all changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.scrapper_token }}
+          branch: ${{ github.ref }} 
+          
+      - name: Copy Static m3u8s
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./temp/m3u8_static/*.m3u8"
+          target: "./m3u8"
+          flags: '-r'
+          
+      ### This is where the copy function should work, to copy the m3u8 & epg to the data folder ###
+      - name: Copy m3u8
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./tests/m3u8/*.m3u8"
+          target: "./m3u8"
+          flags: '-r'
+          
+          
+      - name: Copy epg
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./tests/epg/*"
+          target: "./epg"
+          flags: '-r'
+    
+          
+      - name: Copy json
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./temp/iptvcat*"
+          target: "./json"
+          flags: '-r'
+                  
+          
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date '+%Y-%m-%d')"
 
-      - name: Upload m3u8 files to Dropbox
+
+      - name: Merge Files
         run: |
-          echo "Command: './scripts/upload_to_dropbox.sh "${M3U8_DIR}" "IPTV" "********"'"
-          ./scripts/upload_to_dropbox.sh "${M3U8_DIR}" "IPTV" "${{ secrets.DROPBOX_UPLOAD_TOKEN }}"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
+          cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
+        
+#      - name: create main artifact
+#        uses: actions/upload-artifact@v2
+#        with:
+#         name: workflow_${{ steps.date.outputs.date }}
+#         path: .github/workflows/m3u8_converter.yml
+       
+      - name: Commit All Files
+        uses: zwaldowski/git-commit-action@v1
+        with:
+             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
+             working_directory: .
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.scrapper_token }}
+          branch: ${{ github.ref }}
+          
