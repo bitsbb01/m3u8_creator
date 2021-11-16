@@ -131,8 +131,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Catcast/Catcast.m3u" "${M3U8_STATIC_DIR}" "Catcast.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Catcast/Catcast.m3u" "${M3U8_STATIC_DIR}" "Catcast.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/DistroTV/DistroTV.m3u" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/DistroTV/DistroTV.m3u" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://cutt.ly/DistroTV" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://cutt.ly/DistroTV" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "Freeli.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "Freeli.m3u8"
@@ -197,23 +197,14 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/bumblebee.tv/bumblebee.tv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/bumblebee.tv/bumblebee.tv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughn.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughn.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/veely.tv/veely.tv.m3u" "${M3U8_STATIC_DIR}" "veely.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTVM3U/master/Streaming%20Service%20Network/veely.tv/veely.tv.m3u" "${M3U8_STATIC_DIR}" "veely.m3u8"
-          
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/WJS1978/IPTV/main/iptv.m3u" "${M3U8_STATIC_DIR}" "iptvlist1.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/WJS1978/IPTV/main/iptv.m3u" "${M3U8_STATIC_DIR}" "iptvlist1.m3u8"
-          
-          
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/nimadez/playlists/main/index.m3u" "${M3U8_STATIC_DIR}" "iptvlist2.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/nimadez/playlists/main/index.m3u" "${M3U8_STATIC_DIR}" "iptvlist2.m3u8"
-          
-          
           
           
       - name: Match EPG IDs to Static Files
