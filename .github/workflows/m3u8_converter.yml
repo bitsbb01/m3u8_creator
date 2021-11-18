@@ -254,10 +254,10 @@ jobs:
    
    
       ### DOWNLOAD REQUIRED DATA ###
-      - name: Get IPTVCat Release
-        run: |
-          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"'"
-          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"
+#      - name: Get IPTVCat Release
+#        run: |
+#          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"'"
+#          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"
       - name: Get EPG from epgshare
         run: |
           echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/" "${EPG_TEMP_DIR}" "epg_ripper_ALL_SOURCES1.xml.gz"'"
@@ -267,18 +267,18 @@ jobs:
           
           
       ### PROCESS THE DATA ###
-      - name: Convert IPTVCat (JSON to m3u8)
-        run: |
-          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
-          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
-          echo "Command: 'ls -alt ${M3U8_DIR}'"
-          ls -alt ${M3U8_DIR}
-          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"'"
-          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"
-          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
-          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
-          echo "Command: 'ls -alt ${M3U8_DIR}'"
-          ls -alt ${M3U8_DIR}
+#      - name: Convert IPTVCat (JSON to m3u8)
+#        run: |
+#          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+#          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+#          echo "Command: 'ls -alt ${M3U8_DIR}'"
+#          ls -alt ${M3U8_DIR}
+#          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"'"
+#          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"
+#          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+#          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+#          echo "Command: 'ls -alt ${M3U8_DIR}'"
+#          ls -alt ${M3U8_DIR}
           
       - name: Merge with Static Files
         run: |
