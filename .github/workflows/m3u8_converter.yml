@@ -258,7 +258,7 @@ jobs:
         run: |
           echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"'"
           ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"
-      - name: Get EPG from M3U4U
+      - name: Get EPG from epgshare
         run: |
           echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/" "${EPG_TEMP_DIR}" "epg_ripper_ALL_SOURCES1.xml.gz"'"
           ./scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/" "${EPG_TEMP_DIR}" "epg_ripper_ALL_SOURCES1.xml.gz"
@@ -307,8 +307,27 @@ jobs:
                  
                              
     
+      - name: Get the main all streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
+          
     
-
+      ### PROCESS THE DATA ###
+      - name: Convert all_streams
+        run: |
+          echo "Command: 'ls -alt ./temp/all_streams_tmp/'"
+          ls -alt ./temp/all_streams_tmp/
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "./temp/all_streams_tmp/" "${M3U8_DIR}"'"
+          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "./temp/all_streams_tmp/" "${M3U8_DIR}"
+          echo "Command: 'ls -alt ./temp/all_streams_tmp/'"
+          ls -alt ./temp/all_streams_tmp/
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+          
       - name: Push all changes
         uses: ad-m/github-push-action@master
         with:
