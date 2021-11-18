@@ -4,10 +4,8 @@ on:
   workflow_dispatch:
   # Run 6 Hours after https://github.com/bitsbb01/iptvcat-scrapper
   # 12.10 UTC Time, 06.10 Central Time
-  # Due to the yourube scripts running, it now runs every 3 hrs to make sure the youtube m3us are upto date.
   schedule:
-#    - cron: "10 6 * * *"
-    - cron: "0 0/3 * * *"
+    - cron: "10 12 * * *"
   push:
     branches:
     - master
@@ -101,9 +99,9 @@ jobs:
           ls -alt ${EPG_TEMP_DIR}
           echo "Command: 'ls -alt ${M3U8_STATIC_DIR}'"
           ls -alt ${M3U8_STATIC_DIR}
-	  
       - name: Get other m3u8s to add
         run: |
+        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "Dash_Radio.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "Dash_Radio.m3u8"
           
@@ -115,7 +113,7 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/0nradio.com.m3u" "${M3U8_STATIC_DIR}" "On_Radio.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/0nradio.com.m3u" "${M3U8_STATIC_DIR}" "On_Radio.m3u8"
-          
+
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"
                     
@@ -129,10 +127,7 @@ jobs:
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "AnthymTV.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"		  
-          
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/dailymotiontom3u/main/dailymotion-US.m3u" "${M3U8_STATIC_DIR}" "dailymotion-US.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/dailymotiontom3u/main/dailymotion-US.m3u" "${M3U8_STATIC_DIR}" "dailymotion-US.m3u8"		  
+          ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/TVPRO20/TV2/master/TV21.m3u" "${M3U8_STATIC_DIR}" "Cablevision.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/TVPRO20/TV2/master/TV21.m3u" "${M3U8_STATIC_DIR}" "Cablevision.m3u8"
@@ -163,9 +158,6 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/herogotv.m3u" "${M3U8_STATIC_DIR}" "HerogoTV.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/herogotv.m3u" "${M3U8_STATIC_DIR}" "HerogoTV.m3u8"
-          
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/IP-GO.m3u" "${M3U8_STATIC_DIR}" "ipgoTV.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/IP-GO.m3u" "${M3U8_STATIC_DIR}" "ipgoTV.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Jungo%2BTV/Jungo%2BTV.m3u" "${M3U8_STATIC_DIR}" "Jungo.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Jungo%2BTV/Jungo%2BTV.m3u" "${M3U8_STATIC_DIR}" "Jungo.m3u8"
@@ -227,19 +219,14 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/tcl.m3u" "${M3U8_STATIC_DIR}" "TCL.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/tcl.m3u" "${M3U8_STATIC_DIR}" "TCL.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/youtube.m3u" "${M3U8_STATIC_DIR}" "youtubetv.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/youtube.m3u" "${M3U8_STATIC_DIR}" "youtubetv.m3u8"
-          
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/TV25/TV25.m3u" "${M3U8_STATIC_DIR}" "TV25.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/TV25/TV25.m3u" "${M3U8_STATIC_DIR}" "TV25.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/tubi.m3u" "${M3U8_STATIC_DIR}" "tubi.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/tubi.m3u" "${M3U8_STATIC_DIR}" "tubi.m3u8"
+          
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/VisionTV/VisionTV.m3u" "${M3U8_STATIC_DIR}" "VisionTV.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/VisionTV/VisionTV.m3u" "${M3U8_STATIC_DIR}" "VisionTV.m3u8"
-          
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughn.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughn.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/veely.m3u" "${M3U8_STATIC_DIR}" "veely.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/veely.m3u" "${M3U8_STATIC_DIR}" "veely.m3u8"
@@ -249,6 +236,8 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://cutt.ly/WatchyourTV" "${M3U8_STATIC_DIR}" "WatchYourTV.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://cutt.ly/WatchyourTV" "${M3U8_STATIC_DIR}" "WatchYourTV.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/youtube.m3u" "${M3U8_STATIC_DIR}" "youtubetv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/youtube.m3u" "${M3U8_STATIC_DIR}" "youtubetv.m3u8"
           
                     
           
@@ -373,12 +362,6 @@ jobs:
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
         
-      - name: Add EPG URL to files
-        run: |
-          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "./" --m3u8_out_dir "./"'"
-          python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "./" --m3u8_out_dir "./"
-                 
-				 
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
         with:
