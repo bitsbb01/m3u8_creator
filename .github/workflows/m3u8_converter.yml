@@ -301,6 +301,12 @@ jobs:
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
           
+      - name: Copy Static m3u8s
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./temp/m3u8_static/*.m3u8"
+          target: "./tests/m3u8/"
+          flags: '-r'
                              
     
       - name: Get the main all streams json
@@ -336,12 +342,6 @@ jobs:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }} 
           
-      - name: Copy Static m3u8s
-        uses: canastro/copy-file-action@master
-        with:
-          source: "./temp/m3u8_static/*.m3u8"
-          target: "./m3u8"
-          flags: '-r'
           
       ### This is where the copy function should work, to copy the m3u8 & epg to the data folder ###
       - name: Copy m3u8
