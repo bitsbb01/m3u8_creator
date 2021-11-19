@@ -78,13 +78,13 @@ echo Command: 'ls -alt "${json_dir}"'
 ls -alt "${json_dir}"
 
 # Match the known json files
-match_epg_id_for_file "${m3u_in_dir}/australia.m3u8" "${m3u_out_dir}/australia.m3u8" "${json_dir}/australia.json"
-match_epg_id_for_file "${m3u_in_dir}/austria.m3u8" "${m3u_out_dir}/austria.m3u8" "${json_dir}/austria.json"
-match_epg_id_for_file "${m3u_in_dir}/canada.m3u8" "${m3u_out_dir}/canada.m3u8" "${json_dir}/canada.json"
-match_epg_id_for_file "${m3u_in_dir}/germany.m3u8" "${m3u_out_dir}/germany.m3u8" "${json_dir}/germany.json"
-match_epg_id_for_file "${m3u_in_dir}/switzerland.m3u8" "${m3u_out_dir}/switzerland.m3u8" "${json_dir}/switzerland.json"
-match_epg_id_for_file "${m3u_in_dir}/united kingdom.m3u8" "${m3u_out_dir}/united kingdom.m3u8" "${json_dir}/uk.json"
-match_epg_id_for_file "${m3u_in_dir}/united states of america.m3u8" "${m3u_out_dir}/united states of america.m3u8" "${json_dir}/usa.json"
+# match_epg_id_for_file "${m3u_in_dir}/australia.m3u8" "${m3u_out_dir}/australia.m3u8" "${json_dir}/australia.json"
+# match_epg_id_for_file "${m3u_in_dir}/austria.m3u8" "${m3u_out_dir}/austria.m3u8" "${json_dir}/austria.json"
+# match_epg_id_for_file "${m3u_in_dir}/canada.m3u8" "${m3u_out_dir}/canada.m3u8" "${json_dir}/canada.json"
+# match_epg_id_for_file "${m3u_in_dir}/germany.m3u8" "${m3u_out_dir}/germany.m3u8" "${json_dir}/germany.json"
+# match_epg_id_for_file "${m3u_in_dir}/switzerland.m3u8" "${m3u_out_dir}/switzerland.m3u8" "${json_dir}/switzerland.json"
+# match_epg_id_for_file "${m3u_in_dir}/united kingdom.m3u8" "${m3u_out_dir}/united kingdom.m3u8" "${json_dir}/uk.json"
+# match_epg_id_for_file "${m3u_in_dir}/united states of america.m3u8" "${m3u_out_dir}/united states of america.m3u8" "${json_dir}/usa.json"
 
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes.json"
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/australia.json"
