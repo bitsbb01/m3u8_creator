@@ -95,12 +95,4 @@ match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-strea
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/uk.json"
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/usa.json"
 
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes.json"
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes2.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes3.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes4.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes5.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes6.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes7.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes8.json"
-match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes9.json"
