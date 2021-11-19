@@ -293,7 +293,24 @@ jobs:
           ls -alt ${M3U8_STATIC_DIR}
           
           
-                             
+          
+          
+      - name: Add EPG URL to files
+        run: |
+          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_STATIC_DIR}" --m3u8_out_dir "${M3U8_STATIC_DIR}"'"
+          python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_STATIC_DIR}" --m3u8_out_dir "${M3U8_STATIC_DIR}"
+
+      - name: Add Channel To Main Categories
+        run: |
+          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_STATIC_DIR}" --m3u8_out_dir "${M3U8_STATIC_DIR}"'"
+          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_STATIC_DIR}" --m3u8_out_dir "${M3U8_STATIC_DIR}"
+ 
+      - name: Match EPG IDs
+        run: |
+          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR}" "${M3U8_STATIC_DIR}"'"
+          ./scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR}" "${M3U8_STATIC_DIR}"
+                           
+                              
     
       - name: Get the main all streams json
         run: |
