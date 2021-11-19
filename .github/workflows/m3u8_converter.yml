@@ -381,8 +381,8 @@ jobs:
  
       - name: Match EPG IDs
         run: |
-          echo "Command: './scripts/match_epgid_to_names.sh "./" "./"'"
-          ./scripts/match_epgid_to_names.sh "./" "./"
+          echo "Command: './scripts/match_epgid_to_names.sh "." "."'"
+          ./scripts/match_epgid_to_names.sh "." "."
                                    
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
