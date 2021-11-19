@@ -119,8 +119,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "avo.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "avo.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "adultswim.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "adultswim.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "swim.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "swim.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "anthymtv.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "anthymtv.m3u8"
@@ -134,8 +134,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Catcast/Catcast.m3u" "${M3U8_STATIC_DIR}" "catcast.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Catcast/Catcast.m3u" "${M3U8_STATIC_DIR}" "catcast.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://cutt.ly/DistroTV" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://cutt.ly/DistroTV" "${M3U8_STATIC_DIR}" "DistroTV.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://cutt.ly/DistroTV" "${M3U8_STATIC_DIR}" "distrotv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://cutt.ly/DistroTV" "${M3U8_STATIC_DIR}" "distrotv.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "freeli.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "freeli.m3u8"
