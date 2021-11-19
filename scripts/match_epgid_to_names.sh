@@ -96,3 +96,5 @@ match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-strea
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/usa.json"
 
 match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes2.json"
+match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes3.json"
+match_epg_id_for_file "${m3u_in_dir}/all-streams.m3u8" "${m3u_out_dir}/all-streams.m3u8" "${json_dir}/codes4.json"
