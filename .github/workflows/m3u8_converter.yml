@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
   # Run 6 Hours after https://github.com/bitsbb01/iptvcat-scrapper
   # 12.10 UTC Time, 06.10 Central Time
+  # Changed to every 3hrs, due to including Youtube links, so those links are always correct.
   schedule:
-    - cron: "10 12 * * *"
+    - cron: "0 0/3 * * *"
   push:
     branches:
     - master
