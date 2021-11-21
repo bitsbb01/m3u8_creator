@@ -1,0 +1,224 @@
+﻿#EXTM3U url-tvg="http://api.catcast.tv/api/timetable/epg.xml?channel_ids=38850,38821,38896,39484,38801,39161"
+
+# Add Channel ID to url=tvg
+# EPG Generator http://api.catcast.tv/api/timetable/epg.xml?channel_ids=CHANNELIDHERE
+# Channel Naming =  From EPG Generator
+# Channel Logos  =  From EPG Generator or by player
+# Host https://autopilot.catcast.tv/content/  https://v2.catcast.tv/content/
+# Channel Player =   https://catcast.tv/player/IDHERE?autoplay=0
+# #EXTINF:-1 tvg-id="" tvg-logo="" group-title="",
+# WebSite  https://catcast.tv/
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fihZoh2.png" group-title="",★★★★★★★★★★CatCastTV★★★★★★★★★★
+https://catcast.tv/landing-bg.mp4
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fihZoh2.png" group-title="",Mixed Stream on/off  not 24/7  Other
+0.0.0.0
+
+#EXTINF:-1 tvg-id="39792" tvg-logo="https://img.catcast.tv/uploads/28072021/logos/39792-61011c032a045.jpg" group-title="",33 квадратных метра
+https://autopilot.catcast.tv/content/39792/index.m3u8
+
+#EXTINF:-1 tvg-id="37909" tvg-logo="https://img.catcast.tv/uploads/27022020/37909-5e58228d42413.jpg" group-title="",A21 Network | Russian Motorsport Television
+https://autopilot.catcast.tv/content/37909/index.m3u8
+
+#EXTINF:-1 tvg-id="35676" tvg-logo="https://img.catcast.tv/logos/d0cc8d946cd346b6c05663f57e58ad0c.png" group-title="",ANIME канал
+https://v2.catcast.tv/content/35676/index.m3u8
+
+#EXTINF:-1 tvg-id="40330" tvg-logo="https://img.catcast.tv/uploads/12062021/logos/40330-60c4c47a68b71.png" group-title="",Best Live Performances
+https://autopilot.catcast.tv/content/40330/index.m3u8
+
+#EXTINF:-1 tvg-id="38438" tvg-logo="https://img.catcast.tv/uploads/23072021/logos/38438-60faf22f67c88.png" group-title="",Ckamax TV (no EPG)
+https://autopilot.catcast.tv/content/38438/index.m3u8
+
+#EXTINF:-1 tvg-id="39500" tvg-logo="https://img.catcast.tv/uploads/05052021/backgrounds/39500-6092727258e60.png" group-title="",Dance Hits Of The 90s
+https://autopilot.catcast.tv/content/39500/index.m3u8
+
+#EXTINF:-1 tvg-id="36007" tvg-logo="https://img.catcast.tv/logos/21b9345e2d6c266a185ca3777ea8a9d0.png" group-title="",entermusictv (no EPG)
+https://autopilot.catcast.tv/content/36007/index.m3u8
+
+#EXTINF:-1 tvg-id="36987" tvg-logo="https://img.catcast.tv/uploads/17012021/logos/36987-60048f109d643.png" group-title="",Eurodance 90
+https://eurodance90.catcast.tv/content/36987/index.m3u8
+
+#EXTINF:-1 tvg-id="38978" tvg-logo="https://img.catcast.tv/uploads/03122020/logos/38978-5fc946a78a9fb.png" group-title="",faruhli.tv
+https://autopilot.catcast.tv/content/38978/index.m3u8
+
+#EXTINF:-1 tvg-id="40017" tvg-logo="https://img.catcast.tv/uploads/25082021/logos/40017-6126191690efc.png" group-title="",Film Blockbaster
+https://autopilot.catcast.tv/content/40017/index.m3u8
+
+#EXTINF:-1 tvg-id="38710" tvg-logo="https://img.catcast.tv/uploads/29082021/logos/38710-612bd1b95b5a5.png" group-title="",Film Horror
+https://autopilot.catcast.tv/content/38710/index.m3u8
+
+#EXTINF:-1 tvg-id="38144" tvg-logo="https://img.catcast.tv/uploads/02062021/logos/38144-60b7e4ab9b127.png" group-title="",FILM TV KINDER
+https://autopilot.catcast.tv/content/38144/index.m3u8
+
+#EXTINF:-1 tvg-id="38794" tvg-logo="https://img.catcast.tv/uploads/21072021/logos/38794-60f87fd07774d.png" group-title="",Film Триллер
+https://autopilot.catcast.tv/content/38794/index.m3u8
+
+##EXTINF:-1 tvg-id="33718" tvg-logo="https://img.catcast.tv/uploads/09072021/logos/33718-60e8114945a4a.png" group-title="",Fresh TV (no EPG)
+https://freshtv.catcast.tv/content/33718/index.m3u8
+
+#EXTINF:-1 tvg-id="39484" tvg-logo="https://img.catcast.tv/uploads/30072021/logos/39484-61045f78879df.png" group-title="",IPTVPlay Rock Music
+https://autopilot.catcast.tv/content/39484/index.m3u8
+
+#EXTINF:-1 tvg-id="39161" tvg-logo="https://img.catcast.tv/uploads/30072021/logos/39161-61045f16707e5.png" group-title="",IPTVPlay Всё включено
+https://autopilot.catcast.tv/content/39161/index.m3u8
+
+#EXTINF:-1 tvg-id="38850" tvg-logo="https://img.catcast.tv/uploads/30072021/logos/38850-61045d8175ad6.png" group-title="",IPTVPlay МультСказки
+https://autopilot.catcast.tv/content/38850/index.m3u8
+
+#EXTINF:-1 tvg-id="38821" tvg-logo="https://img.catcast.tv/uploads/30072021/logos/38821-61045e2aa14fb.png" group-title="",IPTVPlay Память
+https://autopilot.catcast.tv/content/38821/index.m3u8
+
+#EXTINF:-1 tvg-id="38896" tvg-logo="https://img.catcast.tv/uploads/30072021/logos/38896-61045dae6ffff.png" group-title="",IPTVPlay Ужастик
+https://autopilot.catcast.tv/content/38896/index.m3u8
+
+#EXTINF:-1 tvg-id="38801" tvg-logo="https://img.catcast.tv/uploads/30072021/logos/38801-61045ebfe0919.png" group-title="",IPTVPlay Фантастика
+https://autopilot.catcast.tv/content/38801/index.m3u8
+
+#EXTINF:-1 tvg-id="39373" tvg-logo="https://img.catcast.tv/uploads/31102020/logos/39373-5f9dbfc65b650.png" group-title="",JETIX
+https://autopilot.catcast.tv/content/39373/index.m3u8
+
+#EXTINF:-1 tvg-id="36732" tvg-logo="https://img.catcast.tv/uploads/21012021/logos/36732-6009d2e288130.png" group-title="",KBC_drama tic
+https://autopilot.catcast.tv/content/36732/index.m3u8
+
+#EXTINF:-1 tvg-id="36277" tvg-logo="https://img.catcast.tv/uploads/21012021/logos/36277-6009d669219d3.png" group-title="",KBC_koshmarnoe
+https://autopilot.catcast.tv/content/36277/index.m3u8
+
+#EXTINF:-1 tvg-id="36168" tvg-logo="https://img.catcast.tv/uploads/21012021/logos/36168-6009d4d03d8ee.png" group-title="",KBC_Russian Комедия
+https://autopilot.catcast.tv/content/36168/index.m3u8
+
+#EXTINF:-1 tvg-id="36506" tvg-logo="https://img.catcast.tv/uploads/21012021/logos/36506-6009d7a51db00.png" group-title="",KBC Strana sssr
+https://autopilot.catcast.tv/content/36506/index.m3u8
+
+#EXTINF:-1 tvg-id="36251" tvg-logo="https://img.catcast.tv/uploads/21012021/logos/36251-6009d1a8d9ed5.png" group-title="",KBC_VIDAK
+https://autopilot.catcast.tv/content/36251/index.m3u8
+
+#EXTINF:-1 tvg-id="33816" tvg-logo="nologo.png" group-title="",Metal TV  (no EPG)
+http://autopilot.catcast.tv/content/33816/index.m3u8
+
+#EXTINF:-1 tvg-id="39116" tvg-logo="https://img.catcast.tv/uploads/13092020/logos/39116-5f5e25008ba82.png" group-title="",MUSIC 1 HD (no EPG)
+https://autopilot.catcast.tv/content/39116/index.m3u8
+
+#EXTINF:-1 tvg-id="38792" tvg-logo="https://img.catcast.tv/uploads/22052021/logos/38792-60a9168899136.png" group-title="",Premium VHS (no EPG)
+https://v2.catcast.tv/content/38792/index.m3u8
+
+#EXTINF:-1 tvg-id="39696" tvg-logo="https://img.catcast.tv/uploads/24022021/logos/39696-603580fcb2c19.jpg" group-title="",Romantic & Ballads
+https://autopilot.catcast.tv/content/39696/index.m3u8
+
+#EXTINF:-1 tvg-id="39759" tvg-logo="https://img.catcast.tv/uploads/24022021/logos/39759-60362eaf4a72f.gif" group-title="",Russian Dance Hits of the 90s
+https://autopilot.catcast.tv/content/39759/index.m3u8
+
+#EXTINF:-1 tvg-id="38197" tvg-logo="nologo.png" group-title="",ТВОЕ ТВ (no EPG)
+https://autopilot.catcast.tv/content/38197/index.m3u8
+
+#EXTINF:-1 tvg-id="391" tvg-logo="https://img.catcast.tv/uploads/09072021/logos/391-60e8444c6c0c6.png" group-title="Music",TRANCE IS STAR TV
+http://tis.catcast.tv/content/391/index.m3u8
+
+
+##################
+
+
+#EXTINF:-1 tvg-id="37925" tvg-logo="https://img.catcast.tv/uploads/31072021/logos/37925-61050978e18c3.png" group-title="",Видеокассета
+https://autopilot.catcast.tv/content/37925/index.m3u8
+
+#EXTINF:-1 tvg-id="36571" tvg-logo="https://img.catcast.tv/uploads/12072019/36571-5d28e72775a8e.png" group-title="",Смешное ТВ 90х
+https://autopilot.catcast.tv/content/36571/index.m3u8
+
+#EXTINF:-1 tvg-id="34185" tvg-logo="https://img.catcast.tv/logos/0526715688fd9f52ed34af17a8264eb4.png" group-title="",СИТИ ЕДЕМ КИНОКЛАСИКА
+https://autopilot.catcast.tv/content/34185/index.m3u8
+
+#EXTINF:-1 tvg-id="34246" tvg-logo="https://img.catcast.tv/uploads/25052020/logos/34246-5ecb5f9678bdd.jpg" group-title="",Сити Эдем TV RU
+https://autopilot.catcast.tv/content/34246/index.m3u8
+
+#EXTINF:-1 tvg-id="34100" tvg-logo="https://img.catcast.tv/logos/9457fff914dd34f3e11ebebdc3d94eba.png" group-title="",Сити Эдем Play (no EPG)
+http://v2.catcast.me/content/34100/index.m3u8
+
+#EXTINF:-1 tvg-id="38720" tvg-logo="https://img.catcast.tv/uploads/09072020/logos/38720-5f06c9ff9fbbd.png" group-title="",Детское кино International
+https://autopilot.catcast.tv/content/38720/index.m3u8
+
+#EXTINF:-1 tvg-id="36334" tvg-logo="nologo.png" group-title="",Камин 24/7
+http://v2.catcast.me/content/36334/index.m3u8
+
+#EXTINF:-1 tvg-id="38617" tvg-logo="https://img.catcast.tv/uploads/25062020/logos/38617-5ef3d12196e3e.png" group-title="",Кино 1 International
+https://kino-1.catcast.tv/content/38617/index.m3u8
+
+#EXTINF:-1 tvg-id="40381" tvg-logo="https://img.catcast.tv/uploads/27062021/logos/40381-60d843d7d20b9.png" group-title="",Кино 18+ International
+https://autopilot.catcast.tv/content/40381/index.m3u8
+
+#EXTINF:-1 tvg-id="39005" tvg-logo="https://img.catcast.tv/uploads/07022021/logos/39005-60201ae8e136b.jpg" group-title="",Киноклуб (no EPG)
+https://autopilot.catcast.tv/content/39005/index.m3u8
+
+#EXTINF:-1 tvg-id="34816" tvg-logo="https://img.catcast.tv/logos/65df9f5af82e1fa3dc9ef186cec265f4.png" group-title="",КРУТЫЕ ТРАНСЛЯЦИИ КАНАЛОВ в HD (no EPG)
+https://autopilot.catcast.tv/content/34816/index.m3u8
+
+#EXTINF:-1 tvg-id="37353" tvg-logo="https://img.catcast.tv/uploads/16012021/logos/37353-6002ed8939e3d.png" group-title="",юбимое индийское кино
+https://autopilot.catcast.tv/content/37353/index.m3u8
+
+#EXTINF:-1 tvg-id="37745" tvg-logo="https://img.catcast.tv/uploads/25062020/logos/37745-5ef3d10ff0621.png" group-title="",Музыка 1 International (no EPG)
+https://kino-1.catcast.tv/content/37745/index.m3u8
+
+#EXTINF:-1 tvg-id="37742" tvg-logo="https://img.catcast.tv/uploads/25062020/logos/37742-5ef3cf8ca433c.png" group-title="",Музыка 2 International
+https://kino-1.catcast.tv/content/37742/index.m3u8
+
+#EXTINF:-1 tvg-id="37739" tvg-logo="https://img.catcast.tv/uploads/23012020/37739-5e2a007a3928b.png" group-title="",Музыка Кино International
+https://kino-1.catcast.tv/content/37739/index.m3u8
+
+#EXTINF:-1 tvg-id="40150" tvg-logo="https://img.catcast.tv/uploads/05072021/logos/40150-60e3261e8d92d.jpg" group-title="",Русская попса 80х-90х
+https://autopilot.catcast.tv/content/40150/index.m3u8
+
+#EXTINF:-1 tvg-id="37311" tvg-logo="https://img.catcast.tv/uploads/11022021/logos/37311-6025694d58525.png" group-title="",битва (no EPG)
+https://autopilot.catcast.tv/content/37311/index.m3u8
+
+
+
+##########
+
+#EXTINF:-1 tvg-id="no-id" tvg-logo="nologo.png" group-title="",no EPG Channel/name/Image / Offline or not 24/7 or no stream on but EPG/image present
+0.0.0.0
+#EXTINF:-1 tvg-id="38798" tvg-logo="nologo.png" group-title="",КИНО3 404
+https://autopilot.catcast.tv/content/38798/index.m3u8
+
+#EXTINF:-1 tvg-id="39478" tvg-logo="nologo.png" group-title="",КИНО6 404
+https://autopilot.catcast.tv/content/39478/index.m3u8
+
+#EXTINF:-1 tvg-id="37033" tvg-logo="https://img.catcast.tv/uploads/05042020/37033-5e89ef474e5a6.jpg" group-title="",Марс-ТВ
+https://autopilot.catcast.tv/content/37033/index.m3u8
+
+#EXTINF:-1 tvg-id="38105" tvg-logo="nologo.png" group-title="",МУЛЬТФИЛЬМ1 (no EPG) 404
+https://autopilot.catcast.tv/content/38105/index.m3u8
+
+#EXTINF:-1 tvg-id="34776" tvg-logo="https://img.catcast.tv/logos/86372f81fd68b5bc6412b48797cbdeb6.png" group-title="",ТВ «ШАНС»
+https://autopilot.catcast.tv/content/34776/index.m3u8
+
+#EXTINF:-1 tvg-id="39263" tvg-logo="https://img.catcast.tv/uploads/07102020/logos/39263-5f7da59c36e5a.png" group-title="",Gs TV Music (no EPG)
+https://autopilot.catcast.tv/content/39263/index.m3u8
+
+#EXTINF:-1 tvg-id="35334" tvg-logo="https://img.catcast.tv/logos/6ee98bb31b24de0bdd4f0adbcc8b0410.png" group-title="",TVOETO TV (no EPG)
+https://autopilot.catcast.tv/content/35334/index.m3u8
+
+#EXTINF:-1 tvg-id="40520" tvg-logo="https://img.catcast.tv/uploads/27092021/logos/40520-6151533568f26.png" group-title="",MTT Россия (no EPG)
+https://autopilot.catcast.tv/content/40520/index.m3u8
+
+#EXTINF:-1 tvg-id="40025" tvg-logo="nologo.png" group-title="",musicbreeze (no EPG)
+https://autopilot.catcast.tv/content/40025/index.m3u8
+
+#EXTINF:-1 tvg-id="36690" tvg-logo="https://img.catcast.tv/uploads/01092021/logos/36690-612f8efd5c532.png" group-title="",MonMuzz
+https://autopilot.catcast.tv/content/36690/index.m3u8
+
+#EXTINF:-1 tvg-id="40756" tvg-logo="nologo.png" group-title="",Sonic chanel (no EPG)
+https://autopilot.catcast.tv/content/40756/index.m3u8
+
+#EXTINF:-1 tvg-id="40761" tvg-logo="https://img.catcast.tv/uploads/23092021/logos/40761-614cd5e9e700d.png" group-title="",RELAX TV HD
+https://autopilot.catcast.tv/content/40761/index.m3u8
+
+#EXTINF:-1 tvg-id="34270" tvg-logo="https://img.catcast.tv/logos/ac26b3ad30328e632958fa69758e9ef4.png" group-title="",Blockchain-TV
+https://autopilot.catcast.tv/content/34270/index.m3u8
+
+#EXTINF:-1 tvg-id="33667" tvg-logo="https://img.catcast.tv/logo_c33667_878.jpg" group-title="",Интернет Канал "LTV" (no EPG)
+https://autopilot.catcast.tv/content/33667/index.m3u8
+
+#EXTINF:-1 tvg-id="33677" tvg-logo="https://img.catcast.tv/uploads/16072019/33677-5d2e14ddb6696.png" group-title="",Jinn-TV
+https://autopilot.catcast.tv/content/33677/index.m3u8
+
+
+
