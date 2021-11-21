@@ -144,9 +144,6 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Gemonline/Gemonline.m3u" "${M3U8_STATIC_DIR}" "gemonline.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Gemonline/Gemonline.m3u" "${M3U8_STATIC_DIR}" "gemonline.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/GinikoUSA/Giniko.USA.m3u" "${M3U8_STATIC_DIR}" "giniko.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/GinikoUSA/Giniko.USA.m3u" "${M3U8_STATIC_DIR}" "giniko.m3u8"
-          
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Good%20TV/GoodTV.m3u" "${M3U8_STATIC_DIR}" "goodtv.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Good%20TV/GoodTV.m3u" "${M3U8_STATIC_DIR}" "goodtv.m3u8"
           
