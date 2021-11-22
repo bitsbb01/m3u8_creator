@@ -14,7 +14,7 @@
 This allows you to grab all the main iptv streams around the net with the main tv guide also for them all.. 
 
 Theres an all in one that has all the streams in 1 m3u8 for easy adding to your fav player.
-https://github.com/bitsbb01/m3u8_creator/blob/main/Compiled-all-Streams.m3u8
+https://github.com/bitsbb01/m3u8_creator/raw/main/Compiled-all-Streams.m3u8
 
 If you want to download each 1 seperate, then look in the m3u8 folder.
 
