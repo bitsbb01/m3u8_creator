@@ -287,16 +287,7 @@ jobs:
 #          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
 #          echo "Command: 'ls -alt ${M3U8_DIR}'"
 #          ls -alt ${M3U8_DIR}
-          
-      - name: Merge with Static Files
-        run: |
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
-          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-    
+ 
       - name: Get the main all streams json
         run: |
         
@@ -340,6 +331,15 @@ jobs:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }} 
           
+      - name: Merge with Static Files
+        run: |
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR}
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR}
+             
       - name: Copy Static m3u8s
         uses: canastro/copy-file-action@master
         with:
