@@ -52,11 +52,11 @@ jobs:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }}
           
-      - name: Commit All Files
-        uses: zwaldowski/git-commit-action@v1
-        with:
-             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-             working_directory: .
+#      - name: Commit All Files
+#        uses: zwaldowski/git-commit-action@v1
+#        with:
+#             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
+#             working_directory: .
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
