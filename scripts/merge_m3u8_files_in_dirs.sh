@@ -70,7 +70,7 @@ SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 # find "$m3u_merge_into_dir/" "$m3u_merge_from_dir/" -printf '%P\n' | sort | uniq -d
 for file in $m3u_merge_into_dir/*.m3u8; do
     name=${file##*/}
-    if [[ -f $m3u_merge_from_dir/*.m3u8 ]]; then
+#    if [[ -f $m3u_merge_from_dir/*.m3u8 ]]; then
         echo "$name exists in both directories, process"
 
 #        merge_m3u8_files "${m3u_merge_into_dir}/${name}" "${m3u_merge_from_dir}/${name}"
