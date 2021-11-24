@@ -36,14 +36,14 @@ jobs:
           git push
           
                  
-#      - name: Cleanup Files
-#        run: |
-#          git config --local user.email "action@github.com"
-#          git config --local user.name "GitHub Action"
-#          git rm ./tests/m3u8/*.m3u8
-#          git rm ./tests/epg/*.gz
-#          git rm ./temp/m3u8_static/*.m3u8
-#          git rm ./temp/all_streams_tmp/*.json
+      - name: Cleanup Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git rm ./tests/m3u8/*.m3u8
+          git rm ./tests/epg/*.gz
+          git rm ./temp/m3u8_static/*.m3u8
+          git rm ./temp/all_streams_tmp/*.json
 
                                   
       - name: Push changes for old files
