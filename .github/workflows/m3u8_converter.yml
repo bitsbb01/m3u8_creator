@@ -365,6 +365,13 @@ jobs:
          path: .github/workflows/m3u8_converter.yml
        
        
+                           
+      - name: Push all changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.scrapper_token }}
+          branch: ${{ github.ref }} 
+             
        
       - name: Cleanup Files
         run: |
