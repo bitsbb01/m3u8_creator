@@ -6,7 +6,7 @@ import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from m3u8_creator import m3u8
+from ez_m3u8_creator import m3u8
 
 
 def main():
