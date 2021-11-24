@@ -42,6 +42,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git rm ./tests/m3u8/*.m3u8
           git rm ./m3u8/*.m3u8
+          git rm ./*.m3u8
           git rm ./tests/epg/*.gz
           git rm ./epg/*.gz
           git rm ./temp/m3u8_static/*.m3u8
