@@ -36,30 +36,30 @@ jobs:
           git push
           
                  
-#      - name: Cleanup Files
-#        run: |
-#          git config --local user.email "action@github.com"
-#          git config --local user.name "GitHub Action"
-#          git rm ./tests/m3u8/*.m3u8
-#          git rm ./m3u8/*.m3u8
-#          git rm ./*.m3u8
-#          git rm ./tests/epg/*.gz
-#          git rm ./epg/*.gz
-#          git rm ./temp/m3u8_static/*.m3u8
-#          git rm ./temp/all_streams_tmp/*.json
-#
-#                                  
-#      - name: Push changes for old files
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.scrapper_token }}
-#          branch: ${{ github.ref }}
-#          
-#      - name: Commit All Files
-#        uses: zwaldowski/git-commit-action@v1
-#        with:
-#             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-#             working_directory: .
+      - name: Cleanup Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git rm ./tests/m3u8/*.m3u8
+          git rm ./m3u8/*.m3u8
+          git rm ./*.m3u8
+          git rm ./tests/epg/*.gz
+          git rm ./epg/*.gz
+          git rm ./temp/m3u8_static/*.m3u8
+          git rm ./temp/all_streams_tmp/*.json
+
+                                  
+      - name: Push changes for old files
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.scrapper_token }}
+          branch: ${{ github.ref }}
+          
+      - name: Commit All Files
+        uses: zwaldowski/git-commit-action@v1
+        with:
+             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
+             working_directory: .
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -314,7 +314,7 @@ jobs:
           echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
 
-#begin the rename of statice so they can be merged          
+#begin the rename of files so they can be merged          
 
                 
       - name: rename 
@@ -348,10 +348,10 @@ jobs:
           echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
 
-#      - name: Match EPG IDs
-#        run: |
-#          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
-#          ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
+      - name: Match EPG IDs
+        run: |
+          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
+          ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
                            
       - name: Push all changes
         uses: ad-m/github-push-action@master
