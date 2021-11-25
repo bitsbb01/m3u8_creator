@@ -336,7 +336,7 @@ jobs:
                 
       - name: rename 
         run: |
-              git mv ./temp/m3u8_static/all-streams.m3u8 ./temp/m3u8_static/dashradio.m3u8
+              git mv "./temp/m3u8_static/all-streams.m3u8" "./temp/m3u8_static/dashradio.m3u8"
               git status
               git commit -m "dashradio Rename file back"
               git push 
