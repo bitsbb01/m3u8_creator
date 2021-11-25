@@ -314,16 +314,16 @@ jobs:
           echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
 
-      - name: Add Channel To Main Categories
+#begin the rename of statice so they can be merged          
+
+                
+      - name: rename 
         run: |
-          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
-          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
- 
-      - name: Match EPG IDs
-        run: |
-          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
-          ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
-          
+              git mv ./temp/m3u8_static/dashradio.m3u8 ./temp/m3u8_static/all-streams.m3u8
+              git status
+              git commit -m "dashradio Rename file"
+              git push 
+
       - name: Merge with Static Files
         run: |
           ls -alt ${M3U8_DIR}
@@ -332,7 +332,26 @@ jobs:
           ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
           ls -alt ${M3U8_DIR}
           ls -alt ${M3U8_STATIC_DIR}
-          
+
+                
+      - name: rename 
+        run: |
+              git mv ./temp/m3u8_static/all-streams.m3u8 ./temp/m3u8_static/dashradio.m3u8
+              git status
+              git commit -m "dashradio Rename file back"
+              git push 
+              
+#End the rename, all files should be back to normal now.
+
+      - name: Add Channel To Main Categories
+        run: |
+          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
+          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
+
+#      - name: Match EPG IDs
+#        run: |
+#          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
+#          ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
                            
       - name: Push all changes
         uses: ad-m/github-push-action@master
