@@ -36,30 +36,30 @@ jobs:
           git push
           
                  
-      - name: Cleanup Files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git rm ./tests/m3u8/*.m3u8
-          git rm ./m3u8/*.m3u8
-          git rm ./*.m3u8
-          git rm ./tests/epg/*.gz
-          git rm ./epg/*.gz
-          git rm ./temp/m3u8_static/*.m3u8
-          git rm ./temp/all_streams_tmp/*.json
-
-                                  
-      - name: Push changes for old files
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.scrapper_token }}
-          branch: ${{ github.ref }}
-          
-      - name: Commit All Files
-        uses: zwaldowski/git-commit-action@v1
-        with:
-             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-             working_directory: .
+#      - name: Cleanup Files
+#        run: |
+#          git config --local user.email "action@github.com"
+#          git config --local user.name "GitHub Action"
+#          git rm ./tests/m3u8/*.m3u8
+#          git rm ./m3u8/*.m3u8
+#          git rm ./*.m3u8
+#          git rm ./tests/epg/*.gz
+#          git rm ./epg/*.gz
+#          git rm ./temp/m3u8_static/*.m3u8
+#          git rm ./temp/all_streams_tmp/*.json
+#
+#                                  
+#      - name: Push changes for old files
+#        uses: ad-m/github-push-action@master
+#        with:
+#          github_token: ${{ secrets.scrapper_token }}
+#          branch: ${{ github.ref }}
+#          
+#      - name: Commit All Files
+#        uses: zwaldowski/git-commit-action@v1
+#        with:
+#             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
+#             working_directory: .
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -147,7 +147,6 @@ jobs:
           ls -alt ${M3U8_DIR}
           ls -alt ${M3U8_STATIC_DIR}
           git commit -m "merged dash"
-          git push
           git mv "./temp/m3u8_static/all-streams.m3u8" "./temp/m3u8_static/dashradio.m3u8"
           git status
           git commit -m "Rename file dashradio"
