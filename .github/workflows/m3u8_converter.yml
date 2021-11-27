@@ -36,30 +36,30 @@ jobs:
           git push
           
                  
-#      - name: Cleanup Files
-#        run: |
-#          git config --local user.email "action@github.com"
-#          git config --local user.name "GitHub Action"
-#          git rm ./tests/m3u8/*.m3u8
-#          git rm ./m3u8/*.m3u8
-#          git rm ./*.m3u8
-#          git rm ./tests/epg/*.gz
-#          git rm ./epg/*.gz
-#          git rm ./temp/m3u8_static/*.m3u8
-#          git rm ./temp/all_streams_tmp/*.json
-#
-#                                  
-#      - name: Push changes for old files
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.scrapper_token }}
-#          branch: ${{ github.ref }}
-#          
-#      - name: Commit All Files
-#        uses: zwaldowski/git-commit-action@v1
-#        with:
-#             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-#             working_directory: .
+      - name: Cleanup Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git rm ./tests/m3u8/*.m3u8
+          git rm ./m3u8/*.m3u8
+          git rm ./*.m3u8
+          git rm ./tests/epg/*.gz
+          git rm ./epg/*.gz
+          git rm ./temp/m3u8_static/*.m3u8
+          git rm ./temp/all_streams_tmp/*.json
+
+                                  
+      - name: Push changes for old files
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.scrapper_token }}
+          branch: ${{ github.ref }}
+          
+      - name: Commit All Files
+        uses: zwaldowski/git-commit-action@v1
+        with:
+             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
+             working_directory: .
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -102,93 +102,12 @@ jobs:
           ls -alt ${EPG_TEMP_DIR}
           echo "Command: 'ls -alt ${M3U8_STATIC_DIR}'"
           ls -alt ${M3U8_STATIC_DIR}
-          
-          
-          
-      - name: Get the main all streams json
-        run: |
-        
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"'"
-          ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
-          
-    
-      ### PROCESS THE DATA ###
-      - name: Convert all_streams
-        run: |
-          echo "Command: 'ls -alt ./temp/all_streams_tmp/'"
-          ls -alt ./temp/all_streams_tmp/
-          echo "Command: 'ls -alt ${M3U8_DIR}'"
-          ls -alt ${M3U8_DIR}
-          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "./temp/all_streams_tmp/" "${M3U8_DIR}"'"
-          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "./temp/all_streams_tmp/" "${M3U8_DIR}"
-          echo "Command: 'ls -alt ./temp/all_streams_tmp/'"
-          ls -alt ./temp/all_streams_tmp/
-          echo "Command: 'ls -alt ${M3U8_DIR}'"
-          ls -alt ${M3U8_DIR}
-          
- 
- 
-  
-          
-      - name: Get Dashradio to add
-        run: |
-        
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "all-streams.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "all-streams.m3u8"
-
-
-
-      - name: Merge with Static Files
-        run: |
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
-          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-          git status
-          
-          git commit -m "merged dashradio"
-          
-          git push
-          git mv "./temp/m3u8_static/all-streams.m3u8" "./temp/m3u8_static/dashradio.m3u8"
-          git status
-          git commit -m "Rename file dashradio"
-          git push
- 
-      - name: Add EPG URL to files
-        run: |
-          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
-          python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
-
-      - name: Add Channel To Main Categories
-        run: |
-          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
-          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
- 
-      - name: Match EPG IDs
-        run: |
-          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
-          ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
-
-
-#begin the rename of statice so they can be merged          
-
-
-      - name: Merge with Static Files
-        run: |
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
-          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-          
- 
-          
       - name: Get other m3u8s to add
         run: |
         
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "dashradio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "dashradio.m3u8"
+          
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/GotRadio.m3u" "${M3U8_STATIC_DIR}" "gotradio.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/GotRadio.m3u" "${M3U8_STATIC_DIR}" "gotradio.m3u8"
           
@@ -367,6 +286,57 @@ jobs:
 #          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
 #          echo "Command: 'ls -alt ${M3U8_DIR}'"
 #          ls -alt ${M3U8_DIR}
+ 
+      - name: Get the main all streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
+          
+    
+      ### PROCESS THE DATA ###
+      - name: Convert all_streams
+        run: |
+          echo "Command: 'ls -alt ./temp/all_streams_tmp/'"
+          ls -alt ./temp/all_streams_tmp/
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "./temp/all_streams_tmp/" "${M3U8_DIR}"'"
+          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "./temp/all_streams_tmp/" "${M3U8_DIR}"
+          echo "Command: 'ls -alt ./temp/all_streams_tmp/'"
+          ls -alt ./temp/all_streams_tmp/
+          echo "Command: 'ls -alt ${M3U8_DIR}'"
+          ls -alt ${M3U8_DIR}
+          
+          
+      - name: Add EPG URL to files
+        run: |
+          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
+          python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/bitsbb01_m3u8creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
+
+      - name: Add Channel To Main Categories
+        run: |
+          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
+          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
+ 
+      - name: Match EPG IDs
+        run: |
+          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
+          ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
+
+
+#begin the rename of statice so they can be merged          
+
+
+      - name: Merge with Static Files
+        run: |
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR}
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR}
+          
                            
       - name: Push all changes
         uses: ad-m/github-push-action@master
