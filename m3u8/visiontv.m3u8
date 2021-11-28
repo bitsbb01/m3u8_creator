@@ -1,0 +1,198 @@
+#EXTM3U
+
+# https://www.visiontv.co.uk/
+#EXTINF:-1 tvg-logo="https://www.visiontv.co.uk/assets/img/visionlogo.png" group-title="",★★★★★★★★★★Vision[COLOR red]TV[/COLOR]★★★★★★★★★★
+0.0.0.0
+
+##Entertainement##
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-vtctv-thumb-large.jpg.png" group-title="Entertainement",Vision TV Channel (VTC)
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-vtctv-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-vtctv-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-spotlighttv-hsslive-25f-thumb-large.jpg.png" group-title="Entertainement",SpotLight
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-spotlighttv-hsslive-25f-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-spotlighttv-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-ntai-hsslive-25f-4x3-thumb-large.jpg.png" group-title="Entertainement",NTAI
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-ntai-hsslive-25f-4x3-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-ntai-hsslive-25f-4x3-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-suprememastertv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="Entertainement",Supreme Master TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-suprememastertv-hsslive-25f-16x9-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-suprememastertv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-yanga-hsslive-25f-thumb-large.jpg.png" group-title="Entertainement",YANGA!
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-yanga-hsslive-25f-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-yanga-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-propellertv-hsslive-25f-16x9-thumb-large.jpg.jpg" group-title="Entertainement",Propeller TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-propellertv-hsslive-25f-16x9-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-propellertv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-edgytv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="Entertainement",Edgy TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-edgytv-hsslive-25f-16x9-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-edgytv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-live360-hsslive-25f-thumb-large.jpg" group-title="Entertainement",Live 360
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-live360-hsslive-25f-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-live360-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/entertainment/thumbs/visiontvuk-entertainment-gntv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="Entertainement",Channel 7
+https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-gntv-hsslive-25f-16x9-MB/playlist.m3u8
+https://entertainment.sechls01.visionip.tv/live/visiontvuk-entertainment-gntv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+
+##News##
+
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-newsmaxtv-thumb-large.jpg.png" group-title="News",Newsmax TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-news-newsmaxtv-MB/playlist.m3u8
+https://news.sechls01.visionip.tv/live/visiontvuk-news-newsmaxtv-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-arise-tv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="News",Arise News
+https://api.visionip.tv/live/ASHTTP/visiontvuk-news-arise-tv-hsslive-25f-16x9-MB/playlist.m3u8
+https://news.sechls01.visionip.tv/live/visiontvuk-news-arise-tv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-alaraby-hsslive-25f-thumb-large.jpg.png" group-title="News",Alaraby
+https://api.visionip.tv/live/ASHTTP/visiontvuk-news-alaraby-hsslive-25f-MB/playlist.m3u8
+https://news.sechls01.visionip.tv/live/visiontvuk-news-alaraby-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-syriatv-hsslive-25f-thumb-large.jpg.png" group-title="News",Syria TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-news-syriatv-hsslive-25f-MB/playlist.m3u8
+https://news.sechls01.visionip.tv/live/visiontvuk-news-syriatv-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-uk44-freeview-hsslive-25f-16x9-thumb-large.jpg.png" group-title="News",UK44
+https://news.sechls01.visionip.tv/live/visiontvuk-news-uk44-freeview-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-deutsche-welle-hsslive-25f-16x9-thumb-large.jpg" group-title="News",Deutsche Welle
+https://news.sechls01.visionip.tv/live/visiontvuk-news-deutsche-welle-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-france24-hsslive-25f-4x3-thumb-large.jpg.jpg" group-title="News",France24
+https://api.visionip.tv/live/ASHTTP/visiontvuk-news-france24-hsslive-25f-4x3-MB/playlist.m3u8
+https://news.sechls01.visionip.tv/live/visiontvuk-news-france24-hsslive-25f-4x3-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/news/thumbs/visiontvuk-news-times-now2-hsslive-25f-4x3-thumb-large.jpg.png" group-title="News",TIMES NOW
+https://news.sechls01.visionip.tv/live/visiontvuk-news-times-now2-hsslive-25f-4x3-SD/chunklist.m3u8
+
+
+##Sport##
+
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/sports/thumbs/visiontvuk-sports-sportystufftv-thumb-large.jpg.png" group-title="Sport",Sporty Stuff TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-sports-sportystufftv-MB/playlist.m3u8
+https://sports.sechls01.visionip.tv/live/visiontvuk-sports-sportystufftv-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/sports/thumbs/visiontvuk-sports-sportstonightlive-hsslive-25f-4x3-thumb-large.jpg" group-title="Sport",Sports Tonight
+https://api.visionip.tv/live/ASHTTP/visiontvuk-sports-sportstonightlive-hsslive-25f-4x3-MB/playlist.m3u8
+https://sports.sechls01.visionip.tv/live/visiontvuk-sports-sportstonightlive-hsslive-25f-4x3-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/sports/thumbs/visiontvuk-sports-eSports24tv-thumb-large.jpg" group-title="Sport",Esports24.tv
+https://api.visionip.tv/live/ASHTTP/visiontvuk-sports-eSports24tv-MB/playlist.m3u8
+https://sports.sechls01.visionip.tv/live/visiontvuk-sports-eSports24tv-SD/chunklist.m3u8
+
+
+##TV Mall##
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/tvmall/thumbs/visiontvuk-tvmall-jml-hsslive-25f-16x9-thumb-large.jpg.png" group-title="TV Mall",JML
+https://tvmall.sechls01.visionip.tv/live/visiontvuk-tvmall-jml-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/tvmall/thumbs/visiontvuk-tvmall-jewellery-channel-hsslive-25f-4x3-thumb-large.jpg" group-title="TV Mall",The Jewellery Channel (TJC)
+https://tvmall.sechls01.visionip.tv/live/visiontvuk-tvmall-jewellery-channel-hsslive-25f-4x3-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/tvmall/thumbs/visiontvuk-tvmall-bestdirect-freeview-hsslive-25f-4x3-thumb-large.jpg" group-title="TV Mall",Best Direct
+https://tvmall.sechls01.visionip.tv/live/visiontvuk-tvmall-bestdirect-freeview-hsslive-25f-4x3-SD/chunklist.m3u8
+
+
+##3ABN##
+
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-praise-him-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN Praise Him
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-praise-him-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-praise-him-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-dare-to-dream-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN Dare to Dream TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-dare-to-dream-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-dare-to-dream-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-3-abn-russia-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN Russia
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-3-abn-russia-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-3-abn-russia-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-3-abn-proclaim-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN Proclaim!
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-3-abn-proclaim-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-3-abn-proclaim-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-3-abn-latino-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN Latino
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-3-abn-latino-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-3-abn-latino-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-3-abn-kids-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN Kids
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-3-abn-kids-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-3-abn-kids-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-3-abn-french-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN French
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-3-abn-french-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-3-abn-french-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/3abn/thumbs/visiontvuk-3abn-3-abn-hsslive-25f-thumb-large.jpg.png" group-title="3ABN",3ABN
+https://api.visionip.tv/live/ASHTTP/visiontvuk-3abn-3-abn-hsslive-25f-MB/playlist.m3u8
+https://3abn.sechls01.visionip.tv/live/visiontvuk-3abn-3-abn-hsslive-25f-SD/chunklist.m3u8
+
+
+##Religion##
+
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/christianworld/thumbs/visiontvuk-christian-faithtv-thumb-large.jpg.jpg" group-title="Religion",Faith World TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-christian-faithtv-MB/playlist.m3u8
+https://christianworld.sechls01.visionip.tv/live/visiontvuk-christian-faithtv-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/christianworld/thumbs/visiontvuk-christianworld-revelationtv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="Religion",Revelation TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-christianworld-revelationtv-hsslive-25f-16x9-MB/playlist.m3u8
+https://christianworld.sechls01.visionip.tv/live/visiontvuk-christianworld-revelationtv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/christianworld/thumbs/visiontvuk-religion-firstlight-thumb-large.jpg.png" group-title="Religion",Firstlight 
+https://api.visionip.tv/live/ASHTTP/visiontvuk-religion-firstlight-MB/playlist.m3u8
+https://christianworld.sechls01.visionip.tv/live/visiontvuk-religion-firstlight-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/christianworld/thumbs/visiontvuk-religion-goodnewstv-thumb-large.jpg.png" group-title="Religion",GoodNews TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-religion-goodnewstv-MB/playlist.m3u8
+https://christianworld.sechls01.visionip.tv/live/visiontvuk-religion-goodnewstv-SD/chunklist.m3u
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/christianworld/thumbs/visiontvuk-religion-dunamistv-thumb-large.jpg.png" group-title="Religion",Dunamis TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-religion-dunamistv-MB/playlist.m3u8
+https://christianworld.sechls01.visionip.tv/live/visiontvuk-religion-dunamistv-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/christianworld/thumbs/visiontvuk-christian-daystartv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="Religion",Daystar
+https://api.visionip.tv/live/ASHTTP/visiontvuk-christian-daystartv-hsslive-25f-16x9-MB/playlist.m3u8
+https://christianworld.sechls01.visionip.tv/live/visiontvuk-christian-daystartv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+
+##International##
+
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/international/thumbs/visiontvuk-international-iranintl-thumb-large.jpg" group-title="International",Iran International
+https://api.visionip.tv/live/ASHTTP/visiontvuk-international-iranintl-MB/playlist.m3u8
+https://international.sechls01.visionip.tv/live/visiontvuk-international-iranintl-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/international/thumbs/visiontvuk-international-sharjahtv-hsslive-25f-thumb-large.jpg.png" group-title="International",Sharjah TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-international-sharjahtv-hsslive-25f-MB/playlist.m3u8
+https://international.sechls01.visionip.tv/live/visiontvuk-international-sharjahtv-hsslive-25f-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/international/thumbs/visiontvuk-international-islamchannel-hsslive-25f-4x3-thumb-large.jpg.png" group-title="International",Islam Channel
+https://api.visionip.tv/live/ASHTTP/visiontvuk-international-islamchannel-hsslive-25f-4x3-MB/playlist.m3u8
+https://international.sechls01.visionip.tv/live/visiontvuk-international-islamchannel-hsslive-25f-4x3-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/international/thumbs/visiontvuk-international-britishmuslimtv-hsslive-25f-16x9-thumb-large.jpg.png" group-title="International",British Muslim TV
+https://api.visionip.tv/live/ASHTTP/visiontvuk-international-britishmuslimtv-hsslive-25f-16x9-MB/playlist.m3u8
+https://international.sechls01.visionip.tv/live/visiontvuk-international-britishmuslimtv-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/international/thumbs/visiontvuk-international-sikh-channel-hsslive-25f-16x9-thumb-large.jpg.png" group-title="International",Sikh Channel
+https://api.visionip.tv/live/ASHTTP/visiontvuk-international-sikh-channel-hsslive-25f-16x9-MB/playlist.m3u8
+https://international.sechls01.visionip.tv/live/visiontvuk-international-sikh-channel-hsslive-25f-16x9-SD/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://api.visionip.tv/portals/VisionTVUK/international/thumbs/visiontvuk-international-hsslive-25f-thumb-large.jpg" group-title="International",Brit Asia TV
+https://international.sechls01.visionip.tv/live/visiontvuk-international-brit-asia-hsslive-25f-SD/chunklist.m3u8
+
+
+#######
