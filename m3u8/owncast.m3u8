@@ -1,0 +1,20 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:-1, tvg-ID="TROM.LIVE" tvg-logo="https://trom.live/logo" tvg-tags="Tech,streaming,owncast,science,education,activism,trade-free",TROM.LIVE
+https://trom.live/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="RetroStrange TV" tvg-logo="https://live.retrostrange.com/logo" tvg-tags="streaming,owncast,movies,retro,sci fi,horror,tv,vintage,public domain",RetroStrange TV
+https://live.retrostrange.com/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Gye-Nyame Journey" tvg-logo="https://tribe.gnj.media/logo" tvg-tags="streaming,owncast,gnjmedia,dailytoast,blackculture,libations,panafricanism,africentric,tribe,tribeup,nationbuilding,warrior,warriorship,elder,kwanzaa,kwanzaa365,umoja,kujichaguilia,ujima,ujamaa,nia,kuumba,imani,nguzosaba",Gye-Nyame Journey
+https://tribe.gnj.media/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="CTB Perth" tvg-logo="https://ctbperth.dtvperth.com.au/logo" tvg-tags="",CTB Perth
+https://ctbperth.dtvperth.com.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Slider's Live Beach Cam" tvg-logo="https://slidersbeachcam.vidfeed.net/logo" tvg-tags="Live Beach Cam,Beach Restaurant,Live Music,Seafood,Amelia Island,Fernandina Beach",Slider's Live Beach Cam
+https://slidersbeachcam.vidfeed.net/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Movies 24/7 on CTB" tvg-logo="https://movies.ctbperth.net.au/logo" tvg-tags="Perth,Western Australia,Community,Community Television",Movies 24/7 on CTB
+https://movies.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="CTBStream" tvg-logo="https://second.ctbstream.uz/logo" tvg-tags="",CTBStream
+https://second.ctbstream.uz/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Owncast Demo Server" tvg-logo="https://watch.owncast.online/logo" tvg-tags="testing,owncast,demo",Owncast Demo Server
+https://watch.owncast.online/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Digital TV from Perth, Australia. Enjoy." tvg-logo="http://dtvperth.com.au:8080/logo" tvg-tags="Perth,Western Australia,Open TV",Digital TV from Perth, Australia. Enjoy.
+http://dtvperth.com.au:8080/hls/stream.m3u8
