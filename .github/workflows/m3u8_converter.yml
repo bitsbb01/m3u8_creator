@@ -306,7 +306,17 @@ jobs:
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
           
-          
+
+
+      - name: Merge with Static All_Streams Files
+        run: |
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR2}
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR2}"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR2}"
+          ls -alt ${M3U8_DIR}
+          ls -alt ${M3U8_STATIC_DIR2}
+                    
       - name: Add EPG URL to files
         run: |
           echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/m3u8_creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
@@ -323,16 +333,6 @@ jobs:
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
 
 
-
-      - name: Merge with Static All_Streams Files
-        run: |
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR2}
-          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR2}"'"
-          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR2}"
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR2}
-          
                            
       - name: Push all changes
         uses: ad-m/github-push-action@master
