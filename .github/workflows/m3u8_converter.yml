@@ -251,13 +251,7 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/new/__%20VIP%20MOVIES%20__.m3u" "${M3U8_STATIC_DIR}" "vod3.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/new/__%20VIP%20MOVIES%20__.m3u" "${M3U8_STATIC_DIR}" "vod3.m3u8"
 
-
-      - name: Merge Files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          cat ./temp/m3u8_static/*.m3u8 > ./temp/m3u8_static/all/all-streams.m3u8
-                                                        
+                                                  
           
       - name: Match EPG IDs to Static Files
         run: |
@@ -265,15 +259,16 @@ jobs:
           ./scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR}" "${M3U8_STATIC_DIR}"          
           
           ls -alt "${M3U8_STATIC_DIR}"        
-          
-          
-      - name: Match EPG IDs to Static All-Streams.m3u8
+ 
+      - name: Merge Files
         run: |
-          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR2}" "${M3U8_STATIC_DIR2}"'"
-          ./scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR2}" "${M3U8_STATIC_DIR2}"          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          cat ./temp/m3u8_static/*.m3u8 > ./temp/m3u8_static/all/all-streams.m3u8       
           
           ls -alt "${M3U8_STATIC_DIR2}"        
-   
+               
+          
           
       - name: Get epg
         run: |
@@ -282,11 +277,6 @@ jobs:
           ./scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/epg_ripper_ALL_SOURCES1.xml.gz" "./tests/epg/" "epg_ripper_ALL_SOURCES1.xml.gz"
    
    
-      ### DOWNLOAD REQUIRED DATA ###
-#      - name: Get IPTVCat Release
-#        run: |
-#          echo "Command: './scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"'"
-#          ./scripts/iptvcat/get_iptvcat_scraper_release.sh "${IPTVCAT_DOWNLOAD_DIR}" "${IPTVCAT_DATE}" "${IPTVCAT_DATE}"
       - name: Get EPG from epgshare
         run: |
           echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/epgshare01/share01/raw/master/" "${EPG_TEMP_DIR}" "epg_ripper_ALL_SOURCES1.xml.gz"'"
@@ -295,20 +285,6 @@ jobs:
           ls -alt "${EPG_TEMP_DIR}" 
           
           
-      ### PROCESS THE DATA ###
-#      - name: Convert IPTVCat (JSON to m3u8)
-#        run: |
-#          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
-#          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
-#          echo "Command: 'ls -alt ${M3U8_DIR}'"
-#          ls -alt ${M3U8_DIR}
-#          echo "Command: 'python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"'"
-#          python ./scripts/iptvcat/convert_iptvcat_scraper_files.py "${IPTVCAT_DOWNLOAD_DIR}" "${M3U8_DIR}"
-#          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
-#          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
-#          echo "Command: 'ls -alt ${M3U8_DIR}'"
-#          ls -alt ${M3U8_DIR}
- 
       - name: Get the main all streams json
         run: |
         
@@ -347,10 +323,8 @@ jobs:
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
 
 
-#begin the rename of statice so they can be merged          
 
-
-      - name: Merge with Static Files
+      - name: Merge with Static All_Streams Files
         run: |
           ls -alt ${M3U8_DIR}
           ls -alt ${M3U8_STATIC_DIR2}
