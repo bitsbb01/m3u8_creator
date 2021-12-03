@@ -113,6 +113,9 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "dashradio.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "dashradio.m3u8"
            
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/master/M3U/USTVGO/Main.m3u" "${M3U8_STATIC_DIR}" "parrottv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/master/M3U/USTVGO/Main.m3u" "${M3U8_STATIC_DIR}" "parrottv.m3u8"
+           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://directory.owncast.online/api/iptv" "${M3U8_STATIC_DIR}" "owncast.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://directory.owncast.online/api/iptv" "${M3U8_STATIC_DIR}" "owncast.m3u8"
           
@@ -166,8 +169,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/klowd.m3u" "${M3U8_STATIC_DIR}" "klowdtv.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/klowd.m3u" "${M3U8_STATIC_DIR}" "klowdtv.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/localnow.m3u" "${M3U8_STATIC_DIR}" "localnow.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/localnow.m3u" "${M3U8_STATIC_DIR}" "localnow.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/DeltaSr95/LocalNow/master/LN.m3u" "${M3U8_STATIC_DIR}" "localnow.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/DeltaSr95/LocalNow/master/LN.m3u" "${M3U8_STATIC_DIR}" "localnow.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/MyTvToGo/MyTvToGo.m3u" "${M3U8_STATIC_DIR}" "mytvtogo.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/MyTvToGo/MyTvToGo.m3u" "${M3U8_STATIC_DIR}" "mytvtogo.m3u8"
