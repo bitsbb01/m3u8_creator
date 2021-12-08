@@ -2,6 +2,7 @@
     <table>
     <tr>
 
+<h2> M3U8 Creator </h2>
 <i>Social buttons</i>
 
 <a href="https://github.com/bitsbb01/m3u8_creator" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=bitsbb01&message=m3u8_creator&color=blue&logo=github" alt="bitsbb01 - m3u8_creator"></a>
@@ -16,7 +17,8 @@
         
 <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
 <a href="https://github.com/bitsbb01/m3u8_creator/issues"><img src="https://img.shields.io/github/issues/bitsbb01/m3u8_creator" alt="issues - m3u8_creator"></a>
-
+<a href="https://github.com/features/actions" title="Go to GitHub Actions homepage"><img src="https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github-actions&logoColor=white" alt="Made with GH Actions"></a>
+<a href="https://python.org" title="Go to Python homepage"><img src="https://img.shields.io/badge/Python-%3E=3.6-blue?logo=python&logoColor=white" alt="Made with Python"></a>        
 <i>Call-to-Action buttons</i>
 
 
@@ -25,8 +27,10 @@
 <a href="https://bitsbb01.github.io/m3u8_creator/"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></a>
 
         
-<h2> M3U8 Creator </h2>
-
+<div align="center">
+    <img src="https://s3.eu-west-3.amazonaws.com/xranks/iptvcat.com-47d0a19a41d56b819a29939e43339ade609933cfdfb3a3407f7e2f80af9e2ff4.jpg" alt="CAT" width="400">
+</div>
+        
 This allows you to grab all the main iptv streams around the net with the main tv guide also for them all.. 
 
 Theres an all in one that has all the streams in 1 m3u8 for easy adding to your fav player.
