@@ -1,4 +1,4 @@
-name: M3U8_ACTION
+name: M3U8_Convertor
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ on:
 
 jobs:
 
-  m3u8_action:
+  m3u8_Creator:
     name: M3U8_Creator
     runs-on: "ubuntu-latest"
 
