@@ -10,7 +10,7 @@
 <i>Repo metadata</i>
 
 <a href="https://github.com/bitsbb01/m3u8_creator/actions?query=workflow:%22M3U8_Creator%22"><img src="https://github.com/bitsbb01/m3u8_creator/workflows/M3U8_Creator/badge.svg" alt="M3U8_Creator"></a>
-<a href="https://github.com/bitsbb01/m3u8_creator/releases/"><img src="https://img.shields.io/github/release/bitsbb01/m3u8_creator?include_prereleases=&sort=semver&color=blue" alt="GitHub release"></a>
+<a href="https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/Compiled-all-Streams.m3u8"><img src="https://img.shields.io/github/release/bitsbb01/m3u8_creator?include_prereleases=&sort=semver&color=blue" alt="GitHub release"></a>
 <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
 <a href="https://github.com/bitsbb01/m3u8_creator/issues"><img src="https://img.shields.io/github/issues/bitsbb01/m3u8_creator" alt="issues - m3u8_creator"></a>
 
