@@ -14,8 +14,8 @@ on:
 
 jobs:
 
-  m3u8_Begining:
-    name: M3U8_Begining
+  Running_M3U8_Creator:
+    name: Running M3U8 Creator
     runs-on: "ubuntu-latest"
 
     steps:
