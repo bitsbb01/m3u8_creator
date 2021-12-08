@@ -5,8 +5,6 @@ on:
   # Run 6 Hours after https://github.com/bitsbb01/iptvcat-scrapper
   # 12.10 UTC Time, 06.10 Central Time
   # Changed to every 3hrs, due to including Youtube links, so those links are always correct.
-  # Redid the yml to operate better and able to see each section complete correctly.
-  
   schedule:
     - cron: "0 0/3 * * *"
   push:
@@ -16,8 +14,8 @@ on:
 
 jobs:
 
-  Begin:
-    name: m3u8_action
+  m3u8_action:
+    name: M3U8_Creator
     runs-on: "ubuntu-latest"
 
     steps:
@@ -36,7 +34,8 @@ jobs:
           git commit -m "cron: setting last attempt time stamp" -a
           git status
           git push
-       
+          
+                 
       - name: Cleanup Files
         run: |
           git config --local user.email "action@github.com"
@@ -48,7 +47,6 @@ jobs:
           git rm ./epg/*.gz
           git rm ./temp/m3u8_static/*.m3u8
           git rm ./temp/all_streams_tmp/*.json
-
                                   
       - name: Push changes for old files
         uses: ad-m/github-push-action@master
@@ -62,12 +60,6 @@ jobs:
              commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
              working_directory: .
 
-  setup-python:
-     runs-on: ubuntu-latest
-     needs: Begin
-
-     steps:
-     
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -114,13 +106,6 @@ jobs:
           ls -alt ${M3U8_STATIC_DIR}
           echo "Command: 'ls -alt ${M3U8_STATIC_DIR2}'"
           ls -alt ${M3U8_STATIC_DIR2}
-          
-          
-  get-other-m3u8s:
-     runs-on: ubuntu-latest
-     needs: setup-python
-
-     steps:
       - name: Get other m3u8s to add
         run: |
         
@@ -404,18 +389,12 @@ jobs:
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/us_xumo.m3u" "${M3U8_STATIC_DIR}" "us_xumo.m3u8"
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/youtube.m3u" "${M3U8_STATIC_DIR}" "youtubetv.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/youtube.m3u" "${M3U8_STATIC_DIR}" "youtubetv.m3u8"
-
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/OFCVIPMovies2.m3u" "${M3U8_STATIC_DIR}" "vod2.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/OFCVIPMovies2.m3u" "${M3U8_STATIC_DIR}" "vod2.m3u8"
-
-
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/OFCVIPMovies.m3u" "${M3U8_STATIC_DIR}" "vod1.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/OFCVIPMovies.m3u" "${M3U8_STATIC_DIR}" "vod1.m3u8"
-
-
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/new/__%20VIP%20MOVIES%20__.m3u" "${M3U8_STATIC_DIR}" "vod3.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/IPTV-M3US/master/m3us/new/__%20VIP%20MOVIES%20__.m3u" "${M3U8_STATIC_DIR}" "vod3.m3u8"
-
                                                   
           
       - name: Match EPG IDs to Static Files
@@ -435,11 +414,6 @@ jobs:
                
           
           
-  get-epg:
-     runs-on: ubuntu-latest
-     needs: get-other-m3u8s
-
-     steps:
       - name: Get epg
         run: |
          
@@ -455,11 +429,6 @@ jobs:
           ls -alt "${EPG_TEMP_DIR}" 
           
           
-  get-main-streams:
-     runs-on: ubuntu-latest
-     needs: get-epg
-
-     steps:
       - name: Get the main all streams json
         run: |
         
@@ -467,12 +436,6 @@ jobs:
           ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
           
     
-  convert-main-streams:
-     runs-on: ubuntu-latest
-     needs: get-main-streams
-
-     steps:
-     
       ### PROCESS THE DATA ###
       - name: Convert all_streams
         run: |
@@ -487,14 +450,6 @@ jobs:
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
           
-
-
-  merge-main-streams-with-static:
-     runs-on: ubuntu-latest
-     needs: convert-main-streams
-
-     steps:
-     
       - name: Merge with Static All_Streams Files
         run: |
           ls -alt ${M3U8_DIR}
@@ -508,7 +463,6 @@ jobs:
         run: |
           echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/m3u8_creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/m3u8_creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
-
       - name: Add Channel To Main Categories
         run: |
           echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
@@ -518,24 +472,13 @@ jobs:
         run: |
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
-
-
                            
       - name: Push all changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }} 
-     
-     
-
-
-  copying-files:
-     runs-on: ubuntu-latest
-     needs: merge-main-streams-with-static
-
-     steps:
-     
+             
       - name: Copy Static m3u8s
         uses: canastro/copy-file-action@master
         with:
@@ -579,14 +522,6 @@ jobs:
           git config --local user.name "GitHub Action"
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
-     
-
-
-  finishing:
-     runs-on: ubuntu-latest
-     needs: copying-files
-
-     steps:
                                     
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
