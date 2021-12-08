@@ -9,7 +9,7 @@
 
 <i>Repo metadata</i>
 
-<a href="https://github.com/bitsbb01/m3u8_creator/actions?query=workflow:%22m3u8_creator%22"><img src="https://github.com/bitsbb01/m3u8_creator/workflows/m3u8_creator/badge.svg" alt="m3u8_creator"></a>
+<a href="https://github.com/bitsbb01/m3u8_creator/actions?query=workflow:%22M3U8_Creator%22"><img src="https://github.com/bitsbb01/m3u8_creator/workflows/M3U8_Creator/badge.svg" alt="M3U8_Creator"></a>
 <a href="https://github.com/bitsbb01/m3u8_creator/releases/"><img src="https://img.shields.io/github/release/bitsbb01/m3u8_creator?include_prereleases=&sort=semver&color=blue" alt="GitHub release"></a>
 <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
 <a href="https://github.com/bitsbb01/m3u8_creator/issues"><img src="https://img.shields.io/github/issues/bitsbb01/m3u8_creator" alt="issues - m3u8_creator"></a>
@@ -29,9 +29,6 @@
 </div>
 <h2>License</h2>
 Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/bitsbb01">@bitsbb01</a>.
-
-
-</div>
         
         
 <h2> M3U8 Creator </h2>
