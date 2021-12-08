@@ -1,4 +1,4 @@
-name: M3U8_ACTION
+name: FFMPEG_ACTION
 
 on:
   workflow_dispatch:
@@ -14,35 +14,36 @@ on:
 
 jobs:
 
-  m3u8_action:
-    name: M3U8_Creator
+  ffmpegaction:
+    name: FFMPEG_Creator
     runs-on: "ubuntu-latest"
 
-steps:
-  - uses: actions/checkout@v2
-  - uses: FedericoCarboni/setup-ffmpeg@v1
-    with:
+    steps:
+     - uses: actions/checkout@v2
+     - name: ffmepg
+       uses: FedericoCarboni/setup-ffmpeg@v1
+       with:
       # Not strictly necessary, but it may prevent rate limit
       # errors especially on GitHub-hosted macos machines.
-      token: ${{ secrets.GITHUB_TOKEN }}
-    id: setup-ffmpeg
-  - run: ffmpeg -i https://stream-cdn.vaughnsoft.net/play/live_rickstunes.flv output.mp4
+          token: ${{ secrets.GITHUB_TOKEN }}
+       id: setup-ffmpeg
+     - run: ffmpeg -i https://stream-cdn.vaughnsoft.net/play/live_rickstunes.flv output.mp4
+     
+     - name: push
+       uses: ad-m/github-push-action@master
+       with:
+         github_token: ${{ secrets.scrapper_token }}
+         branch: ${{ github.ref }} 
   
-      - name: Push all changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.scrapper_token }}
-          branch: ${{ github.ref }} 
-          
-      - name: Commit All Files
-        uses: zwaldowski/git-commit-action@v1
-        with:
+     - name: comit
+       uses: zwaldowski/git-commit-action@v1
+       with:
              commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
              working_directory: .
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
+     - name: Push changes
+       uses: ad-m/github-push-action@master
+       with:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }}
           
