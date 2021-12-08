@@ -27,7 +27,7 @@ jobs:
       # errors especially on GitHub-hosted macos machines.
           token: ${{ secrets.GITHUB_TOKEN }}
        id: setup-ffmpeg
-     - run: ffmpeg -i https://stream-cdn.vaughnsoft.net/play/live_rickstunes.flv output.mp4
+     - run: ffmpeg -i ttps://stream-cdn.vaughnsoft.net/play/live_rickstunes.flv -codec copy output.mp4
      
      - name: push
        uses: ad-m/github-push-action@master
