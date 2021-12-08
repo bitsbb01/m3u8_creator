@@ -1,8 +1,8 @@
 <table>
     <tr>
         <td>Github Action</td>
-        <td><img src='https://github.com/bitsbb01/m3u8_creator/workflows/CI/badge.svg'></td>
-        [![auto-update](https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/.github/workflows/m3u8_converter.yml/badge.svg)](https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/.github/workflows/m3u8_converter.yml)
+        <td><img src='https://github.com/bitsbb01/m3u8_creator/workflows/badge.svg'></td>
+        [![auto-update]https://github.com/bitsbb01/m3u8_creator/workflows/m3u8_converter.yml/badge.svg)](https://github.com/bitsbb01/m3u8_creator/workflows/m3u8_converter.yml)
     </tr>
 </table>
 
