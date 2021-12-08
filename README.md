@@ -22,24 +22,9 @@
 <a href="https://bitsbb01.github.io/m3u8_creator/"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></a>
 
 </div>
-<h2>Documentation</h2>
-<div align="center">
-<a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
-
-</div>
-<h2>License</h2>
-Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/bitsbb01">@bitsbb01</a>.
         
         
-        
-        
-        
-    </tr>
-</table>
-
-
-
-<center><bold> M3U8 Creator </center></bold>
+<h2> M3U8 Creator </h2>
 
 This allows you to grab all the main iptv streams around the net with the main tv guide also for them all.. 
 
@@ -60,3 +45,20 @@ I'm looking at trying to also get all the streams from vaughn.live into a m3u8, 
 
 
 Thanks go out to ericziethen for his help with the m3u8_creator.. 
+
+        
+        
+<h2>Documentation</h2>
+<div align="center">
+<a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
+
+</div>
+<h2>License</h2>
+Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/bitsbb01">@bitsbb01</a>.
+   
+    
+    
+    </tr>
+</table>
+
+
