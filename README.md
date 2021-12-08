@@ -1,8 +1,34 @@
 <table>
     <tr>
-        <td>Github Action</td>
-        <td><img src='https://github.com/bitsbb01/m3u8_creator/workflows/badge.svg'></td>
-        [![auto-update]https://github.com/bitsbb01/m3u8_creator/workflows/m3u8_converter.yml/badge.svg)](https://github.com/bitsbb01/m3u8_creator/workflows/m3u8_converter.yml)
+
+<i>Social buttons</i>
+
+<a href="https://github.com/bitsbb01/m3u8_creator" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=bitsbb01&message=m3u8_creator&color=blue&logo=github" alt="bitsbb01 - m3u8_creator"></a>
+<a href="https://github.com/bitsbb01/m3u8_creator"><img src="https://img.shields.io/github/stars/bitsbb01/m3u8_creator?style=social" alt="stars - m3u8_creator"></a>
+<a href="https://github.com/bitsbb01/m3u8_creator"><img src="https://img.shields.io/github/forks/bitsbb01/m3u8_creator?style=social" alt="forks - m3u8_creator"></a>
+
+<i>Repo metadata</i>
+
+<a href="https://github.com/bitsbb01/m3u8_creator/actions?query=workflow:%22M3U8_ACTION%22"><img src="https://github.com/bitsbb01/m3u8_creator/workflows/M3U8_ACTION/badge.svg" alt="M3U8_ACTION"></a>
+<a href="https://github.com/bitsbb01/m3u8_creator/releases/"><img src="https://img.shields.io/github/release/bitsbb01/m3u8_creator?include_prereleases=&sort=semver&color=blue" alt="GitHub release"></a>
+<a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
+<a href="https://github.com/bitsbb01/m3u8_creator/issues"><img src="https://img.shields.io/github/issues/bitsbb01/m3u8_creator" alt="issues - m3u8_creator"></a>
+
+<i>Call-to-Action buttons</i>
+
+<div align="center">
+<a href="https://github.com/bitsbb01/m3u8_creator/generate"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use this template"></a>
+
+<a href="https://bitsbb01.github.io/m3u8_creator/"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></a>
+
+</div>
+<h2>Documentation</h2>
+<div align="center">
+<a href="/docs/" title="Go to project documentation"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></a>
+
+</div>
+<h2>License</h2>
+Released under <a href="/LICENSE">MIT</a> by <a href="https://github.com/bitsbb01">@bitsbb01</a>.
     </tr>
 </table>
 
