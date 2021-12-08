@@ -1,9 +1,8 @@
 <table>
     <tr>
         <td>Github Action</td>
-        <td><img src='https://github.com/ericziethen/ez-m3u8-creator/workflows/CI/badge.svg'></td>
-        <td>Coverage</td>
-        <td><img src='https://codecov.io/gh/ericziethen/ez-m3u8-creator/branch/master/graph/badge.svg'></td>
+        <td><img src='https://github.com/bitsbb01/m3u8_creator/workflows/CI/badge.svg'></td>
+        [![auto-update](https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/.github/workflows/m3u8_converter.yml/badge.svg)](https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/.github/workflows/m3u8_converter.yml)
     </tr>
 </table>
 
