@@ -1,0 +1,815 @@
+#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"
+
+#
+# _____.___.              __       ___.            ___________         _____  ________  ____ ___  _________                        __                
+# \__  |   | ____  __ ___/  |_ __ _\_ |__   ____   \__    ___/___     /     \ \_____  \|    |   \ \_   ___ \_______   ____ _____ _/  |_  ___________ 
+#  /   |   |/  _ \|  |  \   __\  |  \ __ \_/ __ \    |    | /  _ \   /  \ /  \  _(__  <|    |   / /    \  \/\_  __ \_/ __ \\__  \\   __\/  _ \_  __ \
+#  \____   (  <_> )  |  /|  | |  |  / \_\ \  ___/    |    |(  <_> ) /    Y    \/       \    |  /  \     \____|  | \/\  ___/ / __ \|  | (  <_> )  | \/
+#  / ______|\____/|____/ |__| |____/|___  /\___  >   |____| \____/  \____|__  /______  /______/    \______  /|__|    \___  >____  /__|  \____/|__|   
+#  \/                                   \/     \/                           \/       \/                   \/             \/     \/                   
+
+
+
+#EXTINF:-1 group-title="English" tvg-logo="https://s.abcnews.com/assets/beta/assets/abcn_images/abcnews_pearl_stacked.png" tvg-id="", ABC News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063143/ei/B8qxYay_Is698wTl_4TQBw/ip/13.68.170.200/id/w_Ma8oQLmSM.6/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANcH5zitkEWhqiKbE4w58H3L4y8w25rca0M_hMb9Wq2rAiBZcYBTJQ7pWj9iB7cSnHS-ZcYq0jXhrjyuxahXxJ8uSA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="English" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwniz5-dorFPbRs3b2CYaJSV2VOVxq53EqcwdWOF8Gg=s900-c-k-c0x00ffffff-no-rj" tvg-id="", News 12 New York
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063144/ei/CMqxYb2PBIXShgab0LqIAg/ip/13.68.170.200/id/RmmRlztXETI.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgQh8FZDA1KqkIhoPE2wbLqvUX6WOiphMP44a50eTb1r8CIFoA_oN_nqXEWmtF1gpB1RGc5AgTku3AJlNRIHd-Z_cP/file/index.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", Insomniac
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063144/ei/CMqxYaOLGZeqhwaBrZuADg/ip/13.68.170.200/id/GXKju5EqQYI.17/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAMVA6ZyU1zlDoTOd0_F2IrPurNpDY8Zz6NdsqQNeGjR6AiBJhRRRYPeecHK52lAsdx43ldzGmfy7nLCFd-PsETQ1RA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", Sky News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063145/ei/CcqxYeeBC4Px8gTy56OoDw/ip/13.68.170.200/id/9Auq9mYxFEE.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/gcr/us/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgHQKjntTpKdlc2FFfH44hFFfpvQjZGSXhTGOG73WX_esCIQDuaVN8cLH6r9lSiGZ1gCTbfJr5lx5XQQJ0HpUfpciHJg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", Best Shuffle Dance Music 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063145/ei/CcqxYfizL5qxhgbQw5KABw/ip/13.68.170.200/id/qWf-FPFmVw0.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAL3UrV5FSaQFnPQfzecNzO0SaElQ9k-aeEItJOFlAeGGAiB9itRPEq1diatBagmsGMKgS7eziYeQVJwFYPp5yJvjGA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Ibiza Summer Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Онлайн трансляция телеканала МУЗ-ТВ
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Kral TV
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063155/ei/E8qxYcHHHo2P8gTTn4CoAg/ip/13.68.170.200/id/88tf0H1ycDU.4/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgY5EyGnTAyjnkFfXRN9P1U_qNuQUvHdDOB04dxm0jSdECIEBwg8Tj3z-irCmGP4Txi2jrAEq1PO4z6U_bhTjXLubc/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Kral Pop TV
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063156/ei/E8qxYZuUPIjA8wS42o-ADQ/ip/13.68.170.200/id/dEHMR7Qpthw.5/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAO3J8YspItDpLiKFZ19_I81v2nPhGZ5FB6BrbZ0ucOM5AiEA7ujo3kLLc4rmNSMWleJ34cRIEJbByFNsDz0K7VsOD2k%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", QT Relax Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", 4K Nature 24/7- LoungeV Films
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Livecam" tvg-logo="" tvg-id="", Rodos Palladium Beach Live
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063156/ei/FMqxYYOjM5bihwbjr67ADQ/ip/13.68.170.200/id/drhmo4XSVYA.1/source/yt_live_broadcast/requiressl/yes/tx/24027932/txs/24027931%2C24027932/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgIeeiAK1hm_OGv8ozif5pfdpPIj6ZqhcbaqMV5ziqHtkCIEcbr7G8pbAqGEUnMAbSBdIuoWqOOvqFEnCNqPjQfcKi/file/index.m3u8
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", OE24 TV
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", The World Live- earthTV
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="http://3.bp.blogspot.com/-4CDRDYQPlZo/UMsFyQQCy0I/AAAAAAAANLc/-8LXzSkTdsA/s1600/Alternative-Music-Logo-PNG.png" tvg-id="", Alternative Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063159/ei/F8qxYaiCFo73hgbfuoPIDQ/ip/13.68.170.200/id/5X18D-EbjUc.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgCLO9ciaLb5WnssyJC-xCjdOiK30j0UN6aGXRMSxUUPMCIErRa2yNN0o99omwl86i7dJRU_ASsgliT3tXebGNla89/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="http://vignette4.wikia.nocookie.net/justdance/images/0/0c/Logo-jdtcm1924788.png" tvg-id="", Best Suffle Dance
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063159/ei/F8qxYafgLPiF_9EPmPGCgAw/ip/13.68.170.200/id/qWf-FPFmVw0.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgCbZTMULctEYAccoz0-xfSBafUXXw54H7jMQJ3V9GEnQCIQDJuCFr2bKKkEik30rH5dGSOMtoomErMo6w6_viZkpFRA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://freepngimg.com/thumb/meditation/7-2-meditation-transparent.png" tvg-id="", Meditation Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://weloveradio.ch/wp-content/uploads/2019/05/radio_oldies_logo_640x640.png" tvg-id="", Oldies Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://www.pinclipart.com/picdir/middle/98-986111_17-mar-logos-de-los-90s-clipart.png" tvg-id="", Radio 90s Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="http://1.bp.blogspot.com/-tTku4g-q6iE/T7qzfDLuaXI/AAAAAAAAFsI/bxJickyvn6w/s1600/Radio+Rock+logo.png" tvg-id="", Rock Radio
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", XDeep Club-Dua Lipa, Coldplay, Martin Garrix & Kygo, The Chainsmokers Style - ...
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063168/ei/IMqxYeu0E4T48gSUx7uoBw/ip/13.68.170.200/id/YsBe9BFIjBs.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgLR4S_OuX39b89JrEQ37zyRmnodCyyBpB5pNJKXShgTMCIQDBhiwQY7NHTcbkL1v2owXHHjJyQo3ijnLWpU1GUvFLQQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", XDeep Club-Ed Sheeran, Kygo, Dua Lipa, Avicii, Martin Garrix, The Chainsmokers...
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Chillout Lounge - Calm & Relaxing Background Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063169/ei/IcqxYaWWJMWa8wTEta-gBw/ip/13.68.170.200/id/9UMxZofMNbA.3/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAIwyIsWhC7giu97wBLiH6Gf8eRkLwmOE_pGaHc9DAekBAiAa8ly6FEwh8x9rB4FEfORypQSKh4lQcyNn61SQ8EBbgQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", PJ Masks
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063170/ei/IsqxYZIjzezyBOL9jrAK/ip/13.68.170.200/id/6E-BS0wpPQk.1/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgYSqlSA-sUYso6u3EvnojxphUjWsSooz6W29o0NoaPqECIQDPgSQkHm_rqda7Z8BdXcbfb9TX7Ombw9m35DH4Nj1f5A%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", My Little Pony
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063170/ei/IsqxYa72G4Thhwac963IBg/ip/13.68.170.200/id/6Vh5dg6eCnY.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgWCNR9GDVfmOP2CPgFlR1FuqqODW_HHxAsaH-prePISwCIH5NKq5OJ-Izzf74r1uHls1RY_f85DOo-KVdthCUnqlS/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Cocomelon-Nursery Rhymes
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Ben and Holly's Little Kingdom
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063172/ei/JMqxYbqFFsfj8gTo6ZfADQ/ip/13.68.170.200/id/q1Fsyb9Kj7E.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAO7iqg3xhrOCq47jWq7tmjR-LbsfrVpVTGhpe3Fgk_S_AiEAob3SKGMHYUiRlk1nLwYXuGKbEkjTxwIrQSVJG8slc0U%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", WB Kids
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Disney Junior- All of Minnie's Bow-Toons!
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSGYwgujx1VgMYEpdurTfh8NRmOehOXf16DeMKoDfw=s176-c-k-c0x00ffffff-no-rj" tvg-id="", DW News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063177/ei/KcqxYdy1GIHR8gTx-Ia4Aw/ip/13.68.170.200/id/V9KZGs1MtP4.6/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAM6-lUwSuqN35KcymuBd9EKFKrR5dWtbeQu8-Eqt1DO7AiBp9t6pcJQzvMnegGkChp_YMg-tdWwJAbuAoB1F_Nb4kw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/E96qzkAoX81DQs7wqRHR4rNk1esa4quBPzda2QRzImlhoHOVgRdAN8o-S0Rb_hpygo_n4LdhwTE=s176-c-k-c0x00ffffff-no-rj" tvg-id="", Sky News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063177/ei/KcqxYfmjLsLq8wSU7LrgCQ/ip/13.68.170.200/id/XG9ODWQlGAg.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAJCAIDGtRAlb5YxSw-yYjI0GYQCuskWXAcXdJrd---OjAiEAlw3F9Fmb3WQIFTIbpZW8v8H13-qlLciVhWwgSkd87NQ%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTmW20Du3RIn5YTCud3cZUaCWDkh_XdJ3fNKf_r=s176-c-k-c0x00ffffff-no-rj" tvg-id="", GBNews
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063178/ei/KsqxYbO9D8Tt8wTstaFY/ip/13.68.170.200/id/kt-Z_GdDLr8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgb795Em7eUV3fzXjmrUdPBYJCp4t6HS50pSc9wlJxi8sCIEoqvRK_Uu62FbLH7UY5qDPwVwBY801SW00v9OZ1heG3/file/index.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQuzkdeUxIhS3KWZrYcDf4F8k2VC6SHZt2HlyzCM_c=s176-c-k-c0x00ffffff-no-rj" tvg-id="", Al Jazeera English
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063178/ei/KsqxYaCmNfqH_9EPr7CkWA/ip/13.68.170.200/id/-upyPouRrB8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIga_rEvKkCdG8S42RJCCgbhFK2aIR_8HzuHI3krS_wr0sCIQC5T1PMQgCCzIRsRTsFv1_ro_c__v1st4MCNPjjL1IFXw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Art of Melodic Techno & House Radio
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Deep House, Chill, House, Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063179/ei/K8qxYdGDI67Q8gSn94K4Dg/ip/13.68.170.200/id/D4MdHQOILdw.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAK3T55GSdhIHevoADURFxtEPAjFGS0rKhIaMffTh1BrhAiArBPI6UZ3CCmW2kB_mRabXhrkNQs_d1hA0aAPE2XbtVA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Trance and Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063180/ei/LMqxYcDiBqfm8gSb3pYw/ip/13.68.170.200/id/IvuwTft-0cM.2/source/yt_live_broadcast/requiressl/yes/tx/24105952/txs/24078603%2C24105952%2C24105953%2C24105954%2C24105955%2C24105956/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgL9RYwkaNRckmY3sg5SQnpRHqTHZ5EGbqvr_bbvGBCzECIF_CQKATab8PKGO0Unb3Sui6pJQpA9UpoaeuiRuIJiLu/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Deep House Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063180/ei/LMqxYfqHLKzt8gSlroT4Cw/ip/13.68.170.200/id/5qky3L2Q6G4.270/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAJY8M2w51Q9LZJMBhGMSV6T-2eHCMl-NlHCBiJIoJzAHAiA9h7nqi7KF79w99LeqflC_bqtwKUenN-poycjc0X7OJw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Radio Pop Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Eirewave Radio Pop Rock Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063181/ei/LcqxYbHpIuOM2LYP7MOWsAw/ip/13.68.170.200/id/WYetg3AuLE4.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAI0iEYh_tLexHwwo7YD66GwIUWpeEiWKAayKLwzIR36_AiA7LA3MCGHwbLWKNk9RxqWQ-49LyhBqB7VmtFqFieWKoQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Euphoric & Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063182/ei/LsqxYeqbBJPN8wTY96LYAw/ip/13.68.170.200/id/A5sUa0bNRj8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgAV0sIDnpMlz_o5-Vh5YgRS6x8A5wOlDaEgu15rFaVPkCIE6TGSzUMEhzSvD1rGeajjJZFrj9gyGXOHewjteeHy1d/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Vocal Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063182/ei/LsqxYb6fJpOShwacupXoBw/ip/13.68.170.200/id/DPXQG8S9Xwc.1/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgcktAXSU7Tvz0khTKpJGFxRM2XTUj6xrSEHMVLmm7EWkCIGWn3562tP-bT8elo5zlaNDxm41xeTHthVFHlCe3Gjcy/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Chill Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063183/ei/L8qxYdGBA9eAhwbilIy4AQ/ip/13.68.170.200/id/21qNxnCS8WU.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgSOWRd3r0U52kycFWBPRSbp5xsQW46Ca3YX_s74nc-sICIH26CfgK86gtw71gil3uJuoTjpeIoYcz-S1A2Gdw9sEF/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Electro Remix 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063183/ei/L8qxYdKQH8698wTl_4TQBw/ip/13.68.170.200/id/2P2AGaDbmXQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgNIghWrccO9G-2XTC7SIjJ9nx9UAP6lu7WQhyNFhlh7sCIDPlDhjB24MDjVCPzVlZlChczPcsD3QMZW5fjVLBc2Ob/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alan Walker & Marshmello Mix 2021 - Electro Remix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Tomorrowland 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063190/ei/NsqxYZSaJ5fQhgbT25lI/ip/13.68.170.200/id/freuiC0nuKQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgRiYmE8kNtP6gvYuImInkliieT0Let4lLw1gjyKeZVi8CIQCQjreaHy1nPILvMICN5ffe_9L11Ju_kujB4zJ6kVp76w%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", The Good Life Radio - Best Relax House, Chillout, Study, Running, Gym, Happy Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063191/ei/N8qxYYDMC_XnhwaQ6Jj4BQ/ip/13.68.170.200/id/36YnV9STBqc.6/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAOQipSOCnToRXlix8VfbVgXhSiDLaIMGalB-b9mb4FLAAiEA1oXkukyEvQ_GmB0lutlDOiJIwed2p3VCmA1bdSR5McA%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Summer Music Deep - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Deep House Radio - Vocal Deep House, Slap House, Summer Chill House, Car Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tropical House Radio - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", xDeep - Ibiza Summer Mix 2021 :strawberry: Best Of Tropical Deep House Music Chill Out Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Haa Taa Deep - Avicii, Jonas Blue, Kygo Alok, Robin Schulz - Chillout Lounge
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Queen Club - SUMMER MIX 2021 ↠ DUBAI, HAWAII, THAILAND, MYKONOS, ISLANDS, :palm_tree: Feeling Me
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Café del Mar Chill House Radio (Deep House · Organic House · Nu Disco)
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", HQ - Bass Music :speaker:CAR BASS MUSIC 2021 :fire: BEST EDM, BOUNCE, ELECTRO HOUSE 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063200/ei/P8qxYervOoHfgwP7xLfoBQ/ip/13.68.170.200/id/FM6MKgVcfyo.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgGtMw3v8vJYSSHEjDB-_ywThaosOd9XdhOwlsgPzzkygCIGA14U-gerjtisZHwIqiWbJYr5UrIbAQIzEzI-lV0WDv/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", A State Of Trance Radio @A State Of Trance
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063200/ei/QMqxYcLoGoXBhgb-n6FQ/ip/13.68.170.200/id/5lMmnfVylEE.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhALmj2kvAgqR_4punHRvYQe1yP1VCvQY6yeeLsfdskHDqAiEAsHVIfTnonrvaXKpPi3Xp_FkN9wxSmXM155kWLVRhdq0%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - NEW PARTY MIX 2021 :boom:TOMORROWLAND 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063200/ei/QMqxYZ_TMcaQhwbi6JnwBg/ip/13.68.170.200/id/3QXIXYEBH4c.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAJF03oukts5tKD1jQAyg31UfZCtIUndU2an69c2ADqo4AiEA5kAuFK43DHfwyysScvhu5EWjltydg_szpBiqLEVURTQ%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - :boom:TOMORROWLAND 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tomorrowland - One World Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063205/ei/RcqxYbjxC4-Lhwbko6_QDg/ip/13.68.170.200/id/DY_rFed96mg.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgSmW5hfVBgaSn-iMt8-ADleqmsPDMYEmp1v9ShQavuwACICvoBYuTYOBmV8ZEeUY6VnBtERbJowdZvMNJJOYZbnix/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - HOT EDM Party Dance Club Remix 2021 ♫ Best Shuffle Dance Music Video ♫ New Shuffle Dance 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - Party Dance Club Remix 2021 ♫ Best Shuffle Dance Party Video Mix ♫ New EDM Dance Charts Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Late Night Lounge - Chillout House Background Music - Study, Work, Deep Focus, Relax, Car Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063206/ei/RcqxYaykO82Yhwbp5LHIAw/ip/13.68.170.200/id/QBjYQhhmzO8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAPMEDr6kDbO6izvKYJl7fZ137U308b-nqr4M740P_FVCAiAeYVr56Zb_91FuvR9i9S_6oDq-OF40gdUNvt9nxsBrgw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", ChillYourMind - Chillout Music, Summer Music, Chill House, Deep House, Summer Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", France24
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Webcams" tvg-logo="" tvg-id="", Wetter-Panorama – 24/7 LIVE Stream Webcams Österreich
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Oddbods
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Mother goose club
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Peppa Pig
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Little Baby Bum Nursery Rhymes & Kids Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Devotional" tvg-logo="" tvg-id="", Live Darshan - Shree Somnath Temple, First Jyotirlinga
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Devotional" tvg-logo="" tvg-id="", Shree KasthBhanjandev Hanumanji Mandir Salangpur
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Bossa Nova Covers Popular Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Beautiful Relaxing Music, Peaceful Soothing Instrumental Music, "Tropical Birds" By Tim Janis
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063227/ei/W8qxYduJEY_ohgawv7rYCg/ip/13.68.170.200/id/U-sPrE84G0A.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAPFZ28wbUfEBDV05ZqEaRibu0ctz4d-zwSVH9BgEvV5OAiACideGSYw06tXB2oxWUfbJFXwy07cJII3jyFiPvohwCg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Beautiful Relaxing Music Combined With Beautiful 4K Quality • Relax, Sleep, Meditation, Study, Yoga
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063227/ei/W8qxYYakK43U8gTGprmoBg/ip/13.68.170.200/id/HMnatoiMdjA.1/source/yt_live_broadcast/requiressl/yes/tx/24027684/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAO9G094BNnEc7AZhuOKYU5b38hmzbM37Y_EKKZWK7TZnAiBQQDnCryn1zg7h2cKC5_pgITmRliSGTBOnDZwrzxhvcQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", 4K Video (Ultra HD) Unbelievable Beauty - Amazing Nature Scenery with Beautiful Relaxing Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", Kitten Academy Livestream
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063233/ei/YMqxYbH4OrmkhwavirfQCg/ip/13.68.170.200/id/R7vrbiDi0Tc.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgdXVGNBEXZ2S5aP4XpDrWuxsJ7GT7mg7XwZT50UaSb04CIEK5-GiWwqXjAoU1w1a5xucJHjCHX82RzruPv5DjxPOb/file/index.m3u8
+
+#EXTINF:-1 group-title="Lofi" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhGIymQGp3jRMECbTCBSRAUqi8sKbATpWowQG44CA=s48-c-k-c0x00ffffff-no-rj" tvg-id="", LOFI MUSIC LIVE 24/7
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063233/ei/YcqxYdfSF4XShgab0LqIAg/ip/13.68.170.200/id/5qap5aO4i9A.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPOwfKHCdZJZJRIK4kMYqnkifhQCNKlUawk_kyRbEjFEAiEAwF93cNXIIfyjKDgamsxAZ5E2J5nW1swHwsRkO4ro2-4%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", WB Kids live
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063233/ei/YcqxYZ3mMJqxhgbQw5KABw/ip/13.68.170.200/id/xKDaDXRSzoM.2/source/yt_live_broadcast/requiressl/yes/tx/24027932/txs/24027931%2C24027932/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgfQaAXsok7NJxRpAWm3gn7QCEBN-G9HW5EMkaQ8V5g3wCIHSGgw8rR4QTSi1QNuMGqbjE-GNj3IOvTPPYVBlsIFxq/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", DC Kids live
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Webcam" tvg-logo="" tvg-id="", Elysium Resort & Spa Live
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063234/ei/YsqxYeqeLJC5gwOD0JzgDw/ip/13.68.170.200/id/V513W2TVk50.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgJhKa2gyPh-pNuMtGUtSTPWjwACVhZMVWXvEQV2xxb4MCIQD-3TszmT5_zENsn_bRQa0oT_9-UNJpEutyKvF4jpTrzw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", MUSICOLABORASI
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Art of Melodic Techno & House Radio
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Deep House, Chill, House, Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063235/ei/Y8qxYfeAGJbihwbjr67ADQ/ip/13.68.170.200/id/D4MdHQOILdw.2/source/yt_live_broadcast/requiressl/yes/tx/24027709/txs/24027707%2C24027708%2C24027709%2C24027710%2C24067856/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/23886215/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAPKaCZyNaKjdxuMlpjdB8xX-FwrfTUAiCsnaF5cg1goLAiAoPkkrXJam4pjZ1CnoIzaQ4EHxSy--NKRjeQmqqBjDVA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Trance and Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063235/ei/Y8qxYf3kM4Thhwac963IBg/ip/13.68.170.200/id/IvuwTft-0cM.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgNGegWEZ4Dr-hji7uKm26XZwB8SXT1FTXLePGzbOtut4CIQDbbEmPjpVPBXYaJlijELj0Ar3ekjfYSAxJXwkPpXft0w%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Deep House Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063236/ei/ZMqxYYzbEoaOhwaNl4zIDw/ip/13.68.170.200/id/5qky3L2Q6G4.270/source/yt_live_broadcast/requiressl/yes/tx/24027931/txs/24027931%2C24027932/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgNl0dapMkIHzqa8JIUO96YbEeTGkfCrzPom7yU2uoRMsCIQD-cm2wCLyOoR281uSqqAreSWIKwBETyd1DOqMXzjLn7w%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Radio Pop Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Eirewave Radio Pop Rock Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063237/ei/ZcqxYb2lDIPphwb5wpnwDw/ip/13.68.170.200/id/WYetg3AuLE4.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgEDex8GJnpbnE9dHHp9i7uUnfSYmGOMLRBlnxCiwbZmsCIQDv3XJImAbGgdin-8mepSHUapjrvQm7eZBhQfA322puHw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Euphoric & Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063237/ei/ZcqxYeGEL8_O8wTE3qvQBA/ip/13.68.170.200/id/A5sUa0bNRj8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgXOBkLYduyezHDyeLnneMO1zJUFMBgg2ZFJUmsWzDT7gCIQDPdjSENZ_i3dszuZSP28a6u7LqV5Gd7xZNThPwFq4NJA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Vocal Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063238/ei/ZsqxYb_yC42P8gTTn4CoAg/ip/13.68.170.200/id/DPXQG8S9Xwc.1/source/yt_live_broadcast/requiressl/yes/tx/24027931/txs/24027931%2C24027932/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANub69Hp24FYSXLxQbqEFINxccRYPg97stfzi_FeC24AAiBLw5Zx7Ftjst6c--b7_r6cTBk7lTLQREvw8zjlS5NqBQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Chill Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063238/ei/ZsqxYbvrKI6M8wSesZCADQ/ip/13.68.170.200/id/21qNxnCS8WU.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgM6b44aSn0m14pJ2UETBuEWAL23usHyQypWCvurqm9foCIQCv5HTSlRaI2gzWqKOGCLv3wd-ACO4hwqDx9d4bjDvVDQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Electro Remix 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063239/ei/Z8qxYaiXDoHR8gTx-Ia4Aw/ip/13.68.170.200/id/2P2AGaDbmXQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgavAEtb7PoW_qny1YyOxWR2YSE1IStUO9tviv0GNhy4ICID4ZczAwGAcWZ4gyA_w9A0Rqqu-cO7j74mZMCc0oVfmn/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alan Walker & Marshmello Mix 2021 - Electro Remix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Tomorrowland 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063243/ei/a8qxYYuqK7K0hwabnrvQCw/ip/13.68.170.200/id/freuiC0nuKQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgeE2QRzvu8HHq_5UNVOZ31uLbpDjzGa49wfrukeP2LhMCIDt7MLv5-f3X0ycdXQOvS33E62EO2xsATcyqHlUCHIuA/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", The Good Life Radio - Best Relax House, Chillout, Study, Running, Gym, Happy Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063244/ei/bMqxYfHeCMzXgwOh0INA/ip/13.68.170.200/id/36YnV9STBqc.6/source/yt_live_broadcast/requiressl/yes/tx/24067850/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPjXfCC_GVkUPdy0MQ9QWUADY8-w_BH17BhmgJ6DLCG-AiEAp5ErtM20VGE-CIAhe0JdckeWcz8Bxr3tFjHMjP_ghOA%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Summer Music Deep - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Deep House Radio - Vocal Deep House, Slap House, Summer Chill House, Car Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tropical House Radio - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", xDeep - Ibiza Summer Mix 2021 :strawberry: Best Of Tropical Deep House Music Chill Out Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Haa Taa Deep - Avicii, Jonas Blue, Kygo Alok, Robin Schulz - Chillout Lounge
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Queen Club - SUMMER MIX 2021 ↠ DUBAI, HAWAII, THAILAND, MYKONOS, ISLANDS, :palm_tree: Feeling Me
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Café del Mar Chill House Radio (Deep House · Organic House · Nu Disco)
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", HQ - Bass Music :speaker:CAR BASS MUSIC 2021 :fire: BEST EDM, BOUNCE, ELECTRO HOUSE 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063252/ei/dMqxYej3MM_k8gSB053oAQ/ip/13.68.170.200/id/FM6MKgVcfyo.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAMm_IDa8w1hr32NvlzaxM_6G5ju2-IaVJpazOOAxzUKaAiB1AwJ_yqkkHcQTGf2Z9IZXkfKTbbnG_NajtraqiEJ5Lw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", A State Of Trance Radio @A State Of Trance
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063253/ei/dcqxYcmCEIThhwac963IBg/ip/13.68.170.200/id/5lMmnfVylEE.2/source/yt_live_broadcast/requiressl/yes/tx/24027686/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAMeILuJbksnsOrcB9gRSPiwaU7DzosD3jOzwLCSYFgxgAiEAljD50Iro8WAxhQ5-UD0j-B1RjRJGWHopQ1oMIV-C7C4%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - NEW PARTY MIX 2021 :boom:TOMORROWLAND 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063253/ei/dcqxYaaXK_fvhwbp8rHIDQ/ip/13.68.170.200/id/3QXIXYEBH4c.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/23886218/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgMp5X4QtXPcCes-JJkXu33XrYl3xL8jaKPMVDsbokfnsCIQD5-RyTAiVbqQVxaVY4YnEq0Q5CImx_scljSuxmielmHg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - :boom:TOMORROWLAND 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tomorrowland - One World Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063257/ei/eMqxYYjuO7XigwPxiZKwBg/ip/13.68.170.200/id/DY_rFed96mg.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAKnUFiOAa772TWo4Agx1KNMJLl86m9r6AeuXVwP89m6OAiBf8SKAIgOi7zxohYeTHo8mCm_jndzzAl6egzypGGjrbA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - HOT EDM Party Dance Club Remix 2021 ♫ Best Shuffle Dance Music Video ♫ New Shuffle Dance 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - Party Dance Club Remix 2021 ♫ Best Shuffle Dance Party Video Mix ♫ New EDM Dance Charts Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Late Night Lounge - Chillout House Background Music - Study, Work, Deep Focus, Relax, Car Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063257/ei/ecqxYf2zL8aQhwbi6JnwBg/ip/13.68.170.200/id/QBjYQhhmzO8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAJQSgC0hrdOxvLpmrA0gfm138820JZq6Xdz-GWdmkrI_AiBC2orAZzBlQKKZu5TiT0k69eiKDiqIMGjPXw98biahMg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", ChillYourMind - Chillout Music, Summer Music, Chill House, Deep House, Summer Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", France24
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Webcams" tvg-logo="" tvg-id="", Wetter-Panorama – 24/7 LIVE Stream Webcams Österreich
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Oddbods
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Mother goose club
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Peppa Pig
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Little Baby Bum Nursery Rhymes & Kids Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Information" tvg-logo="https://i.ytimg.com/vi/m-LIh0fdfq8/maxresdefault.jpg" tvg-id="", Live transmissions from the space station
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Information" tvg-logo="https://i.ytimg.com/vi/nwnJXU6BpVw/maxresdefault.jpg?v=6191ecc3" tvg-id="", HUGE Positive Parenting LIVE
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Information" tvg-logo="https://i.ytimg.com/vi/-6whl_raMH8/maxresdefault.jpg" tvg-id="", YUMMY FOOD HACKS AND GENIUS KITCHEN TRICKS
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063267/ei/g8qxYeH1J6-HhwbKl6C4Aw/ip/13.68.170.200/id/-6whl_raMH8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgeb3W1SzMK8AtnCrAWT8Fo3eXGYEFkblTU1zvfol_J_gCIDqYls3OKa4sNWyjlDrCPccZA_NMnQgJfz-rRjOB_Aoe/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.ytimg.com/vi/o6zMydCMvrU/maxresdefault.jpg" tvg-id="", Queen House - 24/7 Live Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063268/ei/hMqxYY7VA4XShgab0LqIAg/ip/13.68.170.200/id/ObeaiDzkUqQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/gcr/us/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhALtxnIMK2TsJIO_c7twi9cQypHlxlQjqER2SMBqrO8LOAiEA39xYJER3Dij3SABb7nWeTrUjPpVN0pXkqqYqYjIdLtc%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/eT0j93uxn2w/maxresdefault_live.jpg" tvg-id="", HUGGY WUGGY vs Squid Game vs Friday Night Funkin
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/RTQiB8S3wiY/maxresdefault.jpg" tvg-id="", Adventure Of Nate And Friends
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.pinimg.com/originals/86/b0/3e/86b03eb25774532bb39cb6646166da8b.jpg" tvg-id="", Pencilmation
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Best Of Looney Tunes In 4K" tvg-logo="Kids" tvg-id="https://m.media-amazon.com/images/I/51BvaNTw8cL.jpg", Bugs Bunny And Looney Tunes
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/n0UXA7oLc-s/maxresdefault.jpg" tvg-id="", Looney Tunes Ultra 4k
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/A1YQpvpYRzL._RI_.jpg" tvg-id="", Power Rangers Samurai Full Season
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/Bcge0VuFwSo/maxresdefault.jpg" tvg-id="", Monster School - MINECRAFT ANIMATION
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/qI0FebLJBhw/maxresdefault.jpg" tvg-id="", PAW Patrol MIGHTY PUPS MARATHON
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063273/ei/icqxYf3cJYP5hgbP1JvYCw/ip/13.68.170.200/id/qI0FebLJBhw.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgFhFt68zxATstNI58_H6Fujmz8UBT8lh6XgupXNDG95YCIQDAE2CowxXmB5oUVMKvbraoIhxs3nZD1nSUoJIq78V-3Q%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/91D+SqAVLAL._RI_.jpg" tvg-id="", Power Rangers Super Megaforce Full Season
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063274/ei/isqxYecvloWGBqKCuMAK/ip/13.68.170.200/id/k7sAwEeVp98.1/source/yt_live_broadcast/requiressl/yes/tx/24027692/txs/24027691%2C24027692%2C24027693%2C24027694%2C24067852/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANIJ30Oe80q_NCgnp7EOTknIJmUoWEE0wft3x8xyMZYyAiBnUScCyZQhvBSDuEAEwAZReqPZ4TDHxHTCCSZbVfOxHg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/et7HEDpsZEs/maxresdefault.jpg" tvg-id="", Peppa Pig Live! Giant Peppa and More!
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063274/ei/isqxYcjoG4iRhwa0kZ3oCQ/ip/13.68.170.200/id/zUtWkVGGJNQ.1/source/yt_live_broadcast/requiressl/yes/tx/24027686/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgONNIW9-5-wGUbwH3sZq5KXT67Qxttt5__HjTJnSm-_UCIQC_OVi0_oFHsVt6li8fE8VDtZ-ZOdu4aUbz1I3LaalG9g%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/MzVmd5aGLhc/maxresdefault.jpg" tvg-id="", Oddbods Full Episode 24/7
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063274/ei/isqxYcLDMdWjhwbDm7GAAw/ip/13.68.170.200/id/MzVmd5aGLhc.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgRqs_uE_y4xQgbJrc5NFdr81VocW266-fPSZQLnD5NJ4CIQCsgK6siY2bo3Uxq0nJ9ZNoUgae6QJF3tkoJAR8c4H2sA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="English" tvg-logo="https://s.abcnews.com/assets/beta/assets/abcn_images/abcnews_pearl_stacked.png" tvg-id="", ABC News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063275/ei/i8qxYfPlFO-J8gStrLTgBA/ip/13.68.170.200/id/w_Ma8oQLmSM.6/source/yt_live_broadcast/requiressl/yes/tx/24027684/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAInmKmAvbIq2uctT7X0MfBDdkqfiBMHYoCUxwCWtCDHpAiABShcobl8E3EoJlYqVlMapx-DseFHPpvds-ax0wlO8Pg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="English" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwniz5-dorFPbRs3b2CYaJSV2VOVxq53EqcwdWOF8Gg=s900-c-k-c0x00ffffff-no-rj" tvg-id="", News 12 New York
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063275/ei/i8qxYcXML_CAhgbppZGADw/ip/13.68.170.200/id/RmmRlztXETI.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgGl8T4t5pOXL9QkWfpoG0Je0eGM4Pnt4h1s5jERH1dbsCIGzwjhlUVIfHnvl0RU-vf1ghmVrJIqQIUs954u2bAFvo/file/index.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", Insomniac
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063276/ei/jMqxYcvzB5C5gwOD0JzgDw/ip/13.68.170.200/id/GXKju5EqQYI.17/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANubTOYdG-Xo4snpxGuIxQwranAgqVzK9LJRgDSo6bduAiBWEoR6Suj7-Vj1IBvP1bIH3y3L5_yYFeVPsv5zaybecA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", Sky News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063276/ei/jMqxYZ3LIYLFhwaWsaGgCQ/ip/13.68.170.200/id/9Auq9mYxFEE.2/source/yt_live_broadcast/requiressl/yes/tx/24067856/txs/24027707%2C24027708%2C24027709%2C24027710%2C24067856/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/gcr/us/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgTmRjQ4lTPpUylcwJ_Iod4uC5I_H5DZkEUOdHh4KiIZoCIDHmiQG5n8EJ_py6g42_oy5C66-ZPsUlPsqQwFRs2mCZ/file/index.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", Best Shuffle Dance Music 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063277/ei/jcqxYfTJA4XShgab0LqIAg/ip/13.68.170.200/id/qWf-FPFmVw0.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgWQ6vhxkWv8tzmOZ3HUbirBNi_RdBL9P_l4ldl6p4Ad8CICDup0ZLDi15FJDmNVFPSE1tjqMTZPApmmUs7cQXc26D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Ibiza Summer Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Онлайн трансляция телеканала МУЗ-ТВ
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Kral TV
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063283/ei/k8qxYb3YE6WmhwaOo47oDQ/ip/13.68.170.200/id/88tf0H1ycDU.4/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgAy1LSwhxlgbuQATOWfX8WUkvIOlnEfLPGOyEBbCRyGECIQCdkv7kjlH5kQuONDQomUs2ZxX-teOSpc7nsOPtiSDX7A%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Kral Pop TV
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063283/ei/k8qxYbKUL9eB_9EP7sKPmAs/ip/13.68.170.200/id/dEHMR7Qpthw.5/source/yt_live_broadcast/requiressl/yes/tx/24027931/txs/24027931%2C24027932/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAI8bcu416Htb416Ue8xeWPdomF5s6WturD7_9HtZTANbAiAPu1fSjmY-8MeJGK97aYzQFGhc8vEbHzri2gfgnlJvbw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", QT Relax Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", 4K Nature 24/7- LoungeV Films
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Livecam" tvg-logo="" tvg-id="", Rodos Palladium Beach Live
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063284/ei/lMqxYfvVIs-rhwbbr6H4Aw/ip/13.68.170.200/id/drhmo4XSVYA.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgKD4q4vt0B5slpkRsZur-PuUOLfPItQ9b2Zzya3VRkt0CIGYql9u9Efr-SQhFEPrlRoaNenoaD6CSC3j5U_T6TYTc/file/index.m3u8
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", OE24 TV
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", The World Live- earthTV
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="http://3.bp.blogspot.com/-4CDRDYQPlZo/UMsFyQQCy0I/AAAAAAAANLc/-8LXzSkTdsA/s1600/Alternative-Music-Logo-PNG.png" tvg-id="", Alternative Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063290/ei/msqxYeflE4-Lhwbko6_QDg/ip/13.68.170.200/id/5X18D-EbjUc.2/source/yt_live_broadcast/requiressl/yes/tx/24008108/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAKVJjfuVc8AfG_VnH6vQYBR1o5-xiufmz5A_RcfPQPdTAiBlW6aW6yxJ_bQkPDzVwwFJbLMu-Wtq5Q7KhH9q-qTaaQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="http://vignette4.wikia.nocookie.net/justdance/images/0/0c/Logo-jdtcm1924788.png" tvg-id="", Best Suffle Dance
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063290/ei/msqxYfnJKoeRhgbu3oCACA/ip/13.68.170.200/id/qWf-FPFmVw0.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgQfAfJpMaJlNTgLqlD8V6oIGSxbIY8BedhJzdMxKuqM8CIQCVFjNouVdk6ZA1-wz7hY1gbnKOy7bNaSZcoMN8s-KfzA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://freepngimg.com/thumb/meditation/7-2-meditation-transparent.png" tvg-id="", Meditation Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://weloveradio.ch/wp-content/uploads/2019/05/radio_oldies_logo_640x640.png" tvg-id="", Oldies Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="https://www.pinclipart.com/picdir/middle/98-986111_17-mar-logos-de-los-90s-clipart.png" tvg-id="", Radio 90s Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="http://1.bp.blogspot.com/-tTku4g-q6iE/T7qzfDLuaXI/AAAAAAAAFsI/bxJickyvn6w/s1600/Radio+Rock+logo.png" tvg-id="", Rock Radio
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", XDeep Club-Dua Lipa, Coldplay, Martin Garrix & Kygo, The Chainsmokers Style - ...
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063294/ei/nsqxYZKxJoXShgab0LqIAg/ip/13.68.170.200/id/YsBe9BFIjBs.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgHD54dCgO6IiwjDyWk4FSvTeq0AnKgydPWjedYEDM9G4CIQCrFDlkKfxjVTX9s3Y2c_nxEeis0LCDnsuACkWhMzwARA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", XDeep Club-Ed Sheeran, Kygo, Dua Lipa, Avicii, Martin Garrix, The Chainsmokers...
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Chillout Lounge - Calm & Relaxing Background Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063295/ei/n8qxYZmKN46nhgbdg5r4Aw/ip/13.68.170.200/id/9UMxZofMNbA.3/source/yt_live_broadcast/requiressl/yes/tx/24027707/txs/24027707%2C24027708%2C24027709%2C24027710%2C24067856/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgUxazkmdf0n4gqAaVFvXgTceKqk3xyFRhTHFYyY7l8z4CIByYo87w1A5_r_l6B0gqgTpN-AJeVmYRnt18tP9GRjr4/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", PJ Masks
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063296/ei/oMqxYfTyFJ-A_9EP8fGeiAM/ip/13.68.170.200/id/6E-BS0wpPQk.1/source/yt_live_broadcast/requiressl/yes/tx/24027700/txs/24027699%2C24027700%2C24027701%2C24027702%2C24067854/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgEYoWYlZLcwh7mMywdq3p4Asy_4Y4fgZzQRuuVy0faP0CIAHYBvPhavXRL7L1Bp5aCz4E-ZvERpOi1SPGiMmA1U6p/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", My Little Pony
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063296/ei/oMqxYfLsMKmyhwacwpuYBg/ip/13.68.170.200/id/6Vh5dg6eCnY.2/source/yt_live_broadcast/requiressl/yes/tx/24008108/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPWyu5qnvEh2RvDhujHhaEKIwtdUppR5IE7rch3KC97vAiEAsh589b-3ruvVCiVnL8Z7iPO6vaKJy7yrTZBYKGIhfOk%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Cocomelon-Nursery Rhymes
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Ben and Holly's Little Kingdom
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063301/ei/pcqxYYa0LMmE8wTe5ZGICg/ip/13.68.170.200/id/q1Fsyb9Kj7E.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPXxsHIwaS93OT65g5sW1847ESC5UvVMFumGeq0IZH8EAiEA5yy8pfkqit5CMRa01_TUhlheGofVu1rET9gca42MENE%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", WB Kids
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Disney Junior- All of Minnie's Bow-Toons!
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSGYwgujx1VgMYEpdurTfh8NRmOehOXf16DeMKoDfw=s176-c-k-c0x00ffffff-no-rj" tvg-id="", DW News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063306/ei/qsqxYcPEBJiVhwbVnr-4Ag/ip/13.68.170.200/id/V9KZGs1MtP4.6/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAMV9OX0WM1wlHhoC32FD4nZiCTBQC2y3HBJ2UJJebJjvAiBzmZqFhklPs-XT1NtdCGMHs5NctNNkIHHcjAs1sVpkyg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/E96qzkAoX81DQs7wqRHR4rNk1esa4quBPzda2QRzImlhoHOVgRdAN8o-S0Rb_hpygo_n4LdhwTE=s176-c-k-c0x00ffffff-no-rj" tvg-id="", Sky News
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063306/ei/qsqxYcjMGtWjhwbDm7GAAw/ip/13.68.170.200/id/XG9ODWQlGAg.1/source/yt_live_broadcast/requiressl/yes/tx/24008108/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/23886216/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhANBAyOkaWP304lAJVZOYreyRCqCoC3OTnScFsCbBLDKgAiEA2NfeG_3oL4-1AOLfEelMu2I7OzDEhn1yrAi-Ef0yIx0%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTmW20Du3RIn5YTCud3cZUaCWDkh_XdJ3fNKf_r=s176-c-k-c0x00ffffff-no-rj" tvg-id="", GBNews
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063306/ei/qsqxYcO5NZPEhwbZiJawBw/ip/13.68.170.200/id/kt-Z_GdDLr8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wQwIfOX2uaPxdDzG0ER71a2ojzyExv9fMGUQDtIifJ6Jk2gIgRtZlaBXE3HHiyDjdN6JJZPlFq0rkbhhLjNRYRQkYClc%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="International News" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQuzkdeUxIhS3KWZrYcDf4F8k2VC6SHZt2HlyzCM_c=s176-c-k-c0x00ffffff-no-rj" tvg-id="", Al Jazeera English
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063307/ei/q8qxYdHbE4P88wT34KnQAg/ip/13.68.170.200/id/-upyPouRrB8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAIZuOQNAQQMJJyae4y8utNM71C8mpJNaycNP2_b0iJoDAiEA-lu4nttBnGodPIIF8XYul7uvtTRjSFceYb78KoLOP6w%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Art of Melodic Techno & House Radio
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Deep House, Chill, House, Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063308/ei/q8qxYdGnOoThhwac963IBg/ip/13.68.170.200/id/D4MdHQOILdw.2/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPOFrGkmfOc6qvsnSdp17ITk5vlekZ8RigIftrsD7cWmAiEAxb6lOD14O23s6qQq4bg-grYe-hr1PtAM_3hmCCjeSOI%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Trance and Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063308/ei/rMqxYcXJF6uH_9EPoO2Y-A8/ip/13.68.170.200/id/IvuwTft-0cM.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgKZJiEF_Q8nbh4YUmpKP_oYNAnf51OqXQULL8ZcSnTPgCIQCESoE4U_o64FyYcX-vNCHKvSTGlTGrzNJWfee8ZO8ehA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Deep House Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063308/ei/rMqxYeb-NIid8wTF1ZWgCQ/ip/13.68.170.200/id/5qky3L2Q6G4.270/source/yt_live_broadcast/requiressl/yes/tx/24067854/txs/24027699%2C24027700%2C24027701%2C24027702%2C24067854/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANxDl1QtCC4cJMat6KcjEvNQhVCypeOTAzpDgC4NE73QAiByPO0C_jeZpomPqqR0xCvBTpdxZZKYhw3o1Pyu45F1FA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Radio Pop Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Eirewave Radio Pop Rock Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063309/ei/rcqxYY3JLLmkhwavirfQCg/ip/13.68.170.200/id/WYetg3AuLE4.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANBSualTCn7whLXKQWHojJxsVA4-eVJg-bUJk6MXYIIVAiApWG9OUAUg-9AreZ2UtDvVxBFcHIYcEQdYSj8Avlukhg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Euphoric & Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063310/ei/rsqxYb_1DJqShgb2op_gCg/ip/13.68.170.200/id/A5sUa0bNRj8.1/source/yt_live_broadcast/requiressl/yes/tx/24027683/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAORbupim3RDRGedNBL8m_tXGJe1wERz3b9iBe-FGKtrFAiEArJV76uTgkSOU4pL4iI5Q_-Vw8sRp1GtJvIh7OM0cbjc%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Vocal Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063310/ei/rsqxYZa6LZXIhwbftoxQ/ip/13.68.170.200/id/DPXQG8S9Xwc.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgWZGxyoIgQhmE5LW3yVMhbox7XvPBgdaU0WKHRFkD2rECIQDjpe-5Sxj3gO4OJwIsHRpYrbV8CRxdxIL9ijQQRcdOpw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Chill Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063311/ei/r8qxYdjKDZbZhgaeyK_IBg/ip/13.68.170.200/id/21qNxnCS8WU.1/source/yt_live_broadcast/requiressl/yes/tx/24008108/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/24027534/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAI1WKD45nJ0VLQLVLxzAkm-Z9gws3zVVongN_f47ZCm9AiADaodFK099gcmTwv1yerz4jygioiLqtDPvWlIshTA7Yw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Electro Remix 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063311/ei/r8qxYcrjJ6yH_9EPm_SQ6AE/ip/13.68.170.200/id/2P2AGaDbmXQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAJBmBs188yoAhISBN_Gs6hjIKgMrEehTwFArR7N5rZqmAiA_wSgFY24o5k45Ub7fuuNkYlR8GSUED-nDBqgsZomMSg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alan Walker & Marshmello Mix 2021 - Electro Remix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Tomorrowland 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063314/ei/ssqxYb3cJayH_9EPm_SQ6AE/ip/13.68.170.200/id/freuiC0nuKQ.2/source/yt_live_broadcast/requiressl/yes/tx/24105956/txs/24078603%2C24105952%2C24105953%2C24105954%2C24105955%2C24105956/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPcWy6Zy5Hzk4EnKuCJIUvrtrtzlJ-tQc2QG9SP414bJAiEA5AAcifpTIolPdEZ_smWSez9q7Afd7f4KpWBh4fibW-w%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", The Good Life Radio - Best Relax House, Chillout, Study, Running, Gym, Happy Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063315/ei/s8qxYaKYEYHR8gTx-Ia4Aw/ip/13.68.170.200/id/36YnV9STBqc.6/source/yt_live_broadcast/requiressl/yes/tx/24027684/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAJBu2TXIFFNT6tw0akwQ31oFW5cWvfxSaFCgVUT36MoiAiEA5Vz5UTCFoRNr88xe2_ttq1T7O4LGnGVCbEdqlUdS8Tc%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Summer Music Deep - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Deep House Radio - Vocal Deep House, Slap House, Summer Chill House, Car Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tropical House Radio - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", xDeep - Ibiza Summer Mix 2021 :strawberry: Best Of Tropical Deep House Music Chill Out Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Haa Taa Deep - Avicii, Jonas Blue, Kygo Alok, Robin Schulz - Chillout Lounge
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Queen Club - SUMMER MIX 2021 ↠ DUBAI, HAWAII, THAILAND, MYKONOS, ISLANDS, :palm_tree: Feeling Me
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Café del Mar Chill House Radio (Deep House · Organic House · Nu Disco)
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", HQ - Bass Music :speaker:CAR BASS MUSIC 2021 :fire: BEST EDM, BOUNCE, ELECTRO HOUSE 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063319/ei/t8qxYajoEqyH_9EPm_SQ6AE/ip/13.68.170.200/id/FM6MKgVcfyo.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAIWrUppHozyCQkB05fY1EB-NA7-xRai45WwP612iM62UAiEA_Fe0zlcxJp2jZvh8gGZHqxWnpsElzGsXbYhNf3Me8QI%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", A State Of Trance Radio @A State Of Trance
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063319/ei/t8qxYcHEL8Lq8wSU7LrgCQ/ip/13.68.170.200/id/5lMmnfVylEE.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhANuvKML9zQzc5IYhb2zK6Z95RYuVblmnCDQhjxv2UMXvAiBgsoakVy8pv_zeuswKcMy4dpYcocL1OHKfmv5Znur6Eg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - NEW PARTY MIX 2021 :boom:TOMORROWLAND 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063320/ei/uMqxYdjUEZaFhgaigrjACg/ip/13.68.170.200/id/3QXIXYEBH4c.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgGL8o2UUOqw5xbOOlK0iOj757c1InLwW2F1KirqeQ-dMCIDfHb8mUSVXYTaxSSPZfsrp04eo4wVptC6nKhW8B7Wed/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - :boom:TOMORROWLAND 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tomorrowland - One World Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063324/ei/vMqxYaDcJqzt8gSlroT4Cw/ip/13.68.170.200/id/DY_rFed96mg.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAM7HgZUDsWvwpATn4FI4Pf2x5wT5DZHv4-v8RgHckAn2AiEAxHEAuc2Yj94GL4SYKuJr8nC0wFlZGhM5YRpHXvVCi5c%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - HOT EDM Party Dance Club Remix 2021 ♫ Best Shuffle Dance Music Video ♫ New Shuffle Dance 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - Party Dance Club Remix 2021 ♫ Best Shuffle Dance Party Video Mix ♫ New EDM Dance Charts Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Late Night Lounge - Chillout House Background Music - Study, Work, Deep Focus, Relax, Car Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063325/ei/vcqxYaD1E8Tt8wTstaFY/ip/13.68.170.200/id/QBjYQhhmzO8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgXKjCgia2rAfzqRROKHBHSxxmxIGZDbe5X9-qjdgWHp8CIQC4snwe6nhRFiF7OApM0yGvRE_4httjK87Nzk9CW8ccFQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", ChillYourMind - Chillout Music, Summer Music, Chill House, Deep House, Summer Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", France24
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Webcams" tvg-logo="" tvg-id="", Wetter-Panorama – 24/7 LIVE Stream Webcams Österreich
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Oddbods
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Mother goose club
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Peppa Pig
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Little Baby Bum Nursery Rhymes & Kids Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Devotional" tvg-logo="" tvg-id="", Live Darshan - Shree Somnath Temple, First Jyotirlinga
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Devotional" tvg-logo="" tvg-id="", Shree KasthBhanjandev Hanumanji Mandir Salangpur
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Bossa Nova Covers Popular Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Beautiful Relaxing Music, Peaceful Soothing Instrumental Music, "Tropical Birds" By Tim Janis
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063334/ei/xsqxYZvVMYLFhwaWsaGgCQ/ip/13.68.170.200/id/U-sPrE84G0A.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAO8o4QGCTCfZTcDct5wa7aT71jv8-NNtAcp1itwkZIiZAiBmBd8mlXe4zq0h9K_ZTZyPAWN5OvHI1fFI5tBUZ3EdPA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Beautiful Relaxing Music Combined With Beautiful 4K Quality • Relax, Sleep, Meditation, Study, Yoga
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063335/ei/x8qxYbigD5aFhgaigrjACg/ip/13.68.170.200/id/HMnatoiMdjA.1/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgcsFnt-PAIev0zWm--Xv1uSBZD76CHuUqLS6dBRK6pmwCIQDmK-L8zFulDOVP5MzbJ6_c12xmEjR3DhIiIeYC1rpVPQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", 4K Video (Ultra HD) Unbelievable Beauty - Amazing Nature Scenery with Beautiful Relaxing Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Entertainment" tvg-logo="" tvg-id="", Kitten Academy Livestream
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063338/ei/ysqxYbj0CYy2hgbXjb-4Bw/ip/13.68.170.200/id/R7vrbiDi0Tc.1/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgMlb54_6yP-lne8yIgieVyMZ-SEGe3rbP-vDSh8GG7dsCID6tfPp49ZhOF-rWaJK9O1rEVF9jQK484yGp8KoeM08I/file/index.m3u8
+
+#EXTINF:-1 group-title="Lofi" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnhGIymQGp3jRMECbTCBSRAUqi8sKbATpWowQG44CA=s48-c-k-c0x00ffffff-no-rj" tvg-id="", LOFI MUSIC LIVE 24/7
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063338/ei/ysqxYe7oJIThhwac963IBg/ip/13.68.170.200/id/5qap5aO4i9A.1/source/yt_live_broadcast/requiressl/yes/tx/24027683/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgNgXgbkt_gUgnC_wnTnYjUnOzcmZXB8Gs3HlxQyEb59wCIQD4s3jR50qVrM7mhtm98Rx8X0Bna0annNnKNxoqzkScyg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", WB Kids live
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063339/ei/y8qxYZyHA4jm8wSTmI-oDA/ip/13.68.170.200/id/xKDaDXRSzoM.2/source/yt_live_broadcast/requiressl/yes/tx/24044259/txs/24044258%2C24044259%2C24044260%2C24044261/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgMcauoD_YZ1eThOG5BWupXwRkiNQm264c2F5cjCdp2RMCICVjFhGEcX4wsKE8uBFQ8Niy2q1g-ztSXAl3Ixv9HV2H/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", DC Kids live
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Webcam" tvg-logo="" tvg-id="", Elysium Resort & Spa Live
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063340/ei/zMqxYd6TA6iRhwan6Lz4Bg/ip/13.68.170.200/id/V513W2TVk50.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAPX7EJNLox_m_MUy9JL3hD-MoowlHy1nt7TZb6aS6JdHAiBQXuNPijeeCOXcG_5sVjZsCFLvgEWIDlcYv9pg-VMdcA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", MUSICOLABORASI
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Art of Melodic Techno & House Radio
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Deep House, Chill, House, Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063340/ei/zMqxYc-dKqiRhwan6Lz4Bg/ip/13.68.170.200/id/D4MdHQOILdw.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAPuCmM5MslYIgNRp6Lu8ujpoP_73vj6v8ejI3liEDREdAiEA31oDhUybThLbpQnSidmZBpYeA0pBNRCo8b2LMSpK3S8%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Anjunadeep Radio - Trance and Progressive
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063341/ei/zcqxYeGECMv18gTck4TIDg/ip/13.68.170.200/id/IvuwTft-0cM.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgMCIa95P7elRJDi0OzLMCpj_vF1D9x-MLS_Ow3lprcG8CIQDKsb6VC139-_NzFl3KL173NY2DfeTe3WInX_EI6B2rvA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Deep House Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063341/ei/zcqxYZKCK4bXhwb6oZvwAw/ip/13.68.170.200/id/5qky3L2Q6G4.270/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAIfvXCKNu6K9K6aHyqVm90yXtKgRwPJadSmpSzkcJ45SAiB2uFXK7d_EuWP3ZcFsKElmwluMK7DiwHfzBr-vdb7-oA%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Radio Pop Mix
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Eirewave Radio Pop Rock Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063342/ei/zsqxYY6oIfCAhgbppZGADw/ip/13.68.170.200/id/WYetg3AuLE4.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhALWieYeKy4tAc9hbHiZdglUfoFqnhMcIO8SEetM7aoXuAiAXNhI_PnenYrOuG2n0ZyQQIpD-7rkOewQWJO8Aon0RNQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Euphoric & Uplifting Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063343/ei/zsqxYfD7OpDNgwOFl5uwCA/ip/13.68.170.200/id/A5sUa0bNRj8.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAMpDSxTGBjpIFqsLsPz8h9iCNiKCxEKVf6hgc0Du5kJ7AiEAyILCugTGn08NtR5Xb1eY3hQXrvI9K6bx05VndY4eUWU%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Vocal Trance Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063343/ei/z8qxYYjmG8SI8gSKiIqAAg/ip/13.68.170.200/id/DPXQG8S9Xwc.1/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAMDv0krVKmY7FUhBn6Bv5RqZOu_IEPCjg6QuNpNaF2H6AiEA8knW1iKTPwzCT8wMarBcHdJiVC6Dqyuj92SUT9lpuMk%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Radio" tvg-logo="" tvg-id="", Chill Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063344/ei/0MqxYdFA14CHBuKUjLgB/ip/13.68.170.200/id/21qNxnCS8WU.1/source/yt_live_broadcast/requiressl/yes/tx/24105952/txs/24078603%2C24105952%2C24105953%2C24105954%2C24105955%2C24105956/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAM0WRSph9gQCbqIinr_HiuYztQ5XMRP7axXMzzQsPU6CAiBZK5Tga_EHmaWP2eKiKBujveX2W0qy2_aH19Pzdccbcg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Electro Remix 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063344/ei/0MqxYYjcGZPN8wTY96LYAw/ip/13.68.170.200/id/2P2AGaDbmXQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgVN3TagnL1lyi6L2CHw67ueJgu9cx7M2gbi1CtTtMDAMCIDOw-Ax6p3aR2kcNpmPRlZNtdvoxmStYKWTET8sidmL5/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alan Walker & Marshmello Mix 2021 - Electro Remix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Tomorrowland 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063345/ei/0cqxYda0NoHB8wSo76KoCw/ip/13.68.170.200/id/freuiC0nuKQ.2/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgV-8KL1Lces4Q__BCobHlYjkrLBmiY8MDRByG3xxyHIUCIGnHbR3V6LsXB8OBHinhT9XSgaoXfoAb_rfe6QIHdUVO/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", The Good Life Radio - Best Relax House, Chillout, Study, Running, Gym, Happy Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063346/ei/0sqxYZaBGIK7gwOZopLICA/ip/13.68.170.200/id/36YnV9STBqc.6/source/yt_live_broadcast/requiressl/yes/tx/24027693/txs/24027691%2C24027692%2C24027693%2C24027694%2C24067852/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgWwuGUFBuhQkMN8OThdvoqUFCXz88uAMXPx7G84YOBKsCIElshgWsNfphfS7E2tdUZBdQ0lUzZQh06BTmUcRtbWg8/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Summer Music Deep - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Deep House Radio - Vocal Deep House, Slap House, Summer Chill House, Car Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tropical House Radio - Best Relax House, Chillout, Study, Running, Happy Music
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", xDeep - Ibiza Summer Mix 2021 :strawberry: Best Of Tropical Deep House Music Chill Out Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Haa Taa Deep - Avicii, Jonas Blue, Kygo Alok, Robin Schulz - Chillout Lounge
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Queen Club - SUMMER MIX 2021 ↠ DUBAI, HAWAII, THAILAND, MYKONOS, ISLANDS, :palm_tree: Feeling Me
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Café del Mar Chill House Radio (Deep House · Organic House · Nu Disco)
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", HQ - Bass Music :speaker:CAR BASS MUSIC 2021 :fire: BEST EDM, BOUNCE, ELECTRO HOUSE 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063352/ei/2MqxYcvdEo_ohgawv7rYCg/ip/13.68.170.200/id/FM6MKgVcfyo.2/source/yt_live_broadcast/requiressl/yes/tx/23997970/txs/23997970%2C24008108/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRAIgXqGA7oBzPi7EviVeJph4NSzm_fw9EKqqKHTPqsRZORgCIHvNsPADufRcdgm94Q3AfNxbmmHuwYAsLWnQHFmP_31H/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", A State Of Trance Radio @A State Of Trance
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063352/ei/2MqxYcj5N8SM8gTOlrKYCQ/ip/13.68.170.200/id/5lMmnfVylEE.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAPWvg02qnJPVh5zqkUI5ZmwpDjOXqA-C2O1spZaahEq1AiAsVBUgOdx2wveIRh1ZAIDGQfW5w1tdtEEY8DXBvI05Xw%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - NEW PARTY MIX 2021 :boom:TOMORROWLAND 2021
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063353/ei/2cqxYZ_4FZaFhgaigrjACg/ip/13.68.170.200/id/3QXIXYEBH4c.1/source/yt_live_broadcast/requiressl/yes/tx/24027700/txs/24027699%2C24027700%2C24027701%2C24027702%2C24067854/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgV5SnxQ1Js5SkfjmdXRrT7Vu3hIv7Omnm3IyetO7ivZ0CIQCg8_QZZ9CobDhnDel-FX_F58mO4JEqY0iwCiS0bBmC2A%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", SunMusic - :boom:TOMORROWLAND 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Tomorrowland - One World Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063354/ei/2sqxYfqmNYWs8wSG3qOQCA/ip/13.68.170.200/id/DY_rFed96mg.2/source/yt_live_broadcast/requiressl/yes/tx/24027685/txs/24027683%2C24027684%2C24027685%2C24027686%2C24067850/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgNseAnsR6oKnXbbRASt4ya06k0k16XC-4LUFzursXDlwCIQCU9Ayiv6SaCP27UJikxi_5h0HHmQLQjDuW_kCYbgM1Pg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - HOT EDM Party Dance Club Remix 2021 ♫ Best Shuffle Dance Music Video ♫ New Shuffle Dance 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", N&T Party - Party Dance Club Remix 2021 ♫ Best Shuffle Dance Party Video Mix ♫ New EDM Dance Charts Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", Late Night Lounge - Chillout House Background Music - Study, Work, Deep Focus, Relax, Car Music
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063355/ei/28qxYbXVJKmyhwacwpuYBg/ip/13.68.170.200/id/QBjYQhhmzO8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIgXuZaPpnm07jkmaDIjcrg9d07sq2nkWCe-AbMcHyL6EYCIQCaz_-HPgGaFN0pv25BU7OFpe04qh9qVwa3qP_kPf9bgg%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="" tvg-id="", ChillYourMind - Chillout Music, Summer Music, Chill House, Deep House, Summer Mix 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="News" tvg-logo="" tvg-id="", France24
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Webcams" tvg-logo="" tvg-id="", Wetter-Panorama – 24/7 LIVE Stream Webcams Österreich
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Oddbods
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Mother goose club
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Peppa Pig
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="" tvg-id="", Little Baby Bum Nursery Rhymes & Kids Songs
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Information" tvg-logo="https://i.ytimg.com/vi/m-LIh0fdfq8/maxresdefault.jpg" tvg-id="", Live transmissions from the space station
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Information" tvg-logo="https://i.ytimg.com/vi/nwnJXU6BpVw/maxresdefault.jpg?v=6191ecc3" tvg-id="", HUGE Positive Parenting LIVE
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Information" tvg-logo="https://i.ytimg.com/vi/-6whl_raMH8/maxresdefault.jpg" tvg-id="", YUMMY FOOD HACKS AND GENIUS KITCHEN TRICKS
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063362/ei/4sqxYfH_K4j18gSmoIP4Cg/ip/13.68.170.200/id/-6whl_raMH8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhAItwLgAwYsqVu7hLY12XUCuowqdIh9Vjm_bATJ6crazDAiBD_s-aj2sUygoOIUq6pL-hjQck6a6jzQhDSZ54aPr_sQ%3D%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-logo="https://i.ytimg.com/vi/o6zMydCMvrU/maxresdefault.jpg" tvg-id="", Queen House - 24/7 Live Radio
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1639063363/ei/48qxYajiDJDNgwOFl5uwCA/ip/13.68.170.200/id/ObeaiDzkUqQ.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/gcr/us/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/24064826/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cgcr%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRgIhAOUtUhd2JRtkjCLYDQx6_zA21MjDDarvt_zkdQKQxysnAiEAsfmIxDnf6ibMBrTu2TFZX81NnXMsgaoqqMDg95lVXOc%3D/file/index.m3u8
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/eT0j93uxn2w/maxresdefault_live.jpg" tvg-id="", HUGGY WUGGY vs Squid Game vs Friday Night Funkin
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/RTQiB8S3wiY/maxresdefault.jpg" tvg-id="", Adventure Of Nate And Friends
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.pinimg.com/originals/86/b0/3e/86b03eb25774532bb39cb6646166da8b.jpg" tvg-id="", Pencilmation
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Best Of Looney Tunes In 4K" tvg-logo="Kids" tvg-id="https://m.media-amazon.com/images/I/51BvaNTw8cL.jpg", Bugs Bunny And Looney Tunes
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/n0UXA7oLc-s/maxresdefault.jpg" tvg-id="", Looney Tunes Ultra 4k
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/A1YQpvpYRzL._RI_.jpg" tvg-id="", Power Rangers Samurai Full Season
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/Bcge0VuFwSo/maxresdefault.jpg" tvg-id="", Monster School - MINECRAFT ANIMATION
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/qI0FebLJBhw/maxresdefault.jpg" tvg-id="", PAW Patrol MIGHTY PUPS MARATHON
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/91D+SqAVLAL._RI_.jpg" tvg-id="", Power Rangers Super Megaforce Full Season
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/et7HEDpsZEs/maxresdefault.jpg" tvg-id="", Peppa Pig Live! Giant Peppa and More!
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Kids" tvg-logo="https://i.ytimg.com/vi/MzVmd5aGLhc/maxresdefault.jpg" tvg-id="", Oddbods Full Episode 24/7
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Movie" tvg-logo="https://moviehouz.com/wp-content/uploads/2021/02/1613768016_maxresdefault.jpg" tvg-id="", Peppermint (2020)
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Movie" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmU3MTJiNGMtMjY2YS00MTg3LWExMWYtZmYzN2Q4MjE3NThlXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg" tvg-id="", MILE 22 (2018)
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Movie" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzYyODcwMDAyM15BMl5BanBnXkFtZTgwOTA4MjIwNDI@._V1_FMjpg_UX1000_.jpg" tvg-id="", Den of Thieves
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
+
+#EXTINF:-1 group-title="Movie" tvg-logo="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/007-no-time-to-die.jpg" tvg-id="", No Time to Die 2021
+https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u
