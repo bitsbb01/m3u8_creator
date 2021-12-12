@@ -1,0 +1,800 @@
+[
+    {
+        "guid": "f21bbed8-3a97-4d8b-88b2-48aaa65427cb",
+        "name": "Merge Versions",
+        "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n",
+        "overview": "Automatically merge repeated movies",
+        "owner": "danieladov",
+        "category": "General",
+        "versions": [
+			{
+                "version": "10.7.7.0",
+                "changelog": "Better detection and optimitation\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/10.7.7.0/Jellyfin-Plugin-MergeVersions.zip",
+                "checksum": "00818cbc89b8d596cd5a3962c5a8a9b0",
+                "timestamp": "2021-12-02 23:35:50"
+            },
+			{
+                "version": "10.7.0.2",
+                "changelog": "Fix error where movies were merged only by year\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/10.7.0.2/Jellyfin-Plugin-MergeVersions.zip",
+                "checksum": "9f94b5248e944bed2a965c251663ab97",
+                "timestamp": "2021-02-02 02:45:58"
+            },
+			{
+                "version": "10.7.0",
+                "changelog": "Update to 10.7.0\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/10.7.0/Jellyfin-Plugin-MergeVersions.zip",
+                "checksum": "95e271b58302f4372dd4551c44da618b",
+                "timestamp": "2020-12-05 13:45:58"
+            },
+		
+			{
+                "version": "1.4.0.0",
+                "changelog": "New option to exclude paths from being merge\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/1.4.0/Jellyfin-Plugin-MergeVersions.zip",
+                "checksum": "2b2bb5d442d14ca61c571c7b638bd5e3",
+                "timestamp": "2020-10-30 21:45:58"
+            },
+            {
+                "version": "1.3.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/1.3.0/Jellyfin-Plugin-MergeVersions.zip",
+                "checksum": "4dd5f0b36f8236512af651df8ac8855f",
+                "timestamp": "2020-09-01 14:30:58"
+            }
+        ]
+    },
+	
+	{
+        "guid": "afe1de9c-63e4-4692-8d8c-7c964df19eb2",
+        "name": "Theme Songs",
+        "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library\n",
+        "overview": "Automatically downloads theme songs of your tv shows",
+        "owner": "danieladov",
+        "category": "General",
+        "versions": [
+			{
+                "version": "10.7.0.2",
+                "changelog": "Fix Ilogger error",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-themesongs/releases/download/10.7.0.2/Jellyfin-Plugin-ThemeSongs.zip",
+                "checksum": "9751a00ff9d6de8ca8693c6a448a9f70",
+                "timestamp": "2021-01-31 03:30:58"
+            },
+			{
+                "version": "10.7.0",
+                "changelog": "Update to 10.7.0",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-themesongs/releases/download/10.7.0/Jellyfin-Plugin-ThemeSongs.zip",
+                "checksum": "de5a644c7fc8b804277fc6a3fd761475",
+                "timestamp": "2020-12-05 13:30:58"
+            },
+            {
+                "version": "1.1.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-themesongs/releases/download/1.0.0/Jellyfin-Plugin-ThemeSongs.zip",
+                "checksum": "34bc841aa50a34c69d473c7f58ed9885",
+                "timestamp": "2020-08-12 21:30:58"
+            }
+        ]
+    },
+	  {
+    "category": "Metadata",
+    "guid": "7834517B-1A9A-4758-9DD3-73FE02C98AA3",
+    "name": "Open Douban",
+    "description": "Scrape media's metadata from Douban",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV metadata from Douban",
+    "imageUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/image.png",
+    "versions": [
+      {
+        "checksum": "ffef0798b8285b9ac7610f38ab1bff16",
+        "changelog": "the init release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.1.zip",
+        "timestamp": "2021-05-08T23:11:00Z",
+        "version": "1.0.1"
+      },
+      {
+        "checksum": "7587b9e7cd1665877032d74c9bf8bfed",
+        "changelog": "fix image and support backdrop",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.2.zip",
+        "timestamp": "2021-05-10T20:14:00Z",
+        "version": "1.0.2"
+      },
+      {
+        "checksum": "293d281e89d65dc1830b090f53d74dd4",
+        "changelog": "fix checksum",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.3.zip",
+        "timestamp": "2021-05-15T02:49:41Z",
+        "version": "1.0.3"
+      },
+      {
+        "checksum": "95fce615cea9bff07694d96f24901dc0",
+        "changelog": "fix celebrities",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.4.zip",
+        "timestamp": "2021-05-15T14:03:08Z",
+        "version": "1.0.4"
+      },
+      {
+        "checksum": "7c0811b654dffe0dddf33a99f8c7b69f",
+        "changelog": "load more celebrities and stick imdb on it (#2)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.5.zip",
+        "timestamp": "2021-06-06T04:01:31Z",
+        "version": "1.0.5"
+      },
+      {
+        "checksum": "37b5243a1847379b6d00fca9960102a3",
+        "changelog": "filter media name by regex (#4)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.6.zip",
+        "timestamp": "2021-06-25T13:50:54Z",
+        "version": "1.0.6"
+      },
+      {
+        "checksum": "d55b322112895f548f38bf5163b4a985",
+        "changelog": "restructure the whole project (#5)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.7.zip",
+        "timestamp": "2021-07-02T14:14:46Z",
+        "version": "1.0.7"
+      },
+      {
+        "checksum": "c6653fbc39e68e313643551a213606d2",
+        "changelog": "Re-adapt backdrop image (#8)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.8.zip",
+        "timestamp": "2021-08-19T13:55:34Z",
+        "version": "1.0.8"
+      },
+      {
+        "checksum": "c9da1db799089236ccd153ee7efb1dc4",
+        "changelog": "Fix version compatibility (#9)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.9.zip",
+        "timestamp": "2021-08-21T09:32:08Z",
+        "version": "1.0.9"
+      },
+      {
+        "checksum": "900c6d54161c208c3a35845a0f4232c6",
+        "changelog": "Fix metadata of Shows (#13)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.10.zip",
+        "timestamp": "2021-10-01T15:16:18Z",
+        "version": "1.0.10"
+      },
+      {
+        "checksum": "bfb577367e94fe1184b55c3fdbe16d93",
+        "changelog": "Bugfixes: OriginalTitle & PremiereDate",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.11.zip",
+        "timestamp": "2021-10-16T07:01:57Z",
+        "version": "1.0.11"
+      },
+      {
+        "checksum": "dae635e863ad9493dceda0eadd3978d1",
+        "changelog": "Bugfixes: Name and OriginalName (#18)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.12.zip",
+        "timestamp": "2021-10-31T10:53:05Z",
+        "version": "1.0.12"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "4EAEDA51-B4CF-45F8-99B3-EB2B1F6D3A53",
+    "name": "MaxSubtitle",
+    "description": "Download subtitles from Internet",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV subtitles from Internet",
+    "versions": [
+      {
+        "checksum": "af05043cdfddb8b0ebcf43a3fe2324d2",
+        "changelog": "the first release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.1.zip",
+        "timestamp": "2021-11-18T23:11:00Z",
+        "version": "0.0.1"
+      },
+      {
+        "checksum": "84633418ccebd73a2604d53de6fa9bce",
+        "changelog": "fix language type",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.2.zip",
+        "timestamp": "2021-12-08T23:11:00Z",
+        "version": "0.0.2"
+            }
+        ]
+    },
+	  {
+		  "guid": "5e7fe7f0-b048-429e-a431-b1a7e69c930d", 
+		  "name": "LastFM", 
+		  "description": "Scrobble LastFM plays with Jellyfin", 
+		  "overview": "A plugin that scrobbles your Jellyfin music to LastFM", 
+		  "owner": "Jesse Ward", 
+		  "category": "music", 
+		  "versions": [
+		  {
+			  "version": "7.0.0.0", 
+			  "changelog": "Jellyfin LastFM build v7.0.0.0", 
+			  "targetAbi": "10.7.0.0", 
+			  "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/7.0.0.0/lastfm_7.0.0.0.zip", 
+			  "checksum": "d6dbcf63760c7de4d09813a4c6f78361", 
+			  "timestamp": "2021-01-25T00:57:19Z"
+            }
+        ]
+    },
+	{   "guid": "0df52034-4b59-443f-ac40-1d3f5107e2da",
+        "name": "Facebook",
+        "description": "Sends notifications to Facebook.\n",
+        "overview": "Sends notifications to Facebook",
+        "owner": "cgnetwork",
+        "category": "Notifications",
+        "imageUrl": "https://raw.githubusercontent.com/cgnetwork/jellyfin-plugins/main/facebook-logo.png",
+        "versions": [
+            {
+                "version": "3.0.3.0",
+                "changelog": "Version 3.0.3.0",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://github.com/cgnetwork/jellyfin-plugin-facebook/releases/download/v3.0.3/release.zip",
+                "checksum": "2B71FDA8D61631E6D28D13ADB190A365"
+            }
+        ]
+    },
+			  {
+    "guid": "69384327-d223-447a-ae23-47767eed1749",
+    "name": "M3U Editor",
+    "description": "Edit Live TV M3U channel lists",
+    "overview": "Edit Live TV M3U channel lists",
+    "owner": "Mr. Chip53",
+    "category": "Live TV",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.01/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "1f7e24908bfc1a68374890706c9fd1d4",
+        "timestamp": "2021-01-16T06:18:27Z"
+      },
+	  {
+        "version": "0.2.0.0",
+        "changelog": "-Add API key to M3U urls, add 'tvg-chno' attribute to channels that don't already have it",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.02/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "2e1d1aa0648eb2643bb440dbf2b5927c",
+        "timestamp": "2021-01-17T06:18:27Z"
+      },
+	  {
+        "version": "1.0.0.0",
+        "changelog": "- Add tabs to UI<br />- Filter by hidden value<br />- Search by channel name<br />- Delete playlists<br />- Refresh channels from source<br />- Custom user agents when fetching m3u<br />- Minor improvements<br />",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.0.0.0/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "3c692f2b5d6327986e2faefb0b575868",
+        "timestamp": "2021-01-22T06:18:27Z"
+      },
+	  {
+        "version": "1.1.0.0",
+        "changelog": "- Improve mass hiding functions",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.1.0.0/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "0f39094bc7225672d040fc5f469c8ab6",
+        "timestamp": "2021-01-22T06:18:27Z"
+            }
+        ]
+    },
+	    {
+        "category": "General",
+        "guid": "616552f9-8355-4737-bbe0-8217f9e8ea14",
+        "name": "RunScripts",
+        "description": "This plugin let's you run custom scripts after events like playback start and stop.",
+        "owner": "lmaonator",
+        "overview": "Run scripts after events like playback start and stop",
+        "versions": [
+            {
+                "checksum": "e0836eb02cccd9daa38be9f5f4bdcea3",
+                "changelog": "initial release",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/lmaonator/jellyfin-plugin-runscripts/releases/download/v1.0.0.0/RunScripts_1.0.0.0.zip",
+                "timestamp": "2021-04-30 14:36:00",
+                "version": "1.0.0.0"
+            }
+        ]
+    },
+			   {
+      "guid":"3C96F5BC-4182-4B86-B05D-F730F2611E45",
+      "name":"Smart Playlist",
+      "description":"Create automatically updating playlists based on rules.\n",
+      "overview":"Create automatically updating playlists based on rules.",
+      "owner":"ankenyr",
+      "category":"General",
+      "versions":[
+         {
+            "version":"1.0.0.1",
+            "changelog":"Updating code to be compatible with 10.7.5",
+            "targetAbi":"10.7.0.0",
+            "sourceUrl":"https://github.com/ankenyr/jellyfin-smartplaylist-plugin/releases/download/1.0.0.1/Smart.Playlist.zip",
+            "checksum":"780C6F368F4DA2989A0CA5B0B138F913",
+            "timestamp":"2021-05-05T00:00:00Z"
+         },
+         {
+            "version":"1.0.0.0",
+            "changelog":"Initial Release",
+            "targetAbi":"10.6.0.0",
+            "sourceUrl":"https://github.com/ankenyr/jellyfin-smartplaylist-plugin/releases/download/v1.0.0.0/Smart.Playlist.zip",
+            "checksum":"BC32C4B3F7A8BEB1E476B27C1159B331",
+            "timestamp":"2020-08-29T00:00:00Z"
+         }
+      ]
+   },
+   {
+      "guid":"b4b4353e-dc57-4398-82c1-de9079e7146a",
+      "name":"YoutubeMetadata",
+      "description":"Pull YoutubeMetadata from info.json or YoutubeAPI.",
+      "overview":"Pull YoutubeMetadata from info.json or YoutubeAPI.",
+      "owner":"ankenyr",
+      "category":"Metadata",
+      "versions":[
+          {
+            "version":"1.0.3.3",
+            "changelog":"Adding Youtube-DL functionality",
+            "targetAbi":"10.7.0.0",
+            "sourceUrl":"https://github.com/ankenyr/jellyfin-youtube-metadata-plugin/releases/download/1.0.3.3/YoutubeMetadata.zip",
+            "checksum":"90148931C282F48A27FF478237EFBD8C",
+            "timestamp":"2021-05-23 00:00:00"
+         },
+         {
+            "version":"1.0.3.2",
+            "changelog":"Updating build to 10.7.",
+            "targetAbi":"10.7.0.0",
+            "sourceUrl":"https://github.com/ankenyr/jellyfin-youtube-metadata-plugin/releases/download/1.0.3.2/Jellyfin.Plugin.YoutubeMetadata.zip",
+            "checksum":"483211B425D216734E6CA8896D7F71CD",
+            "timestamp":"2021-03-03 00:00:00"
+         },
+         {
+            "version":"1.0.2.2",
+            "changelog":"Fixed error where new media would not get images without forcing reload of images.",
+            "targetAbi":"10.6.0.0",
+            "sourceUrl":"https://github.com/ankenyr/jellyfin-youtube-metadata-plugin/releases/download/1.0.2.2/Jellyfin.Plugin.YoutubeMetadata.zip",
+            "checksum":"D45A404B613628FDE095A6B6D5FF9441",
+            "timestamp":"2020-09-11 00:00:00"
+            }
+        ]
+    },
+			
+	{
+        "guid": "e9ca8b8e-ca6d-40e7-85dc-58e536df8eb3",
+        "name": "Skin Manager",
+        "description": "Skin manager helps you to download and install most popular skins for jellyfin\n",
+        "overview": "Skins for jellyfin",
+        "owner": "danieladov",
+		"imageURL": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/thumb.png",
+        "category": "General",
+        "versions": [
+			{
+                "version": "2.0.0",
+                "changelog": "New custom skin editor\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/2.0.0/Jellyfin-Plugin-SkinManager.zip",
+                "checksum": "64672b424ca0ac7cd1f3b032eef40b55",
+                "timestamp": "2021-05-13 12:02:52"
+            },
+			{
+                "version": "1.5.0.0",
+                "changelog": "[BETA] Options to preview and edit the skins\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/1.5.0.0/Jellyfin-Plugin-SkinManager.zip",
+                "checksum": "2c479ab72de0f3391bad4da26f9b98d2",
+                "timestamp": "2020-12-11 22:02:52"
+            },
+			{
+                "version": "1.4.0.0",
+                "changelog": "Skin versions support\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/1.4.0.0/Jellyfin-Plugin-SkinManager.zip",
+                "checksum": "10aaad6b203a97b05c8b73bd3de09590",
+                "timestamp": "2020-11-09 16:20:52"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/1.0.0/Jellyfin-Plugin-SkinManager.zip",
+                "checksum": "15305155f67ad72dbfa4082aa6ef5c3c",
+                "timestamp": "2020-11-08 18:14:58"
+            }
+        ]
+    },
+	
+
+  {
+    "guid": "fd876e40-9413-4fbc-acee-94bfce03734f",
+    "name": "n0tFlix.Addons.Subscriptions",
+    "description": "A subscription system for jellyfin (work in progress)",
+    "overview": "A subscription system for jellyfin",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.Subscriptions/bin/Release/netstandard2.1/n0tFlix.Addons.Subscriptions.zip",
+        "checksum": "292B618F78E9D0DBD5CF4362948F3FE2",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "cc3620d9-d4da-4c69-8867-9c051645353e",
+    "name": "n0tFlix.Addons.VideoExtractor",
+    "description": "A video extraction api for jellyfin ",
+    "overview": "A video extraction api for jellyfin",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.VideoExtractor/bin/Release/netstandard2.1/n0tFlix.Addons.VideoExtractor.zip",
+        "checksum": "210912CA72E45DD92E62B8FB9B6D2578",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "e84adafb-7ad0-43c9-92b6-2dfbd54d1342",
+    "name": "n0tFlix.Addons.YoutubeDL",
+    "description": "Adds a new api to use youtube-dl for reciving streamable links, going to use this for future channels",
+    "overview": "Adds a new api to use youtube-dl for reciving streamable links, going to use this for future channels",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.YoutubeDL/bin/Release/netstandard2.1/n0tFlix.Addons.YoutubeDL.zip",
+        "checksum": "A4FF23672173FB96709C17CAC22DBB47",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "f8d6e3ed-54bf-4d2e-b2c3-250e42c13002",
+    "name": "n0tFlix.Channel.ComedyCentral",
+    "description": "A channel to get all the content from comedy central(work in progress)",
+    "overview": "A channel to get all the content from comedy central(work in progress)",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.ComedyCentral.zip",
+        "checksum": "9B124722A32C5CAC52FB4C6BCE8ED93D",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "eef1f71b-340f-4099-af64-5c5e0d277e87",
+    "name": "n0tFlix.Channel.Crunchyroll",
+    "description": "A channel to get all the content from Crunchyroll(work in progress)",
+    "overview": "A channel to get all the content from Crunchyroll(work in progress)",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Crunchyroll/bin/Release/netstandard2.1/n0tFlix.Channel.Crunchyroll.zip",
+        "checksum": "9D64796A9EAB69216F22F586211A0371",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "7ae457ca-a5cf-4f78-97f5-b6e5f12511f6",
+    "name": "n0tFlix.Channel.NRK",
+    "description": "A channel to get all the content from nrk web tv",
+    "overview": "A channel to get all the content from  nrk web tv",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.NRK/bin/Release/netstandard2.1/n0tFlix.Channel.NRK.zip",
+        "checksum": "92730A53059262B212A58FA07089607F",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "c54b4d26-e6a6-44a2-96ce-65821fd9d9ac",
+    "name": "n0tFlix.Channel.Pornhub",
+    "description": "A channel to get all the content from pornhub",
+    "overview": "A channel to get all the content from  pornhub",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Pornhub/bin/Release/netstandard2.1/n0tFlix.Channel.Pornhub.zip",
+        "checksum": "4E9B2701F32D738447B679A82CD2702C",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "9d2716a7-7f32-4885-b16c-ff0394f326e0",
+    "name": "n0tFlix.Channel.Redtube",
+    "description": "A channel to get all the content from redtube",
+    "overview": "A channel to get all the content from  redtube",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Redtube/bin/Release/netstandard2.1/n0tFlix.Channel.Redtube.zip",
+        "checksum": "7275AC3D7FF98CD9948E557780F3A478",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "9ea53b0f-1e34-4c01-9c7f-f96ef4f1380f",
+    "name": "n0tFlix.Channel.TubiTV",
+    "description": "A channel to get all the content from tubitv",
+    "overview": "A channel to get all the content from  tubitv",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.TubiTV/bin/Release/netstandard2.1/n0tFlix.Channel.TubiTV.zip",
+        "checksum": "DF47D8DAE1F1BBC1E71D209436C8528C",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "34d435b3-fce2-4680-9787-3e408a7e6f25",
+    "name": "n0tFlix.Channel.TWiT",
+    "description": "A channel to get all the content from twit",
+    "overview": "A channel to get all the content from  twit",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Twit/bin/Release/netstandard2.1/n0tFlix.Channel.TWiT.zip",
+        "checksum": "71E47C0270554CC029B2E5DC6D4E0BBE",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "839c802f-ca0c-4785-ae61-e7a7a50689c7",
+    "name": "n0tFlix.Channel.Viafree",
+    "description": "A channel to get all the content from viafree",
+    "overview": "A channel to get all the content from  viafree",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Viafree/bin/Release/netstandard2.1/n0tFlix.Channel.Viafree.zip",
+        "checksum": "110C1884E4F517F99EEDAB42AD1FFA43",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "4ef4ac59-3542-49bf-8ab2-da6f8c3c92b1",
+    "name": "n0tFlix.Subtitles.Addic7ed",
+    "description": "A plugin to download subtitles from Addic7ed",
+    "overview": "A plugin to download subtitles from Addic7ed",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Addic7ed/bin/Release/netstandard2.1/n0tFlix.Subtitles.Addic7ed.zip",
+        "checksum": "FBE1CDBC5C986777D7A32F9B53BCBF7C",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "5794f592-81a2-41fa-82b1-81697e9d12bf",
+    "name": "n0tFlix.Subtitles.Napisub",
+    "description": "A plugin to download subtitles from napisub",
+    "overview": "A plugin to download subtitles from napisub",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.NapiSub/bin/Release/netstandard2.1/n0tFlix.Subtitles.Napisub.zip",
+        "checksum": "C75DBA8C4BCC37C76CAB86D954E5ED2D",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "37b537c4-c45d-4224-90b9-278f54a44cf8",
+    "name": "n0tFlix.Subtitles.OpenSubtitles",
+    "description": "A plugin to download subtitles from opensubtitles(changed to use the vip api)",
+    "overview": "A plugin to download subtitles from opensubtitles(changed to use the vip api)",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.OpenSubtitles/bin/Release/netstandard2.1/n0tFlix.Subtitles.OpenSubtitles.zip",
+        "checksum": "42ADA426625F12A3C3ED3F6A702A98A2",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "b3bdb631-48a6-4442-b65e-bb96bf752425",
+    "name": "n0tFlix.Subtitles.Podnapisi",
+    "description": "A plugin to download subtitles from podnapisi",
+    "overview": "A plugin to download subtitles from podnapisi",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Podnapisi/bin/Release/netstandard2.1/n0tFlix.Subtitles.Podnapisi.zip",
+        "checksum": "9E6EEB7FE05640A3A904B2CE3A462DD5",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "37f6a1cc-a3e9-453b-8ec5-decb6138dbf4",
+    "name": "n0tFlix.Subtitles.SubDivX",
+    "description": "A plugin to download subtitles from subdivx",
+    "overview": "A plugin to download subtitles from subdivx",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.SubDivX/bin/Release/netstandard2.1/n0tFlix.Subtitles.SubDivX.zip",
+        "checksum": "066FDDCCDB752B20AF6F654ADF749E1B",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "872da8b0-3bbf-447d-94a9-cd085edb5b46",
+    "name": "n0tFlix.Subtitles.Subscene",
+    "description": "A plugin to download subtitles from subscene",
+    "overview": "A plugin to download subtitles from subscene",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Subscene/bin/Release/netstandard2.1/n0tFlix.Subtitles.Subscene.zip",
+        "checksum": "377E0910039DB3C2B52B007D7C2CC986",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "f13d3969-2f3a-4dfe-b95e-4036f9f69f2c",
+    "name": "n0tFlix.Subtitles.TheSubDB",
+    "description": "A plugin to download subtitles from thesubdb",
+    "overview": "A plugin to download subtitles from thesubdb",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.TheSubDB/bin/Release/netstandard2.1/n0tFlix.Subtitles.TheSubDB.zip",
+        "checksum": "8AC76D90DAB26E47D28168F050A58CCE",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "70792d42-3d74-4c2a-a424-f7df79b50115",
+    "name": "n0tFlix.Subtitles.TVsubtitles",
+    "description": "A plugin to download subtitles from TVsubtitles",
+    "overview": "A plugin to download subtitles from TVsubtitles",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.TVsubtitles/bin/Release/netstandard2.1/n0tFlix.Subtitles.TVsubtitles.zip",
+        "checksum": "F55E81689A9AA677A994A6CD3F956E54",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "602f22e1-ad98-41ae-8d7e-3cd7bc7c1000",
+    "name": "n0tFlix.Subtitles.Yify",
+    "description": "A plugin to download subtitles from Yify",
+    "overview": "A plugin to download subtitles from Yify",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Yify/bin/Release/netstandard2.1/n0tFlix.Subtitles.Yify.zip",
+        "checksum": "A1650324BBE4DD3A1A1452670CCC19B9",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "1bd29ee2-24aa-4774-a0ed-46fd0204a11a",
+    "name": "n0tFlix.Provider.Imvdb",
+    "description": "A metadata provider for music videos using the imvdb api",
+    "overview": "A metadata provider for music videos using the imvdb api",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Providers/n0tFlix.Provider.Imvdb/bin/Release/netstandard2.1/n0tFlix.Provider.Imvdb.zip",
+        "checksum": "1844518EC2B419F550A91C04ACF0D0E0",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  }
+]
