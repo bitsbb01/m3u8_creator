@@ -779,6 +779,341 @@
       }
     ]
   },
+	  {
+    "guid": "9482dc3b-48aa-4d3b-8224-9128d1e8e0cd",
+    "name": "Intros",
+    "overview": "Display flashy intros before movies and other videos",
+    "description": "Select a flashy video from prerolls.video to run before any video content.",
+    "owner": "dkanada",
+    "category": "Other",
+    "versions": [
+      {
+        "version": "1.3.1.0",
+        "changelog": "- update build process and migrate to github for hosting",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/dkanada/jellyfin-plugin-intros/releases/download/v1.3.1/jellyfin-plugin-intros-v1.3.1.zip",
+        "checksum": "689cf1b5a9f8adb1a31750da16623996",
+        "timestamp": "2021-06-02T00:00:00Z"
+      }
+    ]
+  },
+     {
+        "category": "Metadata",
+        "guid": "8f97371f-8617-463c-9859-a33072182494",
+        "name": "PhoenixAdult",
+        "description": "This metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.",
+        "owner": "DirtyRacer",
+        "overview": "Manage Your Adult Videos in Jellyfin/Emby",
+        "versions": [
+            {
+                "checksum": "043acb3cb25709106683bdf11e6e24cd",
+                "changelog": "Added Latest Emby Support (4.6); Added Socks5 Proxy Support; Minor Changes",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.6.2.46/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2021-06-06 14:37:54",
+                "version": "2.6.2.46"
+            },  
+            {
+                "checksum": "43132679f03a0dd3ae2cdb613de9f32a",
+                "changelog": "Added Clip4Sale Support; Added Creating Collections based on studios; Added HTTP Caching; Added Using Directory Name for Search; Fixed Emby tasks; Minor Changes",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.6.1.45/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2021-05-10 08:28:55",
+                "version": "2.6.1.45"
+            },              
+            {
+                "checksum": "a7ecc3fee32b4482c17a66f13ad98ac1",
+                "changelog": "Add NetworkAdultEmpire Support; Add NetworkMetadataAPI Support; Add using MetadataAPI for not supported sites; Add manual mode (Disable Auto Identify); Minor Changes",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.5.2.44/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2021-04-08 21:50:00",
+                "version": "2.5.2.44"
+            },            {
+                "checksum": "98d92228803b48d36452533e5dc136a3",
+                "changelog": "Add 10.7.0 Support; Minor Change",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.5.1.43/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2021-03-10 19:53:33",
+                "version": "2.5.1.43"
+            },
+            {
+                "checksum": "22162d23806ce9c110590548517c4d90",
+                "changelog": "Add NetworkStrike3 Support; Add FlareSolverr Support (CloudFlare bypass); Minor Change",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.4.2.42/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2021-02-04 10:47:33",
+                "version": "2.4.2.42"
+            },
+            {
+                "checksum": "af69819fd030310f9c5e1caa251d6966",
+                "changelog": "Removed Flurl.Http; Added Actor Provider; Added JAV Provider; Added Genre Soring Options; Added Actor Source Options; Added CrashDump Collecting; Added Token Saving for NetworkGammaEnt; Added Cleaning Expired Tokens; Changed Database Loading; Fixed Scene URL for Some Sites; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.4.1.41/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2021-01-05 20:27:58",
+                "version": "2.4.1.41"
+            },
+            {
+                "checksum": "e8dfe089e191660e615ace353fe5d20f",
+                "changelog": "Fixed token update; Fixed Scene URL for Some Sites; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.3.6.40/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-12-04 16:32:55",
+                "version": "2.3.6.40"
+            },
+            {
+                "checksum": "ec495e2eef91140107b671e603f67906",
+                "changelog": "Added PornCZ Support; Added Token Saving for (Network1Service); Added Scene URL; Fixed Disable Actor; Fixed Naughty America; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.3.5.39/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-12-01 13:26:28",
+                "version": "2.3.5.39"
+            },
+            {
+                "checksum": "d927abf1d9ad9af5f4406e63d3580cb3",
+                "changelog": "Added Heyzo Support; Added DefaultSiteName; Added DisableImageValidation and DisableImageSize; Added Detection JAV Movie Code; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.3.4.38/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-11-27 04:26:56",
+                "version": "2.3.4.38"
+            },
+            {
+                "checksum": "767015a971c2a16e95d3431eae9496a6",
+                "changelog": "Minor changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.3.3.37/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-11-25 23:43:28",
+                "version": "2.3.3.37"
+            },
+            {
+                "checksum": "ac90a0a91eefcbef74437feeccfbc3c9",
+                "changelog": "Added Caribbeancom support; Minor changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.3.2.36/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-11-23 8:51:33",
+                "version": "2.3.2.36"
+            },
+            {
+                "checksum": "5410d5156efda8057170947869e2d727",
+                "changelog": "Added JavLibrary support; Minor changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.3.1.35/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-11-21 10:06:37",
+                "version": "2.3.1.35"
+            },
+            {
+                "checksum": "c0374aad840061c2fdf8bef0a73e99e3",
+                "changelog": "Added Hegre support; Added feature to disable actor saving (Issue #19); Added decensor for R18; Added javID to metadata for R18; Added genre based on actors count; Fixed Porndoe; Fixed JulesJordan GetImages; Minor changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.2.4.34/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-11-18 14:33:11",
+                "version": "2.2.4.34"
+            },
+            {
+                "checksum": "2cc743ed5b04f5a6df25281a3b32099c",
+                "changelog": "Added Nublies support; Added Porndoe support; Added cleanup tasks; Improved image speed; Improved database update; Fixed JAV search scoring; Minor changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.2.3.33/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-10-25 16:54:16",
+                "version": "2.2.3.33"
+            },
+            {
+                "checksum": "b8a764f2a84b46739dd3def058ddc487",
+                "changelog": "SiteList moved to database; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.2.2.32/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-10-01 15:54:30",
+                "version": "2.2.2.32"
+            },
+            {
+                "checksum": "2639fcf697948de3e25ed688d6254a59",
+                "changelog": "Added Pornhub Support; Added Database Feature; Removed FileName Stripping Detection (Not required since Jellyfin version 10.6.5); Fixed Google Search; Multiple Sites Fixes; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.2.1.31/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-09-29 12:45:11",
+                "version": "2.2.1.31"
+            },
+            {
+                "checksum": "3d909ba9dec30e31687906599ed20cbe",
+                "changelog": "Disabled Actor Provider; Added Year Field; Added FileName Stripping Detection; Multiple Sites Fixes; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.1.2.30/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-08-02 02:12:22",
+                "version": "2.1.2.30"
+            },
+            {
+                "checksum": "3471475166163d13a714cab34c74751a",
+                "changelog": "Combining Emby, Jellyfin, PhoenixAdult.NET plugin in one project; Added Actor Provider; Updated Brazzers; Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.1.2.29/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-28 05:12:17",
+                "version": "2.1.2.29"
+            },
+            {
+                "checksum": "be7cc14423964849865610354f63378c",
+                "changelog": "Updated PhoenixAdult.NET to 1.2.5",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.0.2.28/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-22 17:26:47",
+                "version": "2.0.2.28"
+            },
+            {
+                "checksum": "7d2c57ee7d01ad5e7be372f2ec26f347",
+                "changelog": "Updated PhoenixAdult.NET to 1.2.4",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.0.2.27/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-22 15:47:35",
+                "version": "2.0.2.27"
+            },
+            {
+                "checksum": "2d314bd959a09e997c203c1c032f3bdd",
+                "changelog": "Added Studios Info",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.0.1.26/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-21 04:21:09",
+                "version": "2.0.1.26"
+            },
+            {
+                "checksum": "e8eccec68d951349fce56e341da274b7",
+                "changelog": "Updated PhoenixAdult.NET to 1.1.3",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.0.1.25/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-21 03:49:09",
+                "version": "2.0.1.25"
+            },
+            {
+                "checksum": "f2cbf60737720ca3eb2043f202a2d751",
+                "changelog": "Updated PhoenixAdult.NET to 1.0.2 | Minor Changes",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.0.0.24/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-20 20:38:44",
+                "version": "2.0.0.24"
+            },
+            {
+                "checksum": "2bfc93069cb86d6ffe701208078ec023",
+                "changelog": "Moved to PhoenixAdult.NET | Added Jellyfin 10.6.0.0 support",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/releases/download/2.0.0.23/Jellyfin.Plugin.PhoenixAdult.zip",
+                "timestamp": "2020-07-20 16:24:38",
+                "version": "2.0.0.23"
+            }
+        ]
+    },
+	 {
+    "guid": "69384327-d223-447a-ae23-47767eed1749",
+    "name": "M3U Editor",
+    "description": "Edit Live TV M3U channel lists",
+    "overview": "Edit Live TV M3U channel lists",
+    "owner": "Mr. Chip53",
+    "category": "Live TV",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.01/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "1f7e24908bfc1a68374890706c9fd1d4",
+        "timestamp": "2021-01-16T06:18:27Z"
+      },
+	  {
+        "version": "0.2.0.0",
+        "changelog": "-Add API key to M3U urls, add 'tvg-chno' attribute to channels that don't already have it",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.02/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "2e1d1aa0648eb2643bb440dbf2b5927c",
+        "timestamp": "2021-01-17T06:18:27Z"
+      },
+	  {
+        "version": "1.0.0.0",
+        "changelog": "- Add tabs to UI<br />- Filter by hidden value<br />- Search by channel name<br />- Delete playlists<br />- Refresh channels from source<br />- Custom user agents when fetching m3u<br />- Minor improvements<br />",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.0.0.0/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "3c692f2b5d6327986e2faefb0b575868",
+        "timestamp": "2021-01-22T06:18:27Z"
+      },
+	  {
+        "version": "1.1.0.0",
+        "changelog": "- Improve mass hiding functions",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.1.0.0/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "0f39094bc7225672d040fc5f469c8ab6",
+        "timestamp": "2021-01-22T06:18:27Z"
+      }
+    ]
+  },
+      {
+        "guid": "69104C31-D23F-4040-B99C-8913C09751D6",
+        "name": "TMDb Trailers",
+        "description": "Watch trailers from TMDb\n",
+        "overview": "Watch trailers from TMDb",
+        "owner": "crobibero",
+        "category": "Channels",
+        "versions": [
+            {
+                "version": "5.2021.0515.1309",
+                "changelog": "Only get stream url when requested\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_5.2021.0515.1309.zip",
+                "checksum": "0ee9c6efe2b9eb767f6ea7f0226c478d",
+                "timestamp": "2021-05-15T13:09:24Z"
+            },
+            {
+                "version": "5.2021.0515.1305",
+                "changelog": "Only get stream url when requested\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_5.2021.0515.1305.zip",
+                "checksum": "ba4199f572f0e3eb4c2304741d59f275",
+                "timestamp": "2021-05-15T13:05:54Z"
+            },
+            {
+                "version": "5.2021.0102.0353",
+                "changelog": "Only get stream url when requested\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_5.2021.0102.0353.zip",
+                "checksum": "df44c03e7109d872f6b756eb052de83f",
+                "timestamp": "2021-01-02T03:53:45Z"
+            },
+            {
+                "version": "4.2020.1122.1627",
+                "changelog": "Only get stream url when requested\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_4.2020.1122.1627.zip",
+                "checksum": "949de4ca641e5c147251df996df94f3a",
+                "timestamp": "2020-11-22T16:27:25Z"
+            },
+            {
+                "version": "4.2020.0908.0010",
+                "changelog": "Only get stream url when requested\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_4.2020.0908.0010.zip",
+                "checksum": "7f71b325a30d0233bd336d833421518b",
+                "timestamp": "2020-09-08T00:11:00Z"
+            },
+            {
+                "version": "3.2020.0828.2000",
+                "changelog": "Add configuration Add additional video sources Actually add item as trailer\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_3.2020.0828.2000.zip",
+                "checksum": "cf5c1ca24a7fec8841ace75d4278112a",
+                "timestamp": "2020-08-28T20:00:58Z"
+            },
+            {
+                "version": "2.2020.0828.0118",
+                "changelog": "Add configuration Add additional video sources\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_2.2020.0828.0118.zip",
+                "checksum": "56b9e2b6b1c9a99020d7826da56e059a",
+                "timestamp": "2020-08-28T01:18:45Z"
+            },
+            {
+                "version": "1.2020.0827.2257",
+                "changelog": "Initial release\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.codyrobibero.dev/tmdb-trailers/tmdb-trailers_1.2020.0827.2257.zip",
+                "checksum": "1cf0ac85360c78004450fb9c4a650b33",
+                "timestamp": "2020-08-27T22:58:06Z"
+            }
+        ]
+    },
   {
     "guid": "1bd29ee2-24aa-4774-a0ed-46fd0204a11a",
     "name": "n0tFlix.Provider.Imvdb",
