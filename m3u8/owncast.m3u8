@@ -2,6 +2,8 @@
 #EXT-X-VERSION:3
 #EXTINF:-1, tvg-ID="TROM.LIVE" tvg-logo="https://trom.live/logo" tvg-tags="Tech,streaming,owncast,nature,documentary,science,TROM",TROM.LIVE
 https://trom.live/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="hatniX plays" tvg-logo="http://live.hatnix.net/logo" tvg-tags="Video Games,streaming,gaming,deutsch,linux,english,hatclan",hatniX plays
+http://live.hatnix.net/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="RetroStrange TV" tvg-logo="https://live.retrostrange.com/logo" tvg-tags="streaming,owncast,movies,retro,sci fi,horror,tv,vintage,public domain",RetroStrange TV
 https://live.retrostrange.com/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="Owncast Demo Server" tvg-logo="https://watch.owncast.online/logo" tvg-tags="testing,owncast,demo",Owncast Demo Server
