@@ -1,7 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXTINF:-1, tvg-ID="hatniX plays" tvg-logo="http://live.hatnix.net/logo" tvg-tags="Video Games,streaming,gaming,deutsch,linux,english,hatclan",hatniX plays
-http://live.hatnix.net/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="TROM.LIVE" tvg-logo="https://trom.live/logo" tvg-tags="Tech,streaming,owncast,nature,documentary,science,TROM",TROM.LIVE
 https://trom.live/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="RetroStrange TV" tvg-logo="https://live.retrostrange.com/logo" tvg-tags="streaming,owncast,movies,retro,sci fi,horror,tv,vintage,public domain",RetroStrange TV
@@ -10,10 +8,12 @@ https://live.retrostrange.com/hls/stream.m3u8
 https://watch.owncast.online/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="Joel's Owncast Server" tvg-logo="https://stream.cincodenada.com/logo" tvg-tags="Video Games,Tech,software,streaming,transcription,hollowknight,adventofcode,repair,interactive",Joel's Owncast Server
 https://stream.cincodenada.com/hls/stream.m3u8
-#EXTINF:-1, tvg-ID=".: fyrfli gaming :." tvg-logo="https://stream.fyrf.li/logo" tvg-tags="Video Games,streaming,owncast,gaming,games,pc-gaming",.: fyrfli gaming :.
-https://stream.fyrf.li/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="FFMUC TV" tvg-logo="https://tv.ffmuc.net/logo" tvg-tags="software,streaming,technology",FFMUC TV
 https://tv.ffmuc.net/hls/stream.m3u8
+#EXTINF:-1, tvg-ID=".: fyrfli gaming :." tvg-logo="https://stream.fyrf.li/logo" tvg-tags="Video Games,streaming,owncast,gaming,games,pc-gaming",.: fyrfli gaming :.
+https://stream.fyrf.li/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Hispaverso - pero en inglés" tvg-logo="https://arroyo.novoa.nagoya/logo" tvg-tags="streaming,owncast",Hispaverso - pero en inglés
+https://arroyo.novoa.nagoya/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="Digital TV from Perth, Australia. Enjoy." tvg-logo="http://dtvperth.com.au:8080/logo" tvg-tags="Perth,Western Australia,Open TV",Digital TV from Perth, Australia. Enjoy.
 http://dtvperth.com.au:8080/hls/stream.m3u8
 #EXTINF:-1, tvg-ID="The Bat Station Internet Radio" tvg-logo="https://listen.batstationrad.io/logo" tvg-tags="Music,dance,ebm,futurepop,internet radio,goth",The Bat Station Internet Radio
