@@ -48,6 +48,14 @@ I'm looking at trying to also get all the streams from vaughn.live into a m3u8, 
 
 
 Thanks go out to ericziethen for his help with the m3u8_creator.. 
+Thanks go out to Sphinxroot for his really well done playlists..
+Thanks go out to junguler for his music playlists..
+Thanks go out to apsattv.com for there guys being able to get a lot of updated playlists..
+Thanks go out to matthuisman for his pbs playlist..
+Thanks go out to iptv-org for the us-vizio playlist..
+Once can get the free2view playlist to commpile into the main list correctly, then will re-add
+Free2View TV courtesy of the Free2View TV Project and its team of developers: https://discord.gg/C48WhSTpw7        
+        
 
         
     
