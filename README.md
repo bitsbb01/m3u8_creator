@@ -55,6 +55,7 @@ Thanks go out to matthuisman for his pbs playlist..
 Thanks go out to iptv-org for the us-vizio playlist..
 Once can get the free2view playlist to commpile into the main list correctly, then will re-add
 Free2View TV courtesy of the Free2View TV Project and its team of developers: https://discord.gg/C48WhSTpw7        
+Also thanks go out to everyone else that has been able to help with designing and building all the various scripts to get this working.        
         
 
         
