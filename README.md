@@ -59,7 +59,7 @@ Also thanks go out to everyone else that has been able to help with designing an
         
 
         
-    
+    I'll be doing some more updating soon, but at moment currently fighting covid, was already suffering from side effects of the Johnson & Johnson shot and then got covid, anyway once i can sit here long enough, i'll be doing some big updates, including fixing the main list to work correctly
 
 </div>
     
