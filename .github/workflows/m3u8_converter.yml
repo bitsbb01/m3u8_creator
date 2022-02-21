@@ -36,29 +36,29 @@ jobs:
           git push
           
              
-      - name: Cleanup Files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git rm ./tests/m3u8/*.m3u8
-          git rm ./m3u8/*.m3u8
-          git rm ./*.m3u8
-          git rm ./tests/epg/*.gz
-          git rm ./epg/*.gz
-          git rm ./temp/m3u8_static/*.m3u8
-          git rm ./temp/all_streams_tmp/*.json
-                                  
-      - name: Push changes for old files
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.scrapper_token }}
-          branch: ${{ github.ref }}
-          
-      - name: Commit All Files
-        uses: zwaldowski/git-commit-action@v1
-        with:
-             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-             working_directory: .
+#      - name: Cleanup Files
+#        run: |
+#          git config --local user.email "action@github.com"
+#          git config --local user.name "GitHub Action"
+#          git rm ./tests/m3u8/*.m3u8
+#          git rm ./m3u8/*.m3u8
+#          git rm ./*.m3u8
+#          git rm ./tests/epg/*.gz
+#          git rm ./epg/*.gz
+#          git rm ./temp/m3u8_static/*.m3u8
+#          git rm ./temp/all_streams_tmp/*.json
+#                                  
+#      - name: Push changes for old files
+#        uses: ad-m/github-push-action@master
+#        with:
+#          github_token: ${{ secrets.scrapper_token }}
+#          branch: ${{ github.ref }}
+#          
+#      - name: Commit All Files
+#        uses: zwaldowski/git-commit-action@v1
+#        with:
+#             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
+#             working_directory: .
 
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -295,8 +295,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "freeli.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Freeli.tv/Freeli.tv.m3u" "${M3U8_STATIC_DIR}" "freeli.m3u8"
           
-          #echo "Command: './scripts/download_file_allow_failiure.sh "https://od.lk/s/MzJfMTcwOTQ4Mjhf/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2view.m3u8"'"
-          #./scripts/download_file_allow_failiure.sh "https://od.lk/s/MzJfMTcwOTQ4Mjhf/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2view.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://od.lk/s/MzJfMTcwOTQ4Mjhf/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2view.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://od.lk/s/MzJfMTcwOTQ4Mjhf/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2view.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Gemonline/Gemonline.m3u" "${M3U8_STATIC_DIR}" "gemonline.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/Gemonline/Gemonline.m3u" "${M3U8_STATIC_DIR}" "gemonline.m3u8"
