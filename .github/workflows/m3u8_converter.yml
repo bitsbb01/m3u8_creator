@@ -38,13 +38,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v1
 
-      - name: Check file existence
+      - name: Check *.M3u8 File existence
         id: check_files
         uses: andstor/file-existence-action@v1
         with:
-          files: "./*.m3u8, ./tests/m3u8/*.m3u8, ./epg/*.gz"
+          files: "./CompiledallStreams.m3u, ./epg/epg_ripper_ALL_SOURCES1.xml.gz"
 
-      - name: File exists
+      - name: If *.M3U8 Files exists - Then Cleanup
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
         run: |
@@ -58,7 +58,7 @@ jobs:
           git rm ./temp/m3u8_static/*.m3u8
           git rm ./temp/all_streams_tmp/*.json
           
-      - name: File exists pt2
+      - name: If *.M3U8 Files exists - Then Push
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
         uses: ad-m/github-push-action@master
@@ -66,7 +66,7 @@ jobs:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }}
           
-      - name: File exists pt3
+      - name: If *.M3U8 Files exists - Then Commit
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
         uses: zwaldowski/git-commit-action@v1
