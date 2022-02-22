@@ -48,7 +48,7 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
         run: |
-         chmod +x ./public/scripts/test.sh
+         chmod +x ./scripts/cleanup.sh
          ./scripts/cleanup.sh
         shell: bash
         
