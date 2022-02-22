@@ -48,30 +48,8 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git rm ./tests/m3u8/*.m3u8
-          git rm ./m3u8/*.m3u8
-          git rm ./*.m3u8
-          git rm ./tests/epg/*.gz
-          git rm ./epg/*.gz
-          git rm ./temp/m3u8_static/*.m3u8
-          git rm ./temp/all_streams_tmp/*.json
-                                 
-      - name: Push changes for old files if needed
-        if: steps.check_files.outputs.files_exists == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.scrapper_token }}
-          branch: ${{ github.ref }}
+          echo "Command: './scripts/cleanup.sh'"
           
-      - name: Commit All Files For Old Files, So Starting A New Download Of Files Can Begin
-        if: steps.check_files.outputs.files_exists == 'true'
-        uses: zwaldowski/git-commit-action@v1
-        with:
-             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-             working_directory: .
-
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
         uses: actions/setup-python@v2
