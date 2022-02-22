@@ -1,69 +1,49 @@
 #EXTM3U x-tvg-url="https://i.mjh.nz/PBS/all.xml.gz"
-#EXTINF:-1 channel-id="pbs-KAKM" tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-single-brand-logo-CKvfnQs.png",Alaska Public Media
+#EXTINF:-1 channel-id="pbs-WEDH" tvg-id="WEDH" tvg-logo="https://image.pbs.org/stations/wedh-color-single-brand-logo-76l7HY6.png",Connecticut Public
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/aa7d0d8a-0cf6-4f43-b780-fdfbe39c9e1f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kakmdt.lls.pbs.org/out/v1/deb171bc1dab4f5eaf3f42201140dd54/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KUAC" tvg-id="KUAC" tvg-logo="https://image.pbs.org/stations/kuac-color-single-brand-logo-PWUHIg2.png",KUAC
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d45e439e-73df-44f7-a71c-2a8128c7c646-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wedhdt.lls.pbs.org/out/v1/aa31c033ffc44df0953f25065f1afbe6/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WGBH" tvg-id="WGBH" tvg-logo="https://image.pbs.org/stations/wgbh-color-single-brand-logo-bm3AAGH.png",GBH
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/361d270e-1ecb-455d-9517-57b1c932bdba-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://urs.pbs.org/redirect/3f0a93df1cfd4371bda80174796e1d70/
-#EXTINF:-1 channel-id="pbs-WEDU" tvg-id="WEDU" tvg-logo="https://image.pbs.org/stations/wedu-color-cobranded-logo-87oN0he.png",WEDU PBS
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d58dc481-1bd6-44d6-832d-9b51a6339d5a-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wgbhdt.lls.pbs.org/out/v1/48d1f3c009c344498fffad1b0a974441/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WGBY" tvg-id="WGBY" tvg-logo="https://image.pbs.org/stations/wgby-color-single-brand-logo-8lItZjH.png",New England Public Media
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d0d2211a-a8d3-4887-a878-bd44e319ca1b-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wedudt.lls.pbs.org/out/v1/e7420ccab29b42339b96f9f17ba7b1f3/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WFSU" tvg-id="WFSU" tvg-logo="https://image.pbs.org/stations/wfsu-color-cobranded-logo-ok3uUgp.png",WFSU
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/0ad7656a-5d88-48f0-8409-5d2252ef03ea-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wgbydt.lls.pbs.org/out/v1/ad0777271bbf4dd184d08d4adf57e43d/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WMHT" tvg-id="WMHT" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png",WMHT
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/353144b3-1d80-4446-a924-a4a77641f641-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wfsudt.lls.pbs.org/out/v1/4fb1854cf3ee4664bc4c62b5f1e2315c/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WGCU" tvg-id="WGCU" tvg-logo="https://image.pbs.org/stations/wgcu-color-cobranded-logo-4WExUqg.png",WGCU Public Media
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1bce3601-743e-4c7b-bb77-cf59ffc3d931-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wmhtdt.lls.pbs.org/out/v1/fc5676a635454e6996f009102559373f/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WNET" tvg-id="WNET" tvg-logo="https://image.pbs.org/stations/wnet-color-cobranded-logo-FnH5do5.png",THIRTEEN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/8d446bc8-d0c8-4484-8412-1abf8f70bc52-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wgcudt.lls.pbs.org/out/v1/72a653354dc44b8f9e248f20fcbf71b4/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WJCT" tvg-id="WJCT" tvg-logo="https://image.pbs.org/stations/wjct-color-cobranded-logo-HY1ohKx.png",Jax PBS
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1e636e1f-bc6e-4a41-820a-56b13e60d0ca-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wnetdt.lls.pbs.org/out/v1/2abd65c8423f4afbb3dee77688bd0ef6/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WNJT" tvg-id="WNJT" tvg-logo="https://image.pbs.org/stations/wnjt-color-cobranded-logo-3RDiOdA.png",NJ PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/09a284cb-6c79-44ac-a327-80b0150b31e0-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wjctdt.lls.pbs.org/out/v1/f8db3a87fbee4b8ba486724924162baa/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WPBT" tvg-id="WPBT" tvg-logo="https://image.pbs.org/stations/wpbt-color-cobranded-logo-QKMOlbI.png",WPBT South Florida PBS
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/4211290e-ce30-49e5-9be1-2c412c5b3278-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wnjtdt.lls.pbs.org/out/v1/159206033ea6424c851dc480df0f18b7/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WSBE" tvg-id="WSBE" tvg-logo="https://image.pbs.org/stations/wsbe-color-single-brand-logo-oTm7xGd.png",Rhode Island PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b675a937-fe2b-43bf-bc43-fa8d97c330e5-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wpbtdt.lls.pbs.org/out/v1/0249a5a7b100490ca3b9489f5a6fc9f2/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WSRE" tvg-id="WSRE" tvg-logo="https://image.pbs.org/stations/wsre-color-cobranded-logo-C8DUfBI.png",WSRE PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/36292b48-ef25-434b-93f5-89a91f222915-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wsredt.lls.pbs.org/out/v1/60204bdec3864135afca0c29acc202c2/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WUCF" tvg-id="WUCF" tvg-logo="https://image.pbs.org/stations/wucf-color-cobranded-logo-hvhJPM0.png",WUCF
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/8afdeb3f-788a-4df8-a186-a44c694e6a0d-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wucfdt.lls.pbs.org/out/v1/8c30614560444d0eaef9cbd39e833360/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WUFT" tvg-id="WUFT" tvg-logo="https://image.pbs.org/stations/wuft-color-cobranded-logo-iK16pnJ.png",Florida's 5 WUFT-TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/ad6577ac-0654-4954-abc1-12a370bb2567-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wuftdt.lls.pbs.org/out/v1/a9e892c903de4e669d8de3bf543a8a2f/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WXEL" tvg-id="WXEL" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png",WXEL South Florida PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/dbc478cd-8424-4960-84e4-bfc78e5a7bbb-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wxeldt.lls.pbs.org/out/v1/aa5cd115321948f1914bcb5b808caa85/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WLRN" tvg-id="WLRN" tvg-logo="https://image.pbs.org/stations/wlrn-color-single-brand-logo-jyMYfk8.png",WLRN Public Media
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/491036b4-862e-4db9-9932-ff4e821b0e9d-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wlrndt.lls.pbs.org/out/v1/c914870e33894e52b31bff2d54adc9ab/dash-drm.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/8ef49703-72af-4204-a95b-de4c820e1f25-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://hls-wsbedt.lls.pbs.org/out/v1/273e062cce0e4f2fb08827680dde7ae9/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WBIQ" tvg-id="WBIQ" tvg-logo="https://image.pbs.org/stations/wbiq-color-cobranded-logo-oPQMK4T.png",APT PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/3c47b4f6-7d31-483f-9438-f17b5aa1037a-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wbiqdt.lls.pbs.org/out/v1/25184a3404da4538b1a70675435e9276/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WFSU" tvg-id="WFSU" tvg-logo="https://image.pbs.org/stations/wfsu-color-cobranded-logo-ok3uUgp.png",WFSU
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/353144b3-1d80-4446-a924-a4a77641f641-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wfsudt.lls.pbs.org/out/v1/4fb1854cf3ee4664bc4c62b5f1e2315c/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WGTV" tvg-id="WGTV" tvg-logo="https://image.pbs.org/stations/wgtv-color-single-brand-logo-IeTkPR9.png",Georgia Public Broadcasting
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -74,61 +54,31 @@ https://wgtvdt.lls.pbs.org/out/v1/7374adf17b8a4bb68f3d5d73c92f9ce9/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/9f106c58-06b4-4b0a-b328-1721fd590df6-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wmpndt.lls.pbs.org/out/v1/104d40d31fa44203942391ddf5dc9814/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WSRE" tvg-id="WSRE" tvg-logo="https://image.pbs.org/stations/wsre-color-cobranded-logo-C8DUfBI.png",WSRE PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/36292b48-ef25-434b-93f5-89a91f222915-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wsredt.lls.pbs.org/out/v1/60204bdec3864135afca0c29acc202c2/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WTCI" tvg-id="WTCI" tvg-logo="https://image.pbs.org/stations/wtci-color-cobranded-logo-JoMIHXF.png",WTCI
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b7467d47-12de-4ff1-aaa8-fb8f78e215ee-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wtcidt.lls.pbs.org/out/v1/2b00dc81eaf24e6fa062bfcfc3032087/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KAET" tvg-id="KAET" tvg-logo="https://image.pbs.org/stations/kaet-color-single-brand-logo-Bz3Oe7u.png",Arizona PBS
+#EXTINF:-1 channel-id="pbs-WETA" tvg-id="WETA" tvg-logo="https://image.pbs.org/stations/weta-color-cobranded-logo-tTSlzHE.png",WETA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1efa6a7d-f84a-4d5f-8b4a-b645317b2bb3-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kaetdt.lls.pbs.org/out/v1/8f76dc7c612648529dc67a32cf77c865/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KUAT" tvg-id="KUAT" tvg-logo="https://image.pbs.org/stations/kuat-color-single-brand-logo-7uIx0AN.png",Arizona Public Media
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/09105570-1573-4a88-8f35-cde225dbff48-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wetadt5.lls.pbs.org/out/v1/a3f877b70a95456782e9f2ab181ef7b8/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WHUT" tvg-id="WHUT" tvg-logo="https://image.pbs.org/stations/whut-color-single-brand-logo-K8B1xbK.png",WHUT - Howard University Television
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d44bfcd6-fea9-473e-9161-7d92f22238ea-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kuatdt.lls.pbs.org/out/v1/d3a232d66a83429e8af8ac5a815ecea9/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KLVX" tvg-id="KLVX" tvg-logo="https://image.pbs.org/stations/klvx-color-cobranded-logo-xVjR7SI.png",Vegas PBS
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/de2b6116-b8cc-4cf3-b917-bc9106fdc7de-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://whutdt.lls.pbs.org/out/v1/76de263a140b4261896800c2da6c202d/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WMPB" tvg-id="WMPB" tvg-logo="https://image.pbs.org/stations/wmpb-color-single-brand-logo-3WqIZmJ.png",MPT/Maryland Public Television
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/23d1a48b-f2e1-4d57-bda5-5b6fcd774630-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://klvxdt.lls.pbs.org/out/v1/a9bce0a0341b4e7b9bc0a4465bab4759/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KNME" tvg-id="KNME" tvg-logo="https://image.pbs.org/stations/knme-color-cobranded-logo-6ajvWyC.png",New Mexico PBS, KNME-TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/4975d176-0f6b-40d3-ab42-408ea726c4ca-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://knmedt.lls.pbs.org/out/v1/2c16608fe57f42d1a524fb0e8b339b1d/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KUED" tvg-id="KUED" tvg-logo="https://image.pbs.org/stations/kued-color-cobranded-logo-lQKDiK1.png",PBS Utah
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/aff94b9b-3ebb-4fe3-aa3c-dd3a30193740-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kueddt.lls.pbs.org/out/v1/4d56d6bbb5cd46c683b5206824530a42/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KETS" tvg-id="KETS" tvg-logo="https://image.pbs.org/stations/kets-color-cobranded-logo-IIG0VMs.png",Arkansas PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/9c67118d-9c37-405b-a8fd-4cc5e8f2b0fa-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://ketsdt.lls.pbs.org/out/v1/510b5a9d9ca24cb28e9c5317cb7d0bcf/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KETA" tvg-id="KETA" tvg-logo="https://image.pbs.org/stations/keta-color-single-brand-logo-jXYvEuY.png",Oklahoma Educational Television Authority
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/eb5f3e20-2fc1-4368-bcc8-057b41ceb1f6-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://ketadt.lls.pbs.org/out/v1/98f785ecaf93403297b5f4ffa6582ebd/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KOZK" tvg-id="KOZK" tvg-logo="https://image.pbs.org/stations/kozk-color-single-brand-logo-4J6w0Sm.png",Ozarks Public Television
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
-#EXTINF:-1 channel-id="pbs-WKNO" tvg-id="WKNO" tvg-logo="https://image.pbs.org/stations/wkno-color-single-brand-logo-oORgOjQ.png",WKNO/Channel 10
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/14437c98-eecf-4d71-ab53-b847a27ccd0f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wknodt.lls.pbs.org/out/v1/aa8044d1eef942f09caa64458877d866/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WLPB" tvg-id="WLPB" tvg-logo="https://image.pbs.org/stations/wlpb-color-single-brand-logo-YwxZbmQ.png",LPB/LOUISIANA PUBLIC BROADCASTING
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/c3189c40-021c-4946-be9c-563a61bd06d5-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wlpbdt.lls.pbs.org/out/v1/97292e35d88447f8b856f5c33e317b06/dash-drm.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b487740a-48e6-4494-a0bb-21d807e49681-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wmpbdt.lls.pbs.org/out/v1/3229444214324a7e87af7d27b5dbc4f5/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KEET" tvg-id="KEET" tvg-logo="https://image.pbs.org/stations/keet-color-single-brand-logo-ga7RElo.png",KEET
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -174,6 +124,11 @@ https://krcbdt.lls.pbs.org/out/v1/2e7c2be972a94c4f9710fb4e1d988cc0/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/be851b88-47f6-458f-afd3-26b040c1bce5-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://kvcrdt.lls.pbs.org/out/v1/56418ba89446465fa356d660c9a4cca9/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KLVX" tvg-id="KLVX" tvg-logo="https://image.pbs.org/stations/klvx-color-cobranded-logo-xVjR7SI.png",Vegas PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/23d1a48b-f2e1-4d57-bda5-5b6fcd774630-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://klvxdt.lls.pbs.org/out/v1/a9bce0a0341b4e7b9bc0a4465bab4759/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KNPB" tvg-id="KNPB" tvg-logo="https://image.pbs.org/stations/knpb-color-cobranded-logo-NTKQ6Vi.png",PBS Reno
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -184,21 +139,6 @@ https://knpbdt.lls.pbs.org/out/v1/be42ef2b461d4dd7883414512c2e5bab/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1ce49da2-3cc4-4aee-8477-2ba66f1ab328-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://ksysdt.lls.pbs.org/out/v1/284ddca1dbf74814b531321ab48caeec/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WETA" tvg-id="WETA" tvg-logo="https://image.pbs.org/stations/weta-color-cobranded-logo-tTSlzHE.png",WETA
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/09105570-1573-4a88-8f35-cde225dbff48-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wetadt5.lls.pbs.org/out/v1/a3f877b70a95456782e9f2ab181ef7b8/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WHUT" tvg-id="WHUT" tvg-logo="https://image.pbs.org/stations/whut-color-single-brand-logo-K8B1xbK.png",WHUT - Howard University Television
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/de2b6116-b8cc-4cf3-b917-bc9106fdc7de-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://whutdt.lls.pbs.org/out/v1/76de263a140b4261896800c2da6c202d/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WMPB" tvg-id="WMPB" tvg-logo="https://image.pbs.org/stations/wmpb-color-single-brand-logo-3WqIZmJ.png",MPT/Maryland Public Television
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b487740a-48e6-4494-a0bb-21d807e49681-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wmpbdt.lls.pbs.org/out/v1/3229444214324a7e87af7d27b5dbc4f5/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KRMA" tvg-id="KRMA" tvg-logo="https://image.pbs.org/stations/krma-color-cobranded-logo-5wuRPLn.png",Rocky Mountain PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -214,16 +154,111 @@ https://kbdidt.lls.pbs.org/out/v1/4bff216d7a5a47efa018d2fffa07d3fb/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/055df2f2-fa24-4260-ab7c-5ce404eea076-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://kcwcdt.lls.pbs.org/out/v1/ba9422d558de4119964a68b9afeb7756/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KETA" tvg-id="KETA" tvg-logo="https://image.pbs.org/stations/keta-color-single-brand-logo-jXYvEuY.png",Oklahoma Educational Television Authority
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/eb5f3e20-2fc1-4368-bcc8-057b41ceb1f6-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://ketadt.lls.pbs.org/out/v1/98f785ecaf93403297b5f4ffa6582ebd/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KNME" tvg-id="KNME" tvg-logo="https://image.pbs.org/stations/knme-color-cobranded-logo-6ajvWyC.png",New Mexico PBS, KNME-TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/4975d176-0f6b-40d3-ab42-408ea726c4ca-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://knmedt.lls.pbs.org/out/v1/2c16608fe57f42d1a524fb0e8b339b1d/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KOOD" tvg-id="KOOD" tvg-logo="https://image.pbs.org/stations/kood-color-cobranded-logo-9M3XBLL.png",Smoky Hills PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/cacdf007-f7e7-4100-b17e-d036c9f54714-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://kooddt.lls.pbs.org/out/v1/244787abe70a49a09de7707da0ea2e25/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KUED" tvg-id="KUED" tvg-logo="https://image.pbs.org/stations/kued-color-cobranded-logo-lQKDiK1.png",PBS Utah
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/aff94b9b-3ebb-4fe3-aa3c-dd3a30193740-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kueddt.lls.pbs.org/out/v1/4d56d6bbb5cd46c683b5206824530a42/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KUON" tvg-id="KUON" tvg-logo="https://image.pbs.org/stations/kuon-color-single-brand-logo-XlBmNqx.png",Nebraska Public Media
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d76be02b-14be-4a53-b3b9-b9f5331e0b5e-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://kuondt.lls.pbs.org/out/v1/d5a47dc9c1594c24adbdf9ffa1ff98bc/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WEDU" tvg-id="WEDU" tvg-logo="https://image.pbs.org/stations/wedu-color-cobranded-logo-87oN0he.png",WEDU PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d0d2211a-a8d3-4887-a878-bd44e319ca1b-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wedudt.lls.pbs.org/out/v1/e7420ccab29b42339b96f9f17ba7b1f3/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WGCU" tvg-id="WGCU" tvg-logo="https://image.pbs.org/stations/wgcu-color-cobranded-logo-4WExUqg.png",WGCU Public Media
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/8d446bc8-d0c8-4484-8412-1abf8f70bc52-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wgcudt.lls.pbs.org/out/v1/72a653354dc44b8f9e248f20fcbf71b4/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WJCT" tvg-id="WJCT" tvg-logo="https://image.pbs.org/stations/wjct-color-cobranded-logo-HY1ohKx.png",Jax PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/09a284cb-6c79-44ac-a327-80b0150b31e0-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wjctdt.lls.pbs.org/out/v1/f8db3a87fbee4b8ba486724924162baa/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WPBT" tvg-id="WPBT" tvg-logo="https://image.pbs.org/stations/wpbt-color-cobranded-logo-QKMOlbI.png",WPBT South Florida PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b675a937-fe2b-43bf-bc43-fa8d97c330e5-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wpbtdt.lls.pbs.org/out/v1/0249a5a7b100490ca3b9489f5a6fc9f2/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WUCF" tvg-id="WUCF" tvg-logo="https://image.pbs.org/stations/wucf-color-cobranded-logo-hvhJPM0.png",WUCF
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/8afdeb3f-788a-4df8-a186-a44c694e6a0d-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wucfdt.lls.pbs.org/out/v1/8c30614560444d0eaef9cbd39e833360/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WUFT" tvg-id="WUFT" tvg-logo="https://image.pbs.org/stations/wuft-color-cobranded-logo-iK16pnJ.png",Florida's 5 WUFT-TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/ad6577ac-0654-4954-abc1-12a370bb2567-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wuftdt.lls.pbs.org/out/v1/a9e892c903de4e669d8de3bf543a8a2f/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WXEL" tvg-id="WXEL" tvg-logo="https://image.pbs.org/stations/wxel-color-cobranded-logo-q5DODDu.png",WXEL South Florida PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/dbc478cd-8424-4960-84e4-bfc78e5a7bbb-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wxeldt.lls.pbs.org/out/v1/aa5cd115321948f1914bcb5b808caa85/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WLRN" tvg-id="WLRN" tvg-logo="https://image.pbs.org/stations/wlrn-color-single-brand-logo-jyMYfk8.png",WLRN Public Media
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/491036b4-862e-4db9-9932-ff4e821b0e9d-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wlrndt.lls.pbs.org/out/v1/c914870e33894e52b31bff2d54adc9ab/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KETS" tvg-id="KETS" tvg-logo="https://image.pbs.org/stations/kets-color-cobranded-logo-IIG0VMs.png",Arkansas PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/9c67118d-9c37-405b-a8fd-4cc5e8f2b0fa-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://ketsdt.lls.pbs.org/out/v1/510b5a9d9ca24cb28e9c5317cb7d0bcf/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KOZK" tvg-id="KOZK" tvg-logo="https://image.pbs.org/stations/kozk-color-single-brand-logo-4J6w0Sm.png",Ozarks Public Television
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
+#EXTINF:-1 channel-id="pbs-WKNO" tvg-id="WKNO" tvg-logo="https://image.pbs.org/stations/wkno-color-single-brand-logo-oORgOjQ.png",WKNO/Channel 10
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/14437c98-eecf-4d71-ab53-b847a27ccd0f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wknodt.lls.pbs.org/out/v1/aa8044d1eef942f09caa64458877d866/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WLPB" tvg-id="WLPB" tvg-logo="https://image.pbs.org/stations/wlpb-color-single-brand-logo-YwxZbmQ.png",LPB/LOUISIANA PUBLIC BROADCASTING
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/c3189c40-021c-4946-be9c-563a61bd06d5-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wlpbdt.lls.pbs.org/out/v1/97292e35d88447f8b856f5c33e317b06/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KAET" tvg-id="KAET" tvg-logo="https://image.pbs.org/stations/kaet-color-single-brand-logo-Bz3Oe7u.png",Arizona PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1efa6a7d-f84a-4d5f-8b4a-b645317b2bb3-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kaetdt.lls.pbs.org/out/v1/8f76dc7c612648529dc67a32cf77c865/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KUAT" tvg-id="KUAT" tvg-logo="https://image.pbs.org/stations/kuat-color-single-brand-logo-7uIx0AN.png",Arizona Public Media
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d44bfcd6-fea9-473e-9161-7d92f22238ea-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kuatdt.lls.pbs.org/out/v1/d3a232d66a83429e8af8ac5a815ecea9/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KAKM" tvg-id="KAKM" tvg-logo="https://image.pbs.org/stations/kakm-color-single-brand-logo-CKvfnQs.png",Alaska Public Media
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/aa7d0d8a-0cf6-4f43-b780-fdfbe39c9e1f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kakmdt.lls.pbs.org/out/v1/deb171bc1dab4f5eaf3f42201140dd54/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KUAC" tvg-id="KUAC" tvg-logo="https://image.pbs.org/stations/kuac-color-single-brand-logo-PWUHIg2.png",KUAC
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/361d270e-1ecb-455d-9517-57b1c932bdba-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://urs.pbs.org/redirect/3f0a93df1cfd4371bda80174796e1d70/
 #EXTINF:-1 channel-id="pbs-WHYY" tvg-id="WHYY" tvg-logo="https://image.pbs.org/stations/whyy-color-cobranded-logo-0kQDUFJ.png",WHYY
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -234,41 +269,6 @@ https://whyydt.lls.pbs.org/out/v1/18ec2cd6b44240479041fa7555b22054/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/f0a899d3-f1b2-46b7-9f1d-2bf75db8b608-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wlvtdt.lls.pbs.org/out/v1/9645d60f11ed42b6a87a788cb49016d8/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WNJT" tvg-id="WNJT" tvg-logo="https://image.pbs.org/stations/wnjt-color-cobranded-logo-3RDiOdA.png",NJ PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/4211290e-ce30-49e5-9be1-2c412c5b3278-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wnjtdt.lls.pbs.org/out/v1/159206033ea6424c851dc480df0f18b7/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WEDH" tvg-id="WEDH" tvg-logo="https://image.pbs.org/stations/wedh-color-single-brand-logo-76l7HY6.png",Connecticut Public
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d45e439e-73df-44f7-a71c-2a8128c7c646-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wedhdt.lls.pbs.org/out/v1/aa31c033ffc44df0953f25065f1afbe6/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WGBH" tvg-id="WGBH" tvg-logo="https://image.pbs.org/stations/wgbh-color-single-brand-logo-bm3AAGH.png",GBH
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/d58dc481-1bd6-44d6-832d-9b51a6339d5a-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wgbhdt.lls.pbs.org/out/v1/48d1f3c009c344498fffad1b0a974441/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WGBY" tvg-id="WGBY" tvg-logo="https://image.pbs.org/stations/wgby-color-single-brand-logo-8lItZjH.png",New England Public Media
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/0ad7656a-5d88-48f0-8409-5d2252ef03ea-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wgbydt.lls.pbs.org/out/v1/ad0777271bbf4dd184d08d4adf57e43d/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WMHT" tvg-id="WMHT" tvg-logo="https://image.pbs.org/stations/wmht-color-single-brand-logo-bnC6jYD.png",WMHT
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1bce3601-743e-4c7b-bb77-cf59ffc3d931-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wmhtdt.lls.pbs.org/out/v1/fc5676a635454e6996f009102559373f/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WNET" tvg-id="WNET" tvg-logo="https://image.pbs.org/stations/wnet-color-cobranded-logo-FnH5do5.png",THIRTEEN
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/1e636e1f-bc6e-4a41-820a-56b13e60d0ca-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wnetdt.lls.pbs.org/out/v1/2abd65c8423f4afbb3dee77688bd0ef6/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WSBE" tvg-id="WSBE" tvg-logo="https://image.pbs.org/stations/wsbe-color-single-brand-logo-oTm7xGd.png",Rhode Island PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/8ef49703-72af-4204-a95b-de4c820e1f25-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://hls-wsbedt.lls.pbs.org/out/v1/273e062cce0e4f2fb08827680dde7ae9/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WRLK" tvg-id="WRLK" tvg-logo="https://image.pbs.org/stations/wrlk-color-single-brand-logo-AJhI6Sj.png",SCETV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -374,41 +374,6 @@ https://wpnedt.lls.pbs.org/out/v1/c405452543bd48f68dbb4fcf16ce959b/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/2eb0a34d-1783-4a9c-bf80-61b0b73c5fd4-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wvutdt.lls.pbs.org/out/v1/f254e88ebac14d5fbca3b20ca06938ba/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WYES" tvg-id="WYES" tvg-logo="https://image.pbs.org/stations/wyes-color-cobranded-logo-ZGeL8mv.png",WYES-TV/New Orleans
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/690b7f7c-3567-47ac-9bc8-15e71b7ecd09-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wyesdt.lls.pbs.org/out/v1/b291637d93d84798ab2fe81fc84f46ac/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WCET" tvg-id="WCET" tvg-logo="https://image.pbs.org/stations/wcet-color-single-brand-logo-Aig81MP.png",CET
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b9cccd0b-28c6-47be-b0b5-52a9a54877a8-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wcetdt.lls.pbs.org/out/v1/4acbc4f0696a4da2a0ef17ec6d6be4c5/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WCTE" tvg-id="WCTE" tvg-logo="https://image.pbs.org/stations/wcte-color-single-brand-logo-p0cCp28.png",WCTE Central Tennessee PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7f02e8fd-c20c-4c92-94f8-8e54f8343a40-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wctedt.lls.pbs.org/out/v1/d1e23918fdd649f99ac84f1a1a8a4929/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WETP" tvg-id="WETP" tvg-logo="https://image.pbs.org/stations/wetp-color-cobranded-logo-JMeYFqi.png",East Tennessee PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/e45c89c0-2373-47ec-8f9d-b69fb2c4ab86-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wetpdt.lls.pbs.org/out/v1/30135c2acbb14a6fb0164a518ec0fc26/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WNPT" tvg-id="WNPT" tvg-logo="https://image.pbs.org/stations/wnpt-color-single-brand-logo-fW1prKB.png",Nashville Public Television
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/dbcc4446-3b10-42a2-b777-d4fc8a59dc6b-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wnptdt.lls.pbs.org/out/v1/c4d89a5ecfa940bdb0d5b4693c0aa5f9/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WPTD" tvg-id="WPTD" tvg-logo="https://image.pbs.org/stations/wptd-color-single-brand-logo-ftrrT6e.png",ThinkTVNetwork
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/57f6c28b-f6fc-4dd5-8968-3f19e024675f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wptddt.lls.pbs.org/out/v1/f0d269eb1d8f4de687078f43fb84025f/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WVPB" tvg-id="WVPB" tvg-logo="https://image.pbs.org/stations/wvpb-color-single-brand-logo-IGwVvz9.png",West Virginia Public Broadcasting
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
 #EXTINF:-1 channel-id="pbs-KUSD" tvg-id="KUSD" tvg-logo="https://image.pbs.org/stations/kusd-color-single-brand-logo-K9cBQP3.png",South Dakota Public Broadcasting
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -464,11 +429,46 @@ https://wnitdt.lls.pbs.org/out/v1/998741cf71ae49aeb4462ac4dcac020d/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7b8d5304-aa9d-469b-a362-8714eac3d0ef-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wtiudt.lls.pbs.org/out/v1/10af7e09e2b049a0a335f7c92f461e0b/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WCET" tvg-id="WCET" tvg-logo="https://image.pbs.org/stations/wcet-color-single-brand-logo-Aig81MP.png",CET
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b9cccd0b-28c6-47be-b0b5-52a9a54877a8-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wcetdt.lls.pbs.org/out/v1/4acbc4f0696a4da2a0ef17ec6d6be4c5/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WGVU" tvg-id="WGVU" tvg-logo="https://image.pbs.org/stations/wgvu-color-cobranded-logo-mbLXXeg.png",WGVU TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/ba92a868-165d-4316-9b9a-0f2a490cac55-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wgvudt.lls.pbs.org/out/v1/57a222fd006c49449959689daeb6ab3f/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WPTD" tvg-id="WPTD" tvg-logo="https://image.pbs.org/stations/wptd-color-single-brand-logo-ftrrT6e.png",ThinkTVNetwork
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/57f6c28b-f6fc-4dd5-8968-3f19e024675f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wptddt.lls.pbs.org/out/v1/f0d269eb1d8f4de687078f43fb84025f/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WYES" tvg-id="WYES" tvg-logo="https://image.pbs.org/stations/wyes-color-cobranded-logo-ZGeL8mv.png",WYES-TV/New Orleans
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/690b7f7c-3567-47ac-9bc8-15e71b7ecd09-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wyesdt.lls.pbs.org/out/v1/b291637d93d84798ab2fe81fc84f46ac/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WCTE" tvg-id="WCTE" tvg-logo="https://image.pbs.org/stations/wcte-color-single-brand-logo-p0cCp28.png",WCTE Central Tennessee PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7f02e8fd-c20c-4c92-94f8-8e54f8343a40-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wctedt.lls.pbs.org/out/v1/d1e23918fdd649f99ac84f1a1a8a4929/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WETP" tvg-id="WETP" tvg-logo="https://image.pbs.org/stations/wetp-color-cobranded-logo-JMeYFqi.png",East Tennessee PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/e45c89c0-2373-47ec-8f9d-b69fb2c4ab86-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wetpdt.lls.pbs.org/out/v1/30135c2acbb14a6fb0164a518ec0fc26/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WNPT" tvg-id="WNPT" tvg-logo="https://image.pbs.org/stations/wnpt-color-single-brand-logo-fW1prKB.png",Nashville Public Television
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/dbcc4446-3b10-42a2-b777-d4fc8a59dc6b-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wnptdt.lls.pbs.org/out/v1/c4d89a5ecfa940bdb0d5b4693c0aa5f9/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WVPB" tvg-id="WVPB" tvg-logo="https://image.pbs.org/stations/wvpb-color-single-brand-logo-IGwVvz9.png",West Virginia Public Broadcasting
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
 #EXTINF:-1 channel-id="pbs-WCBB" tvg-id="WCBB" tvg-logo="https://image.pbs.org/stations/wcbb-color-single-brand-logo-Bvv2GbM.png",Maine Public
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -499,6 +499,31 @@ https://witfdt.lls.pbs.org/out/v1/101f0ddde1134702b4946b0fe4d1e2b1/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/4b9316df-4089-4efc-b12b-73d300431f1a-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wqeddt.lls.pbs.org/out/v1/a977702c683b4d5eb3489261f3e3b018/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KAWE" tvg-id="KAWE" tvg-logo="https://image.pbs.org/stations/kawe-color-single-brand-logo-V9OaDhE.png",Lakeland PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b26c4a06-8ae2-4c5b-917f-e22d33d70065-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kawedt.lls.pbs.org/out/v1/0f7fd3b80db34e18bb6cb08306dbdc20/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KTCA" tvg-id="KTCA" tvg-logo="https://image.pbs.org/stations/ktca-color-single-brand-logo-NK3MAIo.png",Twin Cities PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/39e4fe71-a415-4a62-935e-3424f313e2d9-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://ktcadt.lls.pbs.org/out/v1/afd1ada3acef43e0843c377bd301fb6b/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WDSE" tvg-id="WDSE" tvg-logo="https://image.pbs.org/stations/wdse-color-cobranded-logo-MlnMuAZ.png",WDSE - WRPT
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/cef850f0-15f4-4d7f-abf7-f2b712d7a055-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wdsedt.lls.pbs.org/out/v1/f15e30e9e50048ae9e3b83856bee937c/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-KFME" tvg-id="KFME" tvg-logo="https://image.pbs.org/stations/kfme-color-single-brand-logo-squYAFY.png",Prairie Public
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7a2b970d-0f15-4d14-a041-5525b622883f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kfmedt.lls.pbs.org/out/v1/fe002b4c9be649b89690dcf513b60060/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WLJT" tvg-id="WLJT" tvg-logo="https://image.pbs.org/stations/wljt-color-cobranded-logo-5llShX7.png",West TN PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/0124002b-c655-4201-9872-f256ab8be083-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wljtdt.lls.pbs.org/out/v1/4719cf8db48b413db31e0759d34b2fae/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WCMU" tvg-id="WCMU" tvg-logo="https://image.pbs.org/stations/wcmu-color-cobranded-logo-317rRVH.png",WCMU Public Television
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -529,41 +554,16 @@ https://wtvsdt.lls.pbs.org/out/v1/ebc4a13e795741d381f6634f4ed3d4fe/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
-#EXTINF:-1 channel-id="pbs-WLJT" tvg-id="WLJT" tvg-logo="https://image.pbs.org/stations/wljt-color-cobranded-logo-5llShX7.png",West TN PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/0124002b-c655-4201-9872-f256ab8be083-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wljtdt.lls.pbs.org/out/v1/4719cf8db48b413db31e0759d34b2fae/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KMOS" tvg-id="KMOS" tvg-logo="https://image.pbs.org/stations/kmos-color-cobranded-logo-D8VJeg5.png",KMOS-TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/ad542ced-41c0-48f4-bcac-e4358332d6d6-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://hls-kmosdt.lls.pbs.org/out/v1/f414fb30cf4d42eeb6c9100e2fd6fc2c/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KUSM" tvg-id="KUSM" tvg-logo="https://image.pbs.org/stations/kusm-color-cobranded-logo-39WLnn8.png",Montana PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/f2502558-1169-4236-828d-41cd4421c248-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://kusmdt.lls.pbs.org/out/v1/472b62e3256c41dd870d27d4ed075680/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KFME" tvg-id="KFME" tvg-logo="https://image.pbs.org/stations/kfme-color-single-brand-logo-squYAFY.png",Prairie Public
+#EXTINF:-1 channel-id="pbs-KMOS" tvg-id="KMOS" tvg-logo="https://image.pbs.org/stations/kmos-color-cobranded-logo-D8VJeg5.png",KMOS-TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7a2b970d-0f15-4d14-a041-5525b622883f-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kfmedt.lls.pbs.org/out/v1/fe002b4c9be649b89690dcf513b60060/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KAWE" tvg-id="KAWE" tvg-logo="https://image.pbs.org/stations/kawe-color-single-brand-logo-V9OaDhE.png",Lakeland PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/b26c4a06-8ae2-4c5b-917f-e22d33d70065-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kawedt.lls.pbs.org/out/v1/0f7fd3b80db34e18bb6cb08306dbdc20/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KTCA" tvg-id="KTCA" tvg-logo="https://image.pbs.org/stations/ktca-color-single-brand-logo-NK3MAIo.png",Twin Cities PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/39e4fe71-a415-4a62-935e-3424f313e2d9-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://ktcadt.lls.pbs.org/out/v1/afd1ada3acef43e0843c377bd301fb6b/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WDSE" tvg-id="WDSE" tvg-logo="https://image.pbs.org/stations/wdse-color-cobranded-logo-MlnMuAZ.png",WDSE - WRPT
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/cef850f0-15f4-4d7f-abf7-f2b712d7a055-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wdsedt.lls.pbs.org/out/v1/f15e30e9e50048ae9e3b83856bee937c/dash-drm.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/ad542ced-41c0-48f4-bcac-e4358332d6d6-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://hls-kmosdt.lls.pbs.org/out/v1/f414fb30cf4d42eeb6c9100e2fd6fc2c/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-WVIA" tvg-id="WVIA" tvg-logo="https://image.pbs.org/stations/wvia-color-cobranded-logo-rrFa2LP.png",WVIA Public Media
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -584,6 +584,46 @@ https://krwgdt.lls.pbs.org/out/v1/0d157290e36840ac8fcb245626484acd/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/03627652-598a-4808-9bdb-e0f519e43665-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://kpbtdt.lls.pbs.org/out/v1/411c7a760ccc439c864c6b5ee9f3edd1/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WTVI" tvg-id="WTVI" tvg-logo="https://image.pbs.org/stations/wtvi-color-cobranded-logo-K8AIvnk.png",PBS Charlotte
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/70112591-51c2-416e-93ec-cc2637411d99-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wtvidt.lls.pbs.org/out/v1/493d6ec230b74a96ac373f43f0fd2719/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WBRA" tvg-id="WBRA" tvg-logo="https://image.pbs.org/stations/wbra-color-cobranded-logo-qA7qTwW.png",Blue Ridge PBS
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/80779a39-eaae-40c4-bfab-4cfda57a3391-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wbradt.lls.pbs.org/out/v1/e4080f94bde042c2907a4d04a546e2b8/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WHRO" tvg-id="WHRO" tvg-logo="https://image.pbs.org/stations/whro-color-single-brand-logo-cjvMiRb.png",WHRO
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/2744f272-cfeb-44e7-bed0-9cc38ee880d8-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://whrodt.lls.pbs.org/out/v1/a4eb6c53a4cc4ede8cacfbd975fbd951/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WNEO" tvg-id="WNEO" tvg-logo="https://image.pbs.org/stations/wneo-color-cobranded-logo-4vaSBCx.png",PBS Western Reserve
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7480d555-9290-47c4-9b47-0e98bc877ab3-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wneodt.lls.pbs.org/out/v1/2f54be3a057545babeae0f67fbb568ea/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WOSU" tvg-id="WOSU" tvg-logo="https://image.pbs.org/stations/wosu-color-cobranded-logo-Mwaqe5i.png",WOSU TV
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/c7caf612-1bd9-4162-9221-d95b95f3aa80-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wosudt.lls.pbs.org/out/v1/62253c9579074e3291dbceb347de8820/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WOUB" tvg-id="WOUB" tvg-logo="https://image.pbs.org/stations/woub-color-cobranded-logo-dAsNoih.png",WOUB/WOUC
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/a145331e-a1f9-40e9-99d2-be3078f1a10e-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://woubdt.lls.pbs.org/out/v1/c399139cea4f4612a74d6d412abe91f1/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WVIZ" tvg-id="WVIZ" tvg-logo="https://image.pbs.org/stations/wviz-color-cobranded-logo-Di0tIvT.png",Ideastream
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/355615a7-50af-4fcd-9617-dcf554092dca-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://wvizdt.lls.pbs.org/out/v1/3802e1752d134d78a3487298086139df/dash-drm.mpd
+#EXTINF:-1 channel-id="pbs-WQLN" tvg-id="WQLN" tvg-logo="https://image.pbs.org/stations/wqln-color-single-brand-logo-riys76F.png",WQLN
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
 #EXTINF:-1 channel-id="pbs-WCFE" tvg-id="WCFE" tvg-logo="https://image.pbs.org/stations/wcfe-color-cobranded-logo-q9QJoDW.png",Mountain Lake PBS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -619,56 +659,16 @@ https://wliwdt.lls.pbs.org/out/v1/1ac23c16cf8c458384bbbd670c40511d/dash-drm.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/403260c8-baf1-4910-bb9c-31810a1debde-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://wpsudt.lls.pbs.org/out/v1/279f197f96dc480d8632729c9e636cdc/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WQLN" tvg-id="WQLN" tvg-logo="https://image.pbs.org/stations/wqln-color-single-brand-logo-riys76F.png",WQLN
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5923b641-9ec4-4c38-98b8-1d2fed451602-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://urs.pbs.org/redirect/8bd7aa99da644d96833479f79a741890/
-#EXTINF:-1 channel-id="pbs-WTVI" tvg-id="WTVI" tvg-logo="https://image.pbs.org/stations/wtvi-color-cobranded-logo-K8AIvnk.png",PBS Charlotte
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/70112591-51c2-416e-93ec-cc2637411d99-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wtvidt.lls.pbs.org/out/v1/493d6ec230b74a96ac373f43f0fd2719/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WBRA" tvg-id="WBRA" tvg-logo="https://image.pbs.org/stations/wbra-color-cobranded-logo-qA7qTwW.png",Blue Ridge PBS
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/80779a39-eaae-40c4-bfab-4cfda57a3391-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wbradt.lls.pbs.org/out/v1/e4080f94bde042c2907a4d04a546e2b8/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WHRO" tvg-id="WHRO" tvg-logo="https://image.pbs.org/stations/whro-color-single-brand-logo-cjvMiRb.png",WHRO
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/2744f272-cfeb-44e7-bed0-9cc38ee880d8-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://whrodt.lls.pbs.org/out/v1/a4eb6c53a4cc4ede8cacfbd975fbd951/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-KBTC" tvg-id="KBTC" tvg-logo="https://image.pbs.org/stations/kbtc-color-cobranded-logo-UQTavrW.png",KBTC Public Television
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/62fa5483-f2b8-4b39-b340-ae2bbdab78af-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://kbtcdt.lls.pbs.org/out/v1/088686160c7b463fa8d8b6ed4c7a07c5/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KERA" tvg-id="KERA" tvg-logo="https://image.pbs.org/stations/kera-color-single-brand-logo-qhClBLO.png",KERA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/5b1dd955-b7de-41f4-85e6-791e80b78ab0-dash|Content-Type=application%2Foctet-stream|R{SSM}|
 https://keradt.lls.pbs.org/out/v1/c872a438b4164b1a8b51a34891eb1160/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WNEO" tvg-id="WNEO" tvg-logo="https://image.pbs.org/stations/wneo-color-cobranded-logo-4vaSBCx.png",PBS Western Reserve
+#EXTINF:-1 channel-id="pbs-KBTC" tvg-id="KBTC" tvg-logo="https://image.pbs.org/stations/kbtc-color-cobranded-logo-UQTavrW.png",KBTC Public Television
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/7480d555-9290-47c4-9b47-0e98bc877ab3-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wneodt.lls.pbs.org/out/v1/2f54be3a057545babeae0f67fbb568ea/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WOSU" tvg-id="WOSU" tvg-logo="https://image.pbs.org/stations/wosu-color-cobranded-logo-Mwaqe5i.png",WOSU TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/c7caf612-1bd9-4162-9221-d95b95f3aa80-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wosudt.lls.pbs.org/out/v1/62253c9579074e3291dbceb347de8820/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WOUB" tvg-id="WOUB" tvg-logo="https://image.pbs.org/stations/woub-color-cobranded-logo-dAsNoih.png",WOUB/WOUC
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/a145331e-a1f9-40e9-99d2-be3078f1a10e-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://woubdt.lls.pbs.org/out/v1/c399139cea4f4612a74d6d412abe91f1/dash-drm.mpd
-#EXTINF:-1 channel-id="pbs-WVIZ" tvg-id="WVIZ" tvg-logo="https://image.pbs.org/stations/wviz-color-cobranded-logo-Di0tIvT.png",Ideastream
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/355615a7-50af-4fcd-9617-dcf554092dca-dash|Content-Type=application%2Foctet-stream|R{SSM}|
-https://wvizdt.lls.pbs.org/out/v1/3802e1752d134d78a3487298086139df/dash-drm.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://proxy.drm.pbs.org/license/widevine/62fa5483-f2b8-4b39-b340-ae2bbdab78af-dash|Content-Type=application%2Foctet-stream|R{SSM}|
+https://kbtcdt.lls.pbs.org/out/v1/088686160c7b463fa8d8b6ed4c7a07c5/dash-drm.mpd
 #EXTINF:-1 channel-id="pbs-KAMU" tvg-id="KAMU" tvg-logo="https://image.pbs.org/stations/kamu-color-cobranded-logo-HdqHnfu.png",KAMU-TV/FM
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
