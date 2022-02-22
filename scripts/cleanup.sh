@@ -1,16 +1,6 @@
-name: M3U8_Cleaner
-
-
-jobs:
-
-  Running_M3U8_Cleaner:
-    name: Running M3U8 Cleaner
-    runs-on: "ubuntu-latest"
-
-    steps:
-      - uses: actions/checkout@v2
 
       - name: Cleanup Files M3U8 Files
+        uses: actions/checkout@v2
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
