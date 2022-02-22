@@ -48,8 +48,10 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
         run: |
-          echo "Command: './scripts/cleanup.sh'"
-          
+         chmod +x ./public/scripts/test.sh
+         ./scripts/cleanup.sh
+        shell: bash
+        
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
         uses: actions/setup-python@v2
