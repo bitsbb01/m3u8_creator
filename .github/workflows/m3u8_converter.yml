@@ -13,8 +13,7 @@ on:
     - main
 
 jobs:
-
-  Running_M3U8_Creator:
+ Last_Attempt:
     name: Running M3U8 Creator
     runs-on: "ubuntu-latest"
 
@@ -35,6 +34,9 @@ jobs:
           git status
           git push
           
+		  
+
+Cleanup_Old_Files:		  
       - name: Checkout code
         uses: actions/checkout@v1
 
@@ -58,23 +60,32 @@ jobs:
           git rm ./temp/m3u8_static/*.m3u8
           git rm ./temp/all_streams_tmp/*.json   
          
-      - name: If *.M3U8 Files exists - Then Cleanup 2
-        if: steps.check_files.outputs.files_exists == 'true'
-        # Only runs if all of the files exists
+
+ Push_Cleaned_Files:		  		 
+        needs:
+      # List all required job names here.
+      - Cleanup_Old_Files
+	  
+	  
+      - name: Push changes for old files
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.scrapper_token }}
           branch: ${{ github.ref }}
-        
-      - name: If *.M3U8 Files exists - Then Cleanup 3
-        if: steps.check_files.outputs.files_exists == 'true'
-        # Only runs if all of the files exists
+          
+      - name: Commit All Files
         uses: zwaldowski/git-commit-action@v1
         with:
              commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
              working_directory: .
-        
-      ### SETUP THE ENVIRONMENT
+
+Setup_The_Environment:		  		 
+        needs:
+      # List all required job names here.
+      - Last_Attempt
+
+    runs-on: "ubuntu-latest"
+    steps:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -120,6 +131,8 @@ jobs:
           ls -alt ${M3U8_STATIC_DIR}
           echo "Command: 'ls -alt ${M3U8_STATIC_DIR2}'"
           ls -alt ${M3U8_STATIC_DIR2}
+		  
+Begin Getting Other M3U8s:
       - name: Get other m3u8s to add
         run: |
         
