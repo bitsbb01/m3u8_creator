@@ -13,11 +13,15 @@ on:
     - main
 
 jobs:
- Last_Attempt:
+
+  Running_M3U8_Creator:
+    name: Running M3U8 Creator
     runs-on: "ubuntu-latest"
+
     steps:
+      - uses: actions/checkout@v2
+
       - name: Last Attempts
-        uses: actions/checkout@v2
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -30,8 +34,7 @@ jobs:
           git commit -m "cron: setting last attempt time stamp" -a
           git status
           git push
-
-Cleanup_Old_Files:		  
+          
       - name: Checkout code
         uses: actions/checkout@v1
 
@@ -58,74 +61,62 @@ Cleanup_Old_Files:
           git status
           git commit -m "cron: Updated by Bot - ${{ steps.date.outputs.date }}" -a
           git status
-          git push        
-
-#Push_Cleaned_Files:		  		 
-#        needs:
-#        - Cleanup_Old_Files
-#        - name: Push changes for old files
+          git push
+         
+#      - name: If *.M3U8 Files exists - Then Cleanup 2
+#        if: steps.check_files.outputs.files_exists == 'true'
+#        # Only runs if all of the files exists
 #        uses: ad-m/github-push-action@master
 #        with:
 #          github_token: ${{ secrets.scrapper_token }}
 #          branch: ${{ github.ref }}
-#	  
-#        - name: Commit All Files
+#        
+#      - name: If *.M3U8 Files exists - Then Cleanup 3
+#        if: steps.check_files.outputs.files_exists == 'true'
+#        # Only runs if all of the files exists
 #        uses: zwaldowski/git-commit-action@v1
 #        with:
 #             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
 #             working_directory: .
-
-Setup_The_Environment:		  		 
-        needs:
-        - Last_Attempt
-        runs-on: "ubuntu-latest"
-        steps:
-        - name: Setup Python
+        
+      ### SETUP THE ENVIRONMENT
+      - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-        
 
-Setup_The_Environment_pt2:		  		 
-        needs:
-        - Last_Attempt
-        runs-on: "ubuntu-latest"
-        steps:
-        - name: Setup Environment
+      - name: Setup Environment
         # e.g. create work dirst, store in env variables ... https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions
         run: |
-            echo "IPTVCAT_DATE=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
-            echo "IPTVCAT_DATE_YESTERDAY=$(date -d "yesterday 7:00" '+%Y-%m-%d')" >> $GITHUB_ENV
-            echo "IPTVCAT_DOWNLOAD_DIR=./temp/iptvcat" >> $GITHUB_ENV
-            echo "M3U8_DIR=./tests/m3u8/" >> $GITHUB_ENV
-            echo "EPG_TEMP_DIR=./tests/epg/" >> $GITHUB_ENV
-            echo "M3U8_STATIC_DIR=./temp/m3u8_static/" >> $GITHUB_ENV
-            echo "M3U8_STATIC_DIR2=./temp/m3u8_static/all/" >> $GITHUB_ENV
-            # Update pythonpath used for our scripts
-            echo "PYTHONPATH=$PYTHONPATH:${{ github.workspace }}" >> $GITHUB_ENV
-Setup_Dirs:		  
-        runs-on: "ubuntu-latest"
-        steps:
-        - name: Setup Dirs
-          run: |
-            echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
-	    echo "IPTVCAT_DATE_YESTERDAY: '${IPTVCAT_DATE_YESTERDAY}'"
-	    echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
-	    echo "M3U8_DIR: '${M3U8_DIR}'"
-	    echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
-	  echo "M3U8_STATIC_DIR: '${M3U8_STATIC_DIR}'"
-	  echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
-	  mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
-	  echo "Command: 'mkdir -p ${M3U8_DIR}'"
-	  mkdir -p ${M3U8_DIR}
-	  echo "Command: 'mkdir -p ${EPG_TEMP_DIR}'"
-	  mkdir -p ${EPG_TEMP_DIR}
-	  echo "Command: 'mkdir -p ${M3U8_STATIC_DIR2}'"
-	  mkdir -p ${M3U8_STATIC_DIR2}
-	  echo "Command: 'mkdir -p ${M3U8_STATIC_DIR}'"
-	  mkdir -p ${M3U8_STATIC_DIR}
-	  echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
-	  ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+          echo "IPTVCAT_DATE=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DATE_YESTERDAY=$(date -d "yesterday 7:00" '+%Y-%m-%d')" >> $GITHUB_ENV
+          echo "IPTVCAT_DOWNLOAD_DIR=./temp/iptvcat" >> $GITHUB_ENV
+          echo "M3U8_DIR=./tests/m3u8/" >> $GITHUB_ENV
+          echo "EPG_TEMP_DIR=./tests/epg/" >> $GITHUB_ENV
+          echo "M3U8_STATIC_DIR=./temp/m3u8_static/" >> $GITHUB_ENV
+          echo "M3U8_STATIC_DIR2=./temp/m3u8_static/all/" >> $GITHUB_ENV
+          # Update pythonpath used for our scripts
+          echo "PYTHONPATH=$PYTHONPATH:${{ github.workspace }}" >> $GITHUB_ENV
+      - name: Setup Dirs
+        run: |
+          echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
+          echo "IPTVCAT_DATE_YESTERDAY: '${IPTVCAT_DATE_YESTERDAY}'"
+          echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
+          echo "M3U8_DIR: '${M3U8_DIR}'"
+          echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
+          echo "M3U8_STATIC_DIR: '${M3U8_STATIC_DIR}'"
+          echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
+          mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
+          echo "Command: 'mkdir -p ${M3U8_DIR}'"
+          mkdir -p ${M3U8_DIR}
+          echo "Command: 'mkdir -p ${EPG_TEMP_DIR}'"
+          mkdir -p ${EPG_TEMP_DIR}
+          echo "Command: 'mkdir -p ${M3U8_STATIC_DIR2}'"
+          mkdir -p ${M3U8_STATIC_DIR2}
+          echo "Command: 'mkdir -p ${M3U8_STATIC_DIR}'"
+          mkdir -p ${M3U8_STATIC_DIR}
+          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
           echo "Command: 'ls -alt ${EPG_TEMP_DIR}'"
@@ -134,8 +125,6 @@ Setup_Dirs:
           ls -alt ${M3U8_STATIC_DIR}
           echo "Command: 'ls -alt ${M3U8_STATIC_DIR2}'"
           ls -alt ${M3U8_STATIC_DIR2}
-		  
-Begin Getting Other M3U8s:
       - name: Get other m3u8s to add
         run: |
         
