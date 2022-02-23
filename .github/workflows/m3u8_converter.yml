@@ -344,7 +344,13 @@ jobs:
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PBS/all.m3u8" "${M3U8_STATIC_DIR}" "pbs.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/us_plex.m3u" "${M3U8_STATIC_DIR}" "us_plex.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/us_plex.m3u" "${M3U8_STATIC_DIR}" "us_plex.m3u8"          
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/us_plex.m3u" "${M3U8_STATIC_DIR}" "us_plex.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://iptv-org.github.io/iptv/languages/eng.m3u" "${M3U8_STATIC_DIR}" "iptveng.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://iptv-org.github.io/iptv/languages/eng.m3u" "${M3U8_STATIC_DIR}" "iptveng.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/unsorted.m3u" "${M3U8_STATIC_DIR}" "iptvunsorted.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/unsorted.m3u" "${M3U8_STATIC_DIR}" "iptvunsorted.m3u8"          
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/PlutoIPTV/master/m3u8/pluto.m3u8" "${M3U8_STATIC_DIR}" "us_pluto.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/PlutoIPTV/master/m3u8/pluto.m3u8" "${M3U8_STATIC_DIR}" "us_pluto.m3u8"
