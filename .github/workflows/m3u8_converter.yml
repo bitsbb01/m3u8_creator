@@ -44,6 +44,7 @@ jobs:
         with:
           files: "./CompiledallStreams.m3u, ./epg/epg_ripper_ALL_SOURCES1.xml.gz"
 
+      - uses: actions/checkout@v2
       - name: If *.M3U8 Files exists - Then Cleanup
         if: steps.check_files.outputs.files_exists == 'true'
         # Only runs if all of the files exists
@@ -57,9 +58,13 @@ jobs:
           git rm ./epg/*.gz
           git rm ./temp/m3u8_static/*.m3u8
           git rm ./temp/all_streams_tmp/*.json
+          echo $(date) >> last_attempt.txt
+          cat last_attempt.txt
           ls -ltr
           git status
-          git commit -m "cron: Updated by Bot - ${{ steps.date.outputs.date }}" -a
+          git add last_attempt.txt
+          git status
+          git commit -m "cron: Updated by Bot" -a
           git status
           git push
          
