@@ -84,9 +84,16 @@ Setup_The_Environment:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
+        
+
+Setup_The_Environment_pt2:		  		 
+        needs:
+        - Last_Attempt
+        runs-on: "ubuntu-latest"
+        steps:
         - name: Setup Environment
         # e.g. create work dirst, store in env variables ... https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions
-          run: |
+        run: |
             echo "IPTVCAT_DATE=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
             echo "IPTVCAT_DATE_YESTERDAY=$(date -d "yesterday 7:00" '+%Y-%m-%d')" >> $GITHUB_ENV
             echo "IPTVCAT_DOWNLOAD_DIR=./temp/iptvcat" >> $GITHUB_ENV
@@ -96,27 +103,29 @@ Setup_The_Environment:
             echo "M3U8_STATIC_DIR2=./temp/m3u8_static/all/" >> $GITHUB_ENV
             # Update pythonpath used for our scripts
             echo "PYTHONPATH=$PYTHONPATH:${{ github.workspace }}" >> $GITHUB_ENV
-	    
-      - name: Setup Dirs
-        run: |
-          echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
-          echo "IPTVCAT_DATE_YESTERDAY: '${IPTVCAT_DATE_YESTERDAY}'"
-          echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
-          echo "M3U8_DIR: '${M3U8_DIR}'"
-          echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
-          echo "M3U8_STATIC_DIR: '${M3U8_STATIC_DIR}'"
-          echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
-          mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
-          echo "Command: 'mkdir -p ${M3U8_DIR}'"
-          mkdir -p ${M3U8_DIR}
-          echo "Command: 'mkdir -p ${EPG_TEMP_DIR}'"
-          mkdir -p ${EPG_TEMP_DIR}
-          echo "Command: 'mkdir -p ${M3U8_STATIC_DIR2}'"
-          mkdir -p ${M3U8_STATIC_DIR2}
-          echo "Command: 'mkdir -p ${M3U8_STATIC_DIR}'"
-          mkdir -p ${M3U8_STATIC_DIR}
-          echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
-          ls -alt ${IPTVCAT_DOWNLOAD_DIR}
+Setup_Dirs:		  
+        runs-on: "ubuntu-latest"
+        steps:
+        - name: Setup Dirs
+          run: |
+            echo "IPTVCAT_DATE: '${IPTVCAT_DATE}'"
+	    echo "IPTVCAT_DATE_YESTERDAY: '${IPTVCAT_DATE_YESTERDAY}'"
+	    echo "IPTVCAT_DOWNLOAD_DIR: '${IPTVCAT_DOWNLOAD_DIR}'"
+	    echo "M3U8_DIR: '${M3U8_DIR}'"
+	    echo "EPG_TEMP_DIR: '${EPG_TEMP_DIR}'"
+	  echo "M3U8_STATIC_DIR: '${M3U8_STATIC_DIR}'"
+	  echo "Command: 'mkdir -p ${IPTVCAT_DOWNLOAD_DIR}'"
+	  mkdir -p ${IPTVCAT_DOWNLOAD_DIR}
+	  echo "Command: 'mkdir -p ${M3U8_DIR}'"
+	  mkdir -p ${M3U8_DIR}
+	  echo "Command: 'mkdir -p ${EPG_TEMP_DIR}'"
+	  mkdir -p ${EPG_TEMP_DIR}
+	  echo "Command: 'mkdir -p ${M3U8_STATIC_DIR2}'"
+	  mkdir -p ${M3U8_STATIC_DIR2}
+	  echo "Command: 'mkdir -p ${M3U8_STATIC_DIR}'"
+	  mkdir -p ${M3U8_STATIC_DIR}
+	  echo "Command: 'ls -alt ${IPTVCAT_DOWNLOAD_DIR}'"
+	  ls -alt ${IPTVCAT_DOWNLOAD_DIR}
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
           echo "Command: 'ls -alt ${EPG_TEMP_DIR}'"
