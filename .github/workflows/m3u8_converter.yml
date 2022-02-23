@@ -58,11 +58,7 @@ jobs:
           git rm ./epg/*.gz
           git rm ./temp/m3u8_static/*.m3u8
           git rm ./temp/all_streams_tmp/*.json
-          echo $(date) >> last_attempt.txt
-          cat last_attempt.txt
           ls -ltr
-          git status
-          git add last_attempt.txt
           git status
           git commit -m "cron: Updated by Bot" -a
           git status
