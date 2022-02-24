@@ -5,7 +5,7 @@
 <h2> <font color="#00FF00">M3U8 Creator </font> </h2>
 <font color="#00FF00">
 <i>Social buttons</i>
-
+<br>
 </font>
 
 <a href="https://github.com/bitsbb01/m3u8_creator" title="Go to GitHub repo">
@@ -63,6 +63,7 @@
 <font color="#00FF00">
 <div align="center">
 </font>
+    <br>
 <a href="/docs/" title="Go to project documentation"><font color="#00FF00"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"></font></a><font color="#00FF00">
 
 </div>
