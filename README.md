@@ -46,7 +46,7 @@
 </font>
 
 <br>
-<a href="https://github.com/bitsbb01/m3u8_creator/generate">
+<a href="https://github.com/bitsbb01/m3u8_creator/generate"><br>
 <font color="#00FF00"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use this template"></font></a><font color="#00FF00">
 </font>
 <br>
