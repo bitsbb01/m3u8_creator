@@ -40,7 +40,7 @@
 <br>
 <a href="https://python.org" title="Go to Python homepage">
 <font color="#00FF00"><img src="https://img.shields.io/badge/Python-%3E=3.6-blue?logo=python&logoColor=white" alt="Made with Python"></font></a><font color="#00FF00">        
-<i>Call-to-Action buttons</i>
+<br>
 
 
 </font>
