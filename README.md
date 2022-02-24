@@ -14,26 +14,30 @@
 <a href="https://github.com/bitsbb01/m3u8_creator"><font color="#00FF00"><img src="https://img.shields.io/github/stars/bitsbb01/m3u8_creator?style=social" alt="stars - m3u8_creator"></font></a><font color="#00FF00">
 </font>
 <a href="https://github.com/bitsbb01/m3u8_creator"><font color="#00FF00"><img src="https://img.shields.io/github/forks/bitsbb01/m3u8_creator?style=social" alt="forks - m3u8_creator"></font></a><font color="#00FF00">
-
+<br>
+<br>
 <i>Repo metadata</i>
-
+<br>
 </font>
 
 <a href="https://github.com/bitsbb01/m3u8_creator/actions?query=workflow:%22M3U8_Creator%22">
 <font color="#00FF00"><img src="https://github.com/bitsbb01/m3u8_creator/workflows/M3U8_Creator/badge.svg" alt="M3U8_Creator"></font></a><font color="#00FF00">
 </font>
-
+<br>
 <a href="https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/Compiled-all-Streams.m3u8">
 <font color="#00FF00"><img src="https://img.shields.io/badge/Compiled_all_Streams-Grab_The_Compiled_Streams_Here-2ea44f" alt="Compiled all Streams - Grab The Compiled Streams Here"></font></a><font color="#00FF00">
 </font>
-        
+<br>        
 <a href="#license"><font color="#00FF00"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></font></a><font color="#00FF00">
 </font>
+<br>
 <a href="https://github.com/bitsbb01/m3u8_creator/issues"><font color="#00FF00"><img src="https://img.shields.io/github/issues/bitsbb01/m3u8_creator" alt="issues - m3u8_creator"></font></a><font color="#00FF00">
 </font>
+<br>
 <a href="https://github.com/features/actions" title="Go to GitHub Actions homepage">
 <font color="#00FF00"><img src="https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github-actions&logoColor=white" alt="Made with GH Actions"></font></a><font color="#00FF00">
 </font>
+<br>
 <a href="https://python.org" title="Go to Python homepage">
 <font color="#00FF00"><img src="https://img.shields.io/badge/Python-%3E=3.6-blue?logo=python&logoColor=white" alt="Made with Python"></font></a><font color="#00FF00">        
 <i>Call-to-Action buttons</i>
@@ -41,11 +45,11 @@
 
 </font>
 
-
+<br>
 <a href="https://github.com/bitsbb01/m3u8_creator/generate">
 <font color="#00FF00"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use this template"></font></a><font color="#00FF00">
 </font>
-
+<br>
 <a href="https://bitsbb01.github.io/m3u8_creator/"><font color="#00FF00"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></font></a><font color="#00FF00">
 
         
@@ -54,7 +58,7 @@
 </div>
     
 </font>
-    
+<br>    
 <h2><font color="#00FF00">Documentation</font></h2>
 <font color="#00FF00">
 <div align="center">
@@ -64,7 +68,7 @@
 </div>
 </font>
    
-    
+<br>    
 </table>
 </div>
 <p align="center"><font color="#00FF00">This allows you to grab all the main 
