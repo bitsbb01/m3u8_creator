@@ -50,7 +50,7 @@
 <font color="#00FF00"><img src="https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge" alt="Use this template"></font></a><font color="#00FF00">
 </font>
 <br>
-<a href="https://bitsbb01.github.io/m3u8_creator/"><font color="#00FF00"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></font></a><font color="#00FF00">
+<a href="https://bitsbb01.github.io/m3u8_creator/"><font color="#00FF00"><img src="https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge" alt="View site - GH Pages"></font></a><font color="#00FF00"><br>
 
         
 <img src="https://img.phonandroid.com/2021/10/iptv-fermeture-piratage-plateforme.jpg" alt="IPTV" width="400">
