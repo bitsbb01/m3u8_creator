@@ -132,7 +132,46 @@ jobs:
            
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/master/M3U/USTVGO/Main.m3u" "${M3U8_STATIC_DIR}" "parrottv.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/ParrotDevelopers/Parrot-TV-M3U/master/M3U/USTVGO/Main.m3u" "${M3U8_STATIC_DIR}" "parrottv.m3u8"
-             
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca.m3u" "${M3U8_STATIC_DIR}" "iptvorgca.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca.m3u" "${M3U8_STATIC_DIR}" "iptvorgca.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca_samsung.m3u" "${M3U8_STATIC_DIR}" "iptvorgca_samsung.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca_samsung.m3u" "${M3U8_STATIC_DIR}" "iptvorgca_samsung.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca_stingray.m3u" "${M3U8_STATIC_DIR}" "iptvorgca_stingray.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ca_stingray.m3u" "${M3U8_STATIC_DIR}" "iptvorgca_stingray.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk.m3u" "${M3U8_STATIC_DIR}" "iptvorguk.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk.m3u" "${M3U8_STATIC_DIR}" "iptvorguk.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_samsung.m3u" "${M3U8_STATIC_DIR}" "iptvorguk_samsung.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_samsung.m3u" "${M3U8_STATIC_DIR}" "iptvorguk_samsung.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_sportstribal.m3u" "${M3U8_STATIC_DIR}" "iptvorguk_sportstribal.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_sportstribal.m3u" "${M3U8_STATIC_DIR}" "iptvorguk_sportstribal.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/unsorted.m3u" "${M3U8_STATIC_DIR}" "iptvorgunsorted.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/unsorted.m3u" "${M3U8_STATIC_DIR}" "iptvorgunsorted.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u" "${M3U8_STATIC_DIR}" "iptvorgus.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u" "${M3U8_STATIC_DIR}" "iptvorgus.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_adultiptv.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_adultiptv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_adultiptv.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_adultiptv.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_adultswim.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_adultswim.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_adultswim.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_adultswim.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_imdbtv.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_imdbtv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_imdbtv.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_imdbtv.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_localbtv.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_localbtv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_localbtv.m3u" "${M3U8_STATIC_DIR}" "iptvorgus_localbtv.m3u8"
+           
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "iptvorgrebox.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "iptvorgrebox.m3u8"
+          
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/60s.m3u" "${M3U8_STATIC_DIR}" "radio60s.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/60s.m3u" "${M3U8_STATIC_DIR}" "radio60s.m3u8"
              
@@ -426,6 +465,45 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/ustvgotom3u/main/ustvgo.m3u" "${M3U8_STATIC_DIR}" "ustvgo.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/ustvgotom3u/main/ustvgo.m3u" "${M3U8_STATIC_DIR}" "ustvgo.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.m3u8" "${M3U8_STATIC_DIR}" "plexall.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.m3u8" "${M3U8_STATIC_DIR}" "plexall.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.m3u8" "${M3U8_STATIC_DIR}" "stirrall.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Stirr/all.m3u8" "${M3U8_STATIC_DIR}" "stirrall.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.m3u8" "${M3U8_STATIC_DIR}" "samsungtvall.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.m3u8" "${M3U8_STATIC_DIR}" "samsungtvall.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/RoStreamTV/RoStreamTV.github.io/main/RoStreamTV_ONLINE.m3u" "${M3U8_STATIC_DIR}" "RoStreamTV_ONLINE.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/RoStreamTV/RoStreamTV.github.io/main/RoStreamTV_ONLINE.m3u" "${M3U8_STATIC_DIR}" "RoStreamTV_ONLINE.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/DeltaSr95/Combined/master/combined.m3u" "${M3U8_STATIC_DIR}" "deltasr95combined.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/DeltaSr95/Combined/master/combined.m3u" "${M3U8_STATIC_DIR}" "deltasr95combined.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughnlive.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/vaughn.Live/vaughn.Live.m3u" "${M3U8_STATIC_DIR}" "vaughnlive.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/Roku/Roku.m3u" "${M3U8_STATIC_DIR}" "rokutv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/Roku/Roku.m3u" "${M3U8_STATIC_DIR}" "rokutv.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/Livestream/Livestream.m3u" "${M3U8_STATIC_DIR}" "Livestream.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/Livestream/Livestream.m3u" "${M3U8_STATIC_DIR}" "Livestream.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/DistroTV/DistroTV.m3u" "${M3U8_STATIC_DIR}" "Sphinxrootdistrotv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/DistroTV/DistroTV.m3u" "${M3U8_STATIC_DIR}" "Sphinxrootdistrotv.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "SphinxrootAnthymTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "SphinxrootAnthymTV.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "Sphinxrootavotv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "Sphinxrootavotv.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "Sphinxroottubi.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "Sphinxroottubi.m3u8"
                                                   
           
       - name: Match EPG IDs to Static Files
