@@ -538,11 +538,17 @@ jobs:
           ls -alt "${EPG_TEMP_DIR}" 
           
           
-      - name: Get the main all streams json
+      - name: Get the main streams json
         run: |
         
           echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"'"
           ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
+          
+      - name: Get the main USA streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"
           
     
       ### PROCESS THE DATA ###
