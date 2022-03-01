@@ -544,6 +544,14 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"'"
           ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
           
+          
+          
+      - name: Get the UK streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperuk/master/data/countries/united%20kingdom.json" "./temp/all_streams_tmp/" "uk-streams.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperuk/master/data/countries/united%20kingdom.json" "./temp/all_streams_tmp/" "uk-streams.json"
+          
       - name: Get the main USA streams json
         run: |
         
