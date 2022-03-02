@@ -62,21 +62,6 @@ jobs:
           git push          
           git commit -m "cron: Updated by Bot" -a
          
-#      - name: If *.M3U8 Files exists - Then Cleanup 2
-#        if: steps.check_files.outputs.files_exists == 'true'
-#        # Only runs if all of the files exists
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.scrapper_token }}
-#          branch: ${{ github.ref }}
-#        
-#      - name: If *.M3U8 Files exists - Then Cleanup 3
-#        if: steps.check_files.outputs.files_exists == 'true'
-#        # Only runs if all of the files exists
-#        uses: zwaldowski/git-commit-action@v1
-#        with:
-#             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-#             working_directory: .
         
       ### SETUP THE ENVIRONMENT
       - name: Setup Python
@@ -504,6 +489,12 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "Sphinxroottubi.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "Sphinxroottubi.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew%20(1).m3u?token=GHSAT0AAAAAABOLFIIKD4OBRC5KXI344Z6AYQ7YVUA" "${M3U8_STATIC_DIR}" "wwwvod1.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew%20(1).m3u?token=GHSAT0AAAAAABOLFIIKD4OBRC5KXI344Z6AYQ7YVUA" "${M3U8_STATIC_DIR}" "wwwvod1.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew%20(2).m3u?token=GHSAT0AAAAAABOLFIILATBMBH37DDMG3QU6YQ7YYKA" "${M3U8_STATIC_DIR}" "wwwvod2.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew%20(2).m3u?token=GHSAT0AAAAAABOLFIILATBMBH37DDMG3QU6YQ7YYKA" "${M3U8_STATIC_DIR}" "wwwvod2.m3u8"
                                                   
           
       - name: Match EPG IDs to Static Files
