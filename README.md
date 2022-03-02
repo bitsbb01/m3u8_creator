@@ -118,10 +118,23 @@ Theres been lots of updates to the code, so now it deletes if the files are in
 folders, then run otherwise if the files are not there, then it'll skip that 
 step and continue the main..<br>
 <br>
-I'll be doing some more updating soon, but at moment currently fighting covid, 
-was already suffering from side effects of the Johnson &amp; Johnson shot and then 
-got covid, anyway once i can sit here long enough, i'll be doing some big 
-updates, including fixing the main list to work correctly<br>
+Added back in Northern America, Europe, South America, Asia back in from IPTV Cat, as that was having issues for a few weeks, and had to change the way it worked.. now it's grabbing the files, but instead of 1 big file, its doing in in 5 smaller sections.. but don't worry its all there now.. <br>
+Free2View TV is back in, hopefully it shouldnt show all there main things in the begining of the playlist under channels now, i know that was causing issues as it kept showing up in tivimate and kodi.<br>
+It would really help if they had a playlist that didnt have all that section, eg. 
+
+<br>   #EXTINF:-1 tvg-id="" tvg-logo="https://od.lk/s/MF8yNDM1NjI1MDhf/F2V-TV_light_701x701.png" group-title="Samsung TV Plus",** MAJOR PLAYLIST UPDATE | See INFO category for details of changes to some source URLs including EPG (12/11/21) **
+    
+<br>
+    what it does, is on normal tivimate, you cant see anything about tv channel as all u see is ding EPG (12/11/21) **
+    
+<br>
+    I understand this causes issues, and thats not something i can fix, i tried doing code that would clean it up, but as they've got it where the channel name is, the code cannot see it and therefore cannot clean up... 
+    
+<br>
+    if it still causes issue's, I may have to remove the Free2View completly.
+<br>
+<br>
+<br>
 <br>
 &nbsp;</font></p>
 
