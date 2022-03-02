@@ -546,13 +546,51 @@ jobs:
           
           
           
+
+          
+          
+      - name: Get Europe streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest2/master/data/countries/europe.json" "./temp/all_streams_tmp/" "all-europe.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest2/master/data/countries/europe.json" "./temp/all_streams_tmp/" "all-europe.json"
+
+      - name: Get the Africa streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/africa.json" "./temp/all_streams_tmp/" "all-africa.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/africa.json" "./temp/all_streams_tmp/" "all-africa.json"
+          
+ 
+      - name: Get the Asia streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/asia.json" "./temp/all_streams_tmp/" "all-asia.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/asia.json" "./temp/all_streams_tmp/" "all-asia.json"
+          
+ 
+      - name: Get the Latin America streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/latin%20america.json" "./temp/all_streams_tmp/" "all-latinamerica.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/latin%20america.json" "./temp/all_streams_tmp/" "all-latinamerica.json"
+         
+ 
+      - name: Get the Arab streams json
+        run: |
+        
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/arab%20countries.json" "./temp/all_streams_tmp/" "all-arab%20countries.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/arab%20countries.json" "./temp/all_streams_tmp/" "all-arab%20countries.json"
+          
+          
+          
       - name: Get the UK streams json
         run: |
         
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperuk/master/data/countries/united%20kingdom.json" "./temp/all_streams_tmp/" "uk-streams.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperuk/master/data/countries/united%20kingdom.json" "./temp/all_streams_tmp/" "uk-streams.json"
           
-      - name: Get the main USA streams json
+      - name: Get the North America streams json
         run: |
         
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"'"
