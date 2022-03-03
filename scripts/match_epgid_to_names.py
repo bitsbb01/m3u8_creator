@@ -18,16 +18,18 @@ def main():
     args = parser.parse_args()
 
     if (not os.path.exists(args.input_file)) or not os.path.isfile(args.input_file):
-        raise ValueError(F'"{args.input_file}" is not a vaid file')
-    if (not os.path.exists(args.json_file)) or not os.path.isfile(args.json_file):
-        raise ValueError(F'"{args.json_file}" is not a vaid file')
+        # raise ValueError(F'"{args.input_file}" is not a vaid file')
+        print(F'"{args.input_file}" is not a vaid file')
+    elif (not os.path.exists(args.json_file)) or not os.path.isfile(args.json_file):
+        # raise ValueError(F'"{args.json_file}" is not a vaid file')
+        print(F'"{args.json_file}" is not a vaid file')
+    else:
+        m3u8_file = m3u8.M3U8File(args.input_file)
 
-    m3u8_file = m3u8.M3U8File(args.input_file)
+        count = m3u8.match_epg_channels(m3u8_file, args.json_file)
+        print('FOUND:', count)
 
-    count = m3u8.match_epg_channels(m3u8_file, args.json_file)
-    print('FOUND:', count)
-
-    m3u8_file.write_file(args.out_file)
+        m3u8_file.write_file(args.out_file)
 
 
 if __name__ == '__main__':
