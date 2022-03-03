@@ -5,6 +5,7 @@ import re
 
 M3U8_OPENING_TAG = '#EXTM3U'
 M3U8_CHANNEL_INFO_PREFIX = '#EXTINF:'
+M3U8_SPECIAL_LINE_START_TAG = '#'
 
 
 class M3U8File():
@@ -80,6 +81,10 @@ class M3U8File():
                     group_pattern = 'group-title="(?P<group>.*?)"'
                     result = re.search(group_pattern, line)
                     details['group'] = result.group('group') if bool(result) else 'No Group'
+                elif line.startswith(M3U8_SPECIAL_LINE_START_TAG):  # If we come here it's unhandled commands, comments, etc
+                    pass
+                elif not line:  # Empty lines
+                    pass
                 else:  # Assume it's the url
                     self.add_channel(name=details['name'], url=line, group=details['group'], channel_id=details['id'])
                     details = {}
