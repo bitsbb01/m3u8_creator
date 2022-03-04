@@ -106,13 +106,12 @@ Thanks go out to apsattv.com for there guys being able to get a lot of updated
 playlists..<br>
 Thanks go out to matthuisman for his pbs playlist..<br>
 Thanks go out to iptv-org for the us-vizio playlist..<br>
-Once can get the free2view playlist to commpile into the main list correctly, 
-then will re-add<br>
 Free2View TV courtesy of the Free2View TV Project and its team of developers: 
 https://discord.gg/C48WhSTpw7 <br>
 Also thanks go out to everyone else that has been able to help with designing 
 and building all the various scripts to get this working. <br>
 <br>
+<br>IF YOU WANT A PLAYLIST ADDED, THEN PLEASE OPEN AN ISSUE WITH THE LINK AND I'LL ADD IT INTO THE COMPILED VERSION FOR YOU.
 <br>
 Theres been lots of updates to the code, so now it deletes if the files are in 
 folders, then run otherwise if the files are not there, then it'll skip that 
