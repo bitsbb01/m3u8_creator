@@ -101,22 +101,24 @@ convert the stream, however not played around with that much..<br>
 <br>
 Thanks go out to ericziethen for his help with the m3u8_creator.. <br>
 Thanks go out to Sphinxroot for his really well done playlists..<br>
+Thanks go out to DeltaSr95 for his combined playlist..<br>
 Thanks go out to junguler for his music playlists..<br>
 Thanks go out to apsattv.com for there guys being able to get a lot of updated 
 playlists..<br>
 Thanks go out to matthuisman for his pbs playlist..<br>
-Thanks go out to iptv-org for the us-vizio playlist..<br>
+Thanks go out to iptv-org for the us-vizio playlist..<br><br>
 Free2View TV courtesy of the Free2View TV Project and its team of developers: 
-https://discord.gg/C48WhSTpw7 <br>
+https://discord.gg/C48WhSTpw7 <br><br>
 Also thanks go out to everyone else that has been able to help with designing 
 and building all the various scripts to get this working. <br>
 <br>
-<br>IF YOU WANT A PLAYLIST ADDED, THEN PLEASE OPEN AN ISSUE WITH THE LINK AND I'LL ADD IT INTO THE COMPILED VERSION FOR YOU.
+<br>IF YOU WANT A PLAYLIST ADDED, THEN PLEASE OPEN A DISCUSSION WITH THE LINK AND I'LL ADD IT INTO THE COMPILED VERSION FOR YOU.
 <br>
 Theres been lots of updates to the code, so now it deletes if the files are in 
 folders, then run otherwise if the files are not there, then it'll skip that 
-step and continue the main..<br>
-<br>
+step and continue the main..<br><br>
+                 --------------------------------------------------------------------------------------------------------<br>    
+<br><br><br>3/01/2022<br>
 Added back in Northern America, Europe, South America, Asia back in from IPTV Cat, as that was having issues for a few weeks, and had to change the way it worked.. now it's grabbing the files, but instead of 1 big file, its doing in in 5 smaller sections.. but don't worry its all there now.. <br>
 Free2View TV is back in, hopefully it shouldnt show all there main things in the begining of the playlist under channels now, i know that was causing issues as it kept showing up in tivimate and kodi.<br>
 It would really help if they had a playlist that didnt have all that section, eg. 
@@ -131,12 +133,6 @@ It would really help if they had a playlist that didnt have all that section, eg
     
 <br>
     if it still causes issue's, I may have to remove the Free2View completly.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
