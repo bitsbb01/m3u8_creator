@@ -118,6 +118,9 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew1.m3u" "${M3U8_STATIC_DIR}" "vodnew1.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew1.m3u" "${M3U8_STATIC_DIR}" "vodnew1.m3u8"
         
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/DeltaSr95/Combined/master/combined.m3u" "${M3U8_STATIC_DIR}" "DeltaSr95combined.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/DeltaSr95/Combined/master/combined.m3u" "${M3U8_STATIC_DIR}" "DeltaSr95combined.m3u8"
+        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew2.m3u" "${M3U8_STATIC_DIR}" "vodnew2.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/vodnew2.m3u" "${M3U8_STATIC_DIR}" "vodnew2.m3u8"
            
