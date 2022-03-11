@@ -135,6 +135,23 @@ It would really help if they had a playlist that didnt have all that section, eg
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>3/11/2022
+    
+<br>Added today some more channels for Cat to be able to scrape, works well so far. 
+<br>Added new checks for m3u files left behind, so now will do double check and clean up before creating new list.
+<br>Started working on new epg files, so we can have a better epg to match all the channels. (this is going to take time to get working correctly, trying to get zap2xml working correctly, but get issues... i'll get it sorted.
+    
+<br>
+<br>Added new m3u combiner, now should be a lot cleaner when loading in iptv etc.
+<br>Added discusions section, so now you can ask for channels or place m3u's there and we can work on them.
 &nbsp;</font></p>
 
 
