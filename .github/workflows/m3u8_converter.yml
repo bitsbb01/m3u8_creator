@@ -685,9 +685,9 @@ jobs:
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
           
       - name: Check Streams
-        uses: lafernando/github-action-bash@v1.0
-              bash iptv_channels.bash
-        
+        uses: jdickey/bash@v.1.1.1
+              bash ./scripts/iptv_channels.bash
+      
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
         with:
