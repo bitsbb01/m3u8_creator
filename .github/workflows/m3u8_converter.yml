@@ -678,6 +678,12 @@ jobs:
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
                                     
+      - name: Merge Files Usin M3U Merger
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          ./scripts/m3umerger.py ./m3u8/ ./mergedStreams.m3u
+                                    
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
         with:
