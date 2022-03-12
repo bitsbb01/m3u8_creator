@@ -677,6 +677,10 @@ jobs:
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
+          
+      - name: Testing the streams
+        run: |
+          ./scripts/streamcleaner.py --input-file ./Compiled-all-Streams.m3u8 --output-file ./CleanedStreams.m3u
                                   
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
