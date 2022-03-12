@@ -33,7 +33,6 @@ jobs:
           git status
           git commit -m "cron: setting last attempt time stamp" -a
           git status
-#          git push
           
       - name: Checkout code
         uses: actions/checkout@v1
@@ -538,60 +537,47 @@ jobs:
           
           
       - name: Get the main streams json
-        run: |
-        
+        run: |        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"'"
           ./scripts/download_file_allow_failiure.sh "https://github.com/bitsbb01/ez-iptvcat-scraper/blob/master/data/all-streams.json?raw=true" "./temp/all_streams_tmp/" "all-streams.json"
           
           
-          
-
-          
-          
       - name: Get Europe streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest2/master/data/countries/europe.json" "./temp/all_streams_tmp/" "all-europe.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest2/master/data/countries/europe.json" "./temp/all_streams_tmp/" "all-europe.json"
 
       - name: Get the Africa streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/africa.json" "./temp/all_streams_tmp/" "all-africa.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/africa.json" "./temp/all_streams_tmp/" "all-africa.json"
           
  
       - name: Get the Asia streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/asia.json" "./temp/all_streams_tmp/" "all-asia.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/asia.json" "./temp/all_streams_tmp/" "all-asia.json"
           
  
       - name: Get the Latin America streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/latin%20america.json" "./temp/all_streams_tmp/" "all-latinamerica.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/latin%20america.json" "./temp/all_streams_tmp/" "all-latinamerica.json"
          
  
       - name: Get the Arab streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/arab%20countries.json" "./temp/all_streams_tmp/" "all-arab%20countries.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper-rest1/master/data/countries/arab%20countries.json" "./temp/all_streams_tmp/" "all-arab%20countries.json"
           
           
-          
       - name: Get the UK streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperuk/master/data/countries/united%20kingdom.json" "./temp/all_streams_tmp/" "uk-streams.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperuk/master/data/countries/united%20kingdom.json" "./temp/all_streams_tmp/" "uk-streams.json"
           
       - name: Get the North America streams json
         run: |
-        
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"
           
@@ -683,7 +669,7 @@ jobs:
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
-          
+          python3 ./scripts/streamcleaner.py --timeout "10.0" --input-file "./CompiledallStreams.m3u" --output-file "./CompiledallStreams_checked.m3u"
       
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
