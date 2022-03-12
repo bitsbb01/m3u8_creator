@@ -684,9 +684,9 @@ jobs:
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
           
+      - uses: jdickey/bash@v.1.1.1
       - name: Check Streams
-        uses: jdickey/bash@v.1.1.1
-              bash ./scripts/iptv_channels.bash
+        run: bash ./scripts/iptv_channels.bash
       
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
