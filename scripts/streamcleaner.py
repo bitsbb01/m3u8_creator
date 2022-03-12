@@ -1,5 +1,3 @@
-#!/usr/bin/env python3 -u
-
 import requests
 import sys
 import m3u8
