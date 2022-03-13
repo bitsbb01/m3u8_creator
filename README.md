@@ -144,10 +144,32 @@ It would really help if they had a playlist that didnt have all that section, eg
 <br>Added today some more channels for Cat to be able to scrape, works well so far. 
 <br>Added new checks for m3u files left behind, so now will do double check and clean up before creating new list.
 <br>Started working on new epg files, so we can have a better epg to match all the channels. (this is going to take time to get working correctly, trying to get zap2xml working correctly, but get issues... i'll get it sorted.
-    
+ <br>
 <br>
-<br>Added new m3u combiner, now should be a lot cleaner when loading in iptv etc.
+<br>
+<br>
+<br>
+<br>3/12/2022   
+<br>So added in some new scripts, however not having much luck getting them working today. 
+    <br>Hopefully over next few days can get them working, in which case there will be a new M3U Joiner/Combiner that will also clean up a lot of the junk in the M3U files.
+    <br>Also will be adding in the stream checker that will be able to check the links and therefore only have live links..
 <br>Added discusions section, so now you can ask for channels or place m3u's there and we can work on them.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>Todo:-
+    <br>1. Add All The Free Channels Available Online.
+    <br>2. Create better M3U Merger.
+    <br>3. Create Link Checker.
+    <br>4. Add More CCTV Channels.
+    <br>5. Add More Radio Stations And Seperate Into There Own Regions.
+    <br>6. Add Twitch Streams.
+    <br>7. Add Vaughn Streams.
+    <br>8. Add Auto Script To Update Readme.md.
+    <br>
+    <br>
 &nbsp;</font></p>
 
 
