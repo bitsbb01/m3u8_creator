@@ -511,14 +511,22 @@ jobs:
           
           ls -alt "${M3U8_STATIC_DIR}"        
  
-      - name: Merge Files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          cat ./temp/m3u8_static/*.m3u8 > ./temp/m3u8_static/all/all-streams.m3u8       
+#      - name: Merge Files
+#        run: |
+#          git config --local user.email "action@github.com"
+#          git config --local user.name "GitHub Action"
+#          cat ./temp/m3u8_static/*.m3u8 > ./temp/m3u8_static/all/all-streams.m3u8       
+#          
+#          ls -alt "${M3U8_STATIC_DIR2}" 
           
-          ls -alt "${M3U8_STATIC_DIR2}"        
-               
+      - name: Merge Static All_Streams Files
+        run: |
+          ls -alt ./tests/m3u8/
+          ls -alt ./temp/m3u8_static/
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "./temp/m3u8_static/"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "./temp/m3u8_static/"
+          ls -alt ./tests/m3u8/
+          ls -alt ./temp/m3u8_static/  
           
           
       - name: Get epg
@@ -599,11 +607,11 @@ jobs:
       - name: Merge with Static All_Streams Files
         run: |
           ls -alt ./tests/m3u8/
-          ls -alt ${M3U8_STATIC_DIR2}
-          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "${M3U8_STATIC_DIR2}"'"
-          ./scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "${M3U8_STATIC_DIR2}"
+          ls -alt ${M3U8_STATIC_DIR}
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "${M3U8_STATIC_DIR}"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "${M3U8_STATIC_DIR}"
           ls -alt ./tests/m3u8/
-          ls -alt ${M3U8_STATIC_DIR2}
+          ls -alt ${M3U8_STATIC_DIR}
                     
       - name: Add EPG URL to files
         run: |
@@ -670,8 +678,6 @@ jobs:
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
-          sudo apt-get install wget
-          sudo pip install speedtest-cli
           
       
       - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
