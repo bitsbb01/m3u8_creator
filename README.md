@@ -9,8 +9,20 @@
 <br>
 </font>
         <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bitsbb01/m3u8_creator?style=plastic">
-        <br><img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2025?style=plastic">
         <br>
+        <img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2025?style=plastic">
+        <br>
+        <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/bitsbb01/M3U8_Creator/M3U8_Creator">
+        <br>
+        <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/bitsbb01/m3u8_creator?style=plastic">
+        <br>
+        <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/bitsbb01?style=plastic">
+        <br>
+        <img alt="GitHub issue custom search" src="https://img.shields.io/github/issues-search?query=bitsbb01">
+        <br>
+        <img alt="GitHub search hit counter" src="https://img.shields.io/github/search/bitsbb01/m3u8_creator/m3u8">
+        <br>
+        
 <a href="https://github.com/bitsbb01/m3u8_creator" title="Go to GitHub repo">
 <font color="#00FF00"><img src="https://img.shields.io/static/v1?label=bitsbb01&message=m3u8_creator&color=blue&logo=github" alt="bitsbb01 - m3u8_creator"></font></a><font color="#00FF00">
 </font>
@@ -183,6 +195,8 @@ It would really help if they had a playlist that didnt have all that section, eg
 <font color="#00FF00">Released under </font> <a href="/LICENSE">
 <font color="#00FF00">MIT</font></a><font color="#00FF00"> by </font> <a href="https://github.com/bitsbb01">
 <font color="#00FF00">@bitsbb01</font></a><font color="#00FF00">.
+    <br>
+    <img alt="Reddit User Karma" src="https://img.shields.io/reddit/user-karma/combined/bitsbb01?style=social">
    
     
 </font>
