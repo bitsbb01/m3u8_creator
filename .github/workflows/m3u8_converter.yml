@@ -595,40 +595,15 @@ jobs:
           ls -alt ./temp/all_streams_tmp/
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
-                             
-      - name: Push all changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.scrapper_token }}
-          branch: ${{ github.ref }} 
-          
-      - name: Commit All Files
-        uses: zwaldowski/git-commit-action@v1
-        with:
-             commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
-             working_directory: .
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.scrapper_token }}
-          branch: ${{ github.ref }}
-          
-      - name: Copy Static m3u8s
-        uses: canastro/copy-file-action@master
-        with:
-          source: "./temp/m3u8_static/*.m3u8"
-          target: "${M3U8_DIR}"
-          flags: '-r'
           
       - name: Merge with Static All_Streams Files
         run: |
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
-          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"'"
-          ./scripts/merge_m3u8_files_in_dirs.sh "${M3U8_DIR}" "${M3U8_STATIC_DIR}"
-          ls -alt ${M3U8_DIR}
-          ls -alt ${M3U8_STATIC_DIR}
+          ls -alt ./tests/m3u8/
+          ls -alt ${M3U8_STATIC_DIR2}
+          echo "Command: './scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "${M3U8_STATIC_DIR2}"'"
+          ./scripts/merge_m3u8_files_in_dirs.sh "./tests/m3u8/" "${M3U8_STATIC_DIR2}"
+          ls -alt ./tests/m3u8/
+          ls -alt ${M3U8_STATIC_DIR2}
                     
       - name: Add EPG URL to files
         run: |
