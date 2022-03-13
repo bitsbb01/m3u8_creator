@@ -56,6 +56,7 @@ jobs:
           git rm ./tests/epg/*.gz
           git rm ./epg/*.gz
           git rm ./temp/m3u8_static/*.m3u8
+          git rm ./temp/m3u8_static/all/*.m3u8
           git rm ./temp/all_streams_tmp/*.json
           git status
           git push          
@@ -683,6 +684,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           ls -1 ./m3u8/*.m3u8 > ./allstreams.txt
+          cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./Compiled-all-UpdatedStreams.m3u8
           cat ./m3u8/*.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./m3u8/*.m3u8 > ./CompiledallStreams.m3u
           
