@@ -609,6 +609,7 @@ jobs:
         run: |
           echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/m3u8_creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/add_epg_url_into_m3u8.py --epg_url "https://github.com/bitsbb01/m3u8_creator/raw/main/epg/epg_ripper_ALL_SOURCES1.xml.gz" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
+
       - name: Add Channel To Main Categories
         run: |
           echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
@@ -618,7 +619,13 @@ jobs:
         run: |
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
-                           
+      
+      - name: Test Stream In 1st File
+        run: |
+          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u'"
+          python ./scripts/add_epg_url_into_m3u8.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u
+                     
+                     
       - name: Push all changes
         uses: ad-m/github-push-action@master
         with:
