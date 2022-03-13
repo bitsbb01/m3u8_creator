@@ -596,6 +596,13 @@ jobs:
           echo "Command: 'ls -alt ${M3U8_DIR}'"
           ls -alt ${M3U8_DIR}
           
+      - name: Copy Static m3u8s
+        uses: canastro/copy-file-action@master
+        with:
+          source: "./temp/m3u8_static/*.m3u8"
+          target: "${M3U8_DIR}"
+          flags: '-r'
+          
       - name: Merge with Static All_Streams Files
         run: |
           ls -alt ${M3U8_DIR}
