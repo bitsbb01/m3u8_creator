@@ -619,12 +619,6 @@ jobs:
         run: |
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
-      
-      - name: Test Stream In 1st File
-        run: |
-          echo "Command: 'python ./scripts/streamcleaner.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u'"
-          python ./scripts/streamcleaner.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u
-                     
                      
       - name: Push all changes
         uses: ad-m/github-push-action@master
