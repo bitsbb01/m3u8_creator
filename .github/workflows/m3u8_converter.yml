@@ -622,8 +622,8 @@ jobs:
       
       - name: Test Stream In 1st File
         run: |
-          echo "Command: 'python ./scripts/add_epg_url_into_m3u8.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u'"
-          python ./scripts/add_epg_url_into_m3u8.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u
+          echo "Command: 'python ./scripts/streamcleaner.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u'"
+          python ./scripts/streamcleaner.py --input-file ./m3u8/DeltaSr95combined.m3u8 --output-file ./m3u8/filtered-playlist.m3u
                      
                      
       - name: Push all changes
