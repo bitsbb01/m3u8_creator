@@ -624,9 +624,6 @@ jobs:
           echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
  
-          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_STATIC_DIR2}" --m3u8_out_dir "${M3U8_STATIC_DIR2}"'"
-          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_STATIC_DIR2}" --m3u8_out_dir "${M3U8_STATIC_DIR2}"
- 
       - name: Match EPG IDs
         run: |
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
