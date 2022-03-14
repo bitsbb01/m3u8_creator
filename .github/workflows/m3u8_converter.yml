@@ -624,10 +624,15 @@ jobs:
           echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"'"
           python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_DIR}" --m3u8_out_dir "${M3U8_DIR}"
  
+          echo "Command: 'python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_STATIC_DIR2}" --m3u8_out_dir "${M3U8_STATIC_DIR2}"'"
+          python ./scripts/import_categories_into_m3u8.py --category_file "./ez_m3u8_creator/categories/main.json" --m3u8_in_dir "${M3U8_STATIC_DIR2}" --m3u8_out_dir "${M3U8_STATIC_DIR2}"
+ 
       - name: Match EPG IDs
         run: |
           echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"'"
           ./scripts/match_epgid_to_names.sh "${M3U8_DIR}" "${M3U8_DIR}"
+          echo "Command: './scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR2}" "${M3U8_STATIC_DIR2}"'"
+          ./scripts/match_epgid_to_names.sh "${M3U8_STATIC_DIR2}" "${M3U8_STATIC_DIR2}"
                      
       - name: Push all changes
         uses: ad-m/github-push-action@master
@@ -679,7 +684,7 @@ jobs:
         run: echo "::set-output name=date::$(date '+%Y-%m-%d')"
 
 
-      - name: Merge Files
+      - name: Merge All The Files Into Compiled-all-UpdatedStreams.m3u
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -687,9 +692,12 @@ jobs:
           cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./Compiled-all-UpdatedStreams.m3u8
           cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./Compiled-all-Streams.m3u8
           cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./CompiledallStreams.m3u8
+          cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./Compiled-all-UpdatedStreams.m3u
+          cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./Compiled-all-Streams.m3u
+          cat ./tests/m3u8/all-streams.m3u8 ./temp/m3u8_static/all/all-staticstreams.m3u8 > ./CompiledallStreams.m3u
           
       
-      - name: create workflow artifact #this is created, so if theres an error, you can look back at previous yml
+      - name: Create Workflow Artifact #this is created, so if theres an error, you can look back at previous yml
         uses: actions/upload-artifact@v2
         with:
          name: workflow_${{ steps.date.outputs.date }}
@@ -709,7 +717,7 @@ jobs:
              commit_message: Updated by Bot - ${{ steps.date.outputs.date }}
              working_directory: .
 
-      - name: Push changes
+      - name: Push Final Changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.scrapper_token }}
