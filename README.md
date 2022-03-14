@@ -42,8 +42,8 @@
 <font color="#00FF00"><img src="https://github.com/bitsbb01/m3u8_creator/workflows/M3U8_Creator/badge.svg" alt="M3U8_Creator"></font></a><font color="#00FF00">
 </font>
 <br>
-<a href="https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/Compiled-all-Streams.m3u8">
-<font color="#00FF00"><img src="https://img.shields.io/badge/Compiled_all_Streams-Grab_The_Compiled_Streams_Here-2ea44f" alt="Compiled all Streams - Grab The Compiled Streams Here"></font></a><font color="#00FF00">
+<a href="https://github.com/bitsbb01/m3u8_creator/raw/main/Compiled-all-UpdatedStreams.m3u8">
+<font color="#00FF00"><img src="https://img.shields.io/badge/Compiled_all_Streams-Grab_The_Compiled_Streams_Here-2ea44f" alt="Grab The Compiled Streams Here"></font></a><font color="#00FF00">
 </font>
 <br>        
 <a href="#license"><font color="#00FF00"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></font></a><font color="#00FF00">
@@ -95,7 +95,7 @@ iptv streams around the net with the main tv guide also for them all.. <br>
 <br>
 Theres an all in one that has all the streams in 1 m3u8 for easy adding to your 
 fav player.<br>
-https://github.com/bitsbb01/m3u8_creator/raw/main/Compiled-all-Streams.m3u8<br>
+https://github.com/bitsbb01/m3u8_creator/raw/main/Compiled-all-UpdatedStreams.m3u8<br>
 <br>
 If you want to download each 1 seperate, then look in the m3u8 folder.<br>
 <br>
@@ -172,6 +172,15 @@ It would really help if they had a playlist that didnt have all that section, eg
     <br>Hopefully over next few days can get them working, in which case there will be a new M3U Joiner/Combiner that will also clean up a lot of the junk in the M3U files.
     <br>Also will be adding in the stream checker that will be able to check the links and therefore only have live links..
 <br>Added discusions section, so now you can ask for channels or place m3u's there and we can work on them.
+    
+    <br>
+    <br>3/13/2022
+    <br>
+    <br>
+    Fixed a lot of scripts today, so now the m3u joiner works correctly and includes all the files and is all cleaned up.. 
+    <br>Still working on a link tester, mainly for all the other m3u8's from other sources.
+    
+    
     <br>
     <br>
     <br>
@@ -179,7 +188,7 @@ It would really help if they had a playlist that didnt have all that section, eg
     <br>
     <br>Todo:-
     <br>1. Add All The Free Channels Available Online.
-    <br>2. Create better M3U Merger.
+    <br>2. Create better M3U Merger. (Completed)
     <br>3. Create Link Checker.
     <br>4. Add More CCTV Channels.
     <br>5. Add More Radio Stations And Seperate Into There Own Regions.
@@ -188,6 +197,7 @@ It would really help if they had a playlist that didnt have all that section, eg
     <br>8. Add Auto Script To Update Readme.md.
     <br>
     <br>
+    
 &nbsp;</font></p>
 
 
