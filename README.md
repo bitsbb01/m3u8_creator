@@ -91,7 +91,7 @@
 </table>
 </div>
 <p align="center"><font color="#00FF00">This allows you to grab all the main 
-iptv streams around the net with the main tv guide also for them all.. <br>
+iptv streams around the net with the main tv guide also for them all.. all in 1 file.<br>
 <br>
 Theres an all in one that has all the streams in 1 m3u8 for easy adding to your 
 fav player.<br>
@@ -99,7 +99,7 @@ https://github.com/bitsbb01/m3u8_creator/raw/main/Compiled-all-UpdatedStreams.m3
 <br>
 If you want to download each 1 seperate, then look in the m3u8 folder.<br>
 <br>
-all these links auto update every 3hrs. <br>
+all these links auto update every 2hrs. (Used to be 3hrs)<br>
 <br>
 <br>
 <br>
@@ -118,15 +118,14 @@ convert the stream, however not played around with that much..<br>
 <br>
 <br>
 Thanks go out to ericziethen for his help with the m3u8_creator.. <br>
-Thanks go out to Sphinxroot for his really well done playlists..<br>
+Thanks go out to Sphinxroot for his really well done playlists, came accross his from a different site...<br>
 Thanks go out to DeltaSr95 for his combined playlist..<br>
-Thanks go out to junguler for his music playlists..<br>
+Thanks go out to junguler for his radio playlist..<br>
 Thanks go out to apsattv.com for there guys being able to get a lot of updated 
 playlists..<br>
-Thanks go out to matthuisman for his pbs playlist..<br>
-Thanks go out to iptv-org for the us-vizio playlist..<br><br>
-Free2View TV courtesy of the Free2View TV Project and its team of developers: 
-https://discord.gg/C48WhSTpw7 <br><br>
+Thanks go out to matthuisman for his kept upto date playlists..<br>
+Thanks go out to iptv-org for there playlists..<br><br>
+Free2View TV courtesy of the Free2View TV Project and its team of developers: https://discord.gg/C48WhSTpw7 (Will be monitoring this, as has a lot of lists from other sources in this. so maybe removing this in future.) <br><br>
 Also thanks go out to everyone else that has been able to help with designing 
 and building all the various scripts to get this working. <br>
 <br>
@@ -135,8 +134,65 @@ and building all the various scripts to get this working. <br>
 Theres been lots of updates to the code, so now it deletes if the files are in 
 folders, then run otherwise if the files are not there, then it'll skip that 
 step and continue the main..<br><br>
-                 --------------------------------------------------------------------------------------------------------<br>    
-<br><br><br>3/01/2022<br>
+                 --------------------------------------------------------------------------------------------------------<br>  
+<br>
+<br>    
+<br>
+<br>    
+<br>Todo:-
+<br>1. Add All The Free Channels Available Online. (pt1 completed)
+<br>2. Create better M3U Merger. (Completed)
+<br>3. Create Link Checker.
+<br>4. Add More CCTV Channels. (Completed)
+<br>5. Add More Radio Stations And Seperate Into There Own Regions. (Completed)
+<br>6. Add Twitch Streams.
+<br>7. Add Vaughn Streams.
+<br>8. Add Auto Script To Update Readme.md with time and date of last updated m3u. (even though it updates every 2hrs, sometimes something happens, and therefore would be good to have this)
+<br>9. Add Xumo Links.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>3/15/2022
+<br>Big Cleanup done of all the imported m3u's and added cleaned up links.
+<br>started working on Xumo Addon.. 
+<br>Added sponsor link. Every little bit helps.
+<br>        
+<br>
+<br>    
+<br>
+3/14/2022
+<br>Added a new CCTV section.
+<br>Added Lots More Radio Stations and added into sections
+<br>
+<br>
+<br>
+3/13/2022
+<br>
+<br>Fixed a lot of scripts today, so now the m3u joiner works correctly and includes all the files and is all cleaned up.. 
+<br>Still working on a link tester, mainly for all the other m3u8's from other sources.
+<br>
+<br>
+<br>
+3/12/2022   
+<br>So added in some new scripts, however not having much luck getting them working today. 
+ <br>Hopefully over next few days can get them working, in which case there will be a new M3U Joiner/Combiner that will also clean up a lot of the junk in the M3U files.
+ <br>Also will be adding in the stream checker that will be able to check the links and therefore only have live links..
+<br>Added discusions section, so now you can ask for channels or place m3u's there and we can work on them.
+<br> 
+<br>
+<br>
+<br>
+3/11/2022
+<br>Added today some more channels for Cat to be able to scrape, works well so far. 
+<br>Added new checks for m3u files left behind, so now will do double check and clean up before creating new list.
+<br>Started working on new epg files, so we can have a better epg to match all the channels. (this is going to take time to get working correctly, trying to get zap2xml working correctly, but get issues... i'll get it sorted.
+<br>    
+<br>
+<br>
+3/01/2022<br>
 Added back in Northern America, Europe, South America, Asia back in from IPTV Cat, as that was having issues for a few weeks, and had to change the way it worked.. now it's grabbing the files, but instead of 1 big file, its doing in in 5 smaller sections.. but don't worry its all there now.. <br>
 Free2View TV is back in, hopefully it shouldnt show all there main things in the begining of the playlist under channels now, i know that was causing issues as it kept showing up in tivimate and kodi.<br>
 It would really help if they had a playlist that didnt have all that section, eg. 
@@ -151,53 +207,10 @@ It would really help if they had a playlist that didnt have all that section, eg
     
 <br>
     if it still causes issue's, I may have to remove the Free2View completly.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>3/11/2022
+
+
     
-<br>Added today some more channels for Cat to be able to scrape, works well so far. 
-<br>Added new checks for m3u files left behind, so now will do double check and clean up before creating new list.
-<br>Started working on new epg files, so we can have a better epg to match all the channels. (this is going to take time to get working correctly, trying to get zap2xml working correctly, but get issues... i'll get it sorted.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>3/12/2022   
-<br>So added in some new scripts, however not having much luck getting them working today. 
- <br>Hopefully over next few days can get them working, in which case there will be a new M3U Joiner/Combiner that will also clean up a lot of the junk in the M3U files.
- <br>Also will be adding in the stream checker that will be able to check the links and therefore only have live links..
-<br>Added discusions section, so now you can ask for channels or place m3u's there and we can work on them.
-<br>
-<br>3/13/2022
-<br>
-<br>Fixed a lot of scripts today, so now the m3u joiner works correctly and includes all the files and is all cleaned up.. 
-<br>Still working on a link tester, mainly for all the other m3u8's from other sources.
-<br>
-<br>
-<br>
-<br>
-    
-<br>3/14/2022
-<br>Added a new CCTV section.
-<br>Added Lots More Radio Stations and added into sections
-<br>
-<br>    
-<br>Todo:-
-<br>1. Add All The Free Channels Available Online.
-<br>2. Create better M3U Merger. (Completed)
-<br>3. Create Link Checker.
-<br>4. Add More CCTV Channels. (Completed)
-<br>5. Add More Radio Stations And Seperate Into There Own Regions. (Completed)
-<br>6. Add Twitch Streams.
-<br>7. Add Vaughn Streams.
-<br>8. Add Auto Script To Update Readme.md.
-<br>
-<br>
+
     
 &nbsp;</font></p>
 
