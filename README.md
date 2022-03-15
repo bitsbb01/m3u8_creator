@@ -148,7 +148,7 @@ step and continue the main..<br><br>
 <br>6. Add Twitch Streams.
 <br>7. Add Vaughn Streams.
 <br>8. Add Auto Script To Update Readme.md with time and date of last updated m3u. (even though it updates every 2hrs, sometimes something happens, and therefore would be good to have this)
-<br>9. Add Xumo Links.
+<br>9. Add Xumo Links. (Completed)
 <br>
 <br>
 <br>
@@ -157,7 +157,7 @@ step and continue the main..<br><br>
 <br>
 <br>3/15/2022
 <br>Big Cleanup done of all the imported m3u's and added cleaned up links.
-<br>started working on Xumo Addon.. 
+<br>Added Xumo.TV
 <br>Added sponsor link. Every little bit helps.
 <br>        
 <br>
