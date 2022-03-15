@@ -321,6 +321,24 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/new.m3u" "${M3U8_STATIC_DIR}" "moreiptv.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/new.m3u" "${M3U8_STATIC_DIR}" "moreiptv.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u" "${M3U8_STATIC_DIR}" "us_xumo.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u" "${M3U8_STATIC_DIR}" "us_xumo.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_imdbtv.m3u" "${M3U8_STATIC_DIR}" "us_imdbtv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_imdbtv.m3u" "${M3U8_STATIC_DIR}" "us_imdbtv.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_fubo.m3u" "${M3U8_STATIC_DIR}" "us_fubo.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_fubo.m3u" "${M3U8_STATIC_DIR}" "us_fubo.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_wfmz.m3u" "${M3U8_STATIC_DIR}" "us_wfmz.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_wfmz.m3u" "${M3U8_STATIC_DIR}" "us_wfmz.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_sportstribal.m3u" "${M3U8_STATIC_DIR}" "uk_sportstribal.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk_sportstribal.m3u" "${M3U8_STATIC_DIR}" "uk_sportstribal.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "us_redbox.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "us_redbox.m3u8"
          
       - name: Match EPG IDs to Static Files
         run: |
