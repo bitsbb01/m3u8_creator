@@ -181,13 +181,18 @@ It would really help if they had a playlist that didnt have all that section, eg
 <br>
 <br>
 <br>
+    
+<br>3/14/2022
+<br>Added a new CCTV section.
+<br>Added Lots More Radio Stations and added into sections
 <br>
+<br>    
 <br>Todo:-
 <br>1. Add All The Free Channels Available Online.
 <br>2. Create better M3U Merger. (Completed)
 <br>3. Create Link Checker.
-<br>4. Add More CCTV Channels.
-<br>5. Add More Radio Stations And Seperate Into There Own Regions.
+<br>4. Add More CCTV Channels. (Completed)
+<br>5. Add More Radio Stations And Seperate Into There Own Regions. (Completed)
 <br>6. Add Twitch Streams.
 <br>7. Add Vaughn Streams.
 <br>8. Add Auto Script To Update Readme.md.
