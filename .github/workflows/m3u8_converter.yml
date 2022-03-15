@@ -166,173 +166,57 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "iptvorgrebox.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "iptvorgrebox.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/60s.m3u" "${M3U8_STATIC_DIR}" "radio60s.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/60s.m3u" "${M3U8_STATIC_DIR}" "radio60s.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/---everything-full.m3u" "${M3U8_STATIC_DIR}" "jungulermusic.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/---everything-full.m3u" "${M3U8_STATIC_DIR}" "jungulermusic.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/70s.m3u" "${M3U8_STATIC_DIR}" "radio70s.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/70s.m3u" "${M3U8_STATIC_DIR}" "radio70s.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/radio.m3u" "${M3U8_STATIC_DIR}" "bbradio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/radio.m3u" "${M3U8_STATIC_DIR}" "bbradio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/80s.m3u" "${M3U8_STATIC_DIR}" "radio80s.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/80s.m3u" "${M3U8_STATIC_DIR}" "radio80s.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/0nradio.com.m3u" "${M3U8_STATIC_DIR}" "0nradio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/0nradio.com.m3u" "${M3U8_STATIC_DIR}" "0nradio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/90s.m3u" "${M3U8_STATIC_DIR}" "radio90s.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/90s.m3u" "${M3U8_STATIC_DIR}" "radio90s.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/181.fm.m3u" "${M3U8_STATIC_DIR}" "181.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/181.fm.m3u" "${M3U8_STATIC_DIR}" "181.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/acid_jazz.m3u" "${M3U8_STATIC_DIR}" "radioacid.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/acid_jazz.m3u" "${M3U8_STATIC_DIR}" "radioacid.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/BigRRadio.m3u" "${M3U8_STATIC_DIR}" "BigRRadio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/BigRRadio.m3u" "${M3U8_STATIC_DIR}" "BigRRadio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/african.m3u" "${M3U8_STATIC_DIR}" "radioafrican.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/african.m3u" "${M3U8_STATIC_DIR}" "radioafrican.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "DashRadio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "DashRadio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/alternative.m3u" "${M3U8_STATIC_DIR}" "radioalternative.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/alternative.m3u" "${M3U8_STATIC_DIR}" "radioalternative.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/France.Radio.m3u" "${M3U8_STATIC_DIR}" "FranceRadio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/France.Radio.m3u" "${M3U8_STATIC_DIR}" "FranceRadio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/ambient.m3u" "${M3U8_STATIC_DIR}" "radioambient.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/ambient.m3u" "${M3U8_STATIC_DIR}" "radioambient.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/GotRadio.m3u" "${M3U8_STATIC_DIR}" "GotRadio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/GotRadio.m3u" "${M3U8_STATIC_DIR}" "GotRadio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/americana.m3u" "${M3U8_STATIC_DIR}" "radioamericana.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/americana.m3u" "${M3U8_STATIC_DIR}" "radioamericana.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/MCR%20Radios.m3u" "${M3U8_STATIC_DIR}" "mcrradio.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/MCR%20Radios.m3u" "${M3U8_STATIC_DIR}" "mcrradio.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/anime.m3u" "${M3U8_STATIC_DIR}" "radioanime.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/anime.m3u" "${M3U8_STATIC_DIR}" "radioanime.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/PromoDJ.m3u" "${M3U8_STATIC_DIR}" "PromoDJ.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/PromoDJ.m3u" "${M3U8_STATIC_DIR}" "PromoDJ.m3u8"
              
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/big_band.m3u" "${M3U8_STATIC_DIR}" "radiobig_band.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/big_band.m3u" "${M3U8_STATIC_DIR}" "radiobig_band.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/bluegrass.m3u" "${M3U8_STATIC_DIR}" "radiobluegrass.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/bluegrass.m3u" "${M3U8_STATIC_DIR}" "radiobluegrass.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/blues.m3u" "${M3U8_STATIC_DIR}" "radioblues.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/blues.m3u" "${M3U8_STATIC_DIR}" "radioblues.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/breakbeat.m3u" "${M3U8_STATIC_DIR}" "radiobreakbeat.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/breakbeat.m3u" "${M3U8_STATIC_DIR}" "radiobreakbeat.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/chillout.m3u" "${M3U8_STATIC_DIR}" "radiochillout.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/chillout.m3u" "${M3U8_STATIC_DIR}" "radiochillout.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/christian.m3u" "${M3U8_STATIC_DIR}" "radiochristian.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/christian.m3u" "${M3U8_STATIC_DIR}" "radiochristian.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/classical.m3u" "${M3U8_STATIC_DIR}" "radioclassical.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/classical.m3u" "${M3U8_STATIC_DIR}" "radioclassical.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/club.m3u" "${M3U8_STATIC_DIR}" "radioclub.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/club.m3u" "${M3U8_STATIC_DIR}" "radioclub.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/college.m3u" "${M3U8_STATIC_DIR}" "radiocollege.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/college.m3u" "${M3U8_STATIC_DIR}" "radiocollege.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/comedy.m3u" "${M3U8_STATIC_DIR}" "radiocomedy.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/comedy.m3u" "${M3U8_STATIC_DIR}" "radiocomedy.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/country.m3u" "${M3U8_STATIC_DIR}" "radiocountry.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/country.m3u" "${M3U8_STATIC_DIR}" "radiocountry.m3u8"
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/dance.m3u" "${M3U8_STATIC_DIR}" "radiodance.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/dance.m3u" "${M3U8_STATIC_DIR}" "radiodance.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/soundtrack.m3u" "${M3U8_STATIC_DIR}" "radiosoundtrack.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/soundtrack.m3u" "${M3U8_STATIC_DIR}" "radiosoundtrack.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/mixed.m3u" "${M3U8_STATIC_DIR}" "radiomixed.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/mixed.m3u" "${M3U8_STATIC_DIR}" "radiomixed.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/musical.m3u" "${M3U8_STATIC_DIR}" "radiomusical.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/musical.m3u" "${M3U8_STATIC_DIR}" "radiomusical.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/pop.m3u" "${M3U8_STATIC_DIR}" "radiopop.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/pop.m3u" "${M3U8_STATIC_DIR}" "radiopop.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/punk.m3u" "${M3U8_STATIC_DIR}" "radiopunk.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/punk.m3u" "${M3U8_STATIC_DIR}" "radiopunk.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/rap.m3u" "${M3U8_STATIC_DIR}" "radiorap.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/rap.m3u" "${M3U8_STATIC_DIR}" "radiorap.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/reggae.m3u" "${M3U8_STATIC_DIR}" "radioreggae.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/reggae.m3u" "${M3U8_STATIC_DIR}" "radioreggae.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/retro.m3u" "${M3U8_STATIC_DIR}" "radioretro.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/retro.m3u" "${M3U8_STATIC_DIR}" "radioretro.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/rnb.m3u" "${M3U8_STATIC_DIR}" "radiornb.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/rnb.m3u" "${M3U8_STATIC_DIR}" "radiornb.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/rock.m3u" "${M3U8_STATIC_DIR}" "radiorock.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/rock.m3u" "${M3U8_STATIC_DIR}" "radiorock.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/spiritual.m3u" "${M3U8_STATIC_DIR}" "radiospiritual.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/spiritual.m3u" "${M3U8_STATIC_DIR}" "radiospiritual.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/sport.m3u" "${M3U8_STATIC_DIR}" "radiosport.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/sport.m3u" "${M3U8_STATIC_DIR}" "radiosport.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/techno.m3u" "${M3U8_STATIC_DIR}" "radiotechno.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/techno.m3u" "${M3U8_STATIC_DIR}" "radiotechno.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/top_40.m3u" "${M3U8_STATIC_DIR}" "top_40.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/top_40.m3u" "${M3U8_STATIC_DIR}" "top_40.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/urban.m3u" "${M3U8_STATIC_DIR}" "radiourban.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/urban.m3u" "${M3U8_STATIC_DIR}" "radiourban.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/usa.m3u" "${M3U8_STATIC_DIR}" "radiousa.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/usa.m3u" "${M3U8_STATIC_DIR}" "radiousa.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/various.m3u" "${M3U8_STATIC_DIR}" "radiovarious.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/various.m3u" "${M3U8_STATIC_DIR}" "radiovarious.m3u8"
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/world.m3u" "${M3U8_STATIC_DIR}" "radioworld.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/world.m3u" "${M3U8_STATIC_DIR}" "radioworld.m3u8"
-          
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/gospel.m3u" "${M3U8_STATIC_DIR}" "radiogospel.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/gospel.m3u" "${M3U8_STATIC_DIR}" "radiogospel.m3u8"
-          
-           
-             
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/hip_hop.m3u" "${M3U8_STATIC_DIR}" "radiohip_hop.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/hip_hop.m3u" "${M3U8_STATIC_DIR}" "radiohip_hop.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/Weareone.fm.m3u" "${M3U8_STATIC_DIR}" "Weareone.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Radio/Weareone.fm.m3u" "${M3U8_STATIC_DIR}" "Weareone.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://directory.owncast.online/api/iptv" "${M3U8_STATIC_DIR}" "owncast.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://directory.owncast.online/api/iptv" "${M3U8_STATIC_DIR}" "owncast.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/GotRadio.m3u" "${M3U8_STATIC_DIR}" "gotradio.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/GotRadio.m3u" "${M3U8_STATIC_DIR}" "gotradio.m3u8"
-          
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/0nradio.com.m3u" "${M3U8_STATIC_DIR}" "onradio.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/0nradio.com.m3u" "${M3U8_STATIC_DIR}" "onradio.m3u8"
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/allsprk.tv/allsprk.tv.m3u" "${M3U8_STATIC_DIR}" "allsprk.m3u8"
-                    
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "avo.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "avo.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "swim.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "swim.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "anthymtv.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "anthymtv.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "AVO.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AVO.TV/AVO.TV.m3u" "${M3U8_STATIC_DIR}" "AVO.m3u8"
+          
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "AdultSwim.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AdultSwim/AdultSwim.m3u" "${M3U8_STATIC_DIR}" "AdultSwim.m3u8"
+          
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "AnthymTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/AnthymTV/AnthymTV.m3u" "${M3U8_STATIC_DIR}" "AnthymTV.m3u8"
+          
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://www.apsattv.com/bumblebeetv.m3u" "${M3U8_STATIC_DIR}" "bumblebee.m3u8"
