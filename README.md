@@ -90,7 +90,81 @@
 <br>    
 </table>
 </div>
-<p align="center"><font color="#00FF00">This allows you to grab all the main 
+<p align="center"><font color="#00FF00">
+What Does This Include?
+
+<br>
+
+<br>
+0n Radio<br>
+181 Radio<br>
+All Main US Radio Stations (That Could Find Online)<br>
+BBC Radio<br>
+Big R Radio<br>
+Dash Radio<br>
+FM Streamer.org Radio<br>
+Got Radio<br>
+Live 365 Radio<br>
+MCR Radio<br>
+Promo DJ Radio<br>
+Weareone Radio<br>
+<br>    
+IPTV.CAT (All Channels)<br>
+AdultSwim TV<br>
+All Spark TV<br>
+Anthym TV<br>
+AVO TV<br>
+Bumblebee TV<br>
+Cablevision TV<br>
+Canela TV<br>
+CCTV (Lots Of Closed Circuit TV)<br>
+Distro TV<br>
+Flixhub<br>
+Free2View TV<br>
+Freeli TV<br>
+Fubo TV<br>
+Galaxy TV<br>
+Glewed TV<br>
+Good TV<br>
+Herogo TV<br>
+IMDB TV<br>
+Jungo BTV<br>
+Klowd TV<br>
+LGTV<br>
+LocalNow<br>
+MyTvToGo<br>
+PBS TV<br>
+Plex TV<br>
+Pluto TV<br>
+Rad TV<br>
+Rakuten TV<br>
+RedBox TV<br>
+RoStream TV<br>
+Samsung TV+<br>
+Stirr TV<br>
+Skydish TV<br>
+Sluhay By<br>
+Smash TV<br>
+Sports Tribal TV<br>
+TeleVall<br>
+Tubi TV<br>
+TV25<br>
+US TVGO (All Channels)<br>
+Vaughn TV<br>
+Veely TV<br>
+Vision TV<br>
+Vizio TV<br>
+WatchYourTV<br>
+WFMZ TV<br>
+Xumo TV<br>
+Xumo VOD<br>
+<br>
+
+VOD Movies & TV Series<br>
+
+<br>    
+<br>
+This allows you to grab all the main 
 iptv streams around the net with the main tv guide also for them all.. all in 1 file.<br>
 <br>
 Theres an all in one that has all the streams in 1 m3u8 for easy adding to your 
