@@ -107,7 +107,9 @@ Live 365 Radio<br>
 MCR Radio<br>
 Promo DJ Radio<br>
 Weareone Radio<br>
-<br>    
+<br>
+<br>
+30A TV<br>    
 IPTV.CAT (All Channels)<br>
 AdultSwim TV<br>
 All Spark TV<br>
@@ -121,6 +123,8 @@ Distro TV<br>
 Flixhub<br>
 Free2View TV<br>
 Freeli TV<br>
+Freetux TV<br>
+FSL Sports Package<br>
 Fubo TV<br>
 Galaxy TV<br>
 Glewed TV<br>
@@ -227,6 +231,13 @@ step and continue the main..<br><br>
 <br>
 <br>
 <br>
+<br>
+<br>3/17/2022
+<br>Updated the main Radio list, so no includes over 31k radio stations
+<br>Added 30A TV
+<br>Added FreeTux TV
+<br>Added FSL Sports
+<br>        
 <br>
 <br>3/15/2022
 <br>Big Cleanup done of all the imported m3u's and added cleaned up links.
