@@ -187,30 +187,23 @@ assign the epg id's to them all and then compile into one, it also grabs the epg
 for all of them and stores that in folder EPG.<br>
 <br>
 <br>
-I can also set it up to grab other iptv's, but so far it seems to be very 
-good... <br>
-I'm looking at trying to also get all the streams from vaughn.live into a m3u8, 
-but due to the streaming in flv, it makes it hard, unless i use streamlink to 
-convert the stream, however not played around with that much..<br>
 <br>
 <br>
 Thanks go out to ericziethen for his help with the m3u8_creator.. <br>
 Thanks go out to Sphinxroot for his really well done playlists, came accross his from a different site...<br>
 Thanks go out to DeltaSr95 for his combined playlist..<br>
 Thanks go out to junguler for his radio playlist..<br>
-Thanks go out to apsattv.com for there guys being able to get a lot of updated 
-playlists..<br>
+Thanks go out to apsattv.com for there guys being able to get a lot of updated playlists..<br>
 Thanks go out to matthuisman for his kept upto date playlists..<br>
 Thanks go out to iptv-org for there playlists..<br><br>
-Free2View TV courtesy of the Free2View TV Project and its team of developers: https://discord.gg/C48WhSTpw7 (Will be monitoring this, as has a lot of lists from other sources in this. so maybe removing this in future.) <br><br>
+Free2View TV courtesy of the @Frugal_Streamer & Free2View TV Project and its team of developers: https://discord.gg/C48WhSTpw7 (Will be monitoring this, as has a lot of lists from other sources in this. so maybe removing this in future. EG. Pluto TV, TVS, Xumo and others. it also doesnt seem to be upto date with the new links for pluto, Roku etc, as those from the other sources are daily updates.) <br><br>
 Also thanks go out to everyone else that has been able to help with designing 
 and building all the various scripts to get this working. <br>
 <br>
 <br>IF YOU WANT A PLAYLIST ADDED, THEN PLEASE OPEN A DISCUSSION WITH THE LINK AND I'LL ADD IT INTO THE COMPILED VERSION FOR YOU.
 <br>
-Theres been lots of updates to the code, so now it deletes if the files are in 
-folders, then run otherwise if the files are not there, then it'll skip that 
-step and continue the main..<br><br>
+<br>
+<br>
                  --------------------------------------------------------------------------------------------------------<br>  
 <br>
 <br>    
