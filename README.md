@@ -144,6 +144,7 @@ Rakuten TV<br>
 RedBox TV<br>
 RoStream TV<br>
 Samsung TV+<br>
+Squid TV<br>
 Stirr TV<br>
 Skydish TV<br>
 Sluhay By<br>
@@ -162,16 +163,14 @@ WFMZ TV<br>
 Xumo TV<br>
 Xumo VOD<br>
 <br>
-
 VOD Movies & TV Series<br>
-
+<br>
 <br>    
 <br>
 This allows you to grab all the main 
 iptv streams around the net with the main tv guide also for them all.. all in 1 file.<br>
 <br>
-Theres an all in one that has all the streams in 1 m3u8 for easy adding to your 
-fav player.<br>
+Theres an all in one that has all the streams in 1 m3u8 for easy adding to your fav player.<br>
 https://github.com/bitsbb01/m3u8_creator/raw/main/Compiled-all-UpdatedStreams.m3u8<br>
 <br>
 If you want to download each 1 seperate, then look in the m3u8 folder.<br>
@@ -230,6 +229,7 @@ and building all the various scripts to get this working. <br>
 <br>Added 30A TV
 <br>Added FreeTux TV
 <br>Added FSL Sports
+<br>Added Squid TV
 <br>        
 <br>
 <br>3/15/2022
