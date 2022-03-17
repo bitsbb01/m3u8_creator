@@ -108,6 +108,10 @@ jobs:
       - name: Get other m3u8s to add
         run: |
 
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/squidtv.m3u8" "${M3U8_STATIC_DIR}" "squidtv.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/squidtv.m3u8" "${M3U8_STATIC_DIR}" "squidtv.m3u8"
+
+
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "dashradio.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/IPTVM3U/master/Dash%20Radio.m3u" "${M3U8_STATIC_DIR}" "dashradio.m3u8"
 
