@@ -8,8 +8,7 @@
 <br>
 <br>
 </font>
-        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bitsbb01/m3u8_creator?style=plastic">
-        <br>
+    <br>
         <img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2025?style=plastic">
         <br>
         <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/bitsbb01/M3U8_Creator/M3U8_Creator">
