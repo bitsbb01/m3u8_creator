@@ -289,8 +289,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TeleVall/TeleVall.m3u" "${M3U8_STATIC_DIR}" "TeleVall.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TeleVall/TeleVall.m3u" "${M3U8_STATIC_DIR}" "TeleVall.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "TubiTV.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/TubiTV/tubi.m3u" "${M3U8_STATIC_DIR}" "TubiTV.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/tubi.m3u" "${M3U8_STATIC_DIR}" "TubiTV.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/tubi.m3u" "${M3U8_STATIC_DIR}" "TubiTV.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/VisionTV/VisionTV.m3u" "${M3U8_STATIC_DIR}" "VisionTV.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/iptvmu3/main/Streaming%20Service%20Network/VisionTV/VisionTV.m3u" "${M3U8_STATIC_DIR}" "VisionTV.m3u8"
