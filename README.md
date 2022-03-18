@@ -119,6 +119,7 @@ Bumblebee TV<br>
 Cablevision TV<br>
 Canela TV<br>
 CCTV (Lots Of Closed Circuit TV)<br>
+CX TV<br>
 Distro TV<br>
 Flixhub<br>
 Free2View TV<br>
@@ -230,6 +231,7 @@ and building all the various scripts to get this working. <br>
 <br>Added FreeTux TV
 <br>Added FSL Sports
 <br>Added Squid TV
+<br>Added CX TV
 <br>        
 <br>
 <br>3/15/2022
