@@ -92,7 +92,7 @@ What Does This Include?
 <br>
 
 <br>
-0n Radio (https://raw.githubusercontent.com/bitsbb01/m3u8_creator/main/readmes/0nradio.md)<br>
+0n Radio (./readmes/0nradio.md)<br>
 181 Radio<br>
 All Main US Radio Stations (That Could Find Online)<br>
 BBC Radio<br>
