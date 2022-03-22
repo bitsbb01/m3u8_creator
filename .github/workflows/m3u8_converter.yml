@@ -174,9 +174,6 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/TVPRO20/TV2/master/TV21.m3u" "${M3U8_STATIC_DIR}" "cablevision.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/TVPRO20/TV2/master/TV21.m3u" "${M3U8_STATIC_DIR}" "cablevision.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/Free2ViewTV/main/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2viewTV.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/Sphinxroot/Free2ViewTV/main/Free2ViewTV-2021-Master-PC.m3u" "${M3U8_STATIC_DIR}" "free2viewTV.m3u8"
-
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/TVPRO20/PREMIUMHD/main/TV21.m3u" "${M3U8_STATIC_DIR}" "premiumhd.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/TVPRO20/PREMIUMHD/main/TV21.m3u" "${M3U8_STATIC_DIR}" "premiumhd.m3u8"
           
@@ -442,6 +439,11 @@ jobs:
         run: |
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"
+          
+      - name: Get the North America streams json
+        run: |
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapperundefined/master/data/countries/undefined.json" "./temp/all_streams_tmp/" "catundefined.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapperundefined/master/data/countries/undefined.json" "./temp/all_streams_tmp/" "catundefined.json"
           
     
       ### PROCESS THE DATA ###
