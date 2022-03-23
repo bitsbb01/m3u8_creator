@@ -155,6 +155,7 @@ Sports Tribal TV<br>
 TeleVall<br>
 Tubi TV<br>
 TV25<br>
+Twitch<br>
 US TVGO (All Channels)<br>
 Vaughn TV<br>
 Veely TV<br>
@@ -217,10 +218,16 @@ and building all the various scripts to get this working. <br>
 <br>3. Create Link Checker.
 <br>4. Add More CCTV Channels. (Completed)
 <br>5. Add More Radio Stations And Seperate Into There Own Regions. (Completed)
-<br>6. Add Twitch Streams.
+<br>6. Add Twitch Streams. (wip)
 <br>7. Add Vaughn Streams.
 <br>8. Add Auto Script To Update Readme.md with time and date of last updated m3u. (even though it updates every 2hrs, sometimes something happens, and therefore would be good to have this)
 <br>9. Add Xumo Links. (Completed)
+<br>
+<br>
+<br>3/23/2022
+<br>Started Adding Twitch Streams.
+<br>Redid All The EPG's, Adding in new EPG ID's through out the m3u's
+<br>
 <br>
 <br>
 <br>
