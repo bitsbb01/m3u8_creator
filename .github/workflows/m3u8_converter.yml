@@ -354,6 +354,9 @@ jobs:
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "us_redbox.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_redbox.m3u" "${M3U8_STATIC_DIR}" "us_redbox.m3u8"
+          
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/twitch.m3u" "${M3U8_STATIC_DIR}" "twitch.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/storage/main/twitch.m3u" "${M3U8_STATIC_DIR}" "twitch.m3u8"
          
       - name: Match EPG IDs to Static Files
         run: |
@@ -437,13 +440,18 @@ jobs:
           
       - name: Get the North America streams json
         run: |
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/north%20america.json" "./temp/all_streams_tmp/" "north%20america.json"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/united%20states%20of%20america.json" "./temp/all_streams_tmp/" "catusa.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/cat-scrapperus/master/data/countries/united%20states%20of%20america.json" "./temp/all_streams_tmp/" "catusa.json"
           
-      - name: Get the North America streams json
+      - name: Get the Underfined Streams json
         run: |
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapperundefined/master/data/countries/undefined.json" "./temp/all_streams_tmp/" "catundefined.json"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapperundefined/master/data/countries/undefined.json" "./temp/all_streams_tmp/" "catundefined.json"
+          
+      - name: Get the Canada Streams json
+        run: |
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper_canada/master/data/countries/canada.json" "./temp/all_streams_tmp/" "canada.json"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/bitsbb01/catscrapper_canada/master/data/countries/canada.json" "./temp/all_streams_tmp/" "canada.json"
           
     
       ### PROCESS THE DATA ###
