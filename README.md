@@ -2,7 +2,7 @@
     <table>
     <tr>
 
-<h2> <font color="#00FF00">M3U8 Creator </font> </h2>
+<h2> <font color="#00FF00">M3U8 Creator/IPTV Creator </font> </h2>
 <font color="#00FF00">
 <br>
 <p><a href="https://www.buymeacoffee.com/bitsbb01S">
