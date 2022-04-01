@@ -224,6 +224,14 @@ and building all the various scripts to get this working. <br>
 <br>9. Add Xumo Links. (Completed)
 <br>
 <br>
+<br>
+<br>4/01/2022
+<br>Added Code Checker to make sure all the code is running correctly
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>3/23/2022
 <br>Started Adding Twitch Streams.
 <br>Redid All The EPG's, Adding in new EPG ID's through out the m3u's
