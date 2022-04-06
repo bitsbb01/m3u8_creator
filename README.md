@@ -5,6 +5,11 @@
 <h2> <font color="#00FF00">M3U8 Creator/IPTV Creator </font> </h2>
 <font color="#00FF00">
 <br>
+<br> This will be running on auto for awhile, just found out i've got a brain aneurysm, so this is going to have to be put on the back burner till i'm well again.
+<br>
+<br>
+<br>
+<br>
 <p><a href="https://www.buymeacoffee.com/bitsbb01S">
 <a href="https://www.buymeacoffee.com/bitsbb01S" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 <br>
