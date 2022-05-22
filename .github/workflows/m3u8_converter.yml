@@ -217,8 +217,8 @@ jobs:
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.m3u8" "${M3U8_STATIC_DIR}" "plexall.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/Plex/all.m3u8" "${M3U8_STATIC_DIR}" "plexall.m3u8"
           
-          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.m3u" "${M3U8_STATIC_DIR}" "plutoall.m3u8"'"
-          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.m3u" "${M3U8_STATIC_DIR}" "plutoall.m3u8"
+          echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.m3u8" "${M3U8_STATIC_DIR}" "plutoall.m3u8"'"
+          ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/all.m3u8" "${M3U8_STATIC_DIR}" "plutoall.m3u8"
           
           echo "Command: './scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.m3u8" "${M3U8_STATIC_DIR}" "SamsungTVPlusall.m3u8"'"
           ./scripts/download_file_allow_failiure.sh "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/all.m3u8" "${M3U8_STATIC_DIR}" "SamsungTVPlusall.m3u8"
