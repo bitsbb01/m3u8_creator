@@ -1,0 +1,69 @@
+#EXTM3U
+
+# https://weareone.fm 
+# https://api.tb-group.fm//v1/radio  https://weareone.fm/js/config_stream.js
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bdNyQf7.jpg" group-title="",★★★★★★★★★★WeAreOneFM★★★★★★★★★★
+0.0.0.0
+# EPG: https://api.tb-group.fm//v1/showplan/5/1 https://api.tb-group.fm//v1/tracklist/5?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fXEhBgm.png" group-title="",Techno Base FM HQ
+https://listener1.aachd.tb-group.fm/tb-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fXEhBgm.png" group-title="",Techno Base FM MED
+https://mp3.stream.tb-group.fm/tb.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fXEhBgm.png" group-title="",Techno Base FM LOW
+https://listener1.aacl.tb-group.fm/tb-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/6/1 https://api.tb-group.fm//v1/tracklist/6?count=30 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xoF2xz2.png" group-title="",House Time FM HQ
+https://listener1.aachd.tb-group.fm/ht-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xoF2xz2.png" group-title="",House Time FM MED
+https://mp3.stream.tb-group.fm/ht.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xoF2xz2.png" group-title="",House Time FM LOW
+https://listener1.aachd.tb-group.fm/ht-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/7/1 https://api.tb-group.fm//v1/tracklist/7?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zm3lyjb.png" group-title="",Hard Base FM HQ
+https://listener3.aachd.tb-group.fm/hb-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zm3lyjb.png" group-title="",Hard Base FM MED
+https://mp3.stream.tb-group.fm/hb.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zm3lyjb.png" group-title="",Hard Base FM LOW
+https://listener3.aachd.tb-group.fm/hb-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/8/1 https://api.tb-group.fm//v1/tracklist/8?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dCBXO3P.png" group-title="",Trance Base FM HQ
+https://listener2.aachd.tb-group.fm/trb-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dCBXO3P.png" group-title="",Trance Base FM MED
+https://mp3.stream.tb-group.fm/trb.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dCBXO3P.png" group-title="",Trance Base FM LOW
+https://listener2.aachd.tb-group.fm/trb-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/10/1 https://api.tb-group.fm//v1/tracklist/10?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FwNvwuF.png" group-title="",Core Time FM HQ
+https://listener3.aachd.tb-group.fm/ct-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FwNvwuF.png" group-title="",Core Time FM MED
+https://mp3.stream.tb-group.fm/ct.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FwNvwuF.png" group-title="",Core Time FM LOW
+https://listener3.aachd.tb-group.fm/ct-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/11/1 https://api.tb-group.fm//v1/tracklist/11?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UT3Dq0Q.png" group-title="",Club Time FM HQ
+https://listener2.aachd.tb-group.fm/clt-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UT3Dq0Q.png" group-title="",Club Time FM MED
+https://mp3.stream.tb-group.fm/clt.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UT3Dq0Q.png" group-title="",Club Time FM LOW
+https://listener2.aachd.tb-group.fm/clt-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/13/1 https://api.tb-group.fm//v1/tracklist/13?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MylhwXh.png" group-title="",Tea Time FM HQ
+https://listener3.aachd.tb-group.fm/tt-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MylhwXh.png" group-title="",Tea Time FM MED
+https://mp3.stream.tb-group.fm/tt.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MylhwXh.png" group-title="",Tea Time FM LOW
+https://listener3.aachd.tb-group.fm/tt-low.aac
+
+# EPG:  https://api.tb-group.fm//v1/showplan/14/1 https://api.tb-group.fm//v1/tracklist/14?count=30
+#EXTINF:-1 tvg-logo="https://i.imgur.com/daBSiq2.png" group-title="",Replay FM HQ
+https://listener3.aachd.tb-group.fm/rp-hd.aac
+#EXTINF:-1 tvg-logo="https://i.imgur.com/daBSiq2.png" group-title="",Replay FM MED
+https://mp3.stream.tb-group.fm/rp.mp3
+#EXTINF:-1 tvg-logo="https://i.imgur.com/daBSiq2.png" group-title="",Replay FM LOW
+https://listener3.aachd.tb-group.fm/rp-low.aac
