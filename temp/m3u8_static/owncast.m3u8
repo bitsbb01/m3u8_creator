@@ -1,0 +1,24 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:-1, tvg-ID="RetroStrange TV" tvg-logo="https://live.retrostrange.com/logo" tvg-tags="streaming,movies,retro,sci fi,horror,tv,vintage,public domain",RetroStrange TV
+https://live.retrostrange.com/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="2000 sta FM Video Stream @ CyCloud" tvg-logo="https://video.cycloud.pw/logo" tvg-tags="streaming,2000staFM,oldies",2000 sta FM Video Stream @ CyCloud
+https://video.cycloud.pw/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Owncast TV" tvg-logo="https://watch.owncast.online/logo" tvg-tags="owncast,opensource,livestreaming",Owncast TV
+https://watch.owncast.online/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="RP S2 - EVENT GAME SHOW UND CC MUSIK" tvg-logo="http://talk2.ro-players.de:8080/logo" tvg-tags="Music,Tech,streaming,gaming,german,deutsch,techno,edm,chat,video,event,just chatting,creative commons,GTA,mapping,musik,Ragnarok,spiele",RP S2 - EVENT GAME SHOW UND CC MUSIK
+http://talk2.ro-players.de:8080/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="The Bat Station Internet Radio" tvg-logo="https://listen.batstationrad.io/logo" tvg-tags="Music,dance,ebm,futurepop,internet radio,goth",The Bat Station Internet Radio
+https://listen.batstationrad.io/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Game That Tune Radio" tvg-logo="https://radio.gamethattune.com/logo" tvg-tags="Video Games,Music,vgm",Game That Tune Radio
+https://radio.gamethattune.com/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="CTB Live Events" tvg-logo="https://live.ctbperth.net.au/logo" tvg-tags="streaming,owncast",CTB Live Events
+https://live.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Movies 24/7 on CTB" tvg-logo="https://movies.ctbperth.net.au/logo" tvg-tags="Perth,Western Australia,Community,Community Television",Movies 24/7 on CTB
+https://movies.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="TROM.live" tvg-logo="https://trom.live/logo" tvg-tags="Video Games,Music,Chatting,Tech,streaming,owncast,TROM,videos",TROM.live
+https://trom.live/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="TROM.club" tvg-logo="https://trom.club/logo" tvg-tags="Video Games,Music,Chatting,Tech,streaming,owncast,TROM,videos",TROM.club
+https://trom.club/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Digital TV" tvg-logo="http://dtvperth.com.au:8080/logo" tvg-tags="Open TV,Digital IP TV",Digital TV
+http://dtvperth.com.au:8080/hls/stream.m3u8
