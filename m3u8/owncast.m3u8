@@ -1,0 +1,22 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:-1, tvg-ID="Movies 24/7 on CTB" tvg-logo="https://movies.ctbperth.net.au/logo" tvg-tags="Perth,Western Australia,Community,Community Television",Movies 24/7 on CTB
+https://movies.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="RetroStrange TV" tvg-logo="https://live.retrostrange.com/logo" tvg-tags="streaming,movies,retro,sci fi,horror,tv,vintage,public domain",RetroStrange TV
+https://live.retrostrange.com/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Digital TV" tvg-logo="http://dtvperth.com.au:8080/logo" tvg-tags="Open TV,Digital IP TV",Digital TV
+http://dtvperth.com.au:8080/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Owncast TV" tvg-logo="https://watch.owncast.online/logo" tvg-tags="owncast,opensource,livestreaming",Owncast TV
+https://watch.owncast.online/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="CTB Live Events" tvg-logo="https://live.ctbperth.net.au/logo" tvg-tags="streaming,owncast",CTB Live Events
+https://live.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="CTB Perth NEWS Channel" tvg-logo="https://news.ctbperth.net.au/logo" tvg-tags="streaming,owncast",CTB Perth NEWS Channel
+https://news.ctbperth.net.au/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="2000 sta FM Video Stream @ CyCloud" tvg-logo="https://video.cycloud.pw/logo" tvg-tags="streaming,2000staFM,oldies",2000 sta FM Video Stream @ CyCloud
+https://video.cycloud.pw/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="Love of the Universe" tvg-logo="https://quantumlove.ovh/logo" tvg-tags="streaming,quantum love,positive energy,dreams",Love of the Universe
+https://quantumlove.ovh/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="TROM.club" tvg-logo="https://trom.club/logo" tvg-tags="Video Games,Music,Chatting,Tech,streaming,owncast,TROM,videos",TROM.club
+https://trom.club/hls/stream.m3u8
+#EXTINF:-1, tvg-ID="TechGarage.ca ToonCast" tvg-logo="http://techgarage.ca:29056/logo" tvg-tags="streaming,owncast,classic,retro,cartoon,mickey,popeye",TechGarage.ca ToonCast
+http://techgarage.ca:29056/hls/stream.m3u8
