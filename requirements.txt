@@ -2,16 +2,16 @@ astroid==2.5.6
 atomicwrites==1.4.0
 attrs==21.2.0
 bandit==1.7.0
-certifi==2021.5.30
+certifi==2024.7.4
 chardet==4.0.0
 click==8.0.1
 codecov==2.1.11
 colorama==0.4.4
 coverage==5.5
-dparse==0.5.1
+dparse==0.5.2
 gitdb==4.0.7
-GitPython==3.1.18
-idna==2.10
+GitPython==3.1.41
+idna==3.7
 iniconfig==1.1.1
 isort==5.9.1
 lazy-object-proxy==1.6.0
@@ -21,7 +21,7 @@ mypy-extensions==0.4.3
 packaging==20.9
 pbr==5.6.0
 pluggy==0.13.1
-py==1.10.0
+py==1.11.0
 pycodestyle==2.7.0
 pydocstyle==6.1.1
 pylint==2.8.3
@@ -29,7 +29,7 @@ pyparsing==2.4.7
 pytest==6.2.4
 pytest-cov==2.12.1
 PyYAML==5.4.1
-requests==2.25.1
+requests==2.32.2
 safety==1.10.3
 six==1.16.0
 smmap==4.0.0
@@ -37,7 +37,7 @@ snowballstemmer==2.1.0
 stevedore==3.3.0
 toml==0.10.2
 typing-extensions==3.10.0.0
-urllib3==1.26.5
+urllib3==1.26.19
 wrapt==1.12.1
 m3u8
 termcolor
